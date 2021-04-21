@@ -116,7 +116,7 @@ Bagaimana dengan skenario kedai kopi? Sepertinya menarik. Kedai kopi ini akan me
 
 Kita mulai dari sebuah pertanyaan dasar. Apa saja elemen yang ada di sebuah kedai kopi? Kasir dan pelanggan, tentu.
   </p>
-  <p align="center">Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk client-server.</br>
+  <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210327171900e59eabc83109d5738c729956eadd2cfb.png" width="350" title="hover text"></p>
   <p align="justify"> Dalam model client-server. Kasir berperan sebagai server sedangkan pelanggan adalah client. Di kedai kopi pelanggan membuat suatu permintaan berupa segelas kopi. Namun di dunia komputasi, permintaan dapat berbentuk apa pun: analisis pola hujan di negara Afrika Selatan, rontgen terbaru dari lutut Anda, atau mungkin video anak kucing yang menggemaskan.
 
