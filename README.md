@@ -71,37 +71,37 @@ Kelas ini terdiri dari 11 modul yang akan membahas tentang pengenalan konsep AWS
 Ketahuilah! Karena kelas Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) ini didesain untuk berbagai macam latar belakang profesi dan dibuat semudah mungkin, sehingga pembahasan materi pada setiap modul hanya akan berisi teori saja.
 </br> </br>Berikut adalah materi-materi yang akan Anda perdalam / pelajari secara komprehensif:
   </p>
-<ol align="justify"><li><b> Modul 1: Pengantar ke Amazon Web Services</b>
+<ol align="justify"><li><b> Modul 1: Pengantar ke Amazon Web Services</b></br>
 Menjelaskan tentang materi pengenalan, seperti apa saja yang harus Anda siapkan sebelum mengikuti kelas; manfaat dari AWS; perbedaan antara penyajian on-demand (sesuai permintaan) dan model penerapan cloud; serta model biaya dengan skema pay-as-you-go.</li>
-<li><b>Modul 2: Komputasi di Cloud </b>
+<li><b>Modul 2: Komputasi di Cloud </b></br>
 Membahas materi komputasi di cloud, yakni manfaat dari Amazon Elastic Compute Cloud (Amazon EC2) di level dasar; perbedaan tipe dari Amazon EC2 instance; perbedaan antara variasi pilihan penagihan untuk Amazon EC2; manfaat Amazon EC2 Auto Scaling; manfaat Elastic Load Balancing, contoh penggunaan Elastic Load Balancing; perbedaan antara Amazon Simple Notification Service (Amazon SNS) dan Amazon Simple Queue Services (Amazon SQS); serta layanan komputasi lain di AWS.</li>
-<li><b>Modul 3: Infrastruktur Global dan Keandalan</b>
+<li><b>Modul 3: Infrastruktur Global dan Keandalan</b></br>
 Menelaah materi terkait infrastruktur global AWS; konsep dasar Availability Zone; manfaat Amazon CloudFront dan Edge locations; serta membandingkan perbedaan metode untuk penyajian layanan AWS.</li>
-<li><b>Modul 4: Jaringan</b>
+<li><b>Modul 4: Jaringan</b></br>
 Mengupas tuntas materi jaringan, seperti konsep dasarnya; perbedaan antara sumber daya jaringan publik dan privat; virtual private gateway dan virtual private network (VPN) untuk menghubungkan AWS Cloud dengan jaringan lain; AWS Direct Connect; manfaat penerapan arsitektur hybrid; lapisan keamanan yang digunakan dalam strategi IT; dan layanan yang digunakan untuk berinteraksi dengan jaringan global AWS.</li>
 
-<li><b>Modul 5: Penyimpanan dan Database</b>
+<li><b>Modul 5: Penyimpanan dan Database</b></br>
 Mengulas konsep dasar penyimpanan dan databases (basis data); manfaat Amazon Elastic Block Store (Amazon EBS); Amazon Simple Storage Service (Amazon S3); Amazon Elastic File System (Amazon EFS); variasi solusi penyimpanan; Amazon DynamoDB; dan terakhir ragam layanan database.</li>
 
-<li><b>Modul 6: Keamanan</b>
+<li><b>Modul 6: Keamanan</b></br>
 Mendeskripsikan materi keamanan, yakni manfaat shared responsibility model (model tanggung jawab bersama); multi-factor authentication (autentikasi multifaktor) atau MFA; tingkat keamanan AWS Identity and Access Management (IAM); dasar-dasar kebijakan keamanan; AWS Organizations; compliance (kepatuhan) dengan AWS; dan layanan keamanan utama AWS yang mudah.</li>
 
-<li><b>Modul 7: Pemantauan dan Analitik</b>
+<li><b>Modul 7: Pemantauan dan Analitik</b></br>
 Menelaah pendekatan untuk memantau environment (lingkungan) AWS Anda, manfaat Amazon CloudWatch, AWS CloudTrail, dan AWS Trusted Advisor.</li>
 
-<li><b>Modul 8: Harga dan Dukungan</b>
+<li><b>Modul 8: Harga dan Dukungan</b></br>
 Menguraikan materi terkait model harga dan dukungan, seperti AWS Free Tier (Tingkat Gratis); AWS Organizations dan consolidated billing (tagihan terkonsolidasi); AWS Budgets; AWS Cost Explorer; AWS Pricing Calculator; membedakan setiap AWS Support Plans; dan terakhir AWS Marketplace.</li>
 
-<li><b>Modul 9: Migrasi dan Inovasi</b>
+<li><b>Modul 9: Migrasi dan Inovasi</b></br>
 Mengkaji materi terkait migrasi dan inovasi di AWS Cloud, yaitu AWS Cloud Adoption Framework (AWS CAF); enam faktor utama dari strategi migrasi cloud; manfaat beragam solusi migrasi data: AWS Snowcone, AWS Snowball, dan AWS Snowmobile; dan terakhir, meringkas cakupan luas dari solusi inovatif yang ditawarkan AWS.</li>
 
-<li><b>Modul 10: Perjalanan Cloud</b>
+<li><b>Modul 10: Perjalanan Cloud</b></br>
 Menjelaskan lima pilar dari AWS Well-Architected Framework dan enam manfaat dari komputasi cloud.</li>
 
-<li><b>Modul 11: Dasar-Dasar AWS Certified Cloud Practitioner</b>
+<li><b>Modul 11: Dasar-Dasar AWS Certified Cloud Practitioner</b></br>
 Mengulik sumber daya untuk persiapan ujian AWS Certified Cloud Practitioner sekaligus manfaat menjadi seseorang yang bersertifikat AWS.</li>
 
-<li><b>Penilaian Akhir Kelas</b>
+<li><b>Penilaian Akhir Kelas</b></br>
 Penilaian akhir ini berisi soal-soal yang mendekati ujian AWS Certified Cloud Practitioner.  </li></ol>
 
 <p align="justify"> AWS menawarkan berbagai macam layanan untuk setiap kegunaan. Dimulai dengan elemen dasar, seperti komputasi, penyimpanan, dan keamanan jaringan, hingga solusi kompleks seperti blockchain, machine learning, atau artificial intelligence (kecerdasan buatan), serta platform pengembangan robot.</br> </br>Namun semua hal tersebut nampaknya terlalu kompleks dan perlu lebih banyak waktu untuk kita bahas di kelas dasar seperti ini. Jadi, mari kita sederhanakan pembahasan kita dengan memulai dari model komputasi cloud dasar.</br> </p>
@@ -156,36 +156,36 @@ Tetaplah pahami dan ikuti kelas ini dengan saksama karena kita akan segera menye
 Saat memilih strategi untuk menerapkan cloud, Anda harus mempertimbangkan beberapa faktor, seperti komponen aplikasi cloud yang diperlukan, layanan manajemen sumber daya yang dibutuhkan, dan setiap persyaratan infrastruktur IT.</br>
 Tiga model penerapan komputasi cloud adalah cloud-based, on-premises (lokal), dan hybrid. Mari kita uraikan masing-masing model tersebut: </p>
 
-<ul align="justify"><li><b>Cloud-based Deployment</b>
+<ul align="justify"><li><b>Cloud-based Deployment</b></br>
 Dalam model penerapan cloud-based, Anda dapat merancang, membangun, dan menjalankan aplikasi baru di cloud. Anda pun dapat memigrasikan aplikasi yang telah ada ke cloud.
 Anda dapat membangun aplikasi tersebut pada low-level infrastructure (infrastruktur tingkat rendah) yang mana memerlukan staf IT Anda untuk mengelolanya. Atau dengan alternatif lain, yaitu menggunakan higher-level services (layanan dengan tingkat lebih tinggi) sehingga mengurangi kebutuhan pengelolaan, arsitektur, dan scaling (penyesuaian kapasitas) pada infrastruktur Anda.
 Misalnya, Anda dapat membuat aplikasi yang terdiri dari server virtual, database, dan komponen jaringan yang sepenuhnya berbasis di cloud.</li>
 
-<li><b>On-premises Deployment</b>
+<li><b>On-premises Deployment</b></br>
 On-premises juga dikenal sebagai private cloud (cloud privat). Dalam model ini, sumber daya di-deploy (diterapkan) menggunakan layanan manajemen aplikasi dan teknologi virtualisasi pada data center pribadi sehingga penggunaan dan pemanfaatannya dapat meningkat.</li>
 
-<li><b>Hybrid Deployment</b>
+<li><b>Hybrid Deployment</b></br>
 Dalam penerapan hybrid, sumber daya berbasis cloud terhubung ke data center on-premises (lokal). Anda bisa gunakan pendekatan ini untuk beberapa situasi, seperti aplikasi lama yang memang lebih baik dikelola di on-premises atau mungkin karena peraturan pemerintah yang mengharuskan Anda menyimpan data tertentu di data center lokal.</li></ul>
 
 <p align="justify"> Manfaat dari Komputasi Cloud
 Ada beberapa hal yang perlu Anda pertimbangkan agar semakin yakin untuk memilih komputasi cloud sebagai solusi yang dapat menangani kebutuhan Anda dibandingkan dengan data center on-premise. Mari kita uraikan:</p>
 
-<ul><li><b>Ubah pengeluaran di muka menjadi pengeluaran variabel</b>
+<ul><li><b>Ubah pengeluaran di muka menjadi pengeluaran variabel</b></br>
 Pengeluaran di muka (upfront expense) mengacu pada data center, server fisik, dan sumber daya lain yang perlu Anda investasikan sebelum Anda menggunakannya. Sedangkan pengeluaran variabel (variable expense) berarti Anda hanya membayar untuk sumber daya komputasi yang Anda konsumsi. Dengan mengambil pendekatan komputasi cloud yang menawarkan keuntungan biaya variabel, perusahaan dapat mengimplementasikan solusi inovatif sekaligus menghemat biaya.</li>
 
-<li><b>Hentikan biaya pengelolaan dan pemeliharaan data center</b>
+<li><b>Hentikan biaya pengelolaan dan pemeliharaan data center</b></br>
 Komputasi di data center sering kali mengharuskan Anda untuk mengeluarkan lebih banyak biaya dan waktu untuk mengelola infrastruktur dan server. Nah, dengan komputasi cloud, Anda tak perlu lagi khawatir akan tugas-tugas ini. Dengan begitu, Anda dapat lebih fokus pada aplikasi dan pelanggan Anda.</li>
 
-<li><b>Berhenti menebak kapasitas</b>
+<li><b>Berhenti menebak kapasitas</b></br>
 Dengan komputasi cloud, Anda tak perlu memprediksi berapa banyak kapasitas infrastruktur yang Anda perlukan sebelum men-deploy aplikasi. Misalnya, Anda dapat meluncurkan Amazon EC2 instance dan cukup membayar untuk waktu komputasi yang digunakan. Daripada harus membayar sumber daya yang tak terpakai atau berurusan dengan kapasitas yang terbatas, dengan komputasi cloud, Anda dapat menggunakan kapasitas sesuai keinginan. Bahkan Anda juga dapat melakukan proses scale in (mengurangi) atau scale out (memperbanyak) kapasitas sesuai permintaan.</li>
 
-<li><b>Manfaatkan skala ekonomi yang masif</b>
+<li><b>Manfaatkan skala ekonomi yang masif</b></br>
 Dengan menggunakan komputasi cloud, Anda dapat mewujudkan biaya variabel yang lebih rendah daripada yang dapat Anda peroleh dari data center on-premise. Penggunaan dari ratusan ribu pelangganlah yang memungkinkan AWS dapat mencapai skala ekonomi (economies of scale) yang lebih tinggi. Kemudian skala ekonomi ini diterjemahkan ke dalam harga pay-as-you-go yang lebih murah.</li>
 
-<li><b>Tingkatkan kecepatan dan ketangkasan</b>
+<li><b>Tingkatkan kecepatan dan ketangkasan</b></br>
 Fleksibilitas dari penggunaan komputasi cloud memudahkan Anda untuk mengembangkan dan men-deploy aplikasi. Dengan komputasi cloud, Anda memiliki lebih banyak waktu untuk bereksperimen dan berinovasi. Tentu ini tak bisa Anda lakukan jika menggunakan data center on-premise. Misal untuk mendapatkan sumber daya baru, mungkin Anda memerlukan waktu berminggu-minggu. Sedangkan dengan AWS, sumber daya baru akan langsung siap diakses dalam hitungan menit.</li>
 
-<li><b>Mendunia dalam hitungan menit</b>
+<li><b>Mendunia dalam hitungan menit</b></br>
 AWS Cloud memungkinkan Anda dapat meluncurkan aplikasi ke pelanggan di seluruh dunia dengan cepat sekaligus memberikan latensi yang rendah. Ini berarti meskipun Anda berada di belahan dunia yang berbeda dengan pelanggan, mereka tetap dapat mengakses aplikasi dengan waktu tunda (delay) yang minimal.</li></ul>
   
  
