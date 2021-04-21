@@ -167,7 +167,7 @@ Dalam penerapan hybrid, sumber daya berbasis cloud terhubung ke data center on-p
 <p align="justify"> Manfaat dari Komputasi Cloud
 Ada beberapa hal yang perlu Anda pertimbangkan agar semakin yakin untuk memilih komputasi cloud sebagai solusi yang dapat menangani kebutuhan Anda dibandingkan dengan data center on-premise. Mari kita uraikan:</p>
 
-<ul><li><b>Ubah pengeluaran di muka menjadi pengeluaran variabel</b></br>
+<ul align="justify"><li><b>Ubah pengeluaran di muka menjadi pengeluaran variabel</b></br>
 Pengeluaran di muka (upfront expense) mengacu pada data center, server fisik, dan sumber daya lain yang perlu Anda investasikan sebelum Anda menggunakannya. Sedangkan pengeluaran variabel (variable expense) berarti Anda hanya membayar untuk sumber daya komputasi yang Anda konsumsi. Dengan mengambil pendekatan komputasi cloud yang menawarkan keuntungan biaya variabel, perusahaan dapat mengimplementasikan solusi inovatif sekaligus menghemat biaya.</li>
 
 <li><b>Hentikan biaya pengelolaan dan pemeliharaan data center</b></br>
@@ -216,7 +216,7 @@ Namun AWS membuat proses penyediaan server menjadi lebih mudah dan lebih hemat m
 ###Cara Kerja Amazon EC2
 <p align="justify">
 Mungkin kening Anda sempat sedikit mengerut, “Bagaimana cara kerja Amazon EC2?” Tak seperti server di data center yang memerlukan proses panjang, Amazon EC2 dapat digunakan dengan mudah dengan beberapa langkah saja.</p>
-<ul><li><b>Luncurkan</b></br>
+<ul align="justify"><li><b>Luncurkan</b></br>
 Mulailah dengan memilih sebuah template dengan konfigurasi dasar untuk instance Anda. Konfigurasi dasar ini termasuk sistem operasi, server aplikasi, atau aplikasi lainnya. Anda juga dapat memilih tipe instance, yaitu konfigurasi perangkat keras tertentu dari instance Anda.</li></br>
 </br>Selagi menyiapkan peluncuran instance, tentukanlah pengaturan keamanan untuk mengontrol lalu lintas jaringan yang dapat mengalir masuk dan keluar instance Anda. Nanti kita akan menjelajahi fitur keamanan Amazon EC2 secara lebih detail di materi selanjutnya.</li></br>
 <li><b>Hubungkan</b></br>
@@ -233,7 +233,7 @@ Di kedai kopi kita memiliki berbagai jenis karyawan beserta perannya. Sama halny
 Setiap tipe instance dikelompokkan dalam satu instance family (keluarga instance) dan dioptimalkan untuk jenis tugas tertentu. Tipe instance menawarkan berbagai kombinasi dari kapasitas CPU, memori, penyimpanan, jaringan, serta memberi Anda fleksibilitas untuk memilih kombinasi sumber daya yang sesuai untuk aplikasi Anda.</br>
 Instance family di Amazon EC2 memiliki fungsi yang berbeda-beda. Di antaranya ada general purpose, compute optimized, memory optimized, accelerated computing (komputasi terakselerasi), dan storage optimized. Berikut uraiannya:</p>
 
-<ul><li><b>General purpose instances (Instance tujuan umum)</b></br>
+<ul align="justify"><li><b>General purpose instances (Instance tujuan umum)</b></br>
 Tipe ini memberikan keseimbangan yang baik dari segi sumber daya komputasi, memori, dan jaringan. Selain itu, opsi ini juga dapat digunakan untuk berbagai beban kerja yang beragam seperti server aplikasi web atau repositori kode.</li>
 
 <li><b>Compute optimized instances (Instance teroptimasi untuk komputasi)</b></br>
@@ -258,7 +258,7 @@ Jika dianalogikan ke dalam skenario kedai kopi, kasir itu akan menjadi memory op
   <p align="justify"> 
   AWS memiliki beberapa pilihan penagihan terkait Amazon EC2. Di antaranya adalah:</p>
 
-<ul><li><b>On-Demand (Sesuai Permintaan)</b></br>
+<ul align="justify"><li><b>On-Demand (Sesuai Permintaan)</b></br>
 Opsi ini adalah yang paling dikenal, yaitu On-Demand. Anda hanya membayar selama instance berjalan--bisa per jam atau per detik--tergantung pada tipe instance dan sistem operasi yang Anda pilih.</br>
 On-Demand sangat ideal untuk penggunaan jangka pendek, pengembangan dan pengujian aplikasi, serta beban kerja yang tidak dapat diprediksi dan diinterupsi. Selain itu, model harga ini juga biasa digunakan untuk yang baru memulai, menguji beban kerja, sekadar bereksperimen, atau mendapatkan rata-rata dasar pemakaian instance.</br>
 Tak perlu kontrak, komitmen jangka panjang, pembayaran di muka, atau komunikasi dengan AWS sebelumnya untuk menggunakan pilihan penagihan yang satu ini.</br></li>
@@ -274,31 +274,27 @@ Reserved Instances menawarkan diskon penagihan yang diterapkan untuk instance On
 Ada beberapa opsi yang tersedia: Standard Reserved dan Convertible Reserved Instances (Instance Terpesan Standar dan Terpesan Konvertibel) untuk jangka waktu 1 atau 3 tahun. Dan juga tersedia Scheduled Reserved Instance (Instance Terpesan Terjadwal) untuk jangka waktu 1 tahun saja.</br>
 Opsi ini cocok untuk beban kerja dengan kondisi yang stabil atau dapat diprediksi. Reserved Instance menawarkan diskon hingga 75% dibandingkan dengan opsi On-Demand.</br></br>
 
-Terdapat tiga opsi pembayaran pada Reserved Instances: </li></ul><ol><li>
+Terdapat tiga opsi pembayaran pada Reserved Instances: </li></ul><ol align="justify"><li>
 All upfront (semua di muka), yaitu Anda membayarnya secara penuh saat Anda berkomitmen.</li>
 <li>Partial upfront (sebagian di muka), di mana Anda membayar sebagian di awal.</li>
 <li>No upfront (tanpa uang muka), di mana Anda tak membayar apa pun di muka.</li>
 <li>Ketika Reserved Instance berakhir, Anda tetap bisa menggunakan Amazon EC2 instance tanpa gangguan. Namun akan dikenai tarif On-Demand hingga Anda menghentikannya atau membeli</li> <li>Reserved Instance baru yang sesuai dengan atribut instance (tipe instance, region, tenancy (penyewaan), dan platform).</li></ol>
 
-
-Spot Instances (Instance Spot)
-Spot Instances menggunakan kapasitas komputasi Amazon EC2 yang tak terpakai dan menawarkan penghematan biaya hingga 90% dari harga On-Demand. Opsi ini sangat ideal untuk beban kerja dengan waktu mulai dan akhir yang fleksibel dan tak masalah dengan interupsi.
-
-Jika Anda mengajukan Spot Instances dan kapasitas Amazon EC2 sedang tersedia, maka instance akan diluncurkan. Namun jika tidak, permintaan akan gagal sampai kapasitas tersedia kembali.
-
-Setelah Anda meluncurkan Spot Instances, AWS dapat mengklaim kembali instance tersebut kapan pun ketika mereka membutuhkannya.
-
-AWS akan memberikan waktu peringatan dua menit sebelumnya untuk Anda menyelesaikan pekerjaan. Anda selalu dapat melanjutkannya nanti jika perlu. Jadi, saat memilih opsi ini, pastikan beban kerja Anda dapat menerima interupsi.
-
-Dedicated Hosts (Host Khusus)
-Dedicated Hosts merupakan server fisik dari kapasitas Amazon EC2 instance yang didedikasikan sepenuhnya untuk Anda gunakan.
-
-Opsi ini biasanya digunakan untuk memenuhi persyaratan compliance (kepatuhan) tertentu dan tidak ada orang lain yang akan berbagi sewa dari server fisik tersebut.
-
-Pada opsi ini Anda dapat menggunakan lisensi perangkat lunak per-socket, per-core, atau per-VM yang Anda punya untuk membantu menjaga persyaratan lisensi yang terikat dengan server.
-Itulah mengenai opsi harga pada Amazon EC2. Anda bisa memilih opsi apa pun tergantung dengan kasus penggunaannya. Jika Anda memiliki beban kerja yang tak masalah dengan interupsi, pilihlah Spot Instances. Atau Anda dapat menghemat dengan melakukan pembayaran lebih awal dan mengunci minimum tingkat penggunaan dengan Reserved Instance.
-
+<ul align="justify"><li><b>
+  Spot Instances (Instance Spot)</b></br>
+Spot Instances menggunakan kapasitas komputasi Amazon EC2 yang tak terpakai dan menawarkan penghematan biaya hingga 90% dari harga On-Demand. Opsi ini sangat ideal untuk beban kerja dengan waktu mulai dan akhir yang fleksibel dan tak masalah dengan interupsi.</br>
+Jika Anda mengajukan Spot Instances dan kapasitas Amazon EC2 sedang tersedia, maka instance akan diluncurkan. Namun jika tidak, permintaan akan gagal sampai kapasitas tersedia kembali.</br>
+Setelah Anda meluncurkan Spot Instances, AWS dapat mengklaim kembali instance tersebut kapan pun ketika mereka membutuhkannya.</br>
+AWS akan memberikan waktu peringatan dua menit sebelumnya untuk Anda menyelesaikan pekerjaan. Anda selalu dapat melanjutkannya nanti jika perlu. Jadi, saat memilih opsi ini, pastikan beban kerja Anda dapat menerima interupsi.</br>
+<li><b>Dedicated Hosts (Host Khusus)</b></br>
+Dedicated Hosts merupakan server fisik dari kapasitas Amazon EC2 instance yang didedikasikan sepenuhnya untuk Anda gunakan.</br>
+Opsi ini biasanya digunakan untuk memenuhi persyaratan compliance (kepatuhan) tertentu dan tidak ada orang lain yang akan berbagi sewa dari server fisik tersebut.</br>
+Pada opsi ini Anda dapat menggunakan lisensi perangkat lunak per-socket, per-core, atau per-VM yang Anda punya untuk membantu menjaga persyaratan lisensi yang terikat dengan server.</br>
+Itulah mengenai opsi harga pada Amazon EC2. Anda bisa memilih opsi apa pun tergantung dengan kasus penggunaannya. Jika Anda memiliki beban kerja yang tak masalah dengan interupsi, pilihlah Spot Instances. Atau Anda dapat menghemat dengan melakukan pembayaran lebih awal dan mengunci minimum tingkat penggunaan dengan Reserved Instance.</br>
 Dari semua opsi harga Amazon EC2 yang telah dibahas, opsi Dedicated Hosts adalah yang paling mahal.
+
+<p align="justify"> 
+  </p>
 ```plantuml 
  console.log("Hello, World!"); 
 ```
