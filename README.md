@@ -138,15 +138,89 @@ Penilaian akhir ini berisi soal-soal yang mendekati ujian AWS Certified Cloud Pr
 
 <p align="justify"> AWS menawarkan berbagai macam layanan untuk setiap kegunaan. Dimulai dengan elemen dasar, seperti komputasi, penyimpanan, dan keamanan jaringan, hingga solusi kompleks seperti blockchain, machine learning, atau artificial intelligence (kecerdasan buatan), serta platform pengembangan robot.</br> </br>Namun semua hal tersebut nampaknya terlalu kompleks dan perlu lebih banyak waktu untuk kita bahas di kelas dasar seperti ini. Jadi, mari kita sederhanakan pembahasan kita dengan memulai dari model komputasi cloud dasar.</br> </p>
 <p align="center">Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk client-server.</br>
-  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210327171832f42e6e357ebace3e1a19267c10a6bba7.png" width="350" title="hover text">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210327171832f42e6e357ebace3e1a19267c10a6bba7.png" width="350" title="hover text"></p>
 
-</p>
+  <p align="justify"> Dalam dunia komputasi, client dapat berupa web browser atau aplikasi yang dapat membuat permintaan ke server. Sebuah server dapat berupa layanan seperti Amazon Elastic Compute Cloud (Amazon EC2).</br></br>
+Contoh interaksinya adalah client membuat permintaan untuk mengakses sebuah artikel berita, skor dalam game online, atau video lucu lalu server mengevaluasi detail permintaan tersebut dan memenuhinya dengan mengembalikan informasi ke client.</br></br>
+Oke, mungkin pembahasan di atas terlalu teknis ya. Bagaimana kalau kita membuat suatu perumpamaan yang dapat digunakan secara berkelanjutan di setiap modulnya? Tapi perumpamaan seperti apa ya yang dapat mencakup setiap pembahasan di kelas ini?</br></br>
 
- 
-  
-  <p align="justify"> 
+Bagaimana dengan skenario kedai kopi? Sepertinya menarik. Kedai kopi ini akan memberi kita beberapa metafora dunia nyata untuk membantu Anda memahami mengapa AWS dapat mengubah cara pengoperasian IT di seluruh dunia.</br></br>
+
+Kita mulai dari sebuah pertanyaan dasar. Apa saja elemen yang ada di sebuah kedai kopi? Kasir dan pelanggan, tentu.
+  </p>
+  <p align="center">Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk client-server.</br>
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210327171900e59eabc83109d5738c729956eadd2cfb.png" width="350" title="hover text"></p>
+  <p align="justify"> Dalam model client-server. Kasir berperan sebagai server sedangkan pelanggan adalah client. Di kedai kopi pelanggan membuat suatu permintaan berupa segelas kopi. Namun di dunia komputasi, permintaan dapat berbentuk apa pun: analisis pola hujan di negara Afrika Selatan, rontgen terbaru dari lutut Anda, atau mungkin video anak kucing yang menggemaskan.
+
+Apa pun bisnisnya, pada dasarnya client membuat suatu permintaan--tentu dengan telah memiliki izin akses--kemudian server menanggapi permintaan tersebut.
+
+Kembali ke kedai kopi. Kasir adalah server-nya. Di AWS, kasir tersebut diberi nama Amazon Elastic Compute Cloud (EC2), sebuah server virtual dan kita akan memanggilnya instance.
+
+Mari kita lihat proses transaksi yang terjadi antara kasir dan pelanggan ini dari sudut pandang arsitektural.
   </p>
   
+  <ul><li>Pelanggan (client) membuat permintaan ke kasir (server).</li>
+<li>Kasir memvalidasi bahwa permintaan tersebut sah, dalam hal ini apakah pelanggan telah membayar atau belum.</li>
+<li>Jika ya, maka kasir akan ke belakang untuk membuat kopi sesuai permintaan.</li>
+<li>Setelah selesai, kasir tersebut akan kembali kepada pelanggan dengan membawa kopinya, dalam hal ini adalah kapucino dengan ekstra karamel. Yummy!</li></ul>
+  <p align="justify"> Di dunia nyata, aplikasi bisa lebih rumit dari sekadar satu transaksi dengan satu server, bahkan bisa menjadi sangat kompleks ketika diterapkan ke dalam solusi bisnis yang mapan. Nah, untuk menghindari kompleksitas ini, mari kita mulai dengan yang simpel, seperti konsep utama di AWS, yakni pay for what you use (bayar untuk apa yang Anda gunakan). </br>Prinsip ini sangat tepat dan masuk akal dengan skenario kedai kopi kita. Pegawai hanya dibayar saat mereka bekerja di toko. Jika mereka tidak bekerja, maka tidak ada gaji. Pemilik kedai dapat memutuskan berapa banyak pegawai yang dia butuhkan lalu memberikan mereka upah sesuai jam kerja.
+</br></br>Sebagai contoh, kedai kopi tersebut akan merilis minuman baru, Robusta. Delicioso! </br>
+Untuk mengantisipasi peluncuran ini, Anda bisa mempekerjakan selusin pegawai sepanjang hari guna berjaga-jaga jika pelanggan membludak berdatangan secara tak terduga di hari spesial tersebut. Hanya saja, pelanggan tidak selalu akan membludak setiap saat, bukan?</br>
+
+Tapi tahukah Anda? Inilah yang sebenarnya terjadi di data center on-premise (lokal). Anda tidak bisa hanya sekadar menjentikkan jari lalu voila! Kapasitas Anda berlipat ganda dengan sendirinya. Nope. Banyak proses administratif yang perlu Anda lakukan dan berujung pada mahalnya biaya yang perlu Anda keluarkan.</br>
+
+Dengan Amazon Web Service, Anda tidak perlu membayar uang muka untuk apa pun dan tidak perlu khawatir tentang kendala kapasitas.</br>
+
+Oke. Sekarang kita menemukan istilah baru, data center on-premise. Apa itu? Mari kita kupas.</br>
+
+Pertama, data center. Berdasarkan website Cisco--salah satu perusahaan telekomunikasi global--data center adalah fasilitas yang digunakan perusahaan untuk menempatkan aplikasi dan data penting mereka. Komponen utama dari data center adalah router, switch, firewall, sistem penyimpanan, dan juga server. </br>
+
+Sementara on-premise mengacu pada penyimpanan dan pemeliharaan data di server lokal atau pribadi.</br>
+
+Lanjut ke prinsip berikutnya, yaitu pay for what you need (bayar untuk apa yang Anda butuhkan). Misal ketika Anda membutuhkan sebuah instance atau mungkin barista, cukup dengan klik sebuah tombol ajaib segera mereka pun seketika tersedia untuk Anda. Dan ketika tak membutuhkannya, klik tombol lagi kemudian mereka akan pergi sesaat kemudian sehingga Anda tak perlu membayarnya lagi.</br>
+
+Prinsip ini menjadi nilai utama di AWS. Itulah alasan sebenarnya kelas ini dihadirkan, yakni untuk membantu Anda memahami bagaimana AWS dibangun untuk membantu Anda menjalankan bisnis dengan lebih baik.</br>
+
+Tetaplah pahami dan ikuti kelas ini dengan saksama karena kita akan segera menyelami konsep-konsep tersebut lebih dalam serta membantu Anda melangkah menuju Cloud Practitioner. Semangat!
+  </p>
+  
+  <p align="justify"> Model Penerapan untuk Komputasi Cloud
+Saat memilih strategi untuk menerapkan cloud, Anda harus mempertimbangkan beberapa faktor, seperti komponen aplikasi cloud yang diperlukan, layanan manajemen sumber daya yang dibutuhkan, dan setiap persyaratan infrastruktur IT.</br>
+Tiga model penerapan komputasi cloud adalah cloud-based, on-premises (lokal), dan hybrid. Mari kita uraikan masing-masing model tersebut: </p>
+
+<ul><li>Cloud-based Deployment
+Dalam model penerapan cloud-based, Anda dapat merancang, membangun, dan menjalankan aplikasi baru di cloud. Anda pun dapat memigrasikan aplikasi yang telah ada ke cloud.
+Anda dapat membangun aplikasi tersebut pada low-level infrastructure (infrastruktur tingkat rendah) yang mana memerlukan staf IT Anda untuk mengelolanya. Atau dengan alternatif lain, yaitu menggunakan higher-level services (layanan dengan tingkat lebih tinggi) sehingga mengurangi kebutuhan pengelolaan, arsitektur, dan scaling (penyesuaian kapasitas) pada infrastruktur Anda.
+Misalnya, Anda dapat membuat aplikasi yang terdiri dari server virtual, database, dan komponen jaringan yang sepenuhnya berbasis di cloud.</li>
+
+<li>On-premises Deployment
+On-premises juga dikenal sebagai private cloud (cloud privat). Dalam model ini, sumber daya di-deploy (diterapkan) menggunakan layanan manajemen aplikasi dan teknologi virtualisasi pada data center pribadi sehingga penggunaan dan pemanfaatannya dapat meningkat.</li>
+
+<li>Hybrid Deployment
+Dalam penerapan hybrid, sumber daya berbasis cloud terhubung ke data center on-premises (lokal). Anda bisa gunakan pendekatan ini untuk beberapa situasi, seperti aplikasi lama yang memang lebih baik dikelola di on-premises atau mungkin karena peraturan pemerintah yang mengharuskan Anda menyimpan data tertentu di data center lokal.</li></ul>
+
+<p align="justify"> Manfaat dari Komputasi Cloud
+Ada beberapa hal yang perlu Anda pertimbangkan agar semakin yakin untuk memilih komputasi cloud sebagai solusi yang dapat menangani kebutuhan Anda dibandingkan dengan data center on-premise. Mari kita uraikan:</p>
+
+<ul><li>Ubah pengeluaran di muka menjadi pengeluaran variabel
+Pengeluaran di muka (upfront expense) mengacu pada data center, server fisik, dan sumber daya lain yang perlu Anda investasikan sebelum Anda menggunakannya. Sedangkan pengeluaran variabel (variable expense) berarti Anda hanya membayar untuk sumber daya komputasi yang Anda konsumsi. Dengan mengambil pendekatan komputasi cloud yang menawarkan keuntungan biaya variabel, perusahaan dapat mengimplementasikan solusi inovatif sekaligus menghemat biaya.</li>
+
+<li>Hentikan biaya pengelolaan dan pemeliharaan data center
+Komputasi di data center sering kali mengharuskan Anda untuk mengeluarkan lebih banyak biaya dan waktu untuk mengelola infrastruktur dan server. Nah, dengan komputasi cloud, Anda tak perlu lagi khawatir akan tugas-tugas ini. Dengan begitu, Anda dapat lebih fokus pada aplikasi dan pelanggan Anda.</li>
+
+<li>Berhenti menebak kapasitas
+Dengan komputasi cloud, Anda tak perlu memprediksi berapa banyak kapasitas infrastruktur yang Anda perlukan sebelum men-deploy aplikasi. Misalnya, Anda dapat meluncurkan Amazon EC2 instance dan cukup membayar untuk waktu komputasi yang digunakan. Daripada harus membayar sumber daya yang tak terpakai atau berurusan dengan kapasitas yang terbatas, dengan komputasi cloud, Anda dapat menggunakan kapasitas sesuai keinginan. Bahkan Anda juga dapat melakukan proses scale in (mengurangi) atau scale out (memperbanyak) kapasitas sesuai permintaan.</li>
+
+<li>Manfaatkan skala ekonomi yang masif
+Dengan menggunakan komputasi cloud, Anda dapat mewujudkan biaya variabel yang lebih rendah daripada yang dapat Anda peroleh dari data center on-premise. Penggunaan dari ratusan ribu pelangganlah yang memungkinkan AWS dapat mencapai skala ekonomi (economies of scale) yang lebih tinggi. Kemudian skala ekonomi ini diterjemahkan ke dalam harga pay-as-you-go yang lebih murah.</li>
+
+<li>Tingkatkan kecepatan dan ketangkasan
+Fleksibilitas dari penggunaan komputasi cloud memudahkan Anda untuk mengembangkan dan men-deploy aplikasi. Dengan komputasi cloud, Anda memiliki lebih banyak waktu untuk bereksperimen dan berinovasi. Tentu ini tak bisa Anda lakukan jika menggunakan data center on-premise. Misal untuk mendapatkan sumber daya baru, mungkin Anda memerlukan waktu berminggu-minggu. Sedangkan dengan AWS, sumber daya baru akan langsung siap diakses dalam hitungan menit.</li>
+
+<li>Mendunia dalam hitungan menit
+AWS Cloud memungkinkan Anda dapat meluncurkan aplikasi ke pelanggan di seluruh dunia dengan cepat sekaligus memberikan latensi yang rendah. Ini berarti meskipun Anda berada di belahan dunia yang berbeda dengan pelanggan, mereka tetap dapat mengakses aplikasi dengan waktu tunda (delay) yang minimal.</li></ul>
+  
+ 
 ```plantuml 
  console.log("Hello, World!"); 
 ```
