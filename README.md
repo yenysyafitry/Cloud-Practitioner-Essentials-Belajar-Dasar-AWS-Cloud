@@ -217,10 +217,10 @@ Namun AWS membuat proses penyediaan server menjadi lebih mudah dan lebih hemat m
 <p align="justify">
 Mungkin kening Anda sempat sedikit mengerut, “Bagaimana cara kerja Amazon EC2?” Tak seperti server di data center yang memerlukan proses panjang, Amazon EC2 dapat digunakan dengan mudah dengan beberapa langkah saja.</p>
 <ul align="justify"><li><b>Luncurkan</b></br>
-Mulailah dengan memilih sebuah template dengan konfigurasi dasar untuk instance Anda. Konfigurasi dasar ini termasuk sistem operasi, server aplikasi, atau aplikasi lainnya. Anda juga dapat memilih tipe instance, yaitu konfigurasi perangkat keras tertentu dari instance Anda.</li></br>
-Selagi menyiapkan peluncuran instance, tentukanlah pengaturan keamanan untuk mengontrol lalu lintas jaringan yang dapat mengalir masuk dan keluar instance Anda. Nanti kita akan menjelajahi fitur keamanan Amazon EC2 secara lebih detail di materi selanjutnya.</li></br>
+Mulailah dengan memilih sebuah template dengan konfigurasi dasar untuk instance Anda. Konfigurasi dasar ini termasuk sistem operasi, server aplikasi, atau aplikasi lainnya. Anda juga dapat memilih tipe instance, yaitu konfigurasi perangkat keras tertentu dari instance Anda.</li>
+Selagi menyiapkan peluncuran instance, tentukanlah pengaturan keamanan untuk mengontrol lalu lintas jaringan yang dapat mengalir masuk dan keluar instance Anda. Nanti kita akan menjelajahi fitur keamanan Amazon EC2 secara lebih detail di materi selanjutnya.</li>
 <li><b>Hubungkan</b></br>
-Anda dapat terhubung ke instance dengan beberapa cara. Program dan aplikasi Anda memiliki beberapa metode berbeda untuk terhubung dan bertukar data langsung ke instance. Anda dapat terhubung juga ke instance dengan mengaksesnya dari desktop.</li></br>
+Anda dapat terhubung ke instance dengan beberapa cara. Program dan aplikasi Anda memiliki beberapa metode berbeda untuk terhubung dan bertukar data langsung ke instance. Anda dapat terhubung juga ke instance dengan mengaksesnya dari desktop.</li>
   <li><b>Gunakan</b></br>
 Setelah terhubung ke instance, Anda dapat mulai menggunakannya. Ada banyak hal yang bisa dilakukan dengan Amazon EC2 instance, seperti menginstal perangkat lunak, menambah penyimpanan, menyalin dan mengatur file, dll.</li></ul>
   
