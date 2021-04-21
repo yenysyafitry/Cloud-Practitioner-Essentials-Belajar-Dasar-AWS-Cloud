@@ -104,8 +104,8 @@ Mengulik sumber daya untuk persiapan ujian AWS Certified Cloud Practitioner seka
 <li><b>Penilaian Akhir Kelas</b></br>
 Penilaian akhir ini berisi soal-soal yang mendekati ujian AWS Certified Cloud Practitioner.  </li></ol>
 
-<p align="justify"> AWS menawarkan berbagai macam layanan untuk setiap kegunaan. Dimulai dengan elemen dasar, seperti komputasi, penyimpanan, dan keamanan jaringan, hingga solusi kompleks seperti blockchain, machine learning, atau artificial intelligence (kecerdasan buatan), serta platform pengembangan robot.</br> </br>Namun semua hal tersebut nampaknya terlalu kompleks dan perlu lebih banyak waktu untuk kita bahas di kelas dasar seperti ini. Jadi, mari kita sederhanakan pembahasan kita dengan memulai dari model komputasi cloud dasar.</br> </p>
-<p align="center">Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk client-server.</br>
+<p align="justify"> AWS menawarkan berbagai macam layanan untuk setiap kegunaan. Dimulai dengan elemen dasar, seperti komputasi, penyimpanan, dan keamanan jaringan, hingga solusi kompleks seperti blockchain, machine learning, atau artificial intelligence (kecerdasan buatan), serta platform pengembangan robot.</br> </br>Namun semua hal tersebut nampaknya terlalu kompleks dan perlu lebih banyak waktu untuk kita bahas di kelas dasar seperti ini. Jadi, mari kita sederhanakan pembahasan kita dengan memulai dari model komputasi cloud dasar.</br> </p>Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk client-server
+<p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210327171832f42e6e357ebace3e1a19267c10a6bba7.png" width="350" title="hover text"></p>
 
   <p align="justify"> Dalam dunia komputasi, client dapat berupa web browser atau aplikasi yang dapat membuat permintaan ke server. Sebuah server dapat berupa layanan seperti Amazon Elastic Compute Cloud (Amazon EC2).</br></br>
