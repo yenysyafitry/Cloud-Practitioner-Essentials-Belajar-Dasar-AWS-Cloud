@@ -45,14 +45,7 @@ Web Hosting menyimpan semua halaman website Anda dan membuatnya tersedia untuk k
 
 ### Pengantar ke Amazon Web Services
 
-<p align="justify"> Selamat datang di Kelas Cloud Practitioner Essentials! Kelas ini adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS. </br> </br>
-
-Amazon Web Services atau AWS adalah salah satu layanan penyedia komputasi cloud yang telah hadir di seluruh dunia. AWS merupakan platform cloud yang paling komprehensif dan digunakan secara luas. Faktanya, jumlah layanan di AWS mencapai lebih dari ratusan layanan unggulan dengan jutaan pelanggan. </br> </br>
-
-Dengan cloud seperti AWS ini, pengguna dari berbagai kalangan perusahaan IT, pada umumnya, menjadi lebih tangkas dalam menjalankan aktivitas operasional sehari-hari dan lebih cepat dalam berinovasi. </br> </br>
-
-Di kelas ini kita akan mempelajari setiap materi secara terstruktur. Mari awali langkah perjalanan kita dengan beberapa pertanyaan terkait Kelas Cloud Practitioner Essentials.
-  </p>
+<p align="justify"> Selamat datang di Kelas Cloud Practitioner Essentials! Kelas ini adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS. </br> </br>Amazon Web Services atau AWS adalah salah satu layanan penyedia komputasi cloud yang telah hadir di seluruh dunia. AWS merupakan platform cloud yang paling komprehensif dan digunakan secara luas. Faktanya, jumlah layanan di AWS mencapai lebih dari ratusan layanan unggulan dengan jutaan pelanggan. </br> </br>Dengan cloud seperti AWS ini, pengguna dari berbagai kalangan perusahaan IT, pada umumnya, menjadi lebih tangkas dalam menjalankan aktivitas operasional sehari-hari dan lebih cepat dalam berinovasi. </br> </br>Di kelas ini kita akan mempelajari setiap materi secara terstruktur. Mari awali langkah perjalanan kita dengan beberapa pertanyaan terkait Kelas Cloud Practitioner Essentials.</p>
   
 ### Siapa yang dapat mengambil kelas ini?
 <p align="justify"> Kelas Cloud Practitioner Essentials ini ditujukan bagi Anda yang mencari pemahaman secara keseluruhan tentang AWS Cloud, terlepas dari latar belakang pekerjaan tertentu. Kelas ini pun ditujukan bagi Anda yang bekerja di bidang berikut:
@@ -68,28 +61,22 @@ Di kelas ini kita akan mempelajari setiap materi secara terstruktur. Mari awali 
 
 ### Apa saja prasyarat untuk mengambil kelas ini?
 <p align="justify"> Untuk mulai mempelajari kelas ini, setidaknya Anda harus memahami beberapa pengetahuan dasar seperti berikut:</p>
-<ul><li>
+<ul align="justify"><li>
 Teknis IT secara umum. Minimal Anda mengenal istilah komputer, jaringan, perangkat keras, perangkat lunak, web, dan internet.</li>
 <li>Bisnis IT secara umum. Anda mengetahui perusahaan-perusahaan yang bergerak di dunia IT seperti Amazon.</li></ul>
   
   ### Apa saja yang akan kita pelajari?
-  <p align="justify"> Jangan khawatir jika Anda tidak memiliki pengetahuan sama sekali tentang komputasi cloud atau bahkan Amazon Web Services, karena materi yang dibahas pada kelas ini tergolong ringan dan disajikan dengan bahasa yang mudah dipahami. Sebelum mengikuti kelas ini, Anda perlu tahu terlebih dahulu modul apa saja yang ada di dalamnya.
-</br> </br>
-Kelas ini terdiri dari 11 modul yang akan membahas tentang pengenalan konsep AWS Cloud, layanan-layanannya, keamanan, arsitektur, harga dan dukungan, kemudian ditutup dengan penilaian akhir berupa ujian sehingga menambah pengetahuan dan wawasan Anda mengenai AWS Cloud menjadi lebih baik.
-</br> </br>
+  <p align="justify"> Jangan khawatir jika Anda tidak memiliki pengetahuan sama sekali tentang komputasi cloud atau bahkan Amazon Web Services, karena materi yang dibahas pada kelas ini tergolong ringan dan disajikan dengan bahasa yang mudah dipahami. Sebelum mengikuti kelas ini, Anda perlu tahu terlebih dahulu modul apa saja yang ada di dalamnya</br></br>
+Kelas ini terdiri dari 11 modul yang akan membahas tentang pengenalan konsep AWS Cloud, layanan-layanannya, keamanan, arsitektur, harga dan dukungan, kemudian ditutup dengan penilaian akhir berupa ujian sehingga menambah pengetahuan dan wawasan Anda mengenai AWS Cloud menjadi lebih baik.</br> </br>
 Ketahuilah! Karena kelas Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) ini didesain untuk berbagai macam latar belakang profesi dan dibuat semudah mungkin, sehingga pembahasan materi pada setiap modul hanya akan berisi teori saja.
-</br> </br>
-Berikut adalah materi-materi yang akan Anda perdalam / pelajari secara komprehensif:
+</br> </br>Berikut adalah materi-materi yang akan Anda perdalam / pelajari secara komprehensif:
   </p>
-<ol><li>Modul 1: Pengantar ke Amazon Web Services
+<ol align="justify"><li>Modul 1: Pengantar ke Amazon Web Services
 Menjelaskan tentang materi pengenalan, seperti apa saja yang harus Anda siapkan sebelum mengikuti kelas; manfaat dari AWS; perbedaan antara penyajian on-demand (sesuai permintaan) dan model penerapan cloud; serta model biaya dengan skema pay-as-you-go.</li>
-
 <li>Modul 2: Komputasi di Cloud 
 Membahas materi komputasi di cloud, yakni manfaat dari Amazon Elastic Compute Cloud (Amazon EC2) di level dasar; perbedaan tipe dari Amazon EC2 instance; perbedaan antara variasi pilihan penagihan untuk Amazon EC2; manfaat Amazon EC2 Auto Scaling; manfaat Elastic Load Balancing, contoh penggunaan Elastic Load Balancing; perbedaan antara Amazon Simple Notification Service (Amazon SNS) dan Amazon Simple Queue Services (Amazon SQS); serta layanan komputasi lain di AWS.</li>
-
 <li>Modul 3: Infrastruktur Global dan Keandalan
 Menelaah materi terkait infrastruktur global AWS; konsep dasar Availability Zone; manfaat Amazon CloudFront dan Edge locations; serta membandingkan perbedaan metode untuk penyajian layanan AWS.</li>
-
 <li>Modul 4: Jaringan
 Mengupas tuntas materi jaringan, seperti konsep dasarnya; perbedaan antara sumber daya jaringan publik dan privat; virtual private gateway dan virtual private network (VPN) untuk menghubungkan AWS Cloud dengan jaringan lain; AWS Direct Connect; manfaat penerapan arsitektur hybrid; lapisan keamanan yang digunakan dalam strategi IT; dan layanan yang digunakan untuk berinteraksi dengan jaringan global AWS.</li>
 
@@ -140,7 +127,7 @@ Kembali ke kedai kopi. Kasir adalah server-nya. Di AWS, kasir tersebut diberi na
 Mari kita lihat proses transaksi yang terjadi antara kasir dan pelanggan ini dari sudut pandang arsitektural.
   </p>
   
-  <ul><li>Pelanggan (client) membuat permintaan ke kasir (server).</li>
+  <ul align="justify"><li>Pelanggan (client) membuat permintaan ke kasir (server).</li>
 <li>Kasir memvalidasi bahwa permintaan tersebut sah, dalam hal ini apakah pelanggan telah membayar atau belum.</li>
 <li>Jika ya, maka kasir akan ke belakang untuk membuat kopi sesuai permintaan.</li>
 <li>Setelah selesai, kasir tersebut akan kembali kepada pelanggan dengan membawa kopinya, dalam hal ini adalah kapucino dengan ekstra karamel. Yummy!</li></ul>
@@ -169,7 +156,7 @@ Tetaplah pahami dan ikuti kelas ini dengan saksama karena kita akan segera menye
 Saat memilih strategi untuk menerapkan cloud, Anda harus mempertimbangkan beberapa faktor, seperti komponen aplikasi cloud yang diperlukan, layanan manajemen sumber daya yang dibutuhkan, dan setiap persyaratan infrastruktur IT.</br>
 Tiga model penerapan komputasi cloud adalah cloud-based, on-premises (lokal), dan hybrid. Mari kita uraikan masing-masing model tersebut: </p>
 
-<ul><li>Cloud-based Deployment
+<ul align="justify"><li>Cloud-based Deployment
 Dalam model penerapan cloud-based, Anda dapat merancang, membangun, dan menjalankan aplikasi baru di cloud. Anda pun dapat memigrasikan aplikasi yang telah ada ke cloud.
 Anda dapat membangun aplikasi tersebut pada low-level infrastructure (infrastruktur tingkat rendah) yang mana memerlukan staf IT Anda untuk mengelolanya. Atau dengan alternatif lain, yaitu menggunakan higher-level services (layanan dengan tingkat lebih tinggi) sehingga mengurangi kebutuhan pengelolaan, arsitektur, dan scaling (penyesuaian kapasitas) pada infrastruktur Anda.
 Misalnya, Anda dapat membuat aplikasi yang terdiri dari server virtual, database, dan komponen jaringan yang sepenuhnya berbasis di cloud.</li>
