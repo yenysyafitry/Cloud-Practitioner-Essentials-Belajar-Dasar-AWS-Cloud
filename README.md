@@ -3,7 +3,7 @@
 ### Glosarium
 <p align="justify">
 <b> Artificial Intelligence</b></br>
-Kemampuan komputer untuk bertindak seperti manusia.</br></br>
+Artificial Intelligence adalah kemampuan komputer untuk bertindak seperti manusia.</br></br>
 <b> Blockchain</b></br>
 Blockchain adalah catatan transaksi digital. Nama “blockchain” berasal dari strukturnya, di mana catatan individu (disebut sebagai block) dihubungkan bersama dalam daftar tunggal (disebut sebagai chain). Blockchain digunakan untuk mencatat transaksi yang dilakukan dengan cryptocurrency, seperti Bitcoin, dll.</br></br>
 <b>  Cloud</b></br>
