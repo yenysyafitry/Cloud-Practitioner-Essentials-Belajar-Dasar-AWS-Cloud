@@ -1,7 +1,7 @@
 ## Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)
 
 ### Glosarium
-
+<p align="justify">
 <b> Artificial Intelligence</b></br>
 Kemampuan komputer untuk bertindak seperti manusia.</br></br>
 <b> Blockchain</b></br>
@@ -41,7 +41,7 @@ Terabyte adalah 1012 atau 1.000.000.000.000 byte. 1 terabyte sama dengan 1.000 g
 <b>  Throughput</b></br>
 Jumlah data yang dapat dikirim dalam waktu tertentu.</br></br>
 <b>  Web Hosting</b></br>
-Web Hosting menyimpan semua halaman website Anda dan membuatnya tersedia untuk komputer yang terhubung ke Internet.</br></br>
+Web Hosting menyimpan semua halaman website Anda dan membuatnya tersedia untuk komputer yang terhubung ke Internet.</br></br> </p>
 
 ### Pengantar ke Amazon Web Services
 
