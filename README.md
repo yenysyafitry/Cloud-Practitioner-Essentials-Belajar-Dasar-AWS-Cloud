@@ -1,67 +1,67 @@
 ## Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)
 
 ### Glosarium
-```diff
-+ Artificial Intelligence
-Kemampuan komputer untuk bertindak seperti manusia.
 
-+ Blockchain
-Blockchain adalah catatan transaksi digital. Nama “blockchain” berasal dari strukturnya, di mana catatan individu (disebut sebagai block) dihubungkan bersama dalam daftar tunggal (disebut sebagai chain). Blockchain digunakan untuk mencatat transaksi yang dilakukan dengan cryptocurrency, seperti Bitcoin, dll.
+<b> Artificial Intelligence</b></br>
+Kemampuan komputer untuk bertindak seperti manusia.</br></br>
 
-+ Cloud
-Dalam dunia IT, cloud mengacu pada server yang diakses melalui Internet, serta perangkat lunak dan database yang berjalan di server tersebut
+<b> Blockchain</b></br>
+Blockchain adalah catatan transaksi digital. Nama “blockchain” berasal dari strukturnya, di mana catatan individu (disebut sebagai block) dihubungkan bersama dalam daftar tunggal (disebut sebagai chain). Blockchain digunakan untuk mencatat transaksi yang dilakukan dengan cryptocurrency, seperti Bitcoin, dll.</br></br>
 
-+ Compliance
-Dalam tata kelola perusahaan, compliance berarti mengikuti suatu spesifikasi, standar, atau hukum yang telah diatur dengan jelas yang biasanya diterbitkan oleh lembaga atau organisasi yang berwenang dalam suatu bidang tertentu.
+<b>  Cloud</b></br>
+Dalam dunia IT, cloud mengacu pada server yang diakses melalui Internet, serta perangkat lunak dan database yang berjalan di server tersebut</br></br>
 
-+ Database
-Struktur data yang menyimpan informasi yang terorganisir.
+<b>  Compliance</b></br>
+Dalam tata kelola perusahaan, compliance berarti mengikuti suatu spesifikasi, standar, atau hukum yang telah diatur dengan jelas yang biasanya diterbitkan oleh lembaga atau organisasi yang berwenang dalam suatu bidang tertentu.</br></br>
 
-+ Deploy
-Dalam konteks IT, deploy merujuk pada semua proses yang terlibat dalam mendapatkan software atau hardware rilis dan berjalan dengan baik, termasuk instalasi, konfigurasi, pengoperasian, pengujian, dan membuat perubahan yang diperlukan.
+<b>  Database</b></br>
+Struktur data yang menyimpan informasi yang terorganisir.</br></br>
 
-+ Entitas
-Satu objek unik di dunia nyata. Ia mengacu pada individu, organisasi, produk, atau komponen sistem.
+<b>  Deploy</b></br>
+Dalam konteks IT, deploy merujuk pada semua proses yang terlibat dalam mendapatkan software atau hardware rilis dan berjalan dengan baik, termasuk instalasi, konfigurasi, pengoperasian, pengujian, dan membuat perubahan yang diperlukan.</br></br>
 
-+ Exabyte
-Exabyte adalah 1018 atau 1.000.000.000.000.000.000 byte. 1 exabyte sama dengan 1.000 petabyte.
+<b>  Entitas</b></br>
+Satu objek unik di dunia nyata. Ia mengacu pada individu, organisasi, produk, atau komponen sistem.</br></br>
 
-+ Hard Drive
-Hard drive adalah tempat menyimpan semua data Anda. Data tersebut disimpan di secara magnetis, sehingga tetap berada di drive bahkan setelah daya dimatikan. Istilah "hard drive" sebenarnya adalah singkatan dari "hard disk drive", keduanya merujuk pada arti yang sama.
+<b>  Exabyte</b></br>
+Exabyte adalah 1018 atau 1.000.000.000.000.000.000 byte. 1 exabyte sama dengan 1.000 petabyte.</br></br>
 
-+ Hypervisor
-Program perangkat lunak yang mengelola satu atau lebih mesin virtual. Hypervisor digunakan untuk membuat, memulai, menghentikan, dan mengatur ulang VM.
+<b>  Hard Drive</b></br>
+Hard drive adalah tempat menyimpan semua data Anda. Data tersebut disimpan di secara magnetis, sehingga tetap berada di drive bahkan setelah daya dimatikan. Istilah "hard drive" sebenarnya adalah singkatan dari "hard disk drive", keduanya merujuk pada arti yang sama.</br></br>
 
-+ Instance
-Instance adalah server virtual di AWS Cloud.
+<b>  Hypervisor</b></br>
+Program perangkat lunak yang mengelola satu atau lebih mesin virtual. Hypervisor digunakan untuk membuat, memulai, menghentikan, dan mengatur ulang VM.</br></br>
 
-+ Latensi
-Waktu yang diperlukan untuk mengirim dan menerima data.
+<b>  Instance</b></br>
+Instance adalah server virtual di AWS Cloud.</br></br>
 
-+ Machine Learning
-Sebuah jenis dari Artificial Intelligence yang dapat "belajar" atau beradaptasi dari waktu ke waktu.
+<b>  Latensi</b></br>
+Waktu yang diperlukan untuk mengirim dan menerima data.</br></br>
 
-+ On-premise
-Penyimpanan dan pemeliharaan data di server lokal atau pribadi.
+<b>  Machine Learning</b></br>
+Sebuah jenis dari Artificial Intelligence yang dapat "belajar" atau beradaptasi dari waktu ke waktu.</br></br>
 
-+ Permission
-Permission diartikan sebagai memberikan persetujuan atau otorisasi atau mengizinkan seseorang untuk melakukan sesuatu. Pada konteks AWS, permission memungkinkan Anda untuk menentukan akses ke sumber daya AWS.
+<b>  On-premise</b></br>
+Penyimpanan dan pemeliharaan data di server lokal atau pribadi.</br></br>
 
-+ Petabyte
-Petabyte adalah 1015 atau 1.000.000.000.000.000 byte. 1 petabyte sama dengan 1.000 terabyte.
+<b>  Permission</b></br>
+Permission diartikan sebagai memberikan persetujuan atau otorisasi atau mengizinkan seseorang untuk melakukan sesuatu. Pada konteks AWS, permission memungkinkan Anda untuk menentukan akses ke sumber daya AWS.</br></br>
 
-+ Sumber Daya
-Di AWS, sumber daya (resource) berarti entitas yang dapat Anda pakai, contohnya Amazon EC2 instance atau Amazon S3 bucket.
+<b>  Petabyte</b></br>
+Petabyte adalah 1015 atau 1.000.000.000.000.000 byte. 1 petabyte sama dengan 1.000 terabyte.</br></br>
 
-+ Terabyte
-Terabyte adalah 1012 atau 1.000.000.000.000 byte. 1 terabyte sama dengan 1.000 gigabyte.
+<b>  Sumber Daya</b></br>
+Di AWS, sumber daya (resource) berarti entitas yang dapat Anda pakai, contohnya Amazon EC2 instance atau Amazon S3 bucket.</br></br>
 
-+ Throughput
-Jumlah data yang dapat dikirim dalam waktu tertentu.
+<b>  Terabyte</b></br>
+Terabyte adalah 1012 atau 1.000.000.000.000 byte. 1 terabyte sama dengan 1.000 gigabyte.</br></br>
 
-+ Web Hosting
-Web Hosting menyimpan semua halaman website Anda dan membuatnya tersedia untuk komputer yang terhubung ke Internet.
-```
+<b>  Throughput</b></br>
+Jumlah data yang dapat dikirim dalam waktu tertentu.</br></br>
+
+<b>  Web Hosting</b></br>
+Web Hosting menyimpan semua halaman website Anda dan membuatnya tersedia untuk komputer yang terhubung ke Internet.</br></br>
+
 ### Pengantar ke Amazon Web Services
 
 <p align="justify"> Selamat datang di Kelas Cloud Practitioner Essentials! Kelas ini adalah kelas dasar yang hadir untuk mengenalkan Anda pada layanan komputasi cloud dengan Amazon Web Services atau biasa disingkat AWS. </br> </br>
