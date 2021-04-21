@@ -273,15 +273,14 @@ Rekomendasi ini dapat memperkirakan seberapa banyak Anda dapat menghemat biaya b
 Reserved Instances menawarkan diskon penagihan yang diterapkan untuk instance On-Demand dengan berkomitmen terhadap tingkat penggunaan untuk jangka waktu 1 atau 3 tahun.</br>
 Ada beberapa opsi yang tersedia: Standard Reserved dan Convertible Reserved Instances (Instance Terpesan Standar dan Terpesan Konvertibel) untuk jangka waktu 1 atau 3 tahun. Dan juga tersedia Scheduled Reserved Instance (Instance Terpesan Terjadwal) untuk jangka waktu 1 tahun saja.</br>
 Opsi ini cocok untuk beban kerja dengan kondisi yang stabil atau dapat diprediksi. Reserved Instance menawarkan diskon hingga 75% dibandingkan dengan opsi On-Demand.</br></br>
-
-Terdapat tiga opsi pembayaran pada Reserved Instances: </li></ul><ol align="justify"><li>
-All upfront (semua di muka), yaitu Anda membayarnya secara penuh saat Anda berkomitmen.</li>
+</li></ul>
+Terdapat tiga opsi pembayaran pada Reserved Instances: 
+<ol align="justify"><li>All upfront (semua di muka), yaitu Anda membayarnya secara penuh saat Anda berkomitmen.</li>
 <li>Partial upfront (sebagian di muka), di mana Anda membayar sebagian di awal.</li>
-<li>No upfront (tanpa uang muka), di mana Anda tak membayar apa pun di muka.</li>
-<li>Ketika Reserved Instance berakhir, Anda tetap bisa menggunakan Amazon EC2 instance tanpa gangguan. Namun akan dikenai tarif On-Demand hingga Anda menghentikannya atau membeli</li> <li>Reserved Instance baru yang sesuai dengan atribut instance (tipe instance, region, tenancy (penyewaan), dan platform).</li></ol>
-
-<ul align="justify"><li><b>
-  Spot Instances (Instance Spot)</b></br>
+<li>No upfront (tanpa uang muka), di mana Anda tak membayar apa pun di muka.</li></ol>
+<p align="justify">
+Ketika Reserved Instance berakhir, Anda tetap bisa menggunakan Amazon EC2 instance tanpa gangguan. Namun akan dikenai tarif On-Demand hingga Anda menghentikannya atau membeli. Reserved Instance baru yang sesuai dengan atribut instance (tipe instance, region, tenancy (penyewaan), dan platform). </p>
+<ul align="justify"><li><b>Spot Instances (Instance Spot)</b></br>
 Spot Instances menggunakan kapasitas komputasi Amazon EC2 yang tak terpakai dan menawarkan penghematan biaya hingga 90% dari harga On-Demand. Opsi ini sangat ideal untuk beban kerja dengan waktu mulai dan akhir yang fleksibel dan tak masalah dengan interupsi.</br>
 Jika Anda mengajukan Spot Instances dan kapasitas Amazon EC2 sedang tersedia, maka instance akan diluncurkan. Namun jika tidak, permintaan akan gagal sampai kapasitas tersedia kembali.</br>
 Setelah Anda meluncurkan Spot Instances, AWS dapat mengklaim kembali instance tersebut kapan pun ketika mereka membutuhkannya.</br>
