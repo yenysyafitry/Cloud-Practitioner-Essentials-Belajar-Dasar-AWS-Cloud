@@ -213,7 +213,7 @@ Sekali lagi, Amazon EC2 berjalan dengan bantuan teknologi virtualisasi. Mungkin 
 </br>
 Namun AWS membuat proses penyediaan server menjadi lebih mudah dan lebih hemat melalui model Compute as a Service (CaaS) seperti Amazon EC2 ini. Dengan semua keuntungan tersebut, programmer dan bisnis dapat berinovasi lebih cepat.</p>
 
-###Cara Kerja Amazon EC2
+### Cara Kerja Amazon EC2
 <p align="justify">
 Mungkin kening Anda sempat sedikit mengerut, “Bagaimana cara kerja Amazon EC2?” Tak seperti server di data center yang memerlukan proses panjang, Amazon EC2 dapat digunakan dengan mudah dengan beberapa langkah saja.</p>
 <ul align="justify"><li><b>Luncurkan</b></br>
