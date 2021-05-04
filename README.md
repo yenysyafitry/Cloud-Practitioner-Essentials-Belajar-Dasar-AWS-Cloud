@@ -321,7 +321,7 @@ Dengan AWS Management Console, Anda dapat</p>
 <li>melihat tagihan AWS;</li>
 <li>melakukan pemantauan; atau</li>
 <li>bekerja dengan sumber daya nonteknis lainnya.</li></ol>
-<p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br><b>Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
+<p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br><b>KUIS Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
  
  
 ```plantuml 
