@@ -350,7 +350,7 @@ Dengan AWS Management Console, Anda dapat</p>
    Answer : B. layanan pengirim konten secara global
 ```
 
-//
+<!---
 <p align="justify"> 
   </p>
 
@@ -361,4 +361,5 @@ Dengan AWS Management Console, Anda dapat</p>
 |Output : |
 | :--     | 
 | |
-//
+
+-->
