@@ -291,12 +291,26 @@ Dari semua opsi harga Amazon EC2 yang telah dibahas, opsi Dedicated Hosts adalah
 <p align="justify"> 
   </p>
 ```plantuml 
- console.log("Hello, World!"); 
+ Kategori: Komputasi di Cloud
+1.Proses manakah yang merupakan contoh dari Elastic Load Balancing?
+  A. Menambahkan Amazon EC2 instance kedua selama flash sale di toko online
+  B. secara otomatis menyesuaikan jumlah amazon EC2 instance untuk memebuhi permintaan
+  C. Secara otomatis mendistribusikan traffic aplikasi yang masuk ke berbagai sumber daya, seperti Amazon EC2 instance
+  D. Menghapus Amazon EC2 instance yang tidak dibutuhkan saat permintaan rendah
+
+2.Berapakah jangka waktu kontrak untuk Amazon EC2 Reserved Instances?
+  A. 1 atau 2 tahun
+  B. 1 atau 3 tahun
+  C. 2 atau 3 tahun
+  D. 4 atau 5 tahun
+
+3.Anda ingin menerapkan dan mengelola aplikasi dalam container. Layanan mana yang harus Anda gunakan?
+  A. Amazon Simple Queue Service
 ```
 
 |Output : |
 | :--     | 
-| |
+|1. B. secara otomatis menyesuaikan jumlah amazon EC2 instance untuk memebuhi permintaan</br> 2. B. 1 atau 3 tahun </br>A. Amazon Simple Queue Service|
 
 <p align="justify"> 
   </p>
