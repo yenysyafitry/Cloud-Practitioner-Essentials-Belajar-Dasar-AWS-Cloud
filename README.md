@@ -290,6 +290,7 @@ Dari semua opsi harga Amazon EC2 yang telah dibahas, opsi Dedicated Hosts adalah
 
 <p align="justify"> 
   </p>
+  
 ```plantuml 
  Kategori: Komputasi di Cloud
 1.Proses manakah yang merupakan contoh dari Elastic Load Balancing?
