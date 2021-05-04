@@ -314,7 +314,7 @@ Dari semua opsi harga Amazon EC2 yang telah dibahas, opsi Dedicated Hosts adalah
 |1. B. secara otomatis menyesuaikan jumlah amazon EC2 instance untuk memebuhi permintaan</br> 2. B. 1 atau 3 tahun </br>A. Amazon Simple Queue Service|
 
 <p align="justify">
-<b>AWS Management Console<b> adalah antarmuka berbasis browser yang dapat digunakan untuk mengakses dan mengelola layanan AWS. Melalui console (konsol), Anda dapat mengelola sumber daya AWS secara visual dan dengan cara yang mudah dipahami. Tentu ini adalah cara yang ideal untuk memulai dan membangun pengetahuan Anda tentang layanan AWS. </br></br>
+<b>AWS Management Console</b> adalah antarmuka berbasis browser yang dapat digunakan untuk mengakses dan mengelola layanan AWS. Melalui console (konsol), Anda dapat mengelola sumber daya AWS secara visual dan dengan cara yang mudah dipahami. Tentu ini adalah cara yang ideal untuk memulai dan membangun pengetahuan Anda tentang layanan AWS. </br></br>
 Dengan AWS Management Console, Anda dapat</p>
 <ol align="justify"><li>mencari layanan AWS dari nama, kata kunci, atau akronim;</li>
 <li>membangun lingkungan pengujian;</li>
