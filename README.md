@@ -340,6 +340,7 @@ Dengan AWS Management Console, Anda dapat</p>
    D. Availability Zone
  
    Answer : A. Edge locations
+   
 3.Pernyataan mana yang paling tepat menggambarkan Amazon CloudFront?
    A. layanan yang memungkinkan anda untuk mengirim dan menerima pesan antara komponen perangkat lunak melalui antrean
    B. layanan pengirim konten secara global
@@ -349,7 +350,7 @@ Dengan AWS Management Console, Anda dapat</p>
    Answer : B. layanan pengirim konten secara global
 ```
 
-
+//
 <p align="justify"> 
   </p>
 
@@ -360,3 +361,4 @@ Dengan AWS Management Console, Anda dapat</p>
 |Output : |
 | :--     | 
 | |
+//
