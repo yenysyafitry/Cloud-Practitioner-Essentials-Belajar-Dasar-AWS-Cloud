@@ -321,8 +321,33 @@ Dengan AWS Management Console, Anda dapat</p>
 <li>melihat tagihan AWS;</li>
 <li>melakukan pemantauan; atau</li>
 <li>bekerja dengan sumber daya nonteknis lainnya.</li></ol>
-<p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</p>
+<p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br><b>Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
  
+ 
+```plantuml 
+1. Pernyataan mana yang BENAR untuk infrastruktur global AWS?
+   A. Satu region terdiri dari satu availability zone
+   B. Satu region terdiri dari dua atau lebih Availability Zone
+   C. Availability Zone terdiri dari satu region
+   D. Availability Zone terdiri dari dua region atau lebih
+
+   Answer : B. Satu region terdiri dari dua atau lebih Availability Zone
+   
+2.Lokasi mana yang digunakan Amazon CloudFront untuk menyimpan salinan konten ke dalam cache agar pengiriman dapat lebih cepat kepada pelanggan di seluruh dunia?
+   A. Edge locations
+   B. origin
+   C. region
+   D. Availability Zone
+ 
+   Answer : A. Edge locations
+3.Pernyataan mana yang paling tepat menggambarkan Amazon CloudFront?
+   A. layanan yang memungkinkan anda untuk mengirim dan menerima pesan antara komponen perangkat lunak melalui antrean
+   B. layanan pengirim konten secara global
+   C. layanan yang memungkinkan anda untuk menjalankan infrastruktur dengan pendekatan hYbrid cloud
+   D. mesin komputasi serverless untuk container 
+   
+   Answer : B. layanan pengirim konten secara global
+```
 
 
 <p align="justify"> 
