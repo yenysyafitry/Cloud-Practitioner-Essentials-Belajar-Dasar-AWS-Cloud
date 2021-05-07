@@ -382,4 +382,23 @@ Security group bersifat stateful, yang berarti ia memiliki semacam memori untuk 
 | :--     | 
 | |
 
+Layanan apa yang dapat mengelola DNS records untuk nama domain?
+A. Amazon CloudFront
+B. Amazon Virtual Private Cloud
+C. AWS Direct Connect
+D. Amazon Router 53
+bca
+2.Manakah komponen yang dapat digunakan untuk membuat koneksi yang privat dan terdedikasi antara data center perusahaan Anda dan AWS?
+A. Subnet Privat
+B. Virtual Private Gateway
+C. DNS
+D. AWS Direct Connect
+bac
+3.
+Komponen manakah yang digunakan untuk menghubungkan VPC ke internet?
+A. Internet Gateway
+B.Public Subnet
+c. Edge Locations
+D. Security Group
+abc
 -->
