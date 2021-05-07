@@ -51,7 +51,7 @@ Web Hosting menyimpan semua halaman website Anda dan membuatnya tersedia untuk k
 <p align="justify"> Kelas Cloud Practitioner Essentials ini ditujukan bagi Anda yang mencari pemahaman secara keseluruhan tentang AWS Cloud, terlepas dari latar belakang pekerjaan tertentu. Kelas ini pun ditujukan bagi Anda yang bekerja di bidang berikut:
   </p>
 
-<ol><li>Sales</li>
+<ol type="1"><li>Sales</li>
 <li>Hukum</li>
 <li>Pemasaran</li>
 <li>Analis bisnis</li>
@@ -390,7 +390,7 @@ Security group adalah firewall virtual yang mengontrol traffic masuk dan keluar 
 Penjaga pintu akan memeriksa setiap orang yang ingin memasuki gedung untuk memastikan apakah mereka memiliki izin atau tidak. Namun, bagi setiap orang yang akan keluar dari gedung tersebut tak akan diperiksa olehnya. Serupa dengan itu, security group mengizinkan traffic tertentu untuk masuk dan--secara default--membolehkan semua lalu lintas keluar. Mungkin dahi Anda akan mulai berkerut, “Tunggu sebentar. Kita baru saja belajar dua mesin berbeda namun melakukan pekerjaan yang sama, yaitu membiarkan paket dari alamat yang kita izinkan untuk masuk dan menolak paket dari alamat yang tidak kita izinkan. Lalu, apa bedanya?”</br>
 Oke, Oke. Tenang! Mari kita tilik perbedaannya.</br></br>
 Perbedaan utama antara security group dan network ACL adalah:</p>
-<ol align="justify"><li>
+<ol type="1" align="justify"><li>
 Security group bersifat stateful, yang berarti ia memiliki semacam memori untuk mengingat siapa yang diizinkan masuk atau keluar.</li>
 <li>Network ACL bersifat stateless, artinya ia tidak mengingat apa pun. Layanan ini akan memeriksa setiap paket yang melintasi perbatasannya terlepas dari keadaan apa pun.</li></ol>
 
