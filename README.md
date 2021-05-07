@@ -71,7 +71,7 @@ Kelas ini terdiri dari 11 modul yang akan membahas tentang pengenalan konsep AWS
 Ketahuilah! Karena kelas Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) ini didesain untuk berbagai macam latar belakang profesi dan dibuat semudah mungkin, sehingga pembahasan materi pada setiap modul hanya akan berisi teori saja.
 </br> </br>Berikut adalah materi-materi yang akan Anda perdalam / pelajari secara komprehensif:
   </p>
-<ol align="justify"><li><b> Modul 1: Pengantar ke Amazon Web Services</b></br>
+<ul align="justify"><li><b> Modul 1: Pengantar ke Amazon Web Services</b></br>
 Menjelaskan tentang materi pengenalan, seperti apa saja yang harus Anda siapkan sebelum mengikuti kelas; manfaat dari AWS; perbedaan antara penyajian on-demand (sesuai permintaan) dan model penerapan cloud; serta model biaya dengan skema pay-as-you-go.</li>
 <li><b>Modul 2: Komputasi di Cloud </b></br>
 Membahas materi komputasi di cloud, yakni manfaat dari Amazon Elastic Compute Cloud (Amazon EC2) di level dasar; perbedaan tipe dari Amazon EC2 instance; perbedaan antara variasi pilihan penagihan untuk Amazon EC2; manfaat Amazon EC2 Auto Scaling; manfaat Elastic Load Balancing, contoh penggunaan Elastic Load Balancing; perbedaan antara Amazon Simple Notification Service (Amazon SNS) dan Amazon Simple Queue Services (Amazon SQS); serta layanan komputasi lain di AWS.</li>
@@ -79,30 +79,22 @@ Membahas materi komputasi di cloud, yakni manfaat dari Amazon Elastic Compute Cl
 Menelaah materi terkait infrastruktur global AWS; konsep dasar Availability Zone; manfaat Amazon CloudFront dan Edge locations; serta membandingkan perbedaan metode untuk penyajian layanan AWS.</li>
 <li><b>Modul 4: Jaringan</b></br>
 Mengupas tuntas materi jaringan, seperti konsep dasarnya; perbedaan antara sumber daya jaringan publik dan privat; virtual private gateway dan virtual private network (VPN) untuk menghubungkan AWS Cloud dengan jaringan lain; AWS Direct Connect; manfaat penerapan arsitektur hybrid; lapisan keamanan yang digunakan dalam strategi IT; dan layanan yang digunakan untuk berinteraksi dengan jaringan global AWS.</li>
-
 <li><b>Modul 5: Penyimpanan dan Database</b></br>
 Mengulas konsep dasar penyimpanan dan databases (basis data); manfaat Amazon Elastic Block Store (Amazon EBS); Amazon Simple Storage Service (Amazon S3); Amazon Elastic File System (Amazon EFS); variasi solusi penyimpanan; Amazon DynamoDB; dan terakhir ragam layanan database.</li>
-
 <li><b>Modul 6: Keamanan</b></br>
 Mendeskripsikan materi keamanan, yakni manfaat shared responsibility model (model tanggung jawab bersama); multi-factor authentication (autentikasi multifaktor) atau MFA; tingkat keamanan AWS Identity and Access Management (IAM); dasar-dasar kebijakan keamanan; AWS Organizations; compliance (kepatuhan) dengan AWS; dan layanan keamanan utama AWS yang mudah.</li>
-
 <li><b>Modul 7: Pemantauan dan Analitik</b></br>
 Menelaah pendekatan untuk memantau environment (lingkungan) AWS Anda, manfaat Amazon CloudWatch, AWS CloudTrail, dan AWS Trusted Advisor.</li>
-
 <li><b>Modul 8: Harga dan Dukungan</b></br>
 Menguraikan materi terkait model harga dan dukungan, seperti AWS Free Tier (Tingkat Gratis); AWS Organizations dan consolidated billing (tagihan terkonsolidasi); AWS Budgets; AWS Cost Explorer; AWS Pricing Calculator; membedakan setiap AWS Support Plans; dan terakhir AWS Marketplace.</li>
-
 <li><b>Modul 9: Migrasi dan Inovasi</b></br>
 Mengkaji materi terkait migrasi dan inovasi di AWS Cloud, yaitu AWS Cloud Adoption Framework (AWS CAF); enam faktor utama dari strategi migrasi cloud; manfaat beragam solusi migrasi data: AWS Snowcone, AWS Snowball, dan AWS Snowmobile; dan terakhir, meringkas cakupan luas dari solusi inovatif yang ditawarkan AWS.</li>
-
 <li><b>Modul 10: Perjalanan Cloud</b></br>
 Menjelaskan lima pilar dari AWS Well-Architected Framework dan enam manfaat dari komputasi cloud.</li>
-
 <li><b>Modul 11: Dasar-Dasar AWS Certified Cloud Practitioner</b></br>
 Mengulik sumber daya untuk persiapan ujian AWS Certified Cloud Practitioner sekaligus manfaat menjadi seseorang yang bersertifikat AWS.</li>
-
 <li><b>Penilaian Akhir Kelas</b></br>
-Penilaian akhir ini berisi soal-soal yang mendekati ujian AWS Certified Cloud Practitioner.  </li></ol>
+Penilaian akhir ini berisi soal-soal yang mendekati ujian AWS Certified Cloud Practitioner.  </li></ul>
 
 <p align="justify"> AWS menawarkan berbagai macam layanan untuk setiap kegunaan. Dimulai dengan elemen dasar, seperti komputasi, penyimpanan, dan keamanan jaringan, hingga solusi kompleks seperti blockchain, machine learning, atau artificial intelligence (kecerdasan buatan), serta platform pengembangan robot.</br> </br>Namun semua hal tersebut nampaknya terlalu kompleks dan perlu lebih banyak waktu untuk kita bahas di kelas dasar seperti ini. Jadi, mari kita sederhanakan pembahasan kita dengan memulai dari model komputasi cloud dasar.</br> </p>Tahukah Anda? Hampir semua model komputasi modern adalah berbentuk client-server
 <p align="center">
@@ -115,13 +107,8 @@ Kita mulai dari sebuah pertanyaan dasar. Apa saja elemen yang ada di sebuah keda
   </p>
   <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210327171900e59eabc83109d5738c729956eadd2cfb.png" width="350" title="hover text"></p>
-  <p align="justify"> Dalam model client-server. Kasir berperan sebagai server sedangkan pelanggan adalah client. Di kedai kopi pelanggan membuat suatu permintaan berupa segelas kopi. Namun di dunia komputasi, permintaan dapat berbentuk apa pun: analisis pola hujan di negara Afrika Selatan, rontgen terbaru dari lutut Anda, atau mungkin video anak kucing yang menggemaskan.
-
-Apa pun bisnisnya, pada dasarnya client membuat suatu permintaan--tentu dengan telah memiliki izin akses--kemudian server menanggapi permintaan tersebut.
-
-Kembali ke kedai kopi. Kasir adalah server-nya. Di AWS, kasir tersebut diberi nama Amazon Elastic Compute Cloud (EC2), sebuah server virtual dan kita akan memanggilnya instance.
-
-Mari kita lihat proses transaksi yang terjadi antara kasir dan pelanggan ini dari sudut pandang arsitektural.
+  <p align="justify"> Dalam model client-server. Kasir berperan sebagai server sedangkan pelanggan adalah client. Di kedai kopi pelanggan membuat suatu permintaan berupa segelas kopi. Namun di dunia komputasi, permintaan dapat berbentuk apa pun: analisis pola hujan di negara Afrika Selatan, rontgen terbaru dari lutut Anda, atau mungkin video anak kucing yang menggemaskan.</br>
+Apa pun bisnisnya, pada dasarnya client membuat suatu permintaan--tentu dengan telah memiliki izin akses--kemudian server menanggapi permintaan tersebut.Kembali ke kedai kopi. Kasir adalah server-nya. Di AWS, kasir tersebut diberi nama Amazon Elastic Compute Cloud (EC2), sebuah server virtual dan kita akan memanggilnya instance.Mari kita lihat proses transaksi yang terjadi antara kasir dan pelanggan ini dari sudut pandang arsitektural.
   </p>
   
   <ul align="justify"><li>Pelanggan (client) membuat permintaan ke kasir (server).</li>
@@ -271,9 +258,9 @@ Reserved Instances menawarkan diskon penagihan yang diterapkan untuk instance On
 Ada beberapa opsi yang tersedia: Standard Reserved dan Convertible Reserved Instances (Instance Terpesan Standar dan Terpesan Konvertibel) untuk jangka waktu 1 atau 3 tahun. Dan juga tersedia Scheduled Reserved Instance (Instance Terpesan Terjadwal) untuk jangka waktu 1 tahun saja. Opsi ini cocok untuk beban kerja dengan kondisi yang stabil atau dapat diprediksi. Reserved Instance menawarkan diskon hingga 75% dibandingkan dengan opsi On-Demand.</br>
 </li></ul>
 Terdapat tiga opsi pembayaran pada Reserved Instances: 
-<ol align="justify"><li>All upfront (semua di muka), yaitu Anda membayarnya secara penuh saat Anda berkomitmen.</li>
+<ul align="justify"><li>All upfront (semua di muka), yaitu Anda membayarnya secara penuh saat Anda berkomitmen.</li>
 <li>Partial upfront (sebagian di muka), di mana Anda membayar sebagian di awal.</li>
-<li>No upfront (tanpa uang muka), di mana Anda tak membayar apa pun di muka.</li></ol>
+<li>No upfront (tanpa uang muka), di mana Anda tak membayar apa pun di muka.</li></ul>
 <p align="justify">
 Ketika Reserved Instance berakhir, Anda tetap bisa menggunakan Amazon EC2 instance tanpa gangguan. Namun akan dikenai tarif On-Demand hingga Anda menghentikannya atau membeli. Reserved Instance baru yang sesuai dengan atribut instance (tipe instance, region, tenancy (penyewaan), dan platform). </p>
 <ul align="justify"><li><b>Spot Instances (Instance Spot)</b></br>
@@ -316,11 +303,11 @@ Dari semua opsi harga Amazon EC2 yang telah dibahas, opsi Dedicated Hosts adalah
 <p align="justify">
 <b>AWS Management Console</b> adalah antarmuka berbasis browser yang dapat digunakan untuk mengakses dan mengelola layanan AWS. Melalui console (konsol), Anda dapat mengelola sumber daya AWS secara visual dan dengan cara yang mudah dipahami. Tentu ini adalah cara yang ideal untuk memulai dan membangun pengetahuan Anda tentang layanan AWS. </br></br>
 Dengan AWS Management Console, Anda dapat</p>
-<ol align="justify"><li>mencari layanan AWS dari nama, kata kunci, atau akronim;</li>
+<ul align="justify"><li>mencari layanan AWS dari nama, kata kunci, atau akronim;</li>
 <li>membangun lingkungan pengujian;</li>
 <li>melihat tagihan AWS;</li>
 <li>melakukan pemantauan; atau</li>
-<li>bekerja dengan sumber daya nonteknis lainnya.</li></ol>
+<li>bekerja dengan sumber daya nonteknis lainnya.</li></ul>
 <p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br><b>KUIS Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
  
  
@@ -362,14 +349,14 @@ Subnet adalah sebuah bagian dari VPC di mana Anda dapat mengelompokkan sumber da
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021031016121382a99d472144d037b88006e92a27d1c2.png"></p>
 <p align="justify"> Sebelumnya, kita telah belajar seputar Internet Gateway (IGW) yang dapat mengizinkan traffic masuk atau keluar dari VPC. Tetapi, layanan ini hanya meliputi satu bagian saja dari keamanan jaringan--yang harus Anda fokuskan sebagai bagian dari strategi IT.</br></br>
 Ketahuilah, AWS memiliki berbagai layanan yang dapat mencakup setiap lapisan keamanan:</p>
-<ol align="justify"><li>Network hardening (Penguatan jaringan).</li>
+<ul align="justify"><li>Network hardening (Penguatan jaringan).</li>
 <li>Keamanan aplikasi.</li>
 <li>Identitas pengguna.</li>
 <li>Autentikasi dan otorisasi.</li>
 <li>Pencegahan distributed denial-of-service (DDoS).</li>
 <li>Integritas data.</li>
 <li>Enkripsi.</li>
-<li>dan masih banyak lainnya.</li></ol>
+<li>dan masih banyak lainnya.</li></ul>
  <p align="justify"> Satu-satunya alasan teknis untuk menggunakan subnet di VPC adalah untuk mengontrol akses ke gateway. Subnet publik memiliki akses ke Internet Gateway, sementara Subnet privat tidak. Tapi walaupun begitu, tahukah Anda? Subnet juga bisa mengontrol perizinan traffic, loh.</br></br>
 Bagaimana caranya? Simak paparan berikut.</br></br>
 Ketika pelanggan meminta data dari aplikasi yang berjalan di AWS Cloud, maka permintaan ini dikirim sebagai paket. Paket adalah sebuah unit data yang dikirim melalui internet atau jaringan.</p>
@@ -380,8 +367,8 @@ Komponen VPC yang memeriksa izin paket untuk subnet adalah network access contro
 Jika masih sukar memahaminya, Anda bisa menganggap network ACL sebagai petugas pengawas paspor. Misalnya begini. Mari kita keluar dari kedai kopi dan bayangkan Anda sedang berada di bandara. Di sana ada banyak turis yang mencoba masuk ke negara lain. Anda dapat menganggap para turis itu sebagai paket dan petugas pengawas paspor sebagai network ACL. Petugas pengawas paspor memeriksa kredensial setiap turis yang masuk ke suatu negara. Jika nama turis tertera di dalam daftar yang disetujui, maka ia diizinkan untuk masuk. Sebaliknya, jika namanya tak terdaftar atau bahkan secara eksplisit tercatat di dalam daftar turis yang diblokir, maka tentu ia dilarang masuk. Selain memeriksa traffic yang masuk, network ACL pun akan mengecek setiap traffic yang keluar dari subnet. Ini serupa pula dengan petugas pengawas paspor. Hanya karena Anda diizinkan masuk, bukan berarti petugas akan membiarkan Anda keluar dengan leluasa. Setiap akun AWS menyertakan network ACL secara default (bawaan). Saat mengonfigurasi VPC, Anda dapat menggunakan default network ACL (mengizinkan semua traffic masuk dan keluar) atau custom network ACL (menolak semua traffic masuk dan keluar hingga Anda secara eksplisit mengizinkannya). Selain itu, network ACL memiliki aturan penolakan secara eksplisit. Aturan ini berguna untuk memastikan jika sebuah paket tidak cocok dengan salah satu aturan lain di daftar, paket tersebut akan ditolak. Mungkin terdengar seperti keamanan yang hebat ya? Tapi nyatanya, network ACL tidak bisa menjawab semua masalah terkait kontrol jaringan. Sebab, ia hanya dapat mengevaluasi paket jika melintasi batas subnet--baik masuk atau keluar namun tidak tahu-menahu apakah paket tersebut dapat mencapai EC2 instance tertentu atau tidak.</br></br>
 <b>Security Group</b>
 Boleh jadi Anda memiliki beberapa EC2 instance di subnet yang sama. Namun pada praktiknya, mungkin tiap-tiapnya akan memiliki aturan yang berbeda tentang</p>
-<ol><li>siapa yang dapat mengiriminya pesan; atau</li>
-<li>port mana yang diizinkan untuk menerima pesan.</li></ol>
+<ul><li>siapa yang dapat mengiriminya pesan; atau</li>
+<li>port mana yang diizinkan untuk menerima pesan.</li></ul>
  <p align="justify">Jadi, Anda juga memerlukan keamanan jaringan pada tingkat instance. Nah, untuk menjawabnya, AWS memperkenalkan security group.
 Security group adalah firewall virtual yang mengontrol traffic masuk dan keluar untuk Amazon EC2 instance. Terlihat berbeda ya dengan network ACL yang cakupannya di tingkat subnet.</p>
   <p align="center">
