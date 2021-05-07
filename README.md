@@ -293,20 +293,19 @@ Dari semua opsi harga Amazon EC2 yang telah dibahas, opsi Dedicated Hosts adalah
   D. 4 atau 5 tahun
 
 3.Anda ingin menerapkan dan mengelola aplikasi dalam container. Layanan mana yang harus Anda gunakan?
-  A. Amazon Simple Queue Service
 ```
 
 |Output : |
 | :--     | 
-|1. B. secara otomatis menyesuaikan jumlah amazon EC2 instance untuk memebuhi permintaan</br> 2. B. 1 atau 3 tahun </br>A. Amazon Simple Queue Service|
+|1. B. secara otomatis menyesuaikan jumlah amazon EC2 instance untuk memebuhi permintaan</br> 2. B. 1 atau 3 tahun </br>3. Amazon Simple Queue Service|
 
 <p align="justify">
 <b>AWS Management Console</b> adalah antarmuka berbasis browser yang dapat digunakan untuk mengakses dan mengelola layanan AWS. Melalui console (konsol), Anda dapat mengelola sumber daya AWS secara visual dan dengan cara yang mudah dipahami. Tentu ini adalah cara yang ideal untuk memulai dan membangun pengetahuan Anda tentang layanan AWS. </br></br>
 Dengan AWS Management Console, Anda dapat</p>
-<ul align="justify"><li>mencari layanan AWS dari nama, kata kunci, atau akronim;</li>
-<li>membangun lingkungan pengujian;</li>
-<li>melihat tagihan AWS;</li>
-<li>melakukan pemantauan; atau</li>
+<ul align="justify"><li>mencari layanan AWS dari nama, kata kunci, atau akronim</li>
+<li>membangun lingkungan pengujian</li>
+<li>melihat tagihan AWS</li>
+<li>melakukan pemantauan</li>
 <li>bekerja dengan sumber daya nonteknis lainnya.</li></ul>
 <p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br><b>KUIS Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
  
