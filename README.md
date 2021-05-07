@@ -341,7 +341,7 @@ Subnet adalah sebuah bagian dari VPC di mana Anda dapat mengelompokkan sumber da
   </p>
   <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310161003af114067c8831a0075be04294cfdff4d.png"></p>
-  <p align="justify"> Subnet publik biasanya berisi sumber daya yang perlu diakses oleh publik, seperti website toko online. Sedangkan subnet privat memuat sumber daya yang seharusnya hanya dapat diakses melalui jaringan privat, seperti database yang berisi informasi pribadi pelanggan dan riwayat pesanan. Di VPC subnet dapat berkomunikasi satu sama lain. Misalnya, Anda dapat memiliki aplikasi pada Amazon EC2 instance di subnet publik yang berkomunikasi dengan database di subnet pribadi. </br>
+  <p align="justify"> Subnet publik biasanya berisi sumber daya yang perlu diakses oleh publik, seperti website toko online. Sedangkan subnet privat memuat sumber daya yang seharusnya hanya dapat diakses melalui jaringan privat, seperti database yang berisi informasi pribadi pelanggan dan riwayat pesanan. Di VPC subnet dapat berkomunikasi satu sama lain. Misalnya, Anda dapat memiliki aplikasi pada Amazon EC2 instance di subnet publik yang berkomunikasi dengan database di subnet pribadi. </br></br>
   <b>Network Access Control List (Network ACL)</b>
   </p>
   <p align="center">
