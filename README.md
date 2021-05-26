@@ -401,4 +401,34 @@ B.Public Subnet
 c. Edge Locations
 D. Security Group
 abc
+
+Kategori: Penyimpanan dan Database
+1.Anda ingin menyimpan data dalam layanan penyimpanan objek. Layanan AWS mana yang terbaik untuk jenis penyimpanan ini?
+A. Amazon Elastik File System (Amazon EFS)
+B. Amazon Simple Storage Service (Amazon S3) 
+C. Amazon Elastic Block Store(Amazon EBS)
+D. Amazon Managed Blockchain
+B
+
+2.Layanan manakah yang digunakan untuk membuat query dan analisis data di data warehouse?
+A. Amazon Redshift
+b. Amazon Neptune
+C. Amazon ElatiCache SALAH
+D. Amazon DocumentDB
+a
+
+3.Manakah layanan yang menyediakan block-level storage dan dapat Anda gunakan bersama dengan Amazon EC2 instance?
+A. Amazon S3
+B. Amazon RDS
+C. Amazon DynamoDB
+D. Amazon EBS 
+d
 -->
+
+
+
+
+
+
+
+
