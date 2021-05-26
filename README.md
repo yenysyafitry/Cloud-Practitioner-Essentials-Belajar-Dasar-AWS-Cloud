@@ -423,6 +423,29 @@ B. Amazon RDS
 C. Amazon DynamoDB
 D. Amazon EBS 
 d
+
+
+1. Layanan mana yang dapat melindungi aplikasi Anda dari serangan distributed denial-of-service (DDoS)?
+A. Amazon GuardDuty
+B. AWS Shield
+C. Amazon Inspector
+D. AWS Artifact
+B
+
+2.
+Seorang pegawai memerlukan akses sementara untuk membuat beberapa Amazon S3 bucket. Manakah opsi terbaik untuk tugas ini?
+A. IAM Roles
+B. AWS Account Root User
+C. IAM Groups
+D. Service Control Policies (SCP)
+A
+3.
+Apa yang dapat Anda lakukan dengan AWS Key Management Service (AWS KMS)?
+A. Membuat Cryptographic Key
+B. Memperbarui kata sandi AWS Account root user
+c. Menetapkan permission ke user dan role
+D. Mengonfigurasi Multi-Factor Authentication(MFA)
+A
 -->
 
 
