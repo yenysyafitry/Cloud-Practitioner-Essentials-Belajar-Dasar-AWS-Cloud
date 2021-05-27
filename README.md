@@ -369,7 +369,8 @@ Perbedaan utama antara security group dan network ACL adalah:</p>
 <ul align="justify"><li>
 Security group bersifat stateful, yang berarti ia memiliki semacam memori untuk mengingat siapa yang diizinkan masuk atau keluar.</li>
 <li>Network ACL bersifat stateless, artinya ia tidak mengingat apa pun. Layanan ini akan memeriksa setiap paket yang melintasi perbatasannya terlepas dari keadaan apa pun.</li></ul>
-
+<p align="justify"> Oke, sekarang kita akan mengilustrasikan suatu perjalanan bolak-balik sebuah paket saat berpindah dari satu instance ke instance lain di subnet yang berbeda. Pahami metafora ini dengan baik ya.
+  </p>
 <!---
 <p align="justify"> 
   </p>
