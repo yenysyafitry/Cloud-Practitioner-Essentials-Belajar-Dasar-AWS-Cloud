@@ -460,21 +460,25 @@ a. billing dashboard di aws management console
 b. aws free tier
 c. asw cost explorer
 d. aws budget
-d, b atau a
+
+b. aws free tier
 2.Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM).
 AWS Support Plans manakah yang harus Anda pilih?
 a.developer
 b.business
 c.basic
 d.enterprise
-a d
+
+d.enterprise
+
 3.
 Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
 a. AWS Support
 b. AWS Marketplace
 c. Billing dasboard di AWS
 d. AWS Free tier
-d b
+
+b. AWS Marketplace
 
 4.
 Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
@@ -482,13 +486,57 @@ a. meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan
 b. memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu
 c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount
 d, membuat estimasi biaya terhadap kasus penggunaan anda di AWS
-a b c
+
+c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount
+
 5.
 Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
 A. AWS Pricing Calculator
 B. AWS Cost Explorer 
 C. AWS Free Tier
 D. AWS Budgets
-a b
 
+B. AWS Cost Explorer 
+
+Knowledge Check : Migrasi dan Inovasi
+1.
+Berapa kapasitas penyimpanan dari AWS Snowmobile?
+a. 40 PB
+b. 60 PB
+c. 80 PB
+d. 100 PB
+ d. 100 PB
+2.
+Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
+A. Operations
+B. Governance
+c. security
+d. business
+
+d. business
+.
+Perhatikan uraian berikut:
+
+Revisiting
+Retaining
+Remembering
+Redeveloping
+Rehosting
+Strategi apa saja yang termasuk ke dalam 6 strategi untuk memigrasikan aplikasi?
+a. 1 dan 3
+b. 2 dan 4
+c. 2 dan 5
+d. 3 dan 4
+
+c. 2 dan 5
+
+4.
+Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
+a. layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan
+b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks
+c. layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai
+d. layanan database dokumen yang mendukung beban kerja mongoDB
+
+b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks
+Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.
 -->
