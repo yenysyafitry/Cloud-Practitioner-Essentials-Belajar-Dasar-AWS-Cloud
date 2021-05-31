@@ -283,7 +283,7 @@ Kesimpulannya, dengan Amazon EC2 Auto Scaling Anda dapat menambahkan instance se
 <b>Auto Scaling Group</b></br>
 Di cloud, komputasi adalah sumber daya yang terprogram sehingga Anda dapat mengambil pendekatan yang lebih fleksibel untuk masalah scaling (penyesuaian kapasitas).Nah, untuk melakukan scaling, kita perlu mengonfigurasi ukuran dari Auto Scaling group (grup Auto Scaling)--kumpulan Amazon EC2 instance untuk tujuan scaling dan manajemen secara otomatis. Untuk mengaturnya, Anda perlu menentukan berbagai jenis konfigurasi, seperti minimum capacity (kapasitas minimum), desired capacity (kapasitas yang diinginkan), dan maximum capacity (kapasitas maksimum).</br></br>
 <b>Minimum capacity</b></br>
-Minimum capacity alias kapasitas minimum adalah jumlah Amazon EC2 instance yang diluncurkan segera setelah Anda membuat Auto Scaling group. Ambil contoh kita menentukan minimumnya 1. Ini berarti setidaknya harus ada 1 Amazon EC2 instance yang berjalan setiap saat.
+Minimum capacity alias kapasitas minimum adalah jumlah Amazon EC2 instance yang diluncurkan segera setelah Anda membuat Auto Scaling group. Ambil contoh kita menentukan minimumnya 1. Ini berarti setidaknya harus ada 1 Amazon EC2 instance yang berjalan setiap saat.</br>
 <b>Desired capacity</b></br>
 Selain itu, Anda dapat mengisi desired capacity dengan 2 Amazon EC2 instance meskipun aplikasi Anda hanya memerlukan minimal 1 instance untuk dijalankan.</br></br>
 Catatan: Jika Anda tidak menentukan jumlah desired capacity dalam Auto Scaling group, maka otomatis akan diatur menjadi default ke minimum capacity Anda.</br></br>
@@ -763,7 +763,7 @@ Anda juga dapat menggunakan Amazon S3 untuk meng-hostingwebsite statis, yaitu je
 <p align="justify">
 S3 Standard-Infrequent Access (S3 Standard-IA)</br>
 Kelas penyimpanan jenis ini digunakan untuk data yang jarang diakses tetapi membutuhkan proses cepat saat dibutuhkan. Artinya, opsi ini adalah tempat yang ideal untuk menyimpan backup (cadangan), disaster recovery file (file pemulihan bencana), atau objek apa pun yang memerlukan penyimpanan jangka panjang.</br>
-S3 One Zone-Infrequent Access (S3 One Zone-IA)</br>
+</br>S3 One Zone-Infrequent Access (S3 One Zone-IA)</br>
 Berbeda dengan S3 Standard dan S3 Standard-IA yang menyimpan data minimal di tiga Availability Zone, kelas penyimpanan S3 One Zone-IA menyimpan data hanya di satu Availability Zone.</br>
 Nah, ini menjadikannya kelas penyimpanan yang perlu Anda pertimbangkan jika memiliki kondisi seperti berikut:
 Ingin menghemat biaya penyimpanan.</br>
@@ -796,9 +796,8 @@ Jawabannya sangat sederhana. Amazon EBS volume dilampirkan ke EC2 instance dan m
 Dengan Amazon EBS, Anda dapat menyimpan file, menjalankan database, atau menyimpan aplikasi di dalamnya. Ia adalah hard drive (cakram keras). Namun, jika Anda membuat EBS volume sebesar 2 terabyte lalu mengisinya hingga penuh, ia tidak akan serta-merta melakukan proses scaling dengan sendirinya. Itulah EBS. Lalu bagaimana dengan EFS? Amazon EFS memungkinkan beberapa instance untuk melakukan proses read (membaca) dan write (menulis) data darinya pada saat bersamaan. Tetapi, ia bukan sekadar hard drive kosong yang dapat Anda gunakan untuk menyimpan data. Amazon EFS adalah sistem file untuk Linux dan merupakan Regional resource (sumber daya regional). Itu berarti data akan disimpan di beberapa AZ. Dengan demikian, setiap EC2 instance yang berada di Region yang sama dapat menyimpan data ke sistem file Amazon EFS.</br></br>
 Amazon Relational Database Service (Amazon RDS)</br>
 Sampai sini, kita sudah banyak belajar tentang berbagai sistem penyimpanan di AWS yang dapat membantu Anda untuk menyelesaikan persoalan terkait kartu digital untuk pelanggan setia di kedai kopi, sebagaimana yang telah kita paparkan di awal modul.</br>
-Tetapi, ketahuilah! Anda juga perlu menjaga relasi antara berbagai tipe data. Tunggu, apa maksudnya?</br>
-Begini. Misalnya, seorang pelanggan di kedai kopi telah memesan minuman yang sama beberapa kali. Nah, melihat hal ini, mungkin Anda sebagai pemilik kedai kopi ingin menawarkan diskon promosi untuk pembelian berikutnya.</br>
-Tentu, Anda membutuhkan suatu cara untuk melacak relasi/hubungan semacam ini, bukan?</br>
+Tetapi, ketahuilah! Anda juga perlu menjaga relasi antara berbagai tipe data. Tunggu, apa maksudnya?</br></br>
+Begini. Misalnya, seorang pelanggan di kedai kopi telah memesan minuman yang sama beberapa kali. Nah, melihat hal ini, mungkin Anda sebagai pemilik kedai kopi ingin menawarkan diskon promosi untuk pembelian berikutnya. Tentu, Anda membutuhkan suatu cara untuk melacak relasi/hubungan semacam ini, bukan?</br></br>
 Solusi terbaik untuk masalah tersebut adalah dengan menggunakan relational database management system (RDBMS) alias sistem manajemen database/basis data relasional. Artinya, data yang kita simpan dapat memiliki relasi dengan bagian data lainnya. Dalam dunia database, Anda akan sering mendengar kata query atau kueri. Itu adalah sekumpulan instruksi khusus untuk mengekstraksi data. Nah, database relasional menggunakan structured query language (SQL) alias bahasa kueri terstruktur untuk menyimpan dan membuat kueri data. Pendekatan semacam ini memungkinkan data disimpan dengan cara yang mudah dimengerti, konsisten, dan dapat diskalakan. Inilah solusi dari persoalan di awal tadi. Dengan database relasional, sekarang Anda dapat menulis kueri SQL untuk mengidentifikasi minuman apa yang sering dibeli oleh masing-masing pelanggan. Contoh sederhana dari database relasional adalah sistem manajemen inventaris di skenario kedai kopi kita. Setiap record (kumpulan data) di database mencakup data untuk satu item, seperti nama produk, ukuran, harga, dsb. Berikut adalah contoh sederhana dari tabel database relasional:</p>
 
 <table><tr><td>ID</td>	Product <td>name	</td><td>Size</td><td>	Price</td></tr>
