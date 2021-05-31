@@ -801,8 +801,8 @@ Begini. Misalnya, seorang pelanggan di kedai kopi telah memesan minuman yang sam
 Tentu, Anda membutuhkan suatu cara untuk melacak relasi/hubungan semacam ini, bukan?</br>
 Solusi terbaik untuk masalah tersebut adalah dengan menggunakan relational database management system (RDBMS) alias sistem manajemen database/basis data relasional. Artinya, data yang kita simpan dapat memiliki relasi dengan bagian data lainnya. Dalam dunia database, Anda akan sering mendengar kata query atau kueri. Itu adalah sekumpulan instruksi khusus untuk mengekstraksi data. Nah, database relasional menggunakan structured query language (SQL) alias bahasa kueri terstruktur untuk menyimpan dan membuat kueri data. Pendekatan semacam ini memungkinkan data disimpan dengan cara yang mudah dimengerti, konsisten, dan dapat diskalakan. Inilah solusi dari persoalan di awal tadi. Dengan database relasional, sekarang Anda dapat menulis kueri SQL untuk mengidentifikasi minuman apa yang sering dibeli oleh masing-masing pelanggan. Contoh sederhana dari database relasional adalah sistem manajemen inventaris di skenario kedai kopi kita. Setiap record (kumpulan data) di database mencakup data untuk satu item, seperti nama produk, ukuran, harga, dsb. Berikut adalah contoh sederhana dari tabel database relasional:</p>
 
-<table><tr><td>ID</td>	Product <td>name	</td><td>Size</td><td>	Price</td></tr>
-<tr><td>1</td><td>Kopi gula aren Besar</td><td>Rp25.000</td><td>2</td><td>Kopi susu</td><td>Sedang</td><td>Rp15.000</td></tr></table>
+<table><tr><td></td><td>ID</td>	Product <td>name	</td><td>Size</td><td>	Price</td></tr>
+<tr><td>1</td><td>Kopi gula aren Besar</td><td>Rp25.000</td></tr><tr><td>2</td><td>Kopi susu</td><td>Sedang</td><td>Rp15.000</td></tr></table>
 <p align="justify">
 Sekarang pertanyaannya adalah, layanan AWS apa yang mendukung database relasional?Sambutlah, Amazon Relational Database Service (Amazon RDS). Ia adalah layanan yang memungkinkan Anda untuk menjalankan database relasional di AWS Cloud.Amazon RDS adalah layanan yang terkelola dan mendukung 6 (enam) mesin database, di antaranya:</p>
 <ul align="justify">
