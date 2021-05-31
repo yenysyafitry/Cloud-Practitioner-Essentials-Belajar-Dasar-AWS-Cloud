@@ -650,10 +650,10 @@ Subnet adalah sebuah bagian dari VPC di mana Anda dapat mengelompokkan sumber da
 <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310161003af114067c8831a0075be04294cfdff4d.png"></p>
 <p align="justify">Subnet publik biasanya berisi sumber daya yang perlu diakses oleh publik, seperti website toko online. Sedangkan subnet privat memuat sumber daya yang seharusnya hanya dapat diakses melalui jaringan privat, seperti database yang berisi informasi pribadi pelanggan dan riwayat pesanan. Di VPC subnet dapat berkomunikasi satu sama lain. Misalnya, Anda dapat memiliki aplikasi pada Amazon EC2 instance di subnet publik yang berkomunikasi dengan database di subnet pribadi.</br></br>
-Network Access Control List (Network ACL)</p>
+<b>Network Access Control List (Network ACL)</b></br></p>
 <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021031016121382a99d472144d037b88006e92a27d1c2.png"></p>
-<p align="justify">Sebelumnya, kita telah belajar seputar Internet Gateway (IGW) yang dapat mengizinkan traffic masuk atau keluar dari VPC. Tetapi, layanan ini hanya meliputi satu bagian saja dari keamanan jaringan--yang harus Anda fokuskan sebagai bagian dari strategi IT. Ketahuilah, AWS memiliki berbagai layanan yang dapat mencakup setiap lapisan keamanan:</p>
+<p align="justify">Sebelumnya, kita telah belajar seputar Internet Gateway (IGW) yang dapat mengizinkan traffic masuk atau keluar dari VPC. Tetapi, layanan ini hanya meliputi satu bagian saja dari keamanan jaringan yang harus Anda fokuskan sebagai bagian dari strategi IT. Ketahuilah, AWS memiliki berbagai layanan yang dapat mencakup setiap lapisan keamanan:</p>
 <ol align="justify"><li>Network hardening (Penguatan jaringan).</li>
 <li>Keamanan aplikasi.</li>
 <li>Identitas pengguna.</li>
@@ -661,7 +661,7 @@ Network Access Control List (Network ACL)</p>
 <li>Pencegahan distributed denial-of-service (DDoS).</li>
 <li>Integritas data.</li>
 <li>Enkripsi.</li>
- <li> dan masih banyak lainnya.</li></ol>
+<li>dan masih banyak lainnya.</li></ol>
 <p align="justify">Tenang, Anda tak harus memahami semuanya. Di kelas ini kita hanya akan membahas beberapa bagian saja. Sekarang mari kita berbincang mengenai beberapa aspek dari network hardening (penguatan jaringan) dengan melihat praktiknya di dalam VPC. Satu-satunya alasan teknis untuk menggunakan subnet di VPC adalah untuk mengontrol akses ke gateway. Subnet publik memiliki akses ke Internet Gateway, sementara Subnet privat tidak. Tapi walaupun begitu, tahukah Anda? Subnet juga bisa mengontrol perizinan traffic, loh. Bagaimana caranya? Simak paparan berikut.</br></br>
 Ketika pelanggan meminta data dari aplikasi yang berjalan di AWS Cloud, maka permintaan ini dikirim sebagai paket. Paket adalah sebuah unit data yang dikirim melalui internet atau jaringan.</p>
 <p align="center">
@@ -713,8 +713,7 @@ Satu langkah lagi untuk kembali ke rumah. Tapi, security group. sang penjaga pin
 <p align="center"><img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202104061339434c6f76c53f307522d4da1dbfdcb211f3.png"></p>
   <p align="justify">Huh! Mungkin tampak sedikit melelahkan ya hanya untuk mendapatkan paket dari satu instance ke instance lainnya dan kembali lagi. Jangan khawatirkan semua proses panjangnya. Faktanya, operasi pertukaran tersebut terjadi secara instan sebagai bagian dari cara kerja AWS Networking. Manfaatkanlah network ACL dan security group ini guna mencapai keamanan jaringan yang komprehensif. Mengapa? Karena keamanan yang mendalam merupakan hal yang sangat penting untuk sebuah arsitektur modern.</br></br>
 <b>Jaringan Global</b></br>
-Sebelumnya kita telah banyak belajar mengenai bagaimana Anda berinteraksi dengan infrastruktur AWS. Sekarang pertanyaannya adalah bagaimana pelanggan Anda berinteraksi dengan infrastruktur AWS tersebut?</br>
-Tak perlu tergesa-gesa! Di modul ini akan dijelaskan tentangnya. Kita mulai dari DNS terlebih dahulu. Apa itu? Yuk kita lihat di materi berikutnya!</br></br>
+Sebelumnya kita telah banyak belajar mengenai bagaimana Anda berinteraksi dengan infrastruktur AWS. Sekarang pertanyaannya adalah bagaimana pelanggan Anda berinteraksi dengan infrastruktur AWS tersebut? Tak perlu tergesa-gesa! Di modul ini akan dijelaskan tentangnya. Kita mulai dari DNS terlebih dahulu. Apa itu? Yuk kita lihat di materi berikutnya!</br></br>
 <b>Domain Name System (DNS)</b></br>
 Untuk mengawali, yuk kita buat suatu cerita. Misalnya, Anda memiliki website yang berjalan di AWS Cloud. Silakan jawab, bagaimana pelanggan Anda dapat mengaksesnya? Mudah saja. tentu kita semua sudah tahu. Caranya adalah dengan memasukkan nama website Anda di browser, tekan Enter, dan boom! Website pun termuat.</br></br>
 Proses tersebut tentu saja tidak sekonyong-konyong terjadi begitu saja. Ada peran domain name system (DNS) di sana. Di AWS tersedia layanan DNS yang dapat Anda gunakan, yakni Amazon Route 53--akan dijelaskan nanti. Tapi, tunggu! Sebelum melangkah lebih jauh, apa sih yang dimaksud dengan DNS? Begini, anggaplah DNS itu sebagai buku telepon bagi internet. DNS dapat menerjemahkan sebuah nama domain ke dalam alamat IP (Internet Protocol) yang dapat dibaca komputer.</p>
@@ -915,7 +914,7 @@ Dengan AWS Management Console, Anda dapat</p>
     Answer : D.Security Group
 
 
-                                            Kategori: Penyimpanan dan Database
+    Kategori: Penyimpanan dan Database
 
 1.  Anda ingin menyimpan data dalam layanan penyimpanan objek. Layanan AWS mana yang terbaik untuk jenis penyimpanan ini?
     A. Amazon Elastik File System (Amazon EFS)
