@@ -1107,37 +1107,27 @@ Karena departemen Keuangan dan IT memiliki persyaratan yang tidak tumpang tindih
 <p align="justify">Dengan menempatkan akun departemen HR dan Hukum ke dalam OU yang sama, Anda dapat melampirkan policy yang berlaku untuk keduanya. Selain itu, Anda juga dapat lebih mudah memberikan akses ke layanan dan sumber daya yang dibutuhkan.</br></br>
 Walaupun telah menempatkan akun-akun tersebut ke dalam satu OU, Anda tetap dapat memberikan akses untuk user, group, dan role melalui AWS IAM.</p>
 
-Compliance (Kepatuhan)
-Untuk mengawali modul, mari kita ungkap suatu fakta menarik. Tahukah Anda? Di setiap industri ada standar tertentu yang perlu ditegakkan. Anda akan diaudit atau diperiksa untuk memastikan bahwa standar tersebut telah dipenuhi.
+<p align="justify"><b>Compliance (Kepatuhan)</b></br>
+Untuk mengawali modul, mari kita ungkap suatu fakta menarik. Tahukah Anda? Di setiap industri ada standar tertentu yang perlu ditegakkan. Anda akan diaudit atau diperiksa untuk memastikan bahwa standar tersebut telah dipenuhi.</br></br>
+Misalnya di kedai kopi. Suatu saat akan ada inspektur kesehatan yang datang untuk memeriksa apakah semuanya sesuai dengan regulasi dan sanitasi. Selain itu, akan ada petugas pajak yang datang mengaudit untuk memastikan bahwa Anda telah menjalankan administrasi dengan benar dan mematuhi hukum. Agar bisa lulus audit dan pemeriksaan compliance, Anda perlu mengandalkan dokumentasi, catatan, dan inspeksi.</br></br>
+Nah, begitu juga saat menggunakan AWS. Anda harus memenuhi standar dan regulasi tertentu sesuai jenis aplikasi yang dijalankan. Misal:</p>
+<ol align="justify"><li>
+Anda harus mematuhi GDPR (General Data Protection Regulation) saat menjalankan software yang menangani data konsumen di Uni Eropa; atau</li>
+<li>Anda perlu merancang arsitektur yang dapat memenuhi persyaratan compliance HIPAA (Health Insurance Portability and Accountability Act) ketika menjalankan aplikasi perawatan kesehatan di Amerika Serikat.</li></ol><p align="justify">
+Maka dari itu, tentu Anda memerlukan suatu layanan yang dapat mengumpulkan dokumen, menyimpan catatan, dan memeriksa lingkungan AWS, dengan tujuan untuk memastikan regulasi compliance yang Anda jalankan telah terpenuhi dengan baik.</br></br>
+Ketahuilah, AWS telah membangun infrastruktur dan jaringan data center sesuai dengan standar praktik terbaik industri untuk keamanan. Nah, Anda--sebagai pelanggan AWS--seharusnya ikut juga mewarisi semua praktik terbaik tersebut baik dari segi kebijakan, arsitektur, dan juga proses operasional di atas AWS platform.</br></br>
+AWS telah memenuhi daftar panjang dari program compliance--dapat Anda temukan secara online di halaman AWS Compliance Programs. Ini berarti, sebagian dari aspek compliance Anda telah terpenuhi. Dengan begitu, Anda pun dapat fokus untuk memenuhi kebutuhan compliance di sisi arsitektur yang Anda bangun.</br></br>
+Oke, hal berikutnya yang perlu Anda ketahui terkait compliance di lingkungan AWS adalah Region. Region yang Anda pilih dapat juga membantu memenuhi regulasi compliance. Ibaratnya, jika Anda hanya dapat menyimpan data secara legal di negara tertentu, maka pilihlah Region yang sesuai dengan tujuan agar bisnis operasional Anda tunduk kepada aturan yang berlaku di negara tertentu.</br></br>
+Catat! Anda memiliki kontrol penuh atas keseluruhan data yang tersimpan di AWS. Anda bisa menggunakan beberapa mekanisme enkripsi tambahan untuk menjaga agar data tetap aman. Selain itu, jika Anda memiliki standar khusus terkait penyimpanan data, maka Anda dapat membuat mekanisme sendiri di AWS atau menggunakan fitur yang tersedia pada layanan AWS.</br></br>
+<b>AWS Artifact</b></br>
+Berbicara tentang compliance, tahukah Anda? AWS menyediakan whitepaper (panduan resmi AWS) dan dokumen yang dapat Anda gunakan untuk keperluan laporan compliance.</br></br>
+Bahkan, AWS dapat memberikan dokumentasi yang membuktikan dirinya mengikuti praktik terbaik untuk keamanan dan compliance. Wow, menarik ‘kan? </br></br>
+Nah, layanan yang dapat Anda gunakan untuk mengakses dokumentasi tersebut adalah AWS Artifact. Dengannya, Anda bisa mendapatkan akses on-demand ke laporan keamanan dan compliance AWS serta online agreements (perjanjian online) tertentu.</br></br>
+Berikut adalah beberapa laporan dan regulasi compliance yang dapat Anda temukan dalam AWS Artifact.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231502326fde0be9f33e0ddb41c7ee938a99d36c.png"></p>
 
-Misalnya di kedai kopi. Suatu saat akan ada inspektur kesehatan yang datang untuk memeriksa apakah semuanya sesuai dengan regulasi dan sanitasi. Selain itu, akan ada petugas pajak yang datang mengaudit untuk memastikan bahwa Anda telah menjalankan administrasi dengan benar dan mematuhi hukum. Agar bisa lulus audit dan pemeriksaan compliance, Anda perlu mengandalkan dokumentasi, catatan, dan inspeksi.
 
-Nah, begitu juga saat menggunakan AWS. Anda harus memenuhi standar dan regulasi tertentu sesuai jenis aplikasi yang dijalankan. Misal:
-
-Anda harus mematuhi GDPR (General Data Protection Regulation) saat menjalankan software yang menangani data konsumen di Uni Eropa; atau
-Anda perlu merancang arsitektur yang dapat memenuhi persyaratan compliance HIPAA (Health Insurance Portability and Accountability Act) ketika menjalankan aplikasi perawatan kesehatan di Amerika Serikat.
-Maka dari itu, tentu Anda memerlukan suatu layanan yang dapat mengumpulkan dokumen, menyimpan catatan, dan memeriksa lingkungan AWS, dengan tujuan untuk memastikan regulasi compliance yang Anda jalankan telah terpenuhi dengan baik.
-
-Ketahuilah, AWS telah membangun infrastruktur dan jaringan data center sesuai dengan standar praktik terbaik industri untuk keamanan. Nah, Anda--sebagai pelanggan AWS--seharusnya ikut juga mewarisi semua praktik terbaik tersebut baik dari segi kebijakan, arsitektur, dan juga proses operasional di atas AWS platform.
-
-AWS telah memenuhi daftar panjang dari program compliance--dapat Anda temukan secara online di halaman AWS Compliance Programs. Ini berarti, sebagian dari aspek compliance Anda telah terpenuhi. Dengan begitu, Anda pun dapat fokus untuk memenuhi kebutuhan compliance di sisi arsitektur yang Anda bangun.
-
-Oke, hal berikutnya yang perlu Anda ketahui terkait compliance di lingkungan AWS adalah Region. Region yang Anda pilih dapat juga membantu memenuhi regulasi compliance. Ibaratnya, jika Anda hanya dapat menyimpan data secara legal di negara tertentu, maka pilihlah Region yang sesuai dengan tujuan agar bisnis operasional Anda tunduk kepada aturan yang berlaku di negara tertentu.
-
-Catat! Anda memiliki kontrol penuh atas keseluruhan data yang tersimpan di AWS. Anda bisa menggunakan beberapa mekanisme enkripsi tambahan untuk menjaga agar data tetap aman. Selain itu, jika Anda memiliki standar khusus terkait penyimpanan data, maka Anda dapat membuat mekanisme sendiri di AWS atau menggunakan fitur yang tersedia pada layanan AWS.
-
-
-
-AWS Artifact
-Berbicara tentang compliance, tahukah Anda? AWS menyediakan whitepaper (panduan resmi AWS) dan dokumen yang dapat Anda gunakan untuk keperluan laporan compliance.
-
-Bahkan, AWS dapat memberikan dokumentasi yang membuktikan dirinya mengikuti praktik terbaik untuk keamanan dan compliance. Wow, menarik ‘kan? 
-
-Nah, layanan yang dapat Anda gunakan untuk mengakses dokumentasi tersebut adalah AWS Artifact. Dengannya, Anda bisa mendapatkan akses on-demand ke laporan keamanan dan compliance AWS serta online agreements (perjanjian online) tertentu.
-
-Berikut adalah beberapa laporan dan regulasi compliance yang dapat Anda temukan dalam AWS Artifact.
-
-202102231502326fde0be9f33e0ddb41c7ee938a99d36c.png
 
 Diambil dari AWS Artifact.
 
