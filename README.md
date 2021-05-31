@@ -885,13 +885,13 @@ Sekarang, mungkin Anda akan bertanya-tanya, “Kapan kita harus menggunakan Amaz
 Oke, mari kita bandingkan dua layanan tersebut secara lebih detail.
 
 |    Amazon RDS	  |  Amazon DynamoDB  |
-|       :---      |      :---         |
+|       :---:     |      :---:        |
 |Dirancang untuk mengurangi kerumitan administrator sekaligus memberikan high availability (ketersediaan tinggi) pada recovery (pemulihan) database Anda.|Menggunakan pasangan key-value tanpa memerlukan skema yang rumit serta dapat beroperasi sebagai database global hanya dengan satu klik.|
 |Anda dapat mengontrol data, skema, dan jaringan.|Memiliki throughput (jumlah data yang dapat dikirim dalam waktu tertentu) yang besar, scaling hingga petabyte, dan akses API secara detail.|
 |Mampu membangun sistem analisis data yang kompleks.|Memungkinkan Anda membangun database yang kuat dan sangat cepat tanpa perlu fungsionalitas yang rumit.|
 |Ideal untuk analisis sistem manajemen supply chain (rantai pasokan).|Cocok untuk penggunaan data yang fleksibel dan sederhana seperti daftar kontak karyawan yang berisikan nama, nomor telepon, email, ID karyawan, dsb.|
   
-Amazon Redshift
+Amazon Redshift</br>
 Sedari tadi kita telah banyak membahas tentang jenis alur kerja dengan kebutuhan proses data yang cepat, andal, dan terkini. Yup! Database bisa menjadi solusinya karena ia dapat menangani 1.000 transaksi per detik, sangat tersedia, dan berdaya tahan.
 
 Tapi terkadang, mungkin ada kebutuhan bisnis yang melebihi dari apa yang pernah kita alami. Maka dari itu, kita membutuhkan layanan yang dapat menganalisis data.
