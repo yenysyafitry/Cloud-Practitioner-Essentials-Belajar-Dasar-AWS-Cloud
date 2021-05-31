@@ -1008,4 +1008,64 @@ Di atas sistem operasi, Anda dapat menjalankan aplikasi apa pun yang diinginkan.
 Data adalah bagian terpenting dan sepenuhnya menjadi ranah Anda untuk mengontrolnya. Anda bisa membuat data dapat diakses oleh semua orang, beberapa orang, satu orang dengan kondisi tertentu, atau bahkan benar-benar menguncinya sehingga tidak ada yang dapat mengakses data tersebut. Plus, Anda juga dapat melakukan enkripsi pada data tersebut.</br>
 Shared responsibility model berguna untuk memastikan, baik AWS ataupun Anda--sebagai pelanggan--memahami tugasnya masing-masing dengan tepat. Pada dasarnya, AWS bertanggung jawab atas security of the cloud (keamanan dari cloud) dan Anda bertanggung jawab atas security in the cloud (keamanan di cloud).</li></ol>
 
+<p align="justify"><b>Perizinan dan Hak Akses Pengguna</b></br>
+Pada skenario kedai kopi kita, setiap pegawai memiliki identitas dan akses sesuai perannya masing-masing. Misalnya kita ambil contoh seorang kasir dan petugas gudang seperti berikut:</p>
+
+<ol align="justify"><li>Seorang kasir bertugas untuk menerima pesanan sehingga ia memiliki akses ke mesin kasir.</li>
+<li>Petugas gudang bertanggung jawab untuk memeriksa inventaris sehingga ia memiliki akses ke komputer gudang.</li></ol>
+<p align="justify">Mereka memiliki dua akses login dan dua set permission (izin) yang berbeda. Sehingga seorang kasir tidak akan diizinkan masuk ke sistem inventaris dan begitu juga sebaliknya. Nah, mekanisme seperti itu juga bisa Anda implementasikan di AWS. Saat pertama kali membuat akun, Anda memulai dengan identitas sebagai AWS account root user atau bisa disederhanakan menjadi root user.</br></br>
+<b>Root user </b>adalah pemilik akun AWS. Ia memiliki permission untuk mengakses dan mengontrol seluruh sumber daya apa pun dalam akun tersebut, seperti menjalankan database, membuat EC2 instance, layanan blockchain, dan lain-lain.</br></br>
+Mudahnya, anggap saja root user sebagai pemilik kedai kopi. Ia bisa datang ke kedai dan melakukan apa pun, seperti mengoperasikan mesin kasir, menggunakan komputer gudang, atau hal-hal lainnya. Ia tidak akan mengalami pembatasan. Nah, karena root user ini sangat berkuasa, AWS menyarankan Anda untuk mengaktifkan multi-factor authentication (MFA) guna memastikan agar akun tersebut aman. Apa itu MFA?</br></br>
+Begini. Pernahkah Anda login ke suatu website yang tak hanya meminta email dan password, melainkan juga melakukan verifikasi dua langkah dengan mengirimkan kode acak ke ponsel Anda? Nah, itulah contoh MFA. Ia berguna untuk memberikan lapisan keamanan tambahan untuk akun AWS Anda. Tetapi, walaupun sudah mengaktifkan MFA, tentu Anda tak ingin memberikan akses root user ini ke semua pegawai di kedai kopi tersebut.</br></br>
+Masih ingat persoalan kita di awal? Kita tak ingin seorang kasir dapat mengakses komputer gudang. Lantas bagaimana solusinya? Tenang, AWS memungkinkan Anda untuk dapat mengontrol akses secara terperinci dengan menggunakan layanan AWS Identity and Access Management (AWS IAM). Penasaran, apa saja fitur yang ditawarkan oleh AWS IAM? Mari kita bahas di materi berikutnya!</br></br>
+<b>AWS Identity and Access Management (AWS IAM)</b></br>
+AWS Identity and Access Management (AWS IAM) dapat membantu Anda untuk mengelola akses ke layanan dan sumber daya AWS dengan aman. IAM memberi Anda fleksibilitas untuk mengonfigurasi akses berdasarkan kebutuhan operasional dan keamanan yang spesifik. Di modul ini, kita akan membahas fitur-fitur IAM, seperti:</p>
+<ol align="justify"><li>
+IAM users</li>
+<li>IAM policies</li>
+<li>IAM groups</li>
+<li>IAM roles</li></ol>
+<p align="justify">Penasaran seperti apa? Mari kita bahas masing-masing fiturnya.</p>
+
+<ul align="justify"><li>IAM Users</br>
+Di AWS Identity and Access Management (AWS IAM) Anda dapat membuat IAM users. Ia mewakili orang (personal) yang berinteraksi dengan layanan dan sumber daya AWS. IAM users secara default belum memiliki permission sama sekali. Ia tidak bisa masuk ke akun AWS, meluncurkan EC2 instance, atau bahkan membuat S3 bucket. Intinya, secara default semua tindakan yang dilakukan oleh IAM users akan ditolak. Jika ingin membuat IAM users bisa melakukan sesuatu, maka Anda harus memberikan permission secara eksplisit. Lalu, bagaimana cara memberikan atau menolak permission? Jawabannya, Anda bisa mengaitkan IAM policies ke IAM users.</li>
+<li>IAM Policies</br>
+IAM policies adalah dokumen JSON yang mengizinkan atau menolak aktivitas tertentu terhadap layanan dan sumber daya AWS.</br>
+Tunggu, apa itu JSON? Sederhananya, JSON (JavaScript Object Notation) adalah format dokumen pertukaran data yang mudah dimengerti, baik oleh manusia maupun mesin.</br>
+Oke, kembali ke topik. Anda dapat menggunakan IAM policies untuk mengatur akses user ke sumber daya AWS. Misalnya, untuk mengizinkan user untuk mengakses beberapa atau spesifik salah satu Amazon S3 bucket dalam akun AWS Anda. Bingung? Tenang, mari kita lihat contoh singkat berikut:</li></ul>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310170500aedeeea78d832946a6c2cdbb4ee2b131.png"></p>
+
+
+<p align="justify">Mungkin sekarang Anda sedang bergumam dan berkata, “Apa maksud dari pernyataan-pernyataan tersebut?” Oke, mari kita bedah. Pada bagian “Effect”, Anda hanya bisa mengisinya dengan dua opsi: Allow (izinkan) atau Deny (tolak). Dalam kasus ini, kita memberikan izin kepada user untuk melakukan sesuatu. Untuk “Action”, Anda dapat mengisinya dengan panggilan API apa pun. Di sini kita menuliskan s3:ListObject. Artinya, user dapat mengetahui objek-objek apa saja yang berada di S3 bucket tertentu.</br>
+Untuk bagian “Resource”, Anda bisa mengisinya dengan alamat sumber daya yang dimaksud. Di pernyataan tersebut kita bisa mengisinya dengan arn:aws:s3:::EXAMPLE-BUCKET, yaitu alamat ID unik dari S3 bucket tertentu.</br>
+Jadi, jika Anda melampirkan IAM policies tersebut ke IAM users, maka user tersebut dapat melihat daftar seluruh objek yang ada pada bucket yang bernama “EXAMPLE-BUCKET”.</br>
+Ingat! Saat memberikan permission, pastikan Anda mengikuti “principle of least privilege”. Maksudnya, berikanlah akses sesuai dengan kebutuhan saat itu saja. Misalnya, jika seorang user hanya memerlukan akses ke bucket tertentu, maka berikanlah akses hanya untuk bucket tersebut di IAM policies, jangan ke semua bucket.</p>
+
+
+<ul align="justify"><li>IAM Groups</br>
+Salah satu cara yang dapat mempermudah pengelolaan user dan permission adalah dengan mengelompokkannya ke dalam IAM groups. IAM groups adalah grup/kelompok yang berisi kumpulan dari user. Menariknya, Anda bisa melampirkan policy ke group sehingga semua user yang berada di group tersebut akan memiliki permission yang sama.</br></br>
+Mari kita ambil contoh kedai kopi. Katakanlah Anda memiliki banyak pegawai barista baru dan ingin memberikan permission kepada mereka. Nah, daripada memberikannya satu per satu, Anda bisa melakukan hal berikut:</li></ul>
+
+Buat IAM groups bernama “Barista”.
+Tambahkan semua user barista baru ke dalam group.
+Lampirkan permission ke group tersebut.
+202103101706358f19f0525815b2ae6372750db55d45c0.pngOke, sampai sini, kita sudah mengenal beberapa hal: IAM users, IAM groups, dan IAM policies. Tunggu, masih ada satu identitas utama lainnya, yaitu IAM roles.
+
+
+
+IAM Roles
+Untuk memahami apa itu IAM roles, mari kita analogikan dengan kedai kopi. Katakanlah Anda memiliki beberapa kasir. Seperti yang kita tahu, tak setiap saat keadaan kedai itu ramai pengunjung, pada waktu-waktu tertentu justru cenderung sepi.
+
+Oleh karena itu, saat kedai sedang sepi, Anda ingin menugaskan beberapa kasir tersebut untuk melakukan pekerjaan yang berbeda, seperti bersih-bersih, mengecek inventaris, atau menyambut pelanggan yang datang. Namun ini hanya sementara, mereka harus kembali ke mesin kasir saat kedai kembali ramai.
+
+Nah, Anda--sebagai pemilik kedai kopi--memiliki wewenang untuk memberikan peran sementara ini kepada beberapa kasir tersebut. Hal seperti ini dapat Anda implementasikan di AWS dengan IAM roles.
+
+IAM roles memiliki permission yang dapat mengizinkan tindakan tertentu yang dibutuhkan secara temporer atau sementara. Role ini juga sebenarnya mirip dengan user, bedanya, ia tak memiliki credential (username dan password).
+
+IAM roles dapat Anda gunakan untuk memberikan akses sementara ke beberapa hal, seperti sumber daya AWS, user, eksternal user, aplikasi, bahkan layanan AWS lainnya.
+
+Ketika sebuah identitas menggunakan IAM roles, identitas tersebut menanggalkan semua permission sebelumnya yang dimiliki dan mengambil permission dari role tersebut.
+
+Tak hanya itu, Anda dapat memfederasikan/menggabungkan eksternal user ke akun Anda. Maksudnya, daripada terus membuat IAM users untuk setiap orang di organisasi, Anda dapat menggunakan regular corporate credential (kredensial perusahaan reguler) untuk login ke AWS dengan memetakan identitas perusahaan ke IAM roles.
 
