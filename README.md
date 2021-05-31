@@ -890,84 +890,74 @@ Dengan AWS Management Console, Anda dapat</p>
    Answer : B. layanan pengirim konten secara global
 ```
 
-
-<!---
-<p align="justify"> 
-  </p>
-
 ```plantuml 
- console.log("Hello, World!"); 
+1.  Layanan apa yang dapat mengelola DNS records untuk nama domain?
+    A. Amazon CloudFront
+    B. Amazon Virtual Private Cloud
+    C. AWS Direct Connect
+    D. Amazon Router 53
+       Answer : D. Amazon Router 53
+       
+2.  Manakah komponen yang dapat digunakan untuk membuat koneksi yang privat dan terdedikasi antara data center perusahaan Anda dan AWS?
+    A. Subnet Privat
+    B. Virtual Private Gateway
+    C. DNS
+    D. AWS Direct Connect
+       Answer : D. AWS Direct Connect
+       
+3.  Komponen manakah yang digunakan untuk menghubungkan VPC ke internet?
+    A. Internet Gateway
+    B.Public Subnet
+    C. Edge Locations
+    D. Security Group
+    Answer : D.Security Group
+
+
+                                            Kategori: Penyimpanan dan Database
+
+1.  Anda ingin menyimpan data dalam layanan penyimpanan objek. Layanan AWS mana yang terbaik untuk jenis penyimpanan ini?
+    A. Amazon Elastik File System (Amazon EFS)
+    B. Amazon Simple Storage Service (Amazon S3) 
+    C. Amazon Elastic Block Store(Amazon EBS)
+    D. Amazon Managed Blockchain
+    Answer : B
+
+2.  Layanan manakah yang digunakan untuk membuat query dan analisis data di data warehouse?
+    A. Amazon Redshift
+    b. Amazon Neptune
+    C. Amazon ElatiCache SALAH
+    D. Amazon DocumentDB
+    Answer : A
+
+3.  Manakah layanan yang menyediakan block-level storage dan dapat Anda gunakan bersama dengan Amazon EC2 instance?
+    A. Amazon S3
+    B. Amazon RDS
+    C. Amazon DynamoDB
+    D. Amazon EBS 
+    Answer : D
+
+
+1.  Layanan mana yang dapat melindungi aplikasi Anda dari serangan distributed denial-of-service (DDoS)?
+    A. Amazon GuardDuty
+    B. AWS Shield
+    C. Amazon Inspector
+    D. AWS Artifact
+    Answer : B
+
+2.  Seorang pegawai memerlukan akses sementara untuk membuat beberapa Amazon S3 bucket. Manakah opsi terbaik untuk tugas ini?
+    A. IAM Roles
+    B. AWS Account Root User
+    C. IAM Groups
+    D. Service Control Policies (SCP)
+    Answer : A
+    
+3.  Apa yang dapat Anda lakukan dengan AWS Key Management Service (AWS KMS)?
+    A. Membuat Cryptographic Key
+    B. Memperbarui kata sandi AWS Account root user
+    c. Menetapkan permission ke user dan role
+    D. Mengonfigurasi Multi-Factor Authentication(MFA)
+    Answer : A
 ```
-
-|Output : |
-| :--     | 
-| |
-
-Layanan apa yang dapat mengelola DNS records untuk nama domain?
-A. Amazon CloudFront
-B. Amazon Virtual Private Cloud
-C. AWS Direct Connect
-D. Amazon Router 53
-bca
-2.Manakah komponen yang dapat digunakan untuk membuat koneksi yang privat dan terdedikasi antara data center perusahaan Anda dan AWS?
-A. Subnet Privat
-B. Virtual Private Gateway
-C. DNS
-D. AWS Direct Connect
-bac
-3.
-Komponen manakah yang digunakan untuk menghubungkan VPC ke internet?
-A. Internet Gateway
-B.Public Subnet
-c. Edge Locations
-D. Security Group
-abc
-
-Kategori: Penyimpanan dan Database
-1.Anda ingin menyimpan data dalam layanan penyimpanan objek. Layanan AWS mana yang terbaik untuk jenis penyimpanan ini?
-A. Amazon Elastik File System (Amazon EFS)
-B. Amazon Simple Storage Service (Amazon S3) 
-C. Amazon Elastic Block Store(Amazon EBS)
-D. Amazon Managed Blockchain
-B
-
-2.Layanan manakah yang digunakan untuk membuat query dan analisis data di data warehouse?
-A. Amazon Redshift
-b. Amazon Neptune
-C. Amazon ElatiCache SALAH
-D. Amazon DocumentDB
-a
-
-3.Manakah layanan yang menyediakan block-level storage dan dapat Anda gunakan bersama dengan Amazon EC2 instance?
-A. Amazon S3
-B. Amazon RDS
-C. Amazon DynamoDB
-D. Amazon EBS 
-d
-
-
-1. Layanan mana yang dapat melindungi aplikasi Anda dari serangan distributed denial-of-service (DDoS)?
-A. Amazon GuardDuty
-B. AWS Shield
-C. Amazon Inspector
-D. AWS Artifact
-B
-
-2.
-Seorang pegawai memerlukan akses sementara untuk membuat beberapa Amazon S3 bucket. Manakah opsi terbaik untuk tugas ini?
-A. IAM Roles
-B. AWS Account Root User
-C. IAM Groups
-D. Service Control Policies (SCP)
-A
-3.
-Apa yang dapat Anda lakukan dengan AWS Key Management Service (AWS KMS)?
-A. Membuat Cryptographic Key
-B. Memperbarui kata sandi AWS Account root user
-c. Menetapkan permission ke user dan role
-D. Mengonfigurasi Multi-Factor Authentication(MFA)
-A
--->
 
 
 
