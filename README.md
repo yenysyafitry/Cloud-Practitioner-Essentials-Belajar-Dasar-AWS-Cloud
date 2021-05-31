@@ -1037,8 +1037,11 @@ Oke, kembali ke topik. Anda dapat menggunakan IAM policies untuk mengatur akses 
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310170500aedeeea78d832946a6c2cdbb4ee2b131.png"></p>
 
 
-<p align="justify">Mungkin sekarang Anda sedang bergumam dan berkata, “Apa maksud dari pernyataan-pernyataan tersebut?” Oke, mari kita bedah. Pada bagian “Effect”, Anda hanya bisa mengisinya dengan dua opsi: Allow (izinkan) atau Deny (tolak). Dalam kasus ini, kita memberikan izin kepada user untuk melakukan sesuatu. Untuk “Action”, Anda dapat mengisinya dengan panggilan API apa pun. Di sini kita menuliskan s3:ListObject. Artinya, user dapat mengetahui objek-objek apa saja yang berada di S3 bucket tertentu.</br>
-Untuk bagian “Resource”, Anda bisa mengisinya dengan alamat sumber daya yang dimaksud. Di pernyataan tersebut kita bisa mengisinya dengan arn:aws:s3:::EXAMPLE-BUCKET, yaitu alamat ID unik dari S3 bucket tertentu.</br>
+<p align="justify">Mungkin sekarang Anda sedang bergumam dan berkata, “Apa maksud dari pernyataan-pernyataan tersebut?” Oke, mari kita bedah. </p>
+  <ol align="justify"><li>Pada bagian “Effect”, Anda hanya bisa mengisinya dengan dua opsi: Allow (izinkan) atau Deny (tolak). Dalam kasus ini, kita memberikan izin kepada user untuk melakukan sesuatu. </li>
+  <li>Untuk “Action”, Anda dapat mengisinya dengan panggilan API apa pun. Di sini kita menuliskan s3:ListObject. Artinya, user dapat mengetahui objek-objek apa saja yang berada di S3 bucket tertentu.</li>
+<li>Untuk bagian “Resource”, Anda bisa mengisinya dengan alamat sumber daya yang dimaksud. Di pernyataan tersebut kita bisa mengisinya dengan arn:aws:s3:::EXAMPLE-BUCKET, yaitu alamat ID unik dari S3 bucket tertentu.</li></ol>
+<p align="justify">
 Jadi, jika Anda melampirkan IAM policies tersebut ke IAM users, maka user tersebut dapat melihat daftar seluruh objek yang ada pada bucket yang bernama “EXAMPLE-BUCKET”.</br>
 Ingat! Saat memberikan permission, pastikan Anda mengikuti “principle of least privilege”. Maksudnya, berikanlah akses sesuai dengan kebutuhan saat itu saja. Misalnya, jika seorang user hanya memerlukan akses ke bucket tertentu, maka berikanlah akses hanya untuk bucket tersebut di IAM policies, jangan ke semua bucket.</p>
 
