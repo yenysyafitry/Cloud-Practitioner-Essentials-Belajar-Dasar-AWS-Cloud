@@ -891,6 +891,7 @@ Dengan AWS Management Console, Anda dapat</p>
 <li>melakukan pemantauan</li>
 <li>bekerja dengan sumber daya nonteknis lainnya.</li></ul>
 <p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br>
+
 ```plantuml 
 1.  Layanan apa yang dapat mengelola DNS records untuk nama domain?
     A. Amazon CloudFront
