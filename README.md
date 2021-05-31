@@ -883,6 +883,13 @@ Selama 48 jam Prime Day, ada 7,11 triliun panggilan ke API DynamoDB. Puncaknya b
 Sekarang, mungkin Anda akan bertanya-tanya, “Kapan kita harus menggunakan Amazon RDS dan Amazon DynamoDB?”
 
 Oke, mari kita bandingkan dua layanan tersebut secara lebih detail.
+
+|    Amazon RDS	  |  Amazon DynamoDB  |
+|       :---      |      :---         |
+|Dirancang untuk mengurangi kerumitan administrator sekaligus memberikan high availability (ketersediaan tinggi) pada recovery (pemulihan) database Anda.|Menggunakan pasangan key-value tanpa memerlukan skema yang rumit serta dapat beroperasi sebagai database global hanya dengan satu klik.|
+|Anda dapat mengontrol data, skema, dan jaringan.|Memiliki throughput (jumlah data yang dapat dikirim dalam waktu tertentu) yang besar, scaling hingga petabyte, dan akses API secara detail.|
+|Mampu membangun sistem analisis data yang kompleks.|Memungkinkan Anda membangun database yang kuat dan sangat cepat tanpa perlu fungsionalitas yang rumit.|
+|Ideal untuk analisis sistem manajemen supply chain (rantai pasokan).|Cocok untuk penggunaan data yang fleksibel dan sederhana seperti daftar kontak karyawan yang berisikan nama, nomor telepon, email, ID karyawan, dsb.|
   
 ```plantuml 
  Kategori: Komputasi di Cloud
