@@ -1525,4 +1525,4 @@ Dengan visibilitas ke seluruh sistem, Anda dapat mengorelasikan bahkan memvisual
 MTTR (mean time to resolution) adalah rata-rata waktu untuk menyelesaikan suatu masalah, sementara TCO (total cost of ownership) adalah biaya kepemilikan.</br>
 Implementasi di kedai kopinya adalah, jika MTTR untuk jam pembersihan mesin lebih pendek, maka Anda dapat menghemat TCO. Dengan kata lain, Anda tak perlu repot-repot menghabiskan waktu untuk membuat sistem analitik sendiri. AWS telah menyediakan Amazon CloudWatch sehingga Anda dapat fokus pada peningkatan nilai bisnis.</li>
 <li>Mengoptimalkan aplikasi dan sumber daya operasional</br>
-Anda dapat menggabungkan metrik dari seluruh EC2 instance untuk memperoleh wawasan akan operasional dan penggunaannya.</li></ul>
+Anda dapat menggabungkan metrik dari seluruh EC2 instance untuk memperoleh wawasan akan operasional dan penggunaannya.</li></ul> 
