@@ -962,6 +962,38 @@ Dengan AWS Database Migration Service, Anda dapat menggabungkan beberapa databas
 <li>Replikasi database yang kontinu</br>
 AWS DMS memungkinkan Anda untuk melakukan replikasi data yang berkelanjutan. Ini berguna untuk disaster recovery (pemulihan bencana) atau pemisahan geografis.</li></ul>
 
+<b>Layanan Database Tambahan</b>
+Masih ingatkah Anda dengan kalimat yang ada di materi pengantar? “Pilihlah penyimpanan dan database yang tepat untuk masing-masing kebutuhan Anda.”
+
+Yap, itu benar! Memang akan lebih baik jika kita menjalankan database yang sesuai dengan data daripada memaksakan data agar kompatibel dengan database. Ketahuilah! Tak ada satu pun database yang mampu menangani semua kebutuhan sekaligus.
+
+Sejauh ini, kita telah membahas beberapa jenis database. Sebenarnya, masih ada banyak loh layanan database lain yang ditawarkan oleh AWS guna memenuhi kebutuhan-kebutuhan tertentu.
+
+Tentu kita tidak akan membahas semuanya secara detail di modul ini, tapi tak ada salahnya juga untuk sedikit menyentuhnya agar Anda mengetahui bahwa layanan-layanan tersebut ada.
+<ul align="justify"><li>Amazon DocumentDB</br>
+Sebelumnya, kita telah menilik tentang layanan DynamoDB yang dapat digunakan untuk database pasangan key-value (kunci-nilai). Tetapi, bagaimana jika Anda memiliki kebutuhan yang lebih dari sekadar atribut sederhana? Seperti sistem manajemen konten yang lengkap misalnya.</br></br>
+Nah, berarti Anda harus berkenalan dengan Amazon DocumentDB. Ia adalah layanan yang dapat membantu Anda untuk menangani manajemen konten, katalog, ataupun profil pengguna.
+Amazon DocumentDB merupakan layanan database dokumen yang mendukung beban kerja MongoDB (program database dokumen).</li>
+<li>Amazon Neptune</br>
+Katakanlah Anda memiliki aplikasi web jejaring sosial dan ingin melacak: siapa terhubung dengan siapa. Pastinya akan sangat kaku dan sulit jika Anda mengelolanya di database relasional tradisional.</br></br>
+Nah, Amazon Neptune dapat membantu Anda dalam hal tersebut. Ia adalah layanan graph database (database grafik) yang berguna untuk membuat dan menjalankan aplikasi dengan kumpulan data yang sangat terhubung, seperti social networking (jejaring sosial), recommendation engines (mesin pemberi rekomendasi), fraud detection (sistem pendeteksi penipuan), dan knowledge graph (grafik pengetahuan: kumpulan deskripsi yang saling terkait dari entitas).</li>
+<li>Amazon Managed Blockchain</br>
+Jika Anda memiliki sistem supply chain (rantai pasokan) yang harus Anda lacak untuk menjamin tak akan ada suplai yang hilang, atau mungkin jika Anda mempunyai catatan perbankan/finansial yang aman, atau dalam kata lain adalah blockchain maka Anda dapat menggunakan Amazon Managed Blockchain.</br></br>
+Dengannya, Anda dapat membuat dan mengelola jaringan blockchain dengan framework (kerangka kerja) yang open-source. Barangkali Anda kurang familier dengan blockchain? Yup, ia adalah sistem ledger (kumpulan catatan riwayat aktivitas) terdistribusi yang memungkinkan banyak pihak menjalankan transaksi dan berbagi data tanpa otoritas pusat.</br></br>
+Amazon Managed Blockchain menggunakan desain decentralized ownership (kepemilikan yang terdesentralisasi). Artinya, beberapa pihak dapat bertransaksi tanpa harus saling mengenal atau mempercayai satu sama lain.</li>
+<li>Amazon Quantum Ledger Database (Amazon QLDB)</br>
+Kalau memang Amazon Managed Blockchain tak dapat memenuhi kebutuhan Anda, gunakanlah Amazon Quantum Ledger Database (Amazon QLDB).</br></br>
+Amazon QLDB adalah sistem pencatatan yang immutable di mana entri apa pun tidak akan pernah bisa dihapus dari audit. Layanan ini menyediakan log transaksi yang terpusat, tidak dapat diubah, dan dapat diverifikasi secara kriptografi.</br></br>
+Amazon QLDB menggunakan desain centralized ownership (kepemilikan yang tersentralisasi). Maksudnya, otoritas pusat nan tepercaya memiliki, mengelola, dan membagikan ledger dengan sejumlah pihak tertentu.</li></ul>
+  
+Oke, kita berhenti sejenak terlebih dahulu. Seperti yang kita tahu bersama, database itu sesungguhnya adalah sistem yang hebat, bukan? Tetapi, bukankah akan jauh lebih baik jika ada cara yang dapat membuatnya lebih cepat?
+
+Nah, AWS menawarkan beberapa opsi akselerator database yang dapat Anda gunakan untuk sejumlah skenario tertentu.
+
+<ul align="justify"><li>Amazon ElastiCache</br>
+AWS memungkinkan Anda untuk menambahkan lapisan cache pada database yang dapat meningkatkan read time (waktu baca) untuk permintaan umum dengan menggunakan Amazon ElastiCache. Ia mendukung dua jenis penyimpanan data: Redis dan Memcached.</li>
+<li>Amazon DynamoDB Accelerator (DAX)</br>
+Jika Anda menggunakan Amazon DynamoDB, maka Anda harus mencoba layanan Amazon DynamoDB Accelerator (DAX), yakni native caching layer yang dirancang untuk meningkatkan waktu read (baca) untuk data nonrelasional.</li></ul>
 
 ```plantuml 
  Kategori: Komputasi di Cloud
@@ -1228,28 +1260,114 @@ Bahkan, AWS dapat memberikan dokumentasi yang membuktikan dirinya mengikuti prak
 Nah, layanan yang dapat Anda gunakan untuk mengakses dokumentasi tersebut adalah AWS Artifact. Dengannya, Anda bisa mendapatkan akses on-demand ke laporan keamanan dan compliance AWS serta online agreements (perjanjian online) tertentu.</br></br>
 Berikut adalah beberapa laporan dan regulasi compliance yang dapat Anda temukan dalam AWS Artifact.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231502326fde0be9f33e0ddb41c7ee938a99d36c.png"></p>
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231502326fde0be9f33e0ddb41c7ee938a99d36c.png">
 
 
 
-Diambil dari AWS Artifact.
+Diambil dari AWS Artifact.</p>
 
 AWS Artifact terdiri dari 2 bagian utama, yaitu AWS Artifact Agreements dan AWS Artifact Reports. Mari kita telaah:
-
-AWS Artifact Agreements
-Jika Anda perlu menandatangani perjanjian dengan AWS terkait penggunaan jenis informasi tertentu di seluruh layanan, Anda dapat melakukannya melalui AWS Artifact Agreements.
-
-Di AWS Artifact Agreements, Anda dapat meninjau, menerima, dan mengelola perjanjian, baik untuk akun individu maupun semua akun di AWS Organizations.
-
-AWS menyediakan berbagai jenis perjanjian untuk memenuhi kebutuhan pelanggan yang patuh pada peraturan tertentu, seperti Health Insurance Portability and Accountability Act (HIPAA).
-
-AWS Artifact Reports
-Ketika Anda hendak membuat aplikasi dan membutuhkan informasi tentang tanggung jawab untuk mematuhi standar regulasi tertentu, Anda dapat mengakses AWS Artifact Reports.
-
-AWS Artifact Reports menyediakan laporan compliance dari auditor pihak ketiga. Auditor ini telah menguji dan memverifikasi bahwa AWS mematuhi berbagai standar dan regulasi keamanan global, regional, dan industri.
+<ul align="justify"><li>AWS Artifact Agreements</br>
+Jika Anda perlu menandatangani perjanjian dengan AWS terkait penggunaan jenis informasi tertentu di seluruh layanan, Anda dapat melakukannya melalui AWS Artifact Agreements. Di AWS Artifact Agreements, Anda dapat meninjau, menerima, dan mengelola perjanjian, baik untuk akun individu maupun semua akun di AWS Organizations. AWS menyediakan berbagai jenis perjanjian untuk memenuhi kebutuhan pelanggan yang patuh pada peraturan tertentu, seperti Health Insurance Portability and Accountability Act (HIPAA).</li>
+<li>AWS Artifact Reports
+Ketika Anda hendak membuat aplikasi dan membutuhkan informasi tentang tanggung jawab untuk mematuhi standar regulasi tertentu, Anda dapat mengakses AWS Artifact Reports. AWS Artifact Reports menyediakan laporan compliance dari auditor pihak ketiga. Auditor ini telah menguji dan memverifikasi bahwa AWS mematuhi berbagai standar dan regulasi keamanan global, regional, dan industri.</li></ul>
 
 
-Customer Compliance Center
+<b>Customer Compliance Center</b>
 Customer Compliance Center menyediakan informasi yang dapat membantu Anda untuk mempelajari lebih lanjut tentang compliance.
 
 Di sana, Anda dapat membaca beberapa contoh kasus yang berhubungan dengan compliance dari para pelanggan AWS untuk memberikan gambaran bagaimana perusahaan dalam regulated industry (industri teregulasi) menyelesaikan berbagai tantangan compliance, governance/tata kelola, dan audit.
+
+<b>Serangan Denial-of-Service/b>
+Oke, sekarang kita masuk ke modul yang serius, benar-benar serius, yakni seputar serangan yang dapat melumpuhkan infrastruktur Anda.
+
+Tapi, untuk mempermudah penjelasan, mari kita kaitkan dengan skenario kedai kopi. Katakanlah kedai kopi Anda memiliki layanan pemesanan melalui telepon. Cara kerjanya, seorang kasir akan menulis pesanan dan memberikannya kepada barista. Setelah minuman tersaji, pelanggan bisa mengambilnya di kedai kopi.
+
+Namun, anggaplah ada orang iseng yang menelepon beberapa kali untuk memesan kopi tetapi ia tak pernah mengambil minumannya. Karena terus-menerus menelepon, ia membuat kasir tak bisa menerima panggilan dari pelanggan lain.
+
+Lalu, bagaimana cara mengatasi masalah ini? Solusi sederhananya adalah dengan memblokir nomor telepon tersebut. Nah, tindakan orang iseng tersebut mirip dengan serangan denial-of-service.
+
+Serangan denial-of-service (DoS) adalah upaya yang dilakukan secara sengaja untuk membuat website atau aplikasi menjadi tidak bekerja dengan optimal bagi pengguna.
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310171514ed385f36dbeb6005564b4be0afb605d8.png"></p>
+
+Salah satu contohnya adalah ketika penyerang membanjiri aplikasi Anda dengan traffic jaringan yang masif sehingga membuatnya kewalahan dan tak lagi dapat merespons permintaan pengguna.
+
+Serangan Distributed Denial-of-Service
+Distributed denial-of-service alias DDoS adalah salah satu serangan yang dapat menimpa infrastruktur atau aplikasi Anda. Serangan ini telah membuat banyak bisnis hancur.
+
+Banyak tim keamanan di luar sana yang telah membangun rencananya yang kompleks untuk mencegah serangan ini. Tapi, apa sebenarnya DDoS itu? Bagaimana kita bisa bertahan melawannya?
+
+Huh! Ini akan menjadi pembahasan yang panjang, bahkan bisa memakan waktu yang cukup lama untuk benar-benar memahami semuanya. Tapi tenang! Anda tak perlu tahu semuanya.
+
+Pada modul kali ini, kita hanya akan membahas dasar-dasar bagaimana serangan DDoS terjadi dan bagaimana AWS dapat secara otomatis mempertahankan infrastruktur Anda darinya. Oke, mari kita mulai.
+
+Guna mempermudah, seperti biasa, kita analogikan dengan kedai kopi dan menggunakan kasus yang sama seperti sebelumnya, yaitu orang iseng yang menelepon berulang kali.
+
+Yup! Kita memang telah memblokir nomor tersebut. Tapi ternyata, orang ini meminta bantuan teman-temannya. Mereka terus-menerus menghubungi kedai kopi dengan nomor telepon yang berbeda. Tentu ini akan membuat pelanggan lain semakin kesulitan untuk menelepon kedai kopi Anda.
+
+Nah, itulah konsep dari serangan DDoS. Berbeda dengan DoS yang hanya berasal dari satu  sumber, serangan DDoS ini menggunakan beberapa sumber untuk melakukan serangan. Tujuannya untuk membuat aplikasi Anda kewalahan dan tak dapat beroperasi lagi.
+
+Serangan ini bisa bisa berasal dari sekelompok orang atau bahkan individu. Cara kerjanya, penyerang menggunakan beberapa komputer yang terinfeksi (juga dikenal sebagai "bot") untuk mengirimkan traffic yang masif ke situs aplikasi Anda.
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310171634c536124c0eb285dcab074b2d3a6fcc3e.png"></p>
+
+Oke, pembahasan terkait mekanisme DDoS ini akan sangat panjang. Maka dari itu, mari kita beralih dan menguraikan beberapa tipe dari serangan DDoS.
+
+UDP flood
+Seseorang dapat menggunakan jenis serangan ini untuk melakukan DDoS dengan mudah, salah satunya adalah memanfaatkan layanan cuaca nasional.
+
+Saat Anda mengirim permintaan informasi ke layanan cuaca nasional, ia akan mengirimkan telemetri cuaca, prakiraan, pembaruan, dan lain-lain dengan jumlah yang masif.
+
+Nah, di sini masalahnya. Penyerang akan melakukan permintaan seputar informasi cuaca, tapi ia mencantumkan alamat penerima yang palsu, yakni alamat infrastruktur Anda.
+
+Dengan demikian, layanan cuaca akan membanjiri server Anda dengan data berukuran megabyte yang dapat membuat sistem Anda kewalahan dalam memprosesnya. Hingga akhirnya, server Anda akan berhenti.
+
+HTTP level attack
+HTTP level attack merupakan serangan yang jauh lebih canggih. Penyerang akan terlihat seperti pelanggan normal yang mengakses aplikasi Anda dan melakukan permintaan umum, seperti pencarian produk yang rumit.
+
+Bedanya, penyerang melakukannya secara berulang kali dan terus-menerus sehingga server akan selalu memprosesnya. Ini mengakibatkan pelanggan yang sah menjadi tidak bisa mengakses aplikasi Anda.
+
+Slowloris attack
+Serangan ini bahkan jauh lebih mengerikan. Agar lebih mudah memahaminya, mari kita umpamakan.
+
+Katakanlah ada seorang pelanggan yang memesan minuman di kedai kopi Anda. Pelanggan tersebut membutuhkan waktu hingga tujuh menit lamanya. Tentu ini akan membuat para pelanggan lain yang mengantre di belakangnya menjadi tak bisa memesan kopi. Nah, serangan Slowloris serupa dengan itu.
+
+Penyerang berpura-pura memiliki koneksi yang sangat lambat. Ini menyebabkan server Anda terus menunggu pelanggan, alias, penyerang tersebut menyelesaikan permintaannya dan membuat pelanggan lain tak terlayani. Beberapa penyerang Slowloris bahkan dapat menghabiskan seluruh kapasitas server Anda hanya dengan sedikit usaha.
+Oke. Sekarang saatnya kita hentikan serangan-serangan ini dengan solusi yang tepat. Sebetulnya, Anda sudah tahu caranya. Apa maksudnya?
+
+Begini. Semua hal yang telah kita pelajari di kelas ini tak hanya berbicara tentang membangun arsitektur yang baik, melainkan juga membantu Anda menyelesaikan hampir semua jenis serangan DDoS, bahkan tanpa biaya tambahan. Mari kita kupas satu per satu.
+
+Mulai dari serangan pertama, yakni UDP flood. Solusi untuk mencegah serangan ini adalah dengan menggunakan security group. Ia hanya dapat mengizinkan traffic permintaan yang tepat.
+  
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021040613415058823c696bab53c6823d79eb68310865.png"></p>
+
+Tahukah Anda? Data laporan cuaca menggunakan protokol yang benar-benar berbeda dari pelanggan Anda. Artinya, security group bisa menolak permintaan tersebut jika memang tak ada di dalam daftar yang diizinkan.
+
+Lalu, bagaimana untuk menghalau serangan Slowloris? Solusinya sederhana, Anda pun sudah mempelajarinya, yakni menggunakan Elastic Load Balancer (ELB) yang dapat mengarahkan traffic lalu lintas untuk Amazon EC2 instance.
+
+Jadi, walaupun penyerang memiliki koneksi yang sangat lambat, pelanggan Anda yang sah tak perlu menunggunya hingga selesai, mereka tetap bisa mengakses server.
+
+202104061342209dfe3682b297eb328209aeca875c999f.pngSerangan ini juga tak akan mengenai instance Anda karena sebelum diteruskan ke server, ELB akan menangani setiap permintaan hingga selesai terlebih dahulu, tak peduli ia memiliki koneksi yang cepat atau bahkan lambat sekali pun.
+
+Ingat! ELB itu sangat kuat dan kapasitasnya dapat diskalakan. Ia juga berjalan di tingkat Region. Artinya, untuk bisa membanjiri ELB, Anda harus membanjiri keseluruhan AWS Regions. Bukannya mustahil, tetapi secara teoritis akan terlalu mahal bagi siapa pun yang melakukannya.
+
+Nah, bagaimana untuk mengadang serangan yang paling tajam dan paling canggih di luar yang telah dijelaskan? Tenang, tenang! AWS juga menawarkan layanan pertahanan khusus yang disebut dengan AWS Shield.
+
+AWS Shield
+AWS Shield adalah layanan yang dapat melindungi aplikasi Anda dari serangan DDoS. Layanan ini memberikan dua tingkat perlindungan: Standard dan Advanced. Mari kita kupas keduanya.
+
+AWS Shield Standard
+AWS Shield Standard secara otomatis melindungi sumber daya AWS Anda dari jenis serangan DDoS yang paling umum tanpa biaya.
+
+Dengan menggunakan berbagai teknik analisis, AWS Shield Standard dapat mendeteksi dan memitigasi traffic berbahaya secara real time saat memasuki aplikasi Anda.
+
+AWS Shield Advanced
+AWS Shield Advanced adalah layanan berbayar yang menyediakan kemampuan untuk mendiagnostik, mendeteksi, dan memitigasi serangan DDoS yang canggih.
+
+AWS Shield Advanced terintegrasi dengan layanan lain seperti Amazon CloudFront, Amazon Route 53, dan Elastic Load Balancing.
+
+Selain itu, Anda juga dapat mengintegrasikan AWS Shield dengan AWS WAF. AWS WAF merupakan web application firewall untuk melindungi aplikasi web atau API Anda dari eksploitasi web umum yang dapat memengaruhi ketersediaan, mengganggu keamanan, atau memakai sumber daya secara berlebihan.
+  
+
