@@ -1053,9 +1053,11 @@ Mari kita ambil contoh kedai kopi. Katakanlah Anda memiliki banyak pegawai baris
 Buat IAM groups bernama “Barista”.
 Tambahkan semua user barista baru ke dalam group.
 Lampirkan permission ke group tersebut.
-202103101706358f19f0525815b2ae6372750db55d45c0.pngOke, sampai sini, kita sudah mengenal beberapa hal: IAM users, IAM groups, dan IAM policies. Tunggu, masih ada satu identitas utama lainnya, yaitu IAM roles.
 
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202103101706358f19f0525815b2ae6372750db55d45c0.png"></p>
 
+Oke, sampai sini, kita sudah mengenal beberapa hal: IAM users, IAM groups, dan IAM policies. Tunggu, masih ada satu identitas utama lainnya, yaitu IAM roles.
 
 IAM Roles
 Untuk memahami apa itu IAM roles, mari kita analogikan dengan kedai kopi. Katakanlah Anda memiliki beberapa kasir. Seperti yang kita tahu, tak setiap saat keadaan kedai itu ramai pengunjung, pada waktu-waktu tertentu justru cenderung sepi.
