@@ -1278,7 +1278,7 @@ Customer Compliance Center menyediakan informasi yang dapat membantu Anda untuk 
 
 Di sana, Anda dapat membaca beberapa contoh kasus yang berhubungan dengan compliance dari para pelanggan AWS untuk memberikan gambaran bagaimana perusahaan dalam regulated industry (industri teregulasi) menyelesaikan berbagai tantangan compliance, governance/tata kelola, dan audit.
 
-<b>Serangan Denial-of-Service/b>
+<b>Serangan Denial-of-Service</b>
 Oke, sekarang kita masuk ke modul yang serius, benar-benar serius, yakni seputar serangan yang dapat melumpuhkan infrastruktur Anda.
 
 Tapi, untuk mempermudah penjelasan, mari kita kaitkan dengan skenario kedai kopi. Katakanlah kedai kopi Anda memiliki layanan pemesanan melalui telepon. Cara kerjanya, seorang kasir akan menulis pesanan dan memberikannya kepada barista. Setelah minuman tersaji, pelanggan bisa mengambilnya di kedai kopi.
