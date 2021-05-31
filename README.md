@@ -1370,4 +1370,159 @@ AWS Shield Advanced terintegrasi dengan layanan lain seperti Amazon CloudFront, 
 
 Selain itu, Anda juga dapat mengintegrasikan AWS Shield dengan AWS WAF. AWS WAF merupakan web application firewall untuk melindungi aplikasi web atau API Anda dari eksploitasi web umum yang dapat memengaruhi ketersediaan, mengganggu keamanan, atau memakai sumber daya secara berlebihan.
   
+<b>Layanan Keamanan Tambahan<b>
+Hari silih berganti dan kedai kopi Anda semakin ramai. Banyak pelanggan yang datang dan pergi. Karena hal ini, tentu Anda ingin meningkatkan keamanan di sana, bukan?
 
+Salah satu hal yang harus Anda amankan adalah biji kopi. Anda harus memastikan mereka aman, baik pada saat di gudang penyimpanan atau ketika proses pengiriman antar toko. Intinya, Anda tak ingin satu pun pelanggan memiliki akses ke biji kopi. Cara sederhana untuk mengamankannya adalah dengan mengunci pintu saat Anda pergi di malam hari.
+
+Nah, begitu juga dengan data. Anda perlu mengamankannya, baik saat keadaan at rest (diam) maupun in-transit (berpindah). Anda bisa melakukannya dengan enkripsi, yaitu mengamankan suatu pesan atau data yang hanya dapat diakses oleh pihak terotorisasi. Dengan melakukan enkripsi, pihak yang tak berwenang tidak akan bisa mengakses data Anda sama sekali.
+
+Kalau Anda bingung, anggap saja enkripsi itu sebagai kunci dan pintu di kedai kopi. Jika Anda memiliki kuncinya, maka Anda dapat membuka pintu. Tetapi jika tidak, yup! Anda pasti sudah tahu jawabannya. Sederhana, ‘kan?
+
+Di AWS, enkripsi hadir dalam dua varian: at rest (saat diam) dan in-transit (dalam perjalanan). Mari kita bedah.
+
+<b>Encryption at rest</b>
+Pada jenis ini, proses enkripsi terjadi saat data Anda dalam keadaan tidak bergerak (tersimpan dan tidak berpindah). Contohnya adalah server-side encryption at rest (enkripsi at rest pada sisi server) yang secara bawaan telah aktif untuk semua data di tabel DynamoDB.
+
+Data yang tersimpan di sana akan terenkripsi alias berubah menjadi serangkaian kata yang tak terbaca. Ini berguna untuk mencegah data Anda diakses oleh pihak yang tidak berwenang.
+
+Enkripsi at rest pada DynamoDB juga terintegrasi dengan AWS Key Management Service (AWS KMS) yang berguna mengelola key/kunci enkripsi untuk tabel Anda--nanti kita bahas. Kunci enkripsi ini berperan seperti kunci pintu, ingat? Tanpanya, Anda tak akan dapat mengakses data, jadi simpanlah dengan aman.
+  
+  <p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/202103101722245a70dca00f27e061dd32818c49300dd8.png"></p>
+
+
+
+  <b>Encryption in-transit</b>
+Proses enkripsi in-transit terjadi saat data Anda berpindah antara A dan B. A dan B ini bisa berupa apa pun, seperti layanan AWS dan klien yang mengakses layanan tersebut.
+
+Misalnya, Anda ingin menghubungkan Redshift instance dan SQL client. Untuk kasus tersebut, Anda bisa menggunakan koneksi SSL alias secure sockets layer. Dengan begitu, Anda dapat melakukan enkripsi data serta menggunakan sertifikat layanan untuk validasi dan otorisasi klien.
+20210310172346c426e64bead6f4f324e9beee86df0d68.pngDengan demikian, data Anda akan terlindungi selama perjalanan antara Redshift dan klien. Ketahuilah! Fungsionalitas semacam ini tersedia di banyak layanan AWS lainnya seperti SQS, S3, RDS, dan banyak lagi.
+
+
+<b>AWS Key Management Service (AWS KMS)</b>
+Sebelumnya kita telah menyinggung sedikit tentang layanan ini, sekarang mari kita selami lebih dalam tentangnya.
+
+AWS Key Management Service (AWS KMS) adalah layanan yang memungkinkan Anda untuk melakukan enkripsi menggunakan cryptographic key (kunci kriptografi). Kunci kriptografi adalah rangkaian angka acak yang digunakan untuk mengunci (mengenkripsi) dan membuka kunci (mendekripsi) data.
+
+Dengan AWS KMS, Anda dapat mengontrol penggunaan kunci kriptografi di berbagai layanan ataupun di dalam aplikasi Anda.
+
+Selain itu, Anda juga dapat memilih tingkat kontrol akses tertentu yang Anda perlukan untuk kunci tersebut. Misal:
+
+<ul align="justify"><li>Anda bisa menentukan IAM users dan IAM roles mana yang dapat mengelola kunci; atau</li>
+  <li>Anda dapat menonaktifkan kunci untuk sementara sehingga tidak ada yang bisa menggunakannya.</li></ul>
+
+Kunci kriptografi yang Anda simpan di AWS KMS akan senantiasa aman dan terlindungi.
+
+<b>AWS Web Application Firewall (AWS WAF)</b>
+AWS Web Application Firewall alias AWS WAF memungkinkan Anda untuk dapat memantau request/permintaan jaringan yang masuk ke aplikasi web.
+
+Masih ingatkah Anda tentang network access control list (network ACL) yang telah kita pelajari di modul sebelumnya? AWS WAF ini bekerja dengan cara yang mirip dengan network ACL, yaitu memblokir atau mengizinkan lalu lintas. Bedanya, ia menggunakan web access control list (web ACL) untuk melindungi sumber daya AWS Anda.
+
+Berikut adalah contoh bagaimana Anda dapat menggunakan AWS WAF untuk mengizinkan dan memblokir request tertentu.
+
+Anggaplah aplikasi Anda telah menerima request jaringan berbahaya dari beberapa alamat IP. Tentu, Anda ingin mencegah request ini, bukan? Tetapi, Anda juga ingin memastikan user sah masih dapat mengakses aplikasi.
+
+Nah untuk masalah ini, Anda dapat mengonfigurasi web ACL yang dapat mengizinkan semua request kecuali dari alamat IP yang telah Anda tentukan.
+
+Saat sebuah request hendak masuk ke aplikasi Anda, AWS WAF akan memeriksa daftar pengaturan yang telah Anda atur di web ACL.
+
+Jika request tersebut bukan berasal dari salah satu alamat IP yang diblokir, maka ia diizinkan masuk ke aplikasi. Namun, jika sebaliknya, ia akan ditolak.
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406134355ab5d5527c5cf0b3df9a65dedcd5bd507.png"></p>
+
+Amazon Inspector
+Mari kita awali modul ini dengan sebuah analogi kedai kopi. Misalkan Anda sedang mengembangkan dan menguji aplikasi pemesanan baru. Anda ingin memastikan rancangan aplikasi tersebut sesuai dengan praktik keamanan terbaik. Namun, Anda tidak memiliki banyak waktu untuk melakukan penilaian manual.
+
+Nah, sekarang pertanyaannya, bagaimana cara menilai keamanan secara otomatis?
+
+AWS memberikan solusi terbaik, yaitu dengan layanan Amazon Inspector. Ia dapat membantu Anda untuk melengkapi pemahaman kita untuk meningkatkan keamanan dan compliance/kepatuhan aplikasi dengan menjalankan penilaian keamanan secara otomatis terhadap infrastruktur Anda.
+
+Amazon Inspector bekerja dengan cara memeriksa aplikasi terhadap kerentanan dan penyimpangan praktik terbaik keamanan. Contohnya seperti akses yang terbuka ke Amazon EC2 instance atau penginstalan versi software yang memiliki kerentanan keamanan.
+
+Setelah melakukan penilaian, Amazon Inspector memberikan Anda daftar temuan keamanan yang diprioritaskan menurut tingkat keparahan. Daftar ini juga berisi deskripsi mendetail tentang setiap masalah keamanan dan rekomendasi cara memperbaikinya.
+
+Namun ingat, AWS tidak menjamin bahwa dengan mengikuti rekomendasi tersebut dapat menyelesaikan setiap potensi masalah keamanan. Tentu Anda masih ingat, berdasarkan shared responsibility model, pelanggan AWS bertanggung jawab atas keamanan aplikasi, proses, dan tools yang berjalan di layanan AWS.
+
+Amazon GuardDuty
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231517065f4bfe7e19d54f337bfaa129a71bb655.png"></p>
+
+Layanan keamanan lain nan tak kalah penting adalah Amazon GuardDuty. Ia adalah layanan yang menyediakan deteksi ancaman cerdas untuk infrastruktur dan sumber daya AWS Anda.
+
+Layanan ini mengidentifikasi ancaman dengan senantiasa memantau aktivitas jaringan dan perilaku akun di dalam lingkungan AWS Anda.
+
+Amazon GuardDuty menggunakan integrated threat intelligence (kecerdasan ancaman terintegrasi) seperti alamat IP berbahaya, deteksi anomali, dan machine learning untuk mengidentifikasi ancaman dengan lebih akurat.
+
+Nah, saat GuardDuty mendeteksi suatu ancaman, Anda dapat meninjau temuan mendetail dari AWS Management Console. Temuan ini juga mencakup langkah-langkah rekomendasi yang bisa Anda tindak lanjuti.
+
+Tunggu, masih ada bagian terbaiknya. Layanan ini berjalan secara independen dari layanan AWS yang lain. Jadi, ia tak akan memengaruhi kinerja, ketersediaan, dan beban kerja infrastruktur Anda.
+
+  
+<b>Pengenalan ke Pemantauan dan Analitik</b>
+Ingat kembali skenario kedai kopi kita. Sebagai pemilik, tentu Anda ingin mengetahui apa yang terjadi di sana sepanjang hari guna memastikan semuanya berjalan lancar.
+
+Tetapi, Anda juga tak ingin hanya berdiri dan diam di sana seharian. Alangkah lebih baiknya Anda bisa mengecek kembali kinerja toko ketika sudah menjelang petang dengan mengajukan beberapa pertanyaan, seperti:
+
+Berapa banyak kopi yang terjual?
+Berapa lama rata-rata waktu tunggu seseorang saat memesan kopi?
+Apakah persediaan hari ini habis?
+Bahkan, akan sangat membantu jika Anda bisa mendapat notifikasi ketika waktu tunggu pemesanan terlalu lama. Sehingga Anda dapat terjun langsung ke sana atau menyuruh pegawai lain membantu pekerjaan tersebut.
+
+Setiap bisnis--termasuk kedai kopi kita--dapat menggunakan metrik untuk mengukur seberapa baik sistem dan proses yang berjalan.
+
+Nah, proses mengamati sistem; mengumpulkan metrik; dan mengevaluasinya dari waktu ke waktu untuk membuat keputusan atau mengambil tindakan, disebut dengan monitoring atau pemantauan.
+
+Tahukah Anda pentingnya sebuah pemantauan? Kegiatan ini perlu Anda lakukan ketika menggunakan layanan berbasis cloud untuk memastikan sumber daya AWS berjalan sesuai dengan harapan.
+
+Misalnya, Anda dapat melakukan proses scaling (penyesuaian kapasitas) secara otomatis jika sebuah EC2 instance dalam keadaan over-utilized (digunakan secara berlebihan). Atau, Anda juga bisa menerima pemberitahuan jika suatu aplikasi mulai mengirimkan respons kesalahan dengan kecepatan tinggi.
+
+Oke, untuk beberapa modul berikutnya kita akan membahas berbagai layanan yang dapat membantu Anda memonitor lingkungan AWS. Pemantauan dapat digunakan untuk mengukur performa dari sistem, memberi peringatan jika ada yang tak beres, bahkan dapat membantu proses debugging (identifikasi dan perbaikan eror).
+  
+  <b>Amazon CloudWatch</b>
+Mari kita awali modul ini dengan mengingat kembali skenario kedai kopi yang telah beroperasi cukup lama. Tapi, tahukah Anda? Ada satu masalah baru yang muncul di sana.
+
+Karena kita terus-menerus menjalankan mesin kopi; menggunakan mug; membuka dan menutup lemari es, tentu akan lebih baik jika muncul suatu pemberitahuan.
+
+Notifikasi tersebut sebaiknya datang pada saat ada sesuatu yang memerlukan tindakan tertentu, seperti mesin kopi yang harus dibersihkan atau diperbaiki.
+
+Intinya, Anda sebagai pemilik kedai kopi memerlukan visibilitas terhadap status dari sistem, seperti:
+
+  <ul align="justify"><li>Apakah semuanya berjalan dengan baik?</li>
+<li>Apakah pelanggan Anda semakin senang atau malah sebaliknya?</li>
+    <li>Apakah Anda sering mengirimkan minuman yang salah kepada pelanggan?</li></ul>
+  
+Selain beberapa pertanyaan di atas, masih banyak lagi pertanyaan lainnya yang dapat menunjukkan keberhasilan operasional Anda.
+
+Ide yang sama pun berlaku untuk sistem yang dibangun di AWS. Anda perlu satu cara yang dapat memantau kesehatan dan pengoperasian aplikasi. Tak perlu repot-repot untuk membangun platform pemantauan sendiri karena AWS telah menyediakannya untuk Anda.
+
+Sambutlah, Amazon CloudWatch. Ia dapat memantau infrastruktur dan aplikasi yang Anda jalankan di AWS secara real time. Layanan ini bekerja dengan cara melacak dan memantau metrik. Metrik adalah variabel yang terikat dengan sumber daya Anda, seperti penggunaan CPU dari EC2 instance.
+
+Oke, ini akan menarik. Sesuai dengan persoalan kita di awal, Anda ingin memiliki suatu sistem yang dapat memberi tahu jika mesin kopi perlu dibersihkan, misalnya setiap kali selesai membuat 100 espreso.
+
+Nah, hal ini bisa terlaksana dengan hadirnya Amazon CloudWatch alarm. Anda dapat membuat suatu metrik khusus dan menetapkan ambang batasnya adalah 100. Pada saat jumlah espreso yang dibuat telah mencapai angka tersebut, ia akan memperingatkan Anda untuk membersihkan mesin. Sederhana, bukan?
+
+Oh, tidak hanya itu! Bahkan CloudWatch alarm dapat terintegrasi dengan layanan Amazon SNS. Jadi, Anda dapat mengirimkan SMS ke pegawai di kedai kopi supaya mereka membersihkan mesinnya.
+
+Dengan Amazon CloudWatch, Anda dapat membuat alarm sendiri untuk metrik dari semua jenis sumber daya di AWS. Nah, bagaimana jika kita ingin menggabungkan semua metrik tersebut dalam satu panel?
+
+  <p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021022316082394ddc50cd458c22865ea44da9209850d.png"></p>
+
+Diambil dari Amazon CloudWatch: Getting Started with Amazon CloudWatch.
+
+Tentu kita bisa menggunakan fitur CloudWatch dashboard. Ia adalah panel yang mencantumkan metrik hampir secara real time. Dengannya, Anda dapat memantau penggunaan CPU dari Amazon EC2 instance, jumlah total permintaan yang dibuat ke Amazon S3 bucket, dan masih banyak lainnya. Sehingga, Anda dapat memonitornya secara proaktif.
+
+Dashboard ini akan me-refresh secara otomatis setiap kali terbuka sehingga akan selalu menunjukkan tampilan terkini dari sumber daya Anda.
+
+Sekarang mungkin Anda akan bertanya-tanya, “Apa keuntungan menggunakan Amazon CloudWatch ini?” Yuk mari kita jabarkan.
+
+  <ul align="justify"><li>Akses ke semua metrik dari satu lokasi</br>
+Anda dapat mengumpulkan metrik dan log dari semua sumber daya yang berjalan di AWS bahkan server yang berada di on-premise.</li>
+<li>Visibilitas ke seluruh aplikasi, infrastruktur, dan layanan</br>
+Dengan visibilitas ke seluruh sistem, Anda dapat mengorelasikan bahkan memvisualisasikan metrik dan log untuk menunjukkan sekaligus menyelesaikan masalah dengan cepat.</li>
+<li>Mengurangi waktu MTTR dan mengurangi TCO</br>
+MTTR (mean time to resolution) adalah rata-rata waktu untuk menyelesaikan suatu masalah, sementara TCO (total cost of ownership) adalah biaya kepemilikan.</br>
+Implementasi di kedai kopinya adalah, jika MTTR untuk jam pembersihan mesin lebih pendek, maka Anda dapat menghemat TCO. Dengan kata lain, Anda tak perlu repot-repot menghabiskan waktu untuk membuat sistem analitik sendiri. AWS telah menyediakan Amazon CloudWatch sehingga Anda dapat fokus pada peningkatan nilai bisnis.</li>
+<li>Mengoptimalkan aplikasi dan sumber daya operasional</br>
+Anda dapat menggabungkan metrik dari seluruh EC2 instance untuk memperoleh wawasan akan operasional dan penggunaannya.</li></ul>
