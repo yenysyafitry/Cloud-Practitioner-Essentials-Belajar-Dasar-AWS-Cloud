@@ -565,503 +565,216 @@ Dengan AWS Management Console, Anda dapat</p>
 AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br>
 AWS Command Line Interface</p><p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210223103537de4a7e04f3ac841311c6c62f493d3760.png"></p>
-<p align="justify">Jika Anda akan menjalankan sumber daya di lingkungan produksi, tentu Anda tak ingin bergantung dengan cara point and click (tunjuk dan klik) yang diberikan console untuk membuat dan mengelola sumber daya AWS. Ambil contoh pembuatan Amazon EC2 instance. Dengan AWS Management Console, Anda perlu klik berkali-kali, mengatur semua konfigurasi, barulah instance Anda dapat diluncurkan. Jika nantinya ingin meluncurkan EC2 instance lain, Anda harus kembali ke console dan melakukan proses klik yang sama terhadap layar-layar itu lagi. Ini akan membuang banyak waktu. Jika seorang manusia terus-menerus melakukan penyediaan manual semacam ini, artinya Anda membuka peluang terhadap potensi kesalahan karena manusia sangat mudah untuk lupa mengeklik kotak centang atau salah mengeja sesuatu. Jawaban untuk masalah ini adalah dengan menggunakan sarana yang memungkinkan Anda membuat skrip atau memprogram panggilan API, yaitu dengan AWS Command Line Interface atau CLI. CLI memungkinkan Anda untuk mengendalikan layanan AWS dengan baris perintah melalui satu alat. Jelas ini berbeda dengan gaya navigasi visual dari AWS Management Console. AWS CLI tersedia untuk pengguna Windows, macOS, dan Linux. Dengan menulis perintah menggunakan CLI, Anda dapat membuat tindakan yang dapat ditulis berkali-kali. Misal Anda menulis dan menjalankan perintah untuk meluncurkan EC2 instance. Nah, jika Anda ingin meluncurkan instance lain, cukup jalankan kembali perintah tersebut. Dengan demikian, Anda akan terhindar dari human error alias kesalahan manusia. Selain itu, Anda juga dapat menjalankan skrip tersebut secara otomatis, contohnya dengan berdasarkan jadwal atau dipicu oleh proses lain.</br>
-
-
-
-AWS Software Development Kit
-20210223103608ab08eb8a6b6e2a0787bf9d0eb7a78bba.png
-
-Cara lain untuk berkomunikasi dengan AWS adalah melalui AWS Software Development Kit atau SDK. SDK memudahkan Anda untuk berinteraksi dengan sumber daya AWS melalui berbagai bahasa pemrograman.
-
-Hal ini memudahkan developer (pengembang) untuk membuat program di AWS tanpa menggunakan low-level API serta menghindari pembuatan sumber daya secara manual yang dari tadi kita bincangkan.
-
-Sederhananya, low-level API memungkinkan Anda untuk memanipulasi fungsi di dalam API secara terperinci sesuai dengan kebutuhan. Lawannya adalah high-level API, yang memberikan lebih banyak fungsi dalam satu perintah dan lebih mudah digunakan sehingga Anda tak perlu mendalami detail teknis dan struktur API-nya.
-
-Untuk membantu Anda memulai menggunakan SDK, AWS menyediakan dokumentasi dan sampel kode untuk setiap bahasa pemrograman yang didukung, yaitu mencakup C++, Go, Java, JavaScript, .NET, Node.js, PHP, Python, dan Ruby.
-
-
-
-AWS Elastic Beanstalk
+<p align="justify">Jika Anda akan menjalankan sumber daya di lingkungan produksi, tentu Anda tak ingin bergantung dengan cara point and click (tunjuk dan klik) yang diberikan console untuk membuat dan mengelola sumber daya AWS. Ambil contoh pembuatan Amazon EC2 instance. Dengan AWS Management Console, Anda perlu klik berkali-kali, mengatur semua konfigurasi, barulah instance Anda dapat diluncurkan. Jika nantinya ingin meluncurkan EC2 instance lain, Anda harus kembali ke console dan melakukan proses klik yang sama terhadap layar-layar itu lagi. Ini akan membuang banyak waktu. Jika seorang manusia terus-menerus melakukan penyediaan manual semacam ini, artinya Anda membuka peluang terhadap potensi kesalahan karena manusia sangat mudah untuk lupa mengeklik kotak centang atau salah mengeja sesuatu. Jawaban untuk masalah ini adalah dengan menggunakan sarana yang memungkinkan Anda membuat skrip atau memprogram panggilan API, yaitu dengan AWS Command Line Interface atau CLI. CLI memungkinkan Anda untuk mengendalikan layanan AWS dengan baris perintah melalui satu alat. Jelas ini berbeda dengan gaya navigasi visual dari AWS Management Console. AWS CLI tersedia untuk pengguna Windows, macOS, dan Linux. Dengan menulis perintah menggunakan CLI, Anda dapat membuat tindakan yang dapat ditulis berkali-kali. Misal Anda menulis dan menjalankan perintah untuk meluncurkan EC2 instance. Nah, jika Anda ingin meluncurkan instance lain, cukup jalankan kembali perintah tersebut. Dengan demikian, Anda akan terhindar dari human error alias kesalahan manusia. Selain itu, Anda juga dapat menjalankan skrip tersebut secara otomatis, contohnya dengan berdasarkan jadwal atau dipicu oleh proses lain.</br></br>
+AWS Software Development Kit</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210223103608ab08eb8a6b6e2a0787bf9d0eb7a78bba.png"></p>
+<p align="justify">Cara lain untuk berkomunikasi dengan AWS adalah melalui AWS Software Development Kit atau SDK. SDK memudahkan Anda untuk berinteraksi dengan sumber daya AWS melalui berbagai bahasa pemrograman. Hal ini memudahkan developer (pengembang) untuk membuat program di AWS tanpa menggunakan low-level API serta menghindari pembuatan sumber daya secara manual yang dari tadi kita bincangkan. Sederhananya, low-level API memungkinkan Anda untuk memanipulasi fungsi di dalam API secara terperinci sesuai dengan kebutuhan. Lawannya adalah high-level API, yang memberikan lebih banyak fungsi dalam satu perintah dan lebih mudah digunakan sehingga Anda tak perlu mendalami detail teknis dan struktur API-nya. Untuk membantu Anda memulai menggunakan SDK, AWS menyediakan dokumentasi dan sampel kode untuk setiap bahasa pemrograman yang didukung, yaitu mencakup C++, Go, Java, JavaScript, .NET, Node.js, PHP, Python, dan Ruby.</br></br>
+<b>AWS Elastic Beanstalk</b></br>
 Opsi-opsi sebelumnya, yaitu AWS Management Console, CLI, dan SDK adalah cara penyediaan dan pengelolaan lingkungan AWS yang harus Anda lakukan sendiri.
-
-Kita telah belajar, bahwa jika ingin menyediakan sumber daya, kita dapat melakukan salah satu cara di bawah ini:
-
-Masuk ke konsol, arahkan dan klik.
-Menulis beberapa perintah.
-Menulis beberapa program untuk melakukannya.
-Nah, selain yang disebutkan di atas, ada juga cara lain untuk mengelola lingkungan AWS Anda menggunakan managed service (layanan terkelola) seperti AWS Elastic Beanstalk.
-
-AWS Elastic Beanstalk adalah layanan yang dapat membantu Anda menyediakan lingkungan berbasis Amazon EC2. Tak perlu lagi harus klik sana sini di console atau menulis beberapa baris perintah untuk membangun jaringan, EC2 instance, scaling (penyesuaian kapasitas), dan Elastic Load Balancer.
-
-Ucapkan selamat tinggal kepada semua itu. AWS Elastic Beanstalk dapat menyediakan dan mengelola semua infrastruktur tersebut sembari tetap memberi visibilitas dan kendali atas sumber daya yang mendasarinya. Dengan begitu, Anda bisa fokus pada aplikasi bisnis bukan infrastrukturnya.
-
-Cukup unggah kode dan tentukan konfigurasi yang Anda inginkan, maka AWS Elastic Beanstalk pun akan mengolah informasi tersebut dan membangun lingkungan AWS-nya untuk Anda.
-
-Lingkungan yang dimaksud adalah:
-
-Penyesuaian Kapasitas
-Load balancing (Penyeimbang beban)
-Auto-scaling (Penskalaan otomatis)
-Pemantauan kesehatan aplikasi
-Simpan konfigurasi lingkungan tersebut sehingga nantinya akan memudahkan Anda saat menerapkannya kembali.
-
-
-
-AWS CloudFormation
-Layanan lain yang dapat Anda gunakan untuk membantu membuat penerapan otomatis dan berulang adalah AWS CloudFormation.
-
-AWS CloudFormation adalah layanan infrastructure as code (infrastruktur sebagai kode) yang memungkinkan Anda untuk menentukan berbagai sumber daya AWS dengan cara deklaratif menggunakan dokumen berbasis teks JSON atau YAML yang disebut sebagai CloudFormation template.
-
-Format deklaratif memudahkan Anda untuk memberikan spesifikasi apa yang ingin dibangun tanpa harus mendeskripsikan detail bagaimana caranya karena mesin CloudFormation yang akan mengurusnya. Anda hanya perlu menulis baris kode untuk membangun lingkungan ketimbang menggunakan AWS Management Console.
-
-AWS CloudFormation tak hanya terbatas pada solusi berbasis EC2, melainkan mendukung banyak sumber daya AWS, seperti penyimpanan, database, analitik, machine learning, dan banyak lagi.
-
-Oke, setelah Anda menentukan sumber daya dalam CloudFormation template, AWS CloudFormation akan menguraikannya dan mulai menyediakan semua sumber daya tersebut secara paralel.
-
-AWS CloudFormation mengelola semua panggilan API. Anda dapat menjalankan CloudFormation template yang sama di beberapa akun atau Region. Dengan begitu, layanan ini akan membuat lingkungan yang identik di dalamnya. Tak akan ada lagi human error karena semua proses berjalan secara otomatis dengan sepenuhnya.
-
-Pengenalan ke Jaringan
-Pikirkan kembali skenario kedai kopi atau lingkungan AWS kita. Proses pemesanan pada kedai kopi adalah pelanggan menyampaikan ordernya kepada kasir yang lantas meneruskannya ke barista. Proses ini seharusnya sudah berjalan lancar tanpa kendala ya.
-
-Meskipun demikian, bagaimana jika ada beberapa pelanggan tak sabar yang coba mengabaikan kasir dan ingin memberikan pesanannya langsung ke barista? Para pelanggan penerobos antrean ini tentu akan merusak alur kedai kopi.
-
-20210328152329ccc45cf958a0f767def1ba4629570007.png
-
-Yah, tak mungkin kita biarkan pelanggan terus berinteraksi dengan barista. Alih-alih menerima pesanan, sang barista harus fokus membuat kopi saja. Jadi, apa yang harus kita perbuat?
-
-Di AWS Anda bisa menggunakan Amazon Virtual Private Cloud (Amazon VPC) untuk menuntaskan dilema ini. VPC memungkinkan Anda untuk menyediakan bagian logis dari AWS Cloud yang terisolasi, di mana Anda dapat meluncurkan sumber daya AWS di jaringan virtual sesuai kebutuhan.
-
-Sumber daya tersebut dapat menjadi public-facing yang berarti memiliki akses ke internet ataupun private alias tanpa akses internet. Jenis kedua biasanya dipakai untuk layanan backend seperti database atau server aplikasi.
-
-Nah, pengelompokan sumber daya menjadi publik dan privat ini disebut dengan subnet yang juga merupakan rentang alamat IP di VPC Anda.
-
-Sekarang mari kembali ke kedai kopi dan mengimplementasikan apa yang telah kita pelajari di atas. Anda dapat menempatkan kasir dan barista di area kerja yang terpisah.
-
-Karena kasir bertanggung jawab untuk menerima pesanan pelanggan, maka kita tempatkan ia di subnet publik. Sehingga, kasir dapat berkomunikasi langsung dengan pelanggan atau internet--jika kasusnya adalah instance.
-
-Berbeda kasusnya untuk barista. Karena kita ingin ia fokus untuk membuat kopi dan tidak berinteraksi dengan pelanggan secara langsung, maka kita tempatkan ia di subnet privat. Dengan begitu, barista tetap dapat menerima pesanan dari kasir tetapi tidak langsung dari pelanggan.
-
-20210328152344d7dae4f7cd4658dbc59b29fbbde95014.png
-
-Konektivitas ke AWS
-Ada jutaan pelanggan yang menggunakan layanan AWS. Lalu, bayangkan terdapat pula jutaan sumber daya yang telah dibuat oleh pelanggan tersebut, seperti Amazon EC2 instance. Tanpa adanya batasan di sekitar semua sumber daya itu, traffic jaringan akan mengalir di antaranya tanpa restriksi.
-
-Layanan jaringan yang dapat Anda gunakan untuk menetapkan batasan di sekitar sumber daya AWS adalah Amazon Virtual Private Cloud (Amazon VPC).
-
-
-
-Amazon Virtual Private Cloud (Amazon VPC)
-Selamat datang di Amazon Virtual Private Cloud (Amazon VPC). Anggaplah ia sebagai benteng kukuh di mana tak akan ada yang dapat masuk atau keluar tanpa izin secara eksplisit.
-
-Amazon VPC pada dasarnya adalah jaringan pribadi Anda di AWS. VPC memungkinkan Anda untuk membuat bagian terisolasi dari AWS Cloud dan meluncurkan sumber daya seperti EC2 instance dan ELB di dalamnya.
-
-Anda tak bisa menaruh sumber daya ke VPC begitu saja, melainkan harus mengelolanya di dalam subnet yang berbeda. Subnet adalah bagian dari VPC yang dapat mengelompokkan sumber daya. Subnet bersama dengan aturan jaringan--akan kita bahas nanti--dapat mengontrol apakah sumber daya tersedia untuk publik atau privat.
-
-Anda bisa saja memiliki sumber daya yang internet-facing (terhubung ke internet) sehingga dapat dijangkau oleh umum, seperti website publik.
-
-Namun, dalam skenario lain, Anda mungkin ingin memiliki sumber daya yang hanya Anda saja yang dapat menjangkaunya. Ini mungkin pas untuk layanan internal, seperti aplikasi HRD atau database.
-
-
-
-Internet Gateway
-Berkaca dari materi sebelumnya. Mari kita telaah tentang sumber daya yang internet-facing atau public-facing (berhubungan dengan internet/publik).
-
-Untuk mengizinkan traffic dari internet publik mengalir masuk dan keluar dari VPC, Anda harus melampirkan apa yang disebut dengan Internet Gateway (IGW). Di bawah ini adalah contoh arsitektur yang menggunakan Internet Gateway.
-
-20210310160547b068b89607a727456c38340e2290933d.pngJika Anda tak kunjung paham apa fungsi dari Internet Gateway, bayangkanlah ia seperti pintu depan yang terbuka untuk publik. Di kedai kopi, pintu depan berguna supaya orang-orang dapat keluar masuk dengan leluasa. Jika tak ada, bagaimana pelanggan ingin memesan kopi?
-
-Pintu depan ini adalah perumpamaan yang ideal untuk Internet Gateway. Tanpanya, tidak ada yang dapat menjangkau sumber daya di dalam VPC Anda.
-
-Selanjutnya, timbul pertanyaan seperti ini, “Bagaimana jika kita memiliki sumber daya pribadi di VPC dan tidak ingin sembarang orang bisa menjangkaunya?” Mari kita lihat di materi berikutnya!
-
-
-
-Virtual Private Gateway
-Anda bisa memasang gateway privat yang hanya mengizinkan masuk suatu permintaan jika ia berasal dari jaringan yang disetujui, bukan internet publik. Gateway privat ini disebut juga dengan virtual private gateway. Ia memudahkan Anda untuk membuat koneksi VPN (virtual private network) terenkripsi antara jaringan privat--seperti data center on-premise atau jaringan perusahaan internal--ke VPC Anda.
-
-Jadi, dapat disederhanakan bahwa virtual private gateway adalah komponen yang memungkinkan traffic internet yang terlindungi masuk ke dalam VPC. Silakan amati contoh arsitektur berikut:
-
-20210310160717f55c748910c59b07d4dd579c4b2101da.png
-
-Bingung? Nah, untuk mempermudah penjelasan bagaimana virtual private gateway bekerja, mari kita cari tahu dengan mengaitkannya ke skenario kedai kopi. Anda bisa mengibaratkan internet itu sebagai jalan raya antara rumah Anda dan kedai kopi.
-
-Katakanlah Anda bepergian melalui jalan tersebut dengan seorang pengawal untuk melindungi Anda. Tentu, sebenarnya Anda masih menggunakan jalan yang sama dengan pelanggan lain, bedanya, Anda memiliki lapisan perlindungan ekstra.
-
-Nah, pengawal tersebut bisa Anda anggap sebagai koneksi VPN yang mengenkripsi (atau melindungi) traffic internet dari semua permintaan lain di sekitarnya.
-
-Oh, tidak! Sayangnya, sekarang timbul masalah baru terhadap kasus di atas, meskipun Anda memiliki perlindungan yang ekstra. Apa itu? Anda masih menggunakan jalanan yang sama dengan pelanggan lain. Walhasil, sudah barang tentu ia akan rentan terhadap kemacetan atau perlambatan lalu lintas.
-
-Hal yang sama pun berlaku untuk koneksi VPN. Memang betul koneksi VPN bersifat pribadi dan dienkripsi, tetapi faktanya ia masih menggunakan koneksi internet reguler dengan bandwidth (jumlah maksimum data yang dapat dikirim) yang terbagi kepada banyak pengguna internet lainnya.
-
-Lalu, bagaimana jika kita ingin memiliki koneksi pribadi yang mengarah langsung ke VPC?
-
-
-
-AWS Direct Connect
-Untuk memulai, bayangkanlah sebuah apartemen dengan lorong pribadi yang langsung terhubung ke kedai kopi. Hanya penghuni apartemen saja yang dapat melewati lorong ini.
-
-Lorong ini menyediakan jenis koneksi khusus/terdedikasi di mana penghuni apartemen dapat masuk ke kedai kopi tanpa perlu menggunakan jalan raya bersama para pelanggan lain.
-
-Intinya, jika Anda menginginkan koneksi privat, koneksi terdedikasi, jumlah latensi yang rendah, dan tingkat keamanan yang tinggi, maka Anda bisa mewujudkannya di AWS dengan menggunakan AWS Direct Connect.
-
-20210310160759b1b2ea1ee5556519543d26c7d22ed4c8.png
-
-AWS Direct Connect memungkinkan Anda untuk membuat koneksi fiber yang privat nan terdedikasi sepenuhnya antara data center Anda dan VPC. Untuk membangun koneksi tersebut, Anda perlu berpartner dengan mitra Direct Connect yang tersedia di wilayah Anda.
-
-Dengan demikian, layanan ini dapat membantu Anda memenuhi kebutuhan regulasi dan kepatuhan yang tinggi serta menghindari potensi masalah pada bandwidth.
-
-Catatan: Satu VPC mungkin memiliki beberapa tipe gateway yang terpasang untuk berbagai jenis sumber daya di VPC yang sama namun dengan subnet yang berbeda.
-
-Subnet dan Network Access Control List
-Pada materi pengantar sebenarnya kita telah mengupas sedikit tentang peran dari subnet. Bahkan kita juga telah mengilustrasikannya di kedai kopi. Tapi rasanya masih belum dalam ya. Begitu juga dengan network access control list, sepertinya kita belum menyinggungnya sama sekali. Tak apa. Di pembahasan kali ini, kita akan belajar lebih lanjut.
-
-Subnet dan network access control list adalah dua hal yang penting untuk dipahami saat Anda belajar jaringan AWS. Jadi, tak perlu menunggu waktu lama. Mari kita lanjutkan ke materi berikutnya!
-
-
-
-Subnet
-Subnet adalah sebuah bagian dari VPC di mana Anda dapat mengelompokkan sumber daya berdasarkan keamanan atau kebutuhan operasional. Subnet bisa menjadi publik maupun privat.
-
-20210310161003af114067c8831a0075be04294cfdff4d.png
-
-Subnet publik biasanya berisi sumber daya yang perlu diakses oleh publik, seperti website toko online. Sedangkan subnet privat memuat sumber daya yang seharusnya hanya dapat diakses melalui jaringan privat, seperti database yang berisi informasi pribadi pelanggan dan riwayat pesanan.
-
-Di VPC subnet dapat berkomunikasi satu sama lain. Misalnya, Anda dapat memiliki aplikasi pada Amazon EC2 instance di subnet publik yang berkomunikasi dengan database di subnet pribadi.
-
-
-
-Network Access Control List (Network ACL)
-2021031016121382a99d472144d037b88006e92a27d1c2.png
-
-Sebelumnya, kita telah belajar seputar Internet Gateway (IGW) yang dapat mengizinkan traffic masuk atau keluar dari VPC. Tetapi, layanan ini hanya meliputi satu bagian saja dari keamanan jaringan--yang harus Anda fokuskan sebagai bagian dari strategi IT.
-
-Ketahuilah, AWS memiliki berbagai layanan yang dapat mencakup setiap lapisan keamanan:
-
-Network hardening (Penguatan jaringan).
-Keamanan aplikasi.
-Identitas pengguna.
-Autentikasi dan otorisasi.
-Pencegahan distributed denial-of-service (DDoS).
-Integritas data.
-Enkripsi.
-dan masih banyak lainnya.
-Tenang, Anda tak harus memahami semuanya. Di kelas ini kita hanya akan membahas beberapa bagian saja.
-
-Sekarang mari kita berbincang mengenai beberapa aspek dari network hardening (penguatan jaringan) dengan melihat praktiknya di dalam VPC.
-
-Satu-satunya alasan teknis untuk menggunakan subnet di VPC adalah untuk mengontrol akses ke gateway. Subnet publik memiliki akses ke Internet Gateway, sementara Subnet privat tidak. Tapi walaupun begitu, tahukah Anda? Subnet juga bisa mengontrol perizinan traffic, loh.
-
-Bagaimana caranya? Simak paparan berikut.
-
-Ketika pelanggan meminta data dari aplikasi yang berjalan di AWS Cloud, maka permintaan ini dikirim sebagai paket. Paket adalah sebuah unit data yang dikirim melalui internet atau jaringan.
-
-202103101612444d839af795a92a8aef280b8f628d6a4e.pngPaket masuk ke VPC melalui Internet Gateway. Sebelum paket dapat masuk atau keluar dari subnet, ia akan diperiksa terkait perizinannya. Pemeriksaan ini dilakukan untuk melihat apakah paket memiliki izin untuk masuk ke subnet berdasarkan siapa pengirimnya dan bagaimana ia mencoba berkomunikasi dengan sumber daya yang berada di subnet.
-
-Komponen VPC yang memeriksa izin paket untuk subnet adalah network access control list alias network ACL. Network ACL adalah firewall virtual yang mengontrol traffic masuk dan keluar di tingkat subnet. Tentu ini berbeda dengan Internet Gateway yang cakupannya di tingkat VPC.
-
-Jika paket memiliki potensi yang dapat membahayakan sumber daya di dalam subnet--seperti upaya untuk menguasai sistem melalui permintaan administratif--maka ia akan diblokir sebelum dapat menyentuh target.
-
-Jika masih sukar memahaminya, Anda bisa menganggap network ACL sebagai petugas pengawas paspor. Misalnya begini.
-
-Mari kita keluar dari kedai kopi dan bayangkan Anda sedang berada di bandara. Di sana ada banyak turis yang mencoba masuk ke negara lain. Anda dapat menganggap para turis itu sebagai paket dan petugas pengawas paspor sebagai network ACL.
-
-Petugas pengawas paspor memeriksa kredensial setiap turis yang masuk ke suatu negara. Jika nama turis tertera di dalam daftar yang disetujui, maka ia diizinkan untuk masuk. Sebaliknya, jika namanya tak terdaftar atau bahkan secara eksplisit tercatat di dalam daftar turis yang diblokir, maka tentu ia dilarang masuk.
-
-Selain memeriksa traffic yang masuk, network ACL pun akan mengecek setiap traffic yang keluar dari subnet. Ini serupa pula dengan petugas pengawas paspor. Hanya karena Anda diizinkan masuk, bukan berarti petugas akan membiarkan Anda keluar dengan leluasa.
-
-Setiap akun AWS menyertakan network ACL secara default (bawaan). Saat mengonfigurasi VPC, Anda dapat menggunakan default network ACL (mengizinkan semua traffic masuk dan keluar) atau custom network ACL (menolak semua traffic masuk dan keluar hingga Anda secara eksplisit mengizinkannya).
-
-Selain itu, network ACL memiliki aturan penolakan secara eksplisit. Aturan ini berguna untuk memastikan jika sebuah paket tidak cocok dengan salah satu aturan lain di daftar, paket tersebut akan ditolak.
-
-Mungkin terdengar seperti keamanan yang hebat ya? Tapi nyatanya, network ACL tidak bisa menjawab semua masalah terkait kontrol jaringan. Sebab, ia hanya dapat mengevaluasi paket jika melintasi batas subnet--baik masuk atau keluar namun tidak tahu-menahu apakah paket tersebut dapat mencapai EC2 instance tertentu atau tidak.
-
-
-
-Security Group
-Boleh jadi Anda memiliki beberapa EC2 instance di subnet yang sama. Namun pada praktiknya, mungkin tiap-tiapnya akan memiliki aturan yang berbeda tentang
-
-siapa yang dapat mengiriminya pesan; atau
-port mana yang diizinkan untuk menerima pesan.
-Jadi, Anda juga memerlukan keamanan jaringan pada tingkat instance. Nah, untuk menjawabnya, AWS memperkenalkan security group.
-
-Security group adalah firewall virtual yang mengontrol traffic masuk dan keluar untuk Amazon EC2 instance. Terlihat berbeda ya dengan network ACL yang cakupannya di tingkat subnet.
-
-20210310161531e35fa09c172d32de5182337c5e1ed0c6.pngSaat EC2 instance diluncurkan, ia secara otomatis dilengkapi dengan security group. Jika Anda memiliki beberapa Amazon EC2 instance di dalam subnet yang sama, Anda dapat mengaitkannya dengan security group yang sama maupun berbeda untuk setiap instance.
-
-Ingat! secara default (bawaan), security group menolak semua traffic masuk namun mengizinkan semua lalu lintas yang keluar dari instance.
-
-Dengan security group default, semua port dan alamat IP yang mengirimkan paket akan diblokir. Tentu ini sangat aman, tapi mungkin membuat instance tidak berguna. Maka dari itu, tentu Anda bisa mengonfigurasinya dengan menambah aturan sendiri yang mengizinkan atau menolak traffic sesuai kebutuhan.
-
-Misalnya, dalam kasus website, Anda bisa mengatur security group untuk menerima traffic berbasis web (HTTPS) dan tidak untuk jenis lalu lintas lain (sistem operasi atau permintaan administrasi).
-
-Jika sebelumnya kita mengibaratkan network ACL sebagai petugas pengawas paspor, nah, anggaplah security group itu seperti penjaga pintu di gedung apartemen Anda. Dalam hal ini, gedung tersebut adalah EC2 instance.
-
-Penjaga pintu akan memeriksa setiap orang yang ingin memasuki gedung untuk memastikan apakah mereka memiliki izin atau tidak. Namun, bagi setiap orang yang akan keluar dari gedung tersebut tak akan diperiksa olehnya.
-
-Serupa dengan itu, security group mengizinkan traffic tertentu untuk masuk dan--secara default--membolehkan semua lalu lintas keluar.
-
-Mungkin dahi Anda akan mulai berkerut, “Tunggu sebentar. Kita baru saja belajar dua mesin berbeda namun melakukan pekerjaan yang sama, yaitu membiarkan paket dari alamat yang kita izinkan untuk masuk dan menolak paket dari alamat yang tidak kita izinkan. Lalu, apa bedanya?”
-
-Oke, Oke. Tenang! Mari kita tilik perbedaannya.
-
-Perbedaan utama antara security group dan network ACL adalah:
-
-Security group bersifat stateful, yang berarti ia memiliki semacam memori untuk mengingat siapa yang diizinkan masuk atau keluar.
-Network ACL bersifat stateless, artinya ia tidak mengingat apa pun. Layanan ini akan memeriksa setiap paket yang melintasi perbatasannya terlepas dari keadaan apa pun.
-Oke, sekarang kita akan mengilustrasikan suatu perjalanan bolak-balik sebuah paket saat berpindah dari satu instance ke instance lain di subnet yang berbeda. Pahami metafora ini dengan baik ya.
-
-20210406133544000724f84aef9e32dec5ad1ce69e4ced.png
-
-Untuk mengawali, ketahuilah bahwa layanan manajemen traffic ini tak peduli dengan isi dari paket itu sendiri. Ia hanya memeriksa apakah pengirimnya tertera di dalam daftar yang disetujui atau tidak.
-
-Baiklah. Mari kita mulai ilustrasinya. Katakanlah Anda ingin mengirim paket dari instance A ke instance B di subnet yang berbeda di VPC yang sama.
-
-Paket dikirim dari instance A. Hal pertama yang akan terjadi adalah paket tersebut akan bertemu dengan batas security group dari instance A. Ingat! Secara default, security group akan mengizinkan semua traffic keluar. Jadi, paket bisa melanjutkan perjalanannya dan sukses melewati security group dari instance A.
-20210406133613825792fac15f0261ee773a02c8586aa9.png
-Selanjutnya, paket berhadapan dengan perbatasan subnet 1. Di sana ada petugas pengawas paspor, yakni network ACL. Network ACL tetap akan memeriksa paket walaupun security group telah mengizinkannya karena ia memiliki daftarnya sendiri atas siapa yang bisa dan tidak bisa lewat. Jika diperbolehkan, paket dapat melanjutkan perjalanannya.
-2021040613364104f8172cb1616b5b6cfee362003aa6c7.png
-Oke, sekarang paket telah keluar dari subnet asal dan menuju ke subnet target di mana instance B berada. Untuk memasuki subnet 2, paket kembali berhadapan dengan petugas pengawas paspor, yaitu Network ACL.
-
-Hanya karena paket diizinkan keluar dari wilayah asalnya, bukan berarti ia dapat bebas masuk ke wilayah atau subnet target. Masing-masing subnet memiliki petugas pengawas paspornya sendiri. Walhasil, paket harus mendapatkan izin dari keduanya, jika tidak maka paket bisa ditolak di perbatasan.
-
-Nah, ternyata paket Anda tertera di dalam daftar yang disetujui untuk masuk ke subnet 2. Ayo, hampir sampai.
-2021040613370135b27bb80306a2087f6518b09333b24e.png
-Sekarang paket semakin dekat dengan instance target, yakni instance B. Setiap EC2 instance memiliki security group-nya sendiri. Jika paket ingin masuk ke instance B, maka penjaga pintu alias security group perlu melakukan pemeriksaan terlebih dahulu untuk memastikan apakah paket diizinkan masuk atau tidak.
-20210406133737d44cf08269077e67ebb8867a65b8371c.png
-Apabila terdaftar, maka paket Anda pun dapat masuk dan akhirnya sampai ke instance target.
-20210406133753f89c42583c3b7d5fb5af2b3fdf8393ac.png
-Wah cukup meletihkan ya. Setelah paket sampai ke tujuan, ia akan melakukan apa yang harus dilakukan. Nah, setelah proses transaksi selesai, sekarang saatnya pulang. Kita akan melihat bagaimana return traffic pattern alias pola lalu lintas kembali terjadi.
-
-Ini adalah bagian yang paling menarik karena di sinilah sifat stateful versus stateless dari mesin yang berbeda berperan. Pasalnya, paket masih harus dievaluasi pada setiap pos pemeriksaan. Agar tak penasaran, silakan simak uraian perjalanan pulang dari paket berikut:
-
-Seperti yang telah kita pelajari, security group secara default mengizinkan semua lalu lintas keluar. Jadi, ia tak perlu lagi memeriksa apakah paket diizinkan keluar atau tidak. Tanpa kendala paket pun berhasil meninggalkan instance B dan menuju perbatasan subnet 2.
-20210406133816d3d6e2d633019ae31effff08759991a7.png
-Nah, di perbatasan subnet berdirilah seorang petugas pengawas paspor. Tentu Anda sudah tak asing ya, dialah network ACL yang stateless alias tidak dapat mengingat status. Ia tidak peduli bahwasanya paket Anda telah melewatinya. Ini karena mungkin saja paket Anda tercantum di dalam daftar tidak-bisa-keluar.
-
-Setiap jalan masuk maupun keluar tetap diperiksa sesuai dengan daftar yang ada. Alamat pengembalian paket harus tercatat di dalam daftar yang disetujui agar berhasil melintasi perbatasan. Tenang, paket Anda diperbolehkan keluar.
-202104061338375be27c09111bb155cb9b7f06cf80020d.png
-Oke, setelah keluar dari perbatasan subnet 2, paket pun tiba di perbatasan subnet asal, yakni subnet 1. Akan tetapi, paket harus berhadapan lagi dengan network ACL. Karena network ACL bersifat stateless, maka ia akan selalu memeriksa daftarnya. Untungnya, paket Anda diberikan izin untuk masuk ke subnet asal.
-2021040613385806b8cfd5d63a768d03726ce93bb6e6c2.png
-Satu langkah lagi untuk kembali ke rumah. Tapi, security group--sang penjaga pintu--masih bertanggung jawab dan berdiri di sana. Nah, perbedaan utamanya terlihat di sini. Karena security group bersifat stateful, ia dapat mengenali sumber paket. Jadi, paket Anda tak akan diperiksa lagi saat hendak memasuki instance A.
-20210406133926b943b55f72ccbfb0a98bf16bb9264a51.png
-Welcome home!202104061339434c6f76c53f307522d4da1dbfdcb211f3.png
-Huh! Mungkin tampak sedikit melelahkan ya hanya untuk mendapatkan paket dari satu instance ke instance lainnya dan kembali lagi. Jangan khawatirkan semua proses panjangnya. Faktanya, operasi pertukaran tersebut terjadi secara instan sebagai bagian dari cara kerja AWS Networking.
-
-Manfaatkanlah network ACL dan security group ini guna mencapai keamanan jaringan yang komprehensif. Mengapa? Karena keamanan yang mendalam merupakan hal yang sangat penting untuk sebuah arsitektur modern.
-
-Jaringan Global
-Sebelumnya kita telah banyak belajar mengenai bagaimana Anda berinteraksi dengan infrastruktur AWS. Sekarang pertanyaannya adalah bagaimana pelanggan Anda berinteraksi dengan infrastruktur AWS tersebut?
-
-Tak perlu tergesa-gesa! Di modul ini akan dijelaskan tentangnya. Kita mulai dari DNS terlebih dahulu. Apa itu? Yuk kita lihat di materi berikutnya!
-
-
-
-Domain Name System (DNS)
-Untuk mengawali, yuk kita buat suatu cerita. Misalnya, Anda memiliki website yang berjalan di AWS Cloud. Silakan jawab, bagaimana pelanggan Anda dapat mengaksesnya? Mudah saja. tentu kita semua sudah tahu. Caranya adalah dengan memasukkan nama website Anda di browser, tekan Enter, dan boom! Website pun termuat.
-
-Proses tersebut tentu saja tidak sekonyong-konyong terjadi begitu saja. Ada peran domain name system (DNS) di sana. Di AWS tersedia layanan DNS yang dapat Anda gunakan, yakni Amazon Route 53--akan dijelaskan nanti.
-
-Tapi, tunggu! Sebelum melangkah lebih jauh, apa sih yang dimaksud dengan DNS? Begini, anggaplah DNS itu sebagai buku telepon bagi internet. DNS dapat menerjemahkan sebuah nama domain ke dalam alamat IP (Internet Protocol) yang dapat dibaca komputer.
-
-20210310164623c3c9bd41216e260b0c0511dae839cde6.png
-
-Mari kita ambil contoh bagaimana DNS bekerja. Katakanlah Anda ingin membuka halaman www.example.com.
-
-Masukkan nama domain tersebut ke browser Anda.
-Lalu, permintaan tersebut akan dikirimkan ke Amazon Route 53 guna memperoleh alamat IP yang sesuai dengan website tersebut.
-Route 53 merespons dengan memberikan alamat IP. Misalkan 80.17.25.131.
-Kemudian, komputer atau browser Anda pun akan dirutekan ke alamat tadi.
-Tada! Website pun termuat.
-Tidak sulit kan untuk memahami DNS dan cara kerjanya? Nah, seperti yang telah dijanjikan di awal, sekarang mari kita tilik layanan Amazon Route 53 yang tercantum pada materi berikutnya.
-
-
-
-Amazon Route 53
-Amazon Route 53 adalah layanan domain name system (DNS) atau sistem nama domain di AWS yang highly available (sangat tersedia) dan scalable (dapat diskalakan). Layanan ini dapat memberikan Anda cara yang andal untuk merutekan pelanggan ke aplikasi internet yang berjalan di AWS.
-
-Amazon Route 53 bertugas untuk menghubungkan permintaan pelanggan ke infrastruktur yang berjalan di AWS (seperti Amazon EC2 instance dan load balancers). Bahkan, ia bisa pula mengarahkan pelanggan ke infrastruktur yang berada di luar AWS.
-
-Jika kita melangkah lebih jauh, Amazon Route 53 itu dapat pula mengarahkan traffic ke endpoints (titik akhir) yang berbeda menggunakan beberapa routing policies (kebijakan perutean) yang berbeda, seperti:
-
-Latency-based routing (Perutean berbasis latensi)
-Geolocation DNS
-Geoproximity routing
-Weighted round robin
-Kita tidak akan memaparkan semuanya di sini. Tapi, mari ambil contoh dari salah satunya, yaitu Geolocation DNS. Dengan opsi tersebut, kita mengarahkan traffic berdasarkan lokasi pelanggan. Contohnya, lalu lintas yang datang dari Indonesia akan dialihkan ke Region Singapura atau jika berasal dari Jepang akan dialihkan ke Region Tokyo.
-
-Selain mengarahkan traffic, Route 53 dapat digunakan untuk mendaftarkan nama domain baru atau menggunakan nama domain yang Anda miliki. Sehingga, ini memudahkan Anda untuk mengelola semua nama domain dalam satu lokasi.
-
-
-
-Amazon CloudFront
-Berkaca dari kasus website yang telah kita bicarakan dari awal, ada layanan yang bisa mempercepat pengiriman aset website, yaitu Amazon CloudFront--telah kita bahas di modul sebelumnya yah.
-
-Amazon CloudFront adalah layanan yang dapat membantu Anda untuk mengirimkan konten (data, aplikasi, maupun API) ke pelanggan di seluruh dunia dengan aman dan latensi rendah. Konten yang dimaksud ini bisa berbagai hal, seperti data, video, aplikasi, dan API.
-
-Jika Anda ingat, kita telah belajar tentang Edge locations sebelumnya. Edge locations menyajikan konten sedekat mungkin dengan pelanggan, salah satu bagiannya adalah content delivery network (CDN) atau jaringan pengiriman konten. Sebagai pengingat, CDN adalah jaringan yang membantu Anda untuk memberikan konten kepada pelanggan berdasarkan lokasi geografis mereka.
-
-CloudFront sangat terintegrasi dengan layanan lainnya seperti AWS Web Application Firewall (WAF), AWS Certificate Manager, Amazon Route 53, Amazon S3, dan lainnya.
-
-Anda dapat memulai menggunakan Amazon CloudFront hanya dalam hitungan menit menggunakan layanan AWS yang sudah Anda kenal: API, AWS Management Console, Command Line Interface (CLI), dan SDK.
-
-
-
-Studi Kasus: Bagaimana Amazon Route 53 dan Amazon CloudFront Mengirimkan Konten
-Di modul sebelumnya kita telah belajar tentang Amazon Route 53 dan Amazon CloudFront. Kali ini kita akan menelaah bagaimana kedua layanan tersebut berkolaborasi untuk mengirimkan konten kepada pelanggan.
-
-Misalnya, Anda memiliki aplikasi yang berjalan di beberapa Amazon EC2 instance. Instance ini berada di dalam Auto Scaling group (grup Auto Scaling) yang dilampirkan ke Application Load Balancer. Perhatikan gambar berikut:
-
-2021031016471069238f00684ab8976fb4eb443739344b.pngDengan arsitektur di atas, sekarang proses memuat website pun bisa semakin lebih cepat. Mari kita uraikan arsitektur tersebut:
-
-Pelanggan memasukkan alamat website di browser mereka.
-Permintaan tersebut akan dikirimkan ke Amazon Route 53 untuk diidentifikasi alamat IP-nya.
-Informasi tersebut kemudian dikirim kembali ke pelanggan.
-Selanjutnya, permintaan dari pelanggan tersebut ditransfer ke Edge locations terdekat melalui Amazon CloudFront.
-Setelah itu, Amazon CloudFront yang terhubung ke Application Load Balancer akan mengirimkannya ke Amazon EC2 instance.
-Dan akhirnya, website pun termuat.
-
-Pengenalan ke Penyimpanan dan Database
-Oke, kembali ke skenario. Sekarang kedai kopi kita telah beroperasi dengan cukup baik. Kita punya banyak pelanggan yang puas.
-
-Faktanya, kita juga telah mempunyai arsitektur yang elastis, dapat diskalakan, tahan akan bencana, dan secara biaya pun telah optimal. Bahkan, sekarang kita memiliki jaringan global yang sangat aman dan dapat diterapkan sepenuhnya secara terprogram.
-
-Melihat semakin banyaknya pelanggan setia yang hadir ke kedai kopi, maka kita harus memberikan apresiasi kepada mereka. Tapi, berbentuk apa ya?
-
-Hmm. Bagaimana dengan program loyalitas pelanggan? Kita bisa membagikan kartu stempel kepada mereka yang sering memesan kopi di tempat kita. Tetapi, jujur saja, kita tak akan dapat melacak kartu tersebut dan mengenal pelanggan kita dengan baik.
-
-Jadi, sepertinya kita membutuhkan kartu digital yang dapat melacak riwayat pemesanan pelanggan (apa yang mereka pesan atau berapa banyak yang mereka beli). Dengan demikian, kartu ini akan membantu customer kita mendapat apresiasi terbaik atas loyalitas mereka. Kita pun jadi bisa mengenal basis pelanggan dengan lebih baik dan lebih mudah.
-
-Nah, itu berarti kita akan membutuhkan penyimpanan dan database (basis data). Ingat, bukan sembarang database. Pilihlah penyimpanan dan database yang tepat sesuai dengan masing-masing kebutuhan Anda.
-
-Instance Store dan Amazon Elastic Block Store (Amazon EBS)
-Saat Anda menjalankan aplikasi di AWS, tentunya aplikasi tersebut memerlukan akses ke CPU, memori, jaringan, dan penyimpanan. Nah, untungnya, EC2 instance dapat memberikan akses ke semua komponennya. Untuk saat ini, mari kita fokus pada penyimpanan.
-
-Ketika aplikasi berjalan di EC2 instance, mereka kerap kali membutuhkan akses ke block-level storage (penyimpanan tingkat blok).
-
-Jika Anda kurang kenal dengan istilah block-level storage, maka anggaplah ia sebagai tempat menyimpan file. File adalah serangkaian byte (bita) yang disimpan di dalam blok pada disk.
-
-20210310164917cd7e918b1bb645d899bec1e7bae9d971.pngPada saat file pada disk tersebut diperbarui, ia tak akan menimpa seluruh rangkaian blok, melainkan memperbarui bagian yang berubah saja. Dengan sistem seperti ini, penyimpanan untuk aplikasi (database, perangkat lunak perusahaan, atau sistem file) jadi lebih efisien.
-
-Hmm. Mungkin penjelasan di atas sangat teknis ya. Oke, mari kita sederhanakan. Apakah sekarang Anda sedang menggunakan laptop atau komputer pribadi?
-
-Nah! Itu berarti Anda sedang mengakses block-level storage alias penyimpanan tingkat blok. Block-level storage dalam kasus ini adalah hard drive (cakram keras) di komputer Anda.
-
-EC2 instance juga memiliki hard drive dengan beberapa tipe yang berbeda.
-
-
-
-Instance Store
-Instance store (tempat penyimpanan instance) adalah penyimpanan block-level storage sementara untuk Amazon EC2 instance. Saat Anda meluncurkan EC2 instance--tergantung tipe EC2 instance yang Anda pilih--biasanya sudah tersedia penyimpanan lokal alias instance store volume di dalamnya.
-
-Volume ini secara fisik terpasang ke host (mesin fisik), yaitu tempat di mana EC2 instance Anda berjalan. Anda dapat melakukan proses write (menulis) data padanya seperti hard drive pada umumnya.
-
-Namun masalahnya, jika Anda menghentikan atau mengakhiri EC2 instance tersebut, maka semua data di sana akan terhapus. Ini terjadi karena ketika Anda memulai instance dari status stop alias berhenti kemungkinan EC2 instance akan berjalan di host lain, yang mana instance store volume tersebut tidak berada di sana.
-
-20210310165238867111735181792a2132412246c42191.png
-
-Ingat! EC2 instance adalah mesin virtual. Oleh karena itu, host yang mendasarinya dapat berubah pada saat instance berhenti dan memulai.
-
-Karena sifatnya yang sementara inilah biasanya instance store volume digunakan untuk penyimpanan data yang sering berubah, seperti cache, temporary file (file sementara), data yang dapat dibuat ulang dengan mudah, dan konten sementara lainnya. Tapi, ingat! Jangan simpan data penting Anda ke dalam instance store volume.
-
-Lantas, bagaimana solusinya jika kita ingin menyimpan data secara persisten dan berada di luar siklus hidup EC2 instance? Atau dengan kata lain, bagaimana kita ingin menyimpan data yang takkan terhapus walau EC2 instance berhenti? Nah, jangan khawatir, di sinilah Anda perlu mengenal layanan Amazon Elastic Block Store (Amazon EBS).
-
-
-
-Amazon Elastic Block Store (Amazon EBS)
-Amazon Elastic Block Store (Amazon EBS) adalah layanan yang menyediakan block-level storage (penyimpanan tingkat blok) yang dapat Anda gunakan bersama dengan Amazon EC2 instance.
-
-Amazon EBS memungkinkan Anda untuk membuat hard drive virtual (EBS volume) yang kemudian bisa di-attach (dipasang) ke EC2 instance. EBS volume ini merupakan penyimpanan yang terpisah dari instance store volume. Ia pun tak terikat langsung ke host yang menjalankan EC2 instance Anda.
-
-Lalu, bagaimana cara membuat EBS volume? Sebenarnya, mudah saja. Anda hanya perlu menentukan konfigurasinya (seperti ukuran dan tipe) sesuai dengan kebutuhan. Jika sudah, Anda bisa meluncurkannya dan memasangkannya ke Amazon EC2 instance.
-
-Sekarang, jika Anda menghentikan lalu memulai EC2 instance, data yang Anda simpan di EBS volume akan tetap ada.
-
-2021031016535393478ef7aa945958b93216e2d011552a.png
-
-Karena EBS volume digunakan untuk kebutuhan data yang persisten, maka penting untuk Anda melakukan backup (pencadangan) data. Anda dapat menjalankan incremental backup (pencadangan secara inkremental) dari EBS volume dengan membuat Amazon EBS snapshot.
-
-Amazon EBS snapshot disimpan secara bertahap/inkremental. Itu berarti pada saat pertama kali proses pencadangan dilakukan, ia akan menyalin semua data yang ada di EBS volume. Namun, untuk pencadangan berikutnya, ia hanya menyimpan blok data yang berubah dari snapshot terakhir.
-
-20210310165424b9a73efed27aba08e68e68347639f136.pngTentu, incremental backup ini sesungguhnya berbeda ya dengan full backup (pencadangan penuh). Full backup itu akan menyalin semua data yang ada di dalam volume setiap pencadangan dilakukan, sementara incremental backup hanya mencadangkan data yang berubah (delta) dari pencadangan sebelumnya.
-
-Lakukanlah snapshot untuk EBS volume secara teratur. Dengan begitu, jika sebuah drive corrupted atau rusak, maka Anda tidak akan kehilangan data, melainkan Anda dapat memulihkannya dari snapshot.
-
-Amazon Simple Storage Service (Amazon S3)
-Sekarang kita masuk ke materi yang berkenaan tentang Amazon Simple Storage Service (Amazon S3). Dari namanya, mungkin Anda sudah menduga bahwa ini adalah layanan penyimpanan yang sederhana.
-
-Tahukah Anda? Sebagian besar bisnis memiliki data yang perlu disimpan di suatu tempat. Misalnya untuk kedai kopi kita, ini bisa berupa struk, gambar, spreadsheet Excel, video pelatihan karyawan, bahkan file teks.
-
-Nah, Anda dapat menyimpan file-file tersebut di Amazon S3 karena ia merupakan layanan yang dapat menyimpan dan mengambil data dalam jumlah tak terbatas pada skala apa pun.
-
-Dengan Amazon S3, data disimpan sebagai objek. Objek tersebut tidak akan ditaruh di direktori file, melainkan data Anda akan disimpan di dalam bucket. Sederhananya begini. Anggaplah file yang ada di hard drive Anda sebagai objek dan direktori file adalah bucket.
-
-Amazon S3 juga merupakan object-level storage (penyimpanan tingkat objek). Setiap objek terdiri dari data, metadata, dan kunci.
-
-20210310165549165d86c058cfc10ac3d78229c9792f96.pngMari kita lihat lebih lanjut. Data yang dimaksud itu bisa bermacam-macam, seperti gambar, video, dokumen teks, atau jenis file lainnya. Lalu, metadata adalah informasi yang berisi tentang apa itu data, cara penggunaannya, ukuran objeknya, dan sebagainya. Nah, key (kunci) pada suatu objek adalah identifier/pengenal yang unik.
-
-Ukuran maksimum dari setiap objek yang dapat Anda unggah adalah 5 terabyte. S3 juga memiliki fitur versioning dengan membuat object version (versi objek). Maksudnya, Anda akan tetap dapat memiliki versi sebelumnya dari objek tersebut walaupun secara tidak sengaja menimpa objek dengan isi yang berbeda.
-
-Selain itu, Anda juga dapat membuat beberapa bucket lalu menentukan permission (izin) untuk membatasi siapa yang dapat melihat atau mengakses objek di dalamnya.
-
-Hal lain yang perlu diingat adalah ketika Anda mengubah file di block-level storage (penyimpanan tingkat blok), hanya bagian yang diubah saja yang akan diperbarui. Sebaliknya, saat Anda mengubah file di object-level storage (penyimpanan tingkat objek), maka keseluruhan objek yang akan diperbarui.
-
-Oke, sekarang mari kita membahas storage class atau kelas penyimpanan yang ada pada Amazon S3. Maksudnya, ia menawarkan mekanisme untuk kasus penggunaan penyimpanan yang berbeda-beda. Misalnya untuk data yang sering diakses atau bahkan data audit yang perlu disimpan selama beberapa tahun. Mari kita uraikan.
-
-S3 Standard
-S3 Standard hadir dengan daya tahan 11 sembilan. Artinya, objek yang disimpan akan memiliki 99,999999999% probabilitas tetap utuh setelah jangka waktu satu tahun. Waw, Itu cukup tinggi, bukan?
-
-Selain itu, data disimpan setidaknya di tiga data center. Sehingga, ini membuatnya dapat menawarkan high availability (ketersediaan tinggi) bagi objek. S3 Standard menjadi pilihan yang ideal untuk berbagai kasus penggunaan, seperti website, distribusi konten, dan analitik data.
-
-Anda juga dapat menggunakan Amazon S3 untuk meng-hostingwebsite statis, yaitu jenis website yang paling dasar dan berisi halaman web dengan konten statis. Caranya cukup mudah, Anda hanya perlu:
-Unggah semua file HTML, aset web statis, dan sebagainya ke dalam bucket.
-Centang opsi untuk meng-hosting website statis.
-Lalu buka website tersebut dengan memasukkan URL bucket dan ta-da! Website instan.
-Cara yang cukup mengagumkan ya untuk memulai blog tentang kedai kopi kita.
-
-S3 Standard-Infrequent Access (S3 Standard-IA)
-Kelas penyimpanan jenis ini digunakan untuk data yang jarang diakses tetapi membutuhkan proses cepat saat dibutuhkan. Artinya, opsi ini adalah tempat yang ideal untuk menyimpan backup (cadangan), disaster recovery file (file pemulihan bencana), atau objek apa pun yang memerlukan penyimpanan jangka panjang.
-
-S3 One Zone-Infrequent Access (S3 One Zone-IA)
-Berbeda dengan S3 Standard dan S3 Standard-IA yang menyimpan data minimal di tiga Availability Zone, kelas penyimpanan S3 One Zone-IA menyimpan data hanya di satu Availability Zone.
-
+Kita telah belajar, bahwa jika ingin menyediakan sumber daya, kita dapat melakukan salah satu cara di bawah ini:</p>
+<ol align="justify"><li>
+Masuk ke konsol, arahkan dan klik.</li>
+<li>Menulis beberapa perintah.</li>
+<li>Menulis beberapa program untuk melakukannya.</li></ol>
+<p align="justify">Nah, selain yang disebutkan di atas, ada juga cara lain untuk mengelola lingkungan AWS Anda menggunakan managed service (layanan terkelola) seperti AWS Elastic Beanstalk. AWS Elastic Beanstalk adalah layanan yang dapat membantu Anda menyediakan lingkungan berbasis Amazon EC2. Tak perlu lagi harus klik sana sini di console atau menulis beberapa baris perintah untuk membangun jaringan, EC2 instance, scaling (penyesuaian kapasitas), dan Elastic Load Balancer. Ucapkan selamat tinggal kepada semua itu. AWS Elastic Beanstalk dapat menyediakan dan mengelola semua infrastruktur tersebut sembari tetap memberi visibilitas dan kendali atas sumber daya yang mendasarinya. Dengan begitu, Anda bisa fokus pada aplikasi bisnis bukan infrastrukturnya. Cukup unggah kode dan tentukan konfigurasi yang Anda inginkan, maka AWS Elastic Beanstalk pun akan mengolah informasi tersebut dan membangun lingkungan AWS-nya untuk Anda. Lingkungan yang dimaksud adalah:</p>
+<ol align="justify">
+<li>Penyesuaian Kapasitas</li>
+<li>Load balancing (Penyeimbang beban)</li>
+<li>Auto-scaling (Penskalaan otomatis)</li>
+<li>Pemantauan kesehatan aplikasi</li></ol>
+<p align="justify">Simpan konfigurasi lingkungan tersebut sehingga nantinya akan memudahkan Anda saat menerapkannya kembali.</br></br>
+<b>AWS CloudFormation</b></br>
+Layanan lain yang dapat Anda gunakan untuk membantu membuat penerapan otomatis dan berulang adalah AWS CloudFormation. AWS CloudFormation adalah layanan infrastructure as code (infrastruktur sebagai kode) yang memungkinkan Anda untuk menentukan berbagai sumber daya AWS dengan cara deklaratif menggunakan dokumen berbasis teks JSON atau YAML yang disebut sebagai CloudFormation template. Format deklaratif memudahkan Anda untuk memberikan spesifikasi apa yang ingin dibangun tanpa harus mendeskripsikan detail bagaimana caranya karena mesin CloudFormation yang akan mengurusnya. Anda hanya perlu menulis baris kode untuk membangun lingkungan ketimbang menggunakan AWS Management Console. AWS CloudFormation tak hanya terbatas pada solusi berbasis EC2, melainkan mendukung banyak sumber daya AWS, seperti penyimpanan, database, analitik, machine learning, dan banyak lagi. Oke, setelah Anda menentukan sumber daya dalam CloudFormation template, AWS CloudFormation akan menguraikannya dan mulai menyediakan semua sumber daya tersebut secara paralel. AWS CloudFormation mengelola semua panggilan API. Anda dapat menjalankan CloudFormation template yang sama di beberapa akun atau Region. Dengan begitu, layanan ini akan membuat lingkungan yang identik di dalamnya. Tak akan ada lagi human error karena semua proses berjalan secara otomatis dengan sepenuhnya.</br></br>
+<b>Pengenalan ke Jaringan</b></br>
+Pikirkan kembali skenario kedai kopi atau lingkungan AWS kita. Proses pemesanan pada kedai kopi adalah pelanggan menyampaikan ordernya kepada kasir yang lantas meneruskannya ke barista. Proses ini seharusnya sudah berjalan lancar tanpa kendala ya. Meskipun demikian, bagaimana jika ada beberapa pelanggan tak sabar yang coba mengabaikan kasir dan ingin memberikan pesanannya langsung ke barista? Para pelanggan penerobos antrean ini tentu akan merusak alur kedai kopi.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210328152329ccc45cf958a0f767def1ba4629570007.png"></p>
+<p align="justify"> Yah, tak mungkin kita biarkan pelanggan terus berinteraksi dengan barista. Alih-alih menerima pesanan, sang barista harus fokus membuat kopi saja. Jadi, apa yang harus kita perbuat? Di AWS Anda bisa menggunakan Amazon Virtual Private Cloud (Amazon VPC) untuk menuntaskan dilema ini. VPC memungkinkan Anda untuk menyediakan bagian logis dari AWS Cloud yang terisolasi, di mana Anda dapat meluncurkan sumber daya AWS di jaringan virtual sesuai kebutuhan. Sumber daya tersebut dapat menjadi public-facing yang berarti memiliki akses ke internet ataupun private alias tanpa akses internet. Jenis kedua biasanya dipakai untuk layanan backend seperti database atau server aplikasi. Nah, pengelompokan sumber daya menjadi publik dan privat ini disebut dengan subnet yang juga merupakan rentang alamat IP di VPC Anda. Sekarang mari kembali ke kedai kopi dan mengimplementasikan apa yang telah kita pelajari di atas. Anda dapat menempatkan kasir dan barista di area kerja yang terpisah. Karena kasir bertanggung jawab untuk menerima pesanan pelanggan, maka kita tempatkan ia di subnet publik. Sehingga, kasir dapat berkomunikasi langsung dengan pelanggan atau internet--jika kasusnya adalah instance. Berbeda kasusnya untuk barista. Karena kita ingin ia fokus untuk membuat kopi dan tidak berinteraksi dengan pelanggan secara langsung, maka kita tempatkan ia di subnet privat. Dengan begitu, barista tetap dapat menerima pesanan dari kasir tetapi tidak langsung dari pelanggan.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210328152344d7dae4f7cd4658dbc59b29fbbde95014.png"></p>
+<p align="justify"><b>Konektivitas ke AWS</b></br>
+Ada jutaan pelanggan yang menggunakan layanan AWS. Lalu, bayangkan terdapat pula jutaan sumber daya yang telah dibuat oleh pelanggan tersebut, seperti Amazon EC2 instance. Tanpa adanya batasan di sekitar semua sumber daya itu, traffic jaringan akan mengalir di antaranya tanpa restriksi.Layanan jaringan yang dapat Anda gunakan untuk menetapkan batasan di sekitar sumber daya AWS adalah Amazon Virtual Private Cloud (Amazon VPC).</br></br>
+<b>Amazon Virtual Private Cloud (Amazon VPC)</b></br>
+Selamat datang di Amazon Virtual Private Cloud (Amazon VPC). Anggaplah ia sebagai benteng kukuh di mana tak akan ada yang dapat masuk atau keluar tanpa izin secara eksplisit. Amazon VPC pada dasarnya adalah jaringan pribadi Anda di AWS. VPC memungkinkan Anda untuk membuat bagian terisolasi dari AWS Cloud dan meluncurkan sumber daya seperti EC2 instance dan ELB di dalamnya. Anda tak bisa menaruh sumber daya ke VPC begitu saja, melainkan harus mengelolanya di dalam subnet yang berbeda. </br></br><b>Subnet</b> adalah bagian dari VPC yang dapat mengelompokkan sumber daya. Subnet bersama dengan aturan jaringan--akan kita bahas nanti dapat mengontrol apakah sumber daya tersedia untuk publik atau privat. Anda bisa saja memiliki sumber daya yang internet-facing (terhubung ke internet) sehingga dapat dijangkau oleh umum, seperti website publik. Namun, dalam skenario lain, Anda mungkin ingin memiliki sumber daya yang hanya Anda saja yang dapat menjangkaunya. Ini mungkin pas untuk layanan internal, seperti aplikasi HRD atau database.</br></br>
+<b>Internet Gateway</b></br>
+Berkaca dari materi sebelumnya. Mari kita telaah tentang sumber daya yang internet-facing atau public-facing (berhubungan dengan internet/publik). Untuk mengizinkan traffic dari internet publik mengalir masuk dan keluar dari VPC, Anda harus melampirkan apa yang disebut dengan Internet Gateway (IGW). Di bawah ini adalah contoh arsitektur yang menggunakan Internet Gateway.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310160547b068b89607a727456c38340e2290933d.png"></p>
+<p align="justify">Jika Anda tak kunjung paham apa fungsi dari Internet Gateway, bayangkanlah ia seperti pintu depan yang terbuka untuk publik. Di kedai kopi, pintu depan berguna supaya orang-orang dapat keluar masuk dengan leluasa. Jika tak ada, bagaimana pelanggan ingin memesan kopi? Pintu depan ini adalah perumpamaan yang ideal untuk Internet Gateway. Tanpanya, tidak ada yang dapat menjangkau sumber daya di dalam VPC Anda. Selanjutnya, timbul pertanyaan seperti ini, “Bagaimana jika kita memiliki sumber daya pribadi di VPC dan tidak ingin sembarang orang bisa menjangkaunya?” Mari kita lihat di materi berikutnya!</br></br>
+<b>Virtual Private Gateway</b></br>
+Anda bisa memasang gateway privat yang hanya mengizinkan masuk suatu permintaan jika ia berasal dari jaringan yang disetujui, bukan internet publik. Gateway privat ini disebut juga dengan virtual private gateway. Ia memudahkan Anda untuk membuat koneksi VPN (virtual private network) terenkripsi antara jaringan privat seperti data center on-premise atau jaringan perusahaan internal ke VPC Anda. Jadi, dapat disederhanakan bahwa virtual private gateway adalah komponen yang memungkinkan traffic internet yang terlindungi masuk ke dalam VPC. Silakan amati contoh arsitektur berikut:</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310160717f55c748910c59b07d4dd579c4b2101da.png"></p>
+<p align="justify">Bingung? Nah, untuk mempermudah penjelasan bagaimana virtual private gateway bekerja, mari kita cari tahu dengan mengaitkannya ke skenario kedai kopi. Anda bisa mengibaratkan internet itu sebagai jalan raya antara rumah Anda dan kedai kopi. Katakanlah Anda bepergian melalui jalan tersebut dengan seorang pengawal untuk melindungi Anda. Tentu, sebenarnya Anda masih menggunakan jalan yang sama dengan pelanggan lain, bedanya, Anda memiliki lapisan perlindungan ekstra. Nah, pengawal tersebut bisa Anda anggap sebagai koneksi VPN yang mengenkripsi (atau melindungi) traffic internet dari semua permintaan lain di sekitarnya. Oh, tidak! Sayangnya, sekarang timbul masalah baru terhadap kasus di atas, meskipun Anda memiliki perlindungan yang ekstra. Apa itu? Anda masih menggunakan jalanan yang sama dengan pelanggan lain. Walhasil, sudah barang tentu ia akan rentan terhadap kemacetan atau perlambatan lalu lintas. Hal yang sama pun berlaku untuk koneksi VPN. Memang betul koneksi VPN bersifat pribadi dan dienkripsi, tetapi faktanya ia masih menggunakan koneksi internet reguler dengan bandwidth (jumlah maksimum data yang dapat dikirim) yang terbagi kepada banyak pengguna internet lainnya. Lalu, bagaimana jika kita ingin memiliki koneksi pribadi yang mengarah langsung ke VPC?</br></br>
+<b>AWS Direct Connect</b></br>
+Untuk memulai, bayangkanlah sebuah apartemen dengan lorong pribadi yang langsung terhubung ke kedai kopi. Hanya penghuni apartemen saja yang dapat melewati lorong ini. Lorong ini menyediakan jenis koneksi khusus/terdedikasi di mana penghuni apartemen dapat masuk ke kedai kopi tanpa perlu menggunakan jalan raya bersama para pelanggan lain. Intinya, jika Anda menginginkan koneksi privat, koneksi terdedikasi, jumlah latensi yang rendah, dan tingkat keamanan yang tinggi, maka Anda bisa mewujudkannya di AWS dengan menggunakan AWS Direct Connect.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310160759b1b2ea1ee5556519543d26c7d22ed4c8.png"></p>
+<p align="justify"> AWS Direct Connect memungkinkan Anda untuk membuat koneksi fiber yang privat nan terdedikasi sepenuhnya antara data center Anda dan VPC. Untuk membangun koneksi tersebut, Anda perlu berpartner dengan mitra Direct Connect yang tersedia di wilayah Anda. Dengan demikian, layanan ini dapat membantu Anda memenuhi kebutuhan regulasi dan kepatuhan yang tinggi serta menghindari potensi masalah pada bandwidth.</br></br>
+Catatan: Satu VPC mungkin memiliki beberapa tipe gateway yang terpasang untuk berbagai jenis sumber daya di VPC yang sama namun dengan subnet yang berbeda.</br></br>
+<b>Subnet dan Network Access Control List</b></br>
+Pada materi pengantar sebenarnya kita telah mengupas sedikit tentang peran dari subnet. Bahkan kita juga telah mengilustrasikannya di kedai kopi. Tapi rasanya masih belum dalam ya. Begitu juga dengan network access control list, sepertinya kita belum menyinggungnya sama sekali. Tak apa. Di pembahasan kali ini, kita akan belajar lebih lanjut.</br></br>
+Subnet dan network access control list adalah dua hal yang penting untuk dipahami saat Anda belajar jaringan AWS. Jadi, tak perlu menunggu waktu lama. Mari kita lanjutkan ke materi berikutnya!</br></br>
+<b>Subnet</b></br>
+Subnet adalah sebuah bagian dari VPC di mana Anda dapat mengelompokkan sumber daya berdasarkan keamanan atau kebutuhan operasional. Subnet bisa menjadi publik maupun privat.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310161003af114067c8831a0075be04294cfdff4d.png"></p>
+<p align="justify">Subnet publik biasanya berisi sumber daya yang perlu diakses oleh publik, seperti website toko online. Sedangkan subnet privat memuat sumber daya yang seharusnya hanya dapat diakses melalui jaringan privat, seperti database yang berisi informasi pribadi pelanggan dan riwayat pesanan. Di VPC subnet dapat berkomunikasi satu sama lain. Misalnya, Anda dapat memiliki aplikasi pada Amazon EC2 instance di subnet publik yang berkomunikasi dengan database di subnet pribadi.</br></br>
+Network Access Control List (Network ACL)</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021031016121382a99d472144d037b88006e92a27d1c2.png"></p>
+<p align="justify">Sebelumnya, kita telah belajar seputar Internet Gateway (IGW) yang dapat mengizinkan traffic masuk atau keluar dari VPC. Tetapi, layanan ini hanya meliputi satu bagian saja dari keamanan jaringan--yang harus Anda fokuskan sebagai bagian dari strategi IT. Ketahuilah, AWS memiliki berbagai layanan yang dapat mencakup setiap lapisan keamanan:</p>
+<ol align="justify"><li>Network hardening (Penguatan jaringan).</li>
+<li>Keamanan aplikasi.</li>
+<li>Identitas pengguna.</li>
+<li>Autentikasi dan otorisasi.</li>
+<li>Pencegahan distributed denial-of-service (DDoS).</li>
+<li>Integritas data.</li>
+<li>Enkripsi.</li>
+ <li> dan masih banyak lainnya.</li></ol>
+<p align="justify">Tenang, Anda tak harus memahami semuanya. Di kelas ini kita hanya akan membahas beberapa bagian saja. Sekarang mari kita berbincang mengenai beberapa aspek dari network hardening (penguatan jaringan) dengan melihat praktiknya di dalam VPC. Satu-satunya alasan teknis untuk menggunakan subnet di VPC adalah untuk mengontrol akses ke gateway. Subnet publik memiliki akses ke Internet Gateway, sementara Subnet privat tidak. Tapi walaupun begitu, tahukah Anda? Subnet juga bisa mengontrol perizinan traffic, loh. Bagaimana caranya? Simak paparan berikut.</br></br>
+Ketika pelanggan meminta data dari aplikasi yang berjalan di AWS Cloud, maka permintaan ini dikirim sebagai paket. Paket adalah sebuah unit data yang dikirim melalui internet atau jaringan.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202103101612444d839af795a92a8aef280b8f628d6a4e.png"></p>
+<p align="justify">Paket masuk ke VPC melalui Internet Gateway. Sebelum paket dapat masuk atau keluar dari subnet, ia akan diperiksa terkait perizinannya. Pemeriksaan ini dilakukan untuk melihat apakah paket memiliki izin untuk masuk ke subnet berdasarkan siapa pengirimnya dan bagaimana ia mencoba berkomunikasi dengan sumber daya yang berada di subnet.</br></br>
+Komponen VPC yang memeriksa izin paket untuk subnet adalah network access control list alias network ACL. Network ACL adalah firewall virtual yang mengontrol traffic masuk dan keluar di tingkat subnet. Tentu ini berbeda dengan Internet Gateway yang cakupannya di tingkat VPC.</br></br>
+Jika paket memiliki potensi yang dapat membahayakan sumber daya di dalam subnet--seperti upaya untuk menguasai sistem melalui permintaan administratif--maka ia akan diblokir sebelum dapat menyentuh target. Jika masih sukar memahaminya, Anda bisa menganggap network ACL sebagai petugas pengawas paspor. Misalnya begini. Mari kita keluar dari kedai kopi dan bayangkan Anda sedang berada di bandara. Di sana ada banyak turis yang mencoba masuk ke negara lain. Anda dapat menganggap para turis itu sebagai paket dan petugas pengawas paspor sebagai network ACL.</br></br>
+Petugas pengawas paspor memeriksa kredensial setiap turis yang masuk ke suatu negara. Jika nama turis tertera di dalam daftar yang disetujui, maka ia diizinkan untuk masuk. Sebaliknya, jika namanya tak terdaftar atau bahkan secara eksplisit tercatat di dalam daftar turis yang diblokir, maka tentu ia dilarang masuk.</br></br>
+Selain memeriksa traffic yang masuk, network ACL pun akan mengecek setiap traffic yang keluar dari subnet. Ini serupa pula dengan petugas pengawas paspor. Hanya karena Anda diizinkan masuk, bukan berarti petugas akan membiarkan Anda keluar dengan leluasa. Setiap akun AWS menyertakan network ACL secara default (bawaan). Saat mengonfigurasi VPC, Anda dapat menggunakan default network ACL (mengizinkan semua traffic masuk dan keluar) atau custom network ACL (menolak semua traffic masuk dan keluar hingga Anda secara eksplisit mengizinkannya). Selain itu, network ACL memiliki aturan penolakan secara eksplisit. Aturan ini berguna untuk memastikan jika sebuah paket tidak cocok dengan salah satu aturan lain di daftar, paket tersebut akan ditolak. Mungkin terdengar seperti keamanan yang hebat ya? Tapi nyatanya, network ACL tidak bisa menjawab semua masalah terkait kontrol jaringan. Sebab, ia hanya dapat mengevaluasi paket jika melintasi batas subnet--baik masuk atau keluar namun tidak tahu-menahu apakah paket tersebut dapat mencapai EC2 instance tertentu atau tidak.</br></br>
+<b>Security Group</b></br>
+Boleh jadi Anda memiliki beberapa EC2 instance di subnet yang sama. Namun pada praktiknya, mungkin tiap-tiapnya akan memiliki aturan yang berbeda tentang siapa yang dapat mengiriminya pesan; atau port mana yang diizinkan untuk menerima pesan. Jadi, Anda juga memerlukan keamanan jaringan pada tingkat instance. Nah, untuk menjawabnya, AWS memperkenalkan security group.</br></br>
+Security group adalah firewall virtual yang mengontrol traffic masuk dan keluar untuk Amazon EC2 instance. Terlihat berbeda ya dengan network ACL yang cakupannya di tingkat subnet.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310161531e35fa09c172d32de5182337c5e1ed0c6.png"></p>
+<p align="justify"> Saat EC2 instance diluncurkan, ia secara otomatis dilengkapi dengan security group. Jika Anda memiliki beberapa Amazon EC2 instance di dalam subnet yang sama, Anda dapat mengaitkannya dengan security group yang sama maupun berbeda untuk setiap instance. Ingat! secara default (bawaan), security group menolak semua traffic masuk namun mengizinkan semua lalu lintas yang keluar dari instance. Dengan security group default, semua port dan alamat IP yang mengirimkan paket akan diblokir. Tentu ini sangat aman, tapi mungkin membuat instance tidak berguna. Maka dari itu, tentu Anda bisa mengonfigurasinya dengan menambah aturan sendiri yang mengizinkan atau menolak traffic sesuai kebutuhan. Misalnya, dalam kasus website, Anda bisa mengatur security group untuk menerima traffic berbasis web (HTTPS) dan tidak untuk jenis lalu lintas lain (sistem operasi atau permintaan administrasi). Jika sebelumnya kita mengibaratkan network ACL sebagai petugas pengawas paspor, nah, anggaplah security group itu seperti penjaga pintu di gedung apartemen Anda. Dalam hal ini, gedung tersebut adalah EC2 instance. Penjaga pintu akan memeriksa setiap orang yang ingin memasuki gedung untuk memastikan apakah mereka memiliki izin atau tidak. Namun, bagi setiap orang yang akan keluar dari gedung tersebut tak akan diperiksa olehnya. Serupa dengan itu, security group mengizinkan traffic tertentu untuk masuk dan--secara default--membolehkan semua lalu lintas keluar. Mungkin dahi Anda akan mulai berkerut, “Tunggu sebentar. Kita baru saja belajar dua mesin berbeda namun melakukan pekerjaan yang sama, yaitu membiarkan paket dari alamat yang kita izinkan untuk masuk dan menolak paket dari alamat yang tidak kita izinkan. Lalu, apa bedanya?”</br></br>
+Oke, Oke. Tenang! Mari kita tilik perbedaannya.</br></br>
+Perbedaan utama antara security group dan network ACL adalah:</br></br>
+Security group bersifat stateful, yang berarti ia memiliki semacam memori untuk mengingat siapa yang diizinkan masuk atau keluar. Network ACL bersifat stateless, artinya ia tidak mengingat apa pun. Layanan ini akan memeriksa setiap paket yang melintasi perbatasannya terlepas dari keadaan apa pun. Oke, sekarang kita akan mengilustrasikan suatu perjalanan bolak-balik sebuah paket saat berpindah dari satu instance ke instance lain di subnet yang berbeda. Pahami metafora ini dengan baik ya.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406133544000724f84aef9e32dec5ad1ce69e4ced.png"></p>
+<p align="justify">Untuk mengawali, ketahuilah bahwa layanan manajemen traffic ini tak peduli dengan isi dari paket itu sendiri. Ia hanya memeriksa apakah pengirimnya tertera di dalam daftar yang disetujui atau tidak. Baiklah. Mari kita mulai ilustrasinya. Katakanlah Anda ingin mengirim paket dari instance A ke instance B di subnet yang berbeda di VPC yang sama. Paket dikirim dari instance A. Hal pertama yang akan terjadi adalah paket tersebut akan bertemu dengan batas security group dari instance A. Ingat! Secara default, security group akan mengizinkan semua traffic keluar. Jadi, paket bisa melanjutkan perjalanannya dan sukses melewati security group dari instance A.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406133613825792fac15f0261ee773a02c8586aa9.png"></p>
+<p align="justify">
+Selanjutnya, paket berhadapan dengan perbatasan subnet 1. Di sana ada petugas pengawas paspor, yakni network ACL. Network ACL tetap akan memeriksa paket walaupun security group telah mengizinkannya karena ia memiliki daftarnya sendiri atas siapa yang bisa dan tidak bisa lewat. Jika diperbolehkan, paket dapat melanjutkan perjalanannya.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021040613364104f8172cb1616b5b6cfee362003aa6c7.png"></p>
+<p align="justify"> Oke, sekarang paket telah keluar dari subnet asal dan menuju ke subnet target di mana instance B berada. Untuk memasuki subnet 2, paket kembali berhadapan dengan petugas pengawas paspor, yaitu Network ACL. Hanya karena paket diizinkan keluar dari wilayah asalnya, bukan berarti ia dapat bebas masuk ke wilayah atau subnet target. Masing-masing subnet memiliki petugas pengawas paspornya sendiri. Walhasil, paket harus mendapatkan izin dari keduanya, jika tidak maka paket bisa ditolak di perbatasan. Nah, ternyata paket Anda tertera di dalam daftar yang disetujui untuk masuk ke subnet 2. Ayo, hampir sampai.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021040613370135b27bb80306a2087f6518b09333b24e.png"></p>
+<p align="justify">Sekarang paket semakin dekat dengan instance target, yakni instance B. Setiap EC2 instance memiliki security group-nya sendiri. Jika paket ingin masuk ke instance B, maka penjaga pintu alias security group perlu melakukan pemeriksaan terlebih dahulu untuk memastikan apakah paket diizinkan masuk atau tidak.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406133737d44cf08269077e67ebb8867a65b8371c.png"></p>
+<p align="justify">
+Apabila terdaftar, maka paket Anda pun dapat masuk dan akhirnya sampai ke instance target.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406133753f89c42583c3b7d5fb5af2b3fdf8393ac.png"></p>
+<p align="justify">Wah cukup meletihkan ya. Setelah paket sampai ke tujuan, ia akan melakukan apa yang harus dilakukan. Nah, setelah proses transaksi selesai, sekarang saatnya pulang. Kita akan melihat bagaimana return traffic pattern alias pola lalu lintas kembali terjadi. Ini adalah bagian yang paling menarik karena di sinilah sifat stateful versus stateless dari mesin yang berbeda berperan. Pasalnya, paket masih harus dievaluasi pada setiap pos pemeriksaan. Agar tak penasaran, silakan simak uraian perjalanan pulang dari paket berikut: Seperti yang telah kita pelajari, security group secara default mengizinkan semua lalu lintas keluar. Jadi, ia tak perlu lagi memeriksa apakah paket diizinkan keluar atau tidak. Tanpa kendala paket pun berhasil meninggalkan instance B dan menuju perbatasan subnet 2.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406133816d3d6e2d633019ae31effff08759991a7.png"></p>
+<p align="justify">
+Nah, di perbatasan subnet berdirilah seorang petugas pengawas paspor. Tentu Anda sudah tak asing ya, dialah network ACL yang stateless alias tidak dapat mengingat status. Ia tidak peduli bahwasanya paket Anda telah melewatinya. Ini karena mungkin saja paket Anda tercantum di dalam daftar tidak-bisa-keluar. Setiap jalan masuk maupun keluar tetap diperiksa sesuai dengan daftar yang ada. Alamat pengembalian paket harus tercatat di dalam daftar yang disetujui agar berhasil melintasi perbatasan. Tenang, paket Anda diperbolehkan keluar.</p>
+<p align="center"><img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202104061338375be27c09111bb155cb9b7f06cf80020d.png"></p>
+<p align="justify">Oke, setelah keluar dari perbatasan subnet 2, paket pun tiba di perbatasan subnet asal, yakni subnet 1. Akan tetapi, paket harus berhadapan lagi dengan network ACL. Karena network ACL bersifat stateless, maka ia akan selalu memeriksa daftarnya. Untungnya, paket Anda diberikan izin untuk masuk ke subnet asal.</p>
+<p align="center"><img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021040613385806b8cfd5d63a768d03726ce93bb6e6c2.png"></p>
+<p align="justify">
+Satu langkah lagi untuk kembali ke rumah. Tapi, security group. sang penjaga pintu masih bertanggung jawab dan berdiri di sana. Nah, perbedaan utamanya terlihat di sini. Karena security group bersifat stateful, ia dapat mengenali sumber paket. Jadi, paket Anda tak akan diperiksa lagi saat hendak memasuki instance A.</p><p align="center"><img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210406133926b943b55f72ccbfb0a98bf16bb9264a51.png"></p>
+<p align="justify">Welcome home!</p>
+<p align="center"><img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202104061339434c6f76c53f307522d4da1dbfdcb211f3.png"></p>
+  <p align="justify">Huh! Mungkin tampak sedikit melelahkan ya hanya untuk mendapatkan paket dari satu instance ke instance lainnya dan kembali lagi. Jangan khawatirkan semua proses panjangnya. Faktanya, operasi pertukaran tersebut terjadi secara instan sebagai bagian dari cara kerja AWS Networking. Manfaatkanlah network ACL dan security group ini guna mencapai keamanan jaringan yang komprehensif. Mengapa? Karena keamanan yang mendalam merupakan hal yang sangat penting untuk sebuah arsitektur modern.</br></br>
+<b>Jaringan Global</b></br>
+Sebelumnya kita telah banyak belajar mengenai bagaimana Anda berinteraksi dengan infrastruktur AWS. Sekarang pertanyaannya adalah bagaimana pelanggan Anda berinteraksi dengan infrastruktur AWS tersebut?</br>
+Tak perlu tergesa-gesa! Di modul ini akan dijelaskan tentangnya. Kita mulai dari DNS terlebih dahulu. Apa itu? Yuk kita lihat di materi berikutnya!</br>
+<b>Domain Name System (DNS)</b></br>
+Untuk mengawali, yuk kita buat suatu cerita. Misalnya, Anda memiliki website yang berjalan di AWS Cloud. Silakan jawab, bagaimana pelanggan Anda dapat mengaksesnya? Mudah saja. tentu kita semua sudah tahu. Caranya adalah dengan memasukkan nama website Anda di browser, tekan Enter, dan boom! Website pun termuat.</br></br>
+Proses tersebut tentu saja tidak sekonyong-konyong terjadi begitu saja. Ada peran domain name system (DNS) di sana. Di AWS tersedia layanan DNS yang dapat Anda gunakan, yakni Amazon Route 53--akan dijelaskan nanti. Tapi, tunggu! Sebelum melangkah lebih jauh, apa sih yang dimaksud dengan DNS? Begini, anggaplah DNS itu sebagai buku telepon bagi internet. DNS dapat menerjemahkan sebuah nama domain ke dalam alamat IP (Internet Protocol) yang dapat dibaca komputer.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310164623c3c9bd41216e260b0c0511dae839cde6.png"></p>
+<p align="justify">Mari kita ambil contoh bagaimana DNS bekerja. Katakanlah Anda ingin membuka halaman www.example.com.</p>
+<ul align="justify">
+<li>Masukkan nama domain tersebut ke browser Anda.</li>
+<li>Lalu, permintaan tersebut akan dikirimkan ke Amazon Route 53 guna memperoleh alamat IP yang sesuai dengan website tersebut.</li>
+<li>Route 53 merespons dengan memberikan alamat IP. Misalkan 80.17.25.131.</li>
+<li>Kemudian, komputer atau browser Anda pun akan dirutekan ke alamat tadi.</li>
+<li>Tada! Website pun termuat.</li></ul>
+<p align="justify">Tidak sulit kan untuk memahami DNS dan cara kerjanya? Nah, seperti yang telah dijanjikan di awal, sekarang mari kita tilik layanan Amazon Route 53 yang tercantum pada materi berikutnya.</br></br>
+<b>Amazon Route 53</b></br>
+Amazon Route 53 adalah layanan domain name system (DNS) atau sistem nama domain di AWS yang highly available (sangat tersedia) dan scalable (dapat diskalakan). Layanan ini dapat memberikan Anda cara yang andal untuk merutekan pelanggan ke aplikasi internet yang berjalan di AWS. Amazon Route 53 bertugas untuk menghubungkan permintaan pelanggan ke infrastruktur yang berjalan di AWS (seperti Amazon EC2 instance dan load balancers). Bahkan, ia bisa pula mengarahkan pelanggan ke infrastruktur yang berada di luar AWS. Jika kita melangkah lebih jauh, Amazon Route 53 itu dapat pula mengarahkan traffic ke endpoints (titik akhir) yang berbeda menggunakan beberapa routing policies (kebijakan perutean) yang berbeda, seperti:</p>
+<ul align="justify">
+<li>Latency-based routing (Perutean berbasis latensi)</li>
+<li>Geolocation DNS</li>
+<li>Geoproximity routing</li>
+<li>Weighted round robin</li></ul>
+<p align="justify">Kita tidak akan memaparkan semuanya di sini. Tapi, mari ambil contoh dari salah satunya, yaitu Geolocation DNS. Dengan opsi tersebut, kita mengarahkan traffic berdasarkan lokasi pelanggan. Contohnya, lalu lintas yang datang dari Indonesia akan dialihkan ke Region Singapura atau jika berasal dari Jepang akan dialihkan ke Region Tokyo. Selain mengarahkan traffic, Route 53 dapat digunakan untuk mendaftarkan nama domain baru atau menggunakan nama domain yang Anda miliki. Sehingga, ini memudahkan Anda untuk mengelola semua nama domain dalam satu lokasi.</br></br>
+<b>Amazon CloudFront</b></br>
+Berkaca dari kasus website yang telah kita bicarakan dari awal, ada layanan yang bisa mempercepat pengiriman aset website, yaitu Amazon CloudFront--telah kita bahas di modul sebelumnya yah. Amazon CloudFront adalah layanan yang dapat membantu Anda untuk mengirimkan konten (data, aplikasi, maupun API) ke pelanggan di seluruh dunia dengan aman dan latensi rendah. Konten yang dimaksud ini bisa berbagai hal, seperti data, video, aplikasi, dan API. Jika Anda ingat, kita telah belajar tentang Edge locations sebelumnya. Edge locations menyajikan konten sedekat mungkin dengan pelanggan, salah satu bagiannya adalah content delivery network (CDN) atau jaringan pengiriman konten. Sebagai pengingat, CDN adalah jaringan yang membantu Anda untuk memberikan konten kepada pelanggan berdasarkan lokasi geografis mereka. CloudFront sangat terintegrasi dengan layanan lainnya seperti AWS Web Application Firewall (WAF), AWS Certificate Manager, Amazon Route 53, Amazon S3, dan lainnya. Anda dapat memulai menggunakan Amazon CloudFront hanya dalam hitungan menit menggunakan layanan AWS yang sudah Anda kenal: API, AWS Management Console, Command Line Interface (CLI), dan SDK.</br></br>
+Studi Kasus: Bagaimana Amazon Route 53 dan Amazon CloudFront Mengirimkan Konten</br></br>
+Di modul sebelumnya kita telah belajar tentang Amazon Route 53 dan Amazon CloudFront. Kali ini kita akan menelaah bagaimana kedua layanan tersebut berkolaborasi untuk mengirimkan konten kepada pelanggan.</br></br>
+Misalnya, Anda memiliki aplikasi yang berjalan di beberapa Amazon EC2 instance. Instance ini berada di dalam Auto Scaling group (grup Auto Scaling) yang dilampirkan ke Application Load Balancer. Perhatikan gambar berikut:</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021031016471069238f00684ab8976fb4eb443739344b.png"></p>
+<p align="justify">Dengan arsitektur di atas, sekarang proses memuat website pun bisa semakin lebih cepat. Mari kita uraikan arsitektur tersebut:</p>
+<ul align="justify">
+<li>Pelanggan memasukkan alamat website di browser mereka.</li>
+<li>Permintaan tersebut akan dikirimkan ke Amazon Route 53 untuk diidentifikasi alamat IP-nya.</li>
+<li>Informasi tersebut kemudian dikirim kembali ke pelanggan.</li>
+<li>Selanjutnya, permintaan dari pelanggan tersebut ditransfer ke Edge locations terdekat melalui Amazon CloudFront.</li>
+<li>Setelah itu, Amazon CloudFront yang terhubung ke Application Load Balancer akan mengirimkannya ke Amazon EC2 instance.
+Dan akhirnya, website pun termuat.</li></ul>
+<p align="justify">Pengenalan ke Penyimpanan dan Database</br>
+Oke, kembali ke skenario. Sekarang kedai kopi kita telah beroperasi dengan cukup baik. Kita punya banyak pelanggan yang puas. Faktanya, kita juga telah mempunyai arsitektur yang elastis, dapat diskalakan, tahan akan bencana, dan secara biaya pun telah optimal. Bahkan, sekarang kita memiliki jaringan global yang sangat aman dan dapat diterapkan sepenuhnya secara terprogram. Melihat semakin banyaknya pelanggan setia yang hadir ke kedai kopi, maka kita harus memberikan apresiasi kepada mereka. Tapi, berbentuk apa ya? Hmm. Bagaimana dengan program loyalitas pelanggan? Kita bisa membagikan kartu stempel kepada mereka yang sering memesan kopi di tempat kita. Tetapi, jujur saja, kita tak akan dapat melacak kartu tersebut dan mengenal pelanggan kita dengan baik. Jadi, sepertinya kita membutuhkan kartu digital yang dapat melacak riwayat pemesanan pelanggan (apa yang mereka pesan atau berapa banyak yang mereka beli). Dengan demikian, kartu ini akan membantu customer kita mendapat apresiasi terbaik atas loyalitas mereka. Kita pun jadi bisa mengenal basis pelanggan dengan lebih baik dan lebih mudah. Nah, itu berarti kita akan membutuhkan penyimpanan dan database (basis data). Ingat, bukan sembarang database. Pilihlah penyimpanan dan database yang tepat sesuai dengan masing-masing kebutuhan Anda.</br></br>
+Instance Store dan Amazon Elastic Block Store (Amazon EBS)</br>
+Saat Anda menjalankan aplikasi di AWS, tentunya aplikasi tersebut memerlukan akses ke CPU, memori, jaringan, dan penyimpanan. Nah, untungnya, EC2 instance dapat memberikan akses ke semua komponennya. Untuk saat ini, mari kita fokus pada penyimpanan.</br></br>
+Ketika aplikasi berjalan di EC2 instance, mereka kerap kali membutuhkan akses ke block-level storage (penyimpanan tingkat blok).</br></br>
+Jika Anda kurang kenal dengan istilah block-level storage, maka anggaplah ia sebagai tempat menyimpan file. File adalah serangkaian byte (bita) yang disimpan di dalam blok pada disk.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310164917cd7e918b1bb645d899bec1e7bae9d971.png"></p>
+<p align="justify">Pada saat file pada disk tersebut diperbarui, ia tak akan menimpa seluruh rangkaian blok, melainkan memperbarui bagian yang berubah saja. Dengan sistem seperti ini, penyimpanan untuk aplikasi (database, perangkat lunak perusahaan, atau sistem file) jadi lebih efisien. Hmm. Mungkin penjelasan di atas sangat teknis ya. Oke, mari kita sederhanakan. Apakah sekarang Anda sedang menggunakan laptop atau komputer pribadi? Nah! Itu berarti Anda sedang mengakses block-level storage alias penyimpanan tingkat blok. Block-level storage dalam kasus ini adalah hard drive (cakram keras) di komputer Anda.</br></br>
+EC2 instance juga memiliki hard drive dengan beberapa tipe yang berbeda.</br></br>
+Instance Store</br>
+Instance store (tempat penyimpanan instance) adalah penyimpanan block-level storage sementara untuk Amazon EC2 instance. Saat Anda meluncurkan EC2 instance tergantung tipe EC2 instance yang Anda pilih--biasanya sudah tersedia penyimpanan lokal alias instance store volume di dalamnya.</br></br>
+Volume ini secara fisik terpasang ke host (mesin fisik), yaitu tempat di mana EC2 instance Anda berjalan. Anda dapat melakukan proses write (menulis) data padanya seperti hard drive pada umumnya. Namun masalahnya, jika Anda menghentikan atau mengakhiri EC2 instance tersebut, maka semua data di sana akan terhapus. Ini terjadi karena ketika Anda memulai instance dari status stop alias berhenti kemungkinan EC2 instance akan berjalan di host lain, yang mana instance store volume tersebut tidak berada di sana.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310165238867111735181792a2132412246c42191.png"></p>
+<p align="justify">Ingat! EC2 instance adalah mesin virtual. Oleh karena itu, host yang mendasarinya dapat berubah pada saat instance berhenti dan memulai. Karena sifatnya yang sementara inilah biasanya instance store volume digunakan untuk penyimpanan data yang sering berubah, seperti cache, temporary file (file sementara), data yang dapat dibuat ulang dengan mudah, dan konten sementara lainnya. Tapi, ingat! Jangan simpan data penting Anda ke dalam instance store volume. Lantas, bagaimana solusinya jika kita ingin menyimpan data secara persisten dan berada di luar siklus hidup EC2 instance? Atau dengan kata lain, bagaimana kita ingin menyimpan data yang takkan terhapus walau EC2 instance berhenti? Nah, jangan khawatir, di sinilah Anda perlu mengenal layanan Amazon Elastic Block Store (Amazon EBS).</br></br>
+Amazon Elastic Block Store (Amazon EBS)</br>
+Amazon Elastic Block Store (Amazon EBS) adalah layanan yang menyediakan block-level storage (penyimpanan tingkat blok) yang dapat Anda gunakan bersama dengan Amazon EC2 instance. Amazon EBS memungkinkan Anda untuk membuat hard drive virtual (EBS volume) yang kemudian bisa di-attach (dipasang) ke EC2 instance. EBS volume ini merupakan penyimpanan yang terpisah dari instance store volume. Ia pun tak terikat langsung ke host yang menjalankan EC2 instance Anda. Lalu, bagaimana cara membuat EBS volume? Sebenarnya, mudah saja. Anda hanya perlu menentukan konfigurasinya (seperti ukuran dan tipe) sesuai dengan kebutuhan. Jika sudah, Anda bisa meluncurkannya dan memasangkannya ke Amazon EC2 instance. Sekarang, jika Anda menghentikan lalu memulai EC2 instance, data yang Anda simpan di EBS volume akan tetap ada.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021031016535393478ef7aa945958b93216e2d011552a.png"></p>
+<p align="justify"> Karena EBS volume digunakan untuk kebutuhan data yang persisten, maka penting untuk Anda melakukan backup (pencadangan) data. Anda dapat menjalankan incremental backup (pencadangan secara inkremental) dari EBS volume dengan membuat Amazon EBS snapshot. Amazon EBS snapshot disimpan secara bertahap/inkremental. Itu berarti pada saat pertama kali proses pencadangan dilakukan, ia akan menyalin semua data yang ada di EBS volume. Namun, untuk pencadangan berikutnya, ia hanya menyimpan blok data yang berubah dari snapshot terakhir.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310165424b9a73efed27aba08e68e68347639f136.png"></p>
+<p align="justify">Tentu, incremental backup ini sesungguhnya berbeda ya dengan full backup (pencadangan penuh). Full backup itu akan menyalin semua data yang ada di dalam volume setiap pencadangan dilakukan, sementara incremental backup hanya mencadangkan data yang berubah (delta) dari pencadangan sebelumnya. Lakukanlah snapshot untuk EBS volume secara teratur. Dengan begitu, jika sebuah drive corrupted atau rusak, maka Anda tidak akan kehilangan data, melainkan Anda dapat memulihkannya dari snapshot.</br></br>
+Amazon Simple Storage Service (Amazon S3)</br>
+Sekarang kita masuk ke materi yang berkenaan tentang Amazon Simple Storage Service (Amazon S3). Dari namanya, mungkin Anda sudah menduga bahwa ini adalah layanan penyimpanan yang sederhana. Tahukah Anda? Sebagian besar bisnis memiliki data yang perlu disimpan di suatu tempat. Misalnya untuk kedai kopi kita, ini bisa berupa struk, gambar, spreadsheet Excel, video pelatihan karyawan, bahkan file teks. Nah, Anda dapat menyimpan file-file tersebut di Amazon S3 karena ia merupakan layanan yang dapat menyimpan dan mengambil data dalam jumlah tak terbatas pada skala apa pun. Dengan Amazon S3, data disimpan sebagai objek. Objek tersebut tidak akan ditaruh di direktori file, melainkan data Anda akan disimpan di dalam bucket. Sederhananya begini. Anggaplah file yang ada di hard drive Anda sebagai objek dan direktori file adalah bucket.</br></br>
+Amazon S3 juga merupakan object-level storage (penyimpanan tingkat objek). Setiap objek terdiri dari data, metadata, dan kunci.</p>
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310165549165d86c058cfc10ac3d78229c9792f96.png"></p>
+<p align="justify">Mari kita lihat lebih lanjut. Data yang dimaksud itu bisa bermacam-macam, seperti gambar, video, dokumen teks, atau jenis file lainnya. Lalu, metadata adalah informasi yang berisi tentang apa itu data, cara penggunaannya, ukuran objeknya, dan sebagainya. Nah, key (kunci) pada suatu objek adalah identifier/pengenal yang unik. Ukuran maksimum dari setiap objek yang dapat Anda unggah adalah 5 terabyte. S3 juga memiliki fitur versioning dengan membuat object version (versi objek). Maksudnya, Anda akan tetap dapat memiliki versi sebelumnya dari objek tersebut walaupun secara tidak sengaja menimpa objek dengan isi yang berbeda. Selain itu, Anda juga dapat membuat beberapa bucket lalu menentukan permission (izin) untuk membatasi siapa yang dapat melihat atau mengakses objek di dalamnya. Hal lain yang perlu diingat adalah ketika Anda mengubah file di block-level storage (penyimpanan tingkat blok), hanya bagian yang diubah saja yang akan diperbarui. Sebaliknya, saat Anda mengubah file di object-level storage (penyimpanan tingkat objek), maka keseluruhan objek yang akan diperbarui. Oke, sekarang mari kita membahas storage class atau kelas penyimpanan yang ada pada Amazon S3. Maksudnya, ia menawarkan mekanisme untuk kasus penggunaan penyimpanan yang berbeda-beda. Misalnya untuk data yang sering diakses atau bahkan data audit yang perlu disimpan selama beberapa tahun. Mari kita uraikan.</br></br>
+S3 Standard</br>
+S3 Standard hadir dengan daya tahan 11 sembilan. Artinya, objek yang disimpan akan memiliki 99,999999999% probabilitas tetap utuh setelah jangka waktu satu tahun. Waw, Itu cukup tinggi, bukan?</br>
+Selain itu, data disimpan setidaknya di tiga data center. Sehingga, ini membuatnya dapat menawarkan high availability (ketersediaan tinggi) bagi objek. S3 Standard menjadi pilihan yang ideal untuk berbagai kasus penggunaan, seperti website, distribusi konten, dan analitik data.</br></br>
+Anda juga dapat menggunakan Amazon S3 untuk meng-hostingwebsite statis, yaitu jenis website yang paling dasar dan berisi halaman web dengan konten statis. Caranya cukup mudah, Anda hanya perlu:</p>
+<ul align="justify"><li>Unggah semua file HTML, aset web statis, dan sebagainya ke dalam bucket.</li>
+<li>Centang opsi untuk meng-hosting website statis.</li>
+<li>Lalu buka website tersebut dengan memasukkan URL bucket dan ta-da! Website instan.</li>
+<li>Cara yang cukup mengagumkan ya untuk memulai blog tentang kedai kopi kita.</li></ul>
+<p align="justify">
+S3 Standard-Infrequent Access (S3 Standard-IA)</br>
+Kelas penyimpanan jenis ini digunakan untuk data yang jarang diakses tetapi membutuhkan proses cepat saat dibutuhkan. Artinya, opsi ini adalah tempat yang ideal untuk menyimpan backup (cadangan), disaster recovery file (file pemulihan bencana), atau objek apa pun yang memerlukan penyimpanan jangka panjang.</br>
+S3 One Zone-Infrequent Access (S3 One Zone-IA)</br>
+Berbeda dengan S3 Standard dan S3 Standard-IA yang menyimpan data minimal di tiga Availability Zone, kelas penyimpanan S3 One Zone-IA menyimpan data hanya di satu Availability Zone.</br>
 Nah, ini menjadikannya kelas penyimpanan yang perlu Anda pertimbangkan jika memiliki kondisi seperti berikut:
-Ingin menghemat biaya penyimpanan.
-Data dapat diproduksi ulang dengan mudah jika terjadi kegagalan di Availability Zone.
-
-S3 Intelligent-Tiering
-Pada kelas penyimpanan S3 Intelligent-Tiering, Amazon S3 memantau pola akses objek. Jika Anda tidak pernah mengakses objek selama 30 hari berturut-turut, Amazon S3 akan memindahkannya secara otomatis dari S3 Standard ke S3 Standard-IA.
-
-Kemudian, jika Anda mengakses kembali objek di S3 Standard-IA, Amazon S3 akan memindahkannya secara otomatis ke S3 Standard.
-
-S3 Glacier
-Opsi kelas penyimpanan ini ideal untuk data audit. Katakanlah Anda perlu menyimpan data selama beberapa tahun untuk tujuan audit. Sehingga, tidak memerlukan proses akses yang langsung pada saat itu juga. Maka dari itu, Anda dapat menggunakan Amazon S3 Glacier untuk mengarsipkan data tersebut.
-
-Perlu diingat bahwa untuk mengakses objek yang disimpan di S3 Glacier, Anda memerlukan waktu beberapa menit hingga beberapa jam.
-
-Lalu bagaimana cara menggunakan Glacier? Mudah saja, Anda hanya perlu memindahkan data ke sana atau dengan membuat vault (brankas) lalu mengisinya dengan arsip.
-
-Jika Anda memiliki compliance requirement (persyaratan kepatuhan) tentang penyimpanan data untuk periode waktu tertentu, Anda dapat menerapkan S3 Glacier vault lock policy untuk mengunci vault Anda.
-
-Kontrol yang dapat Anda tentukan pada vault lock policy adalah write once/read many (WORM) alias cukup menulis data sekali lalu membacanya berkali-kali. Selain itu, Anda juga dapat mengunci kebijakan dari pengeditan di masa mendatang sehingga setelah terkunci, kebijakan tersebut tidak dapat lagi diubah.
-
-Anda juga memiliki tiga opsi untuk pengambilan data yang berkisar dari hitungan menit hingga jam. Bahkan, Anda memiliki pilihan untuk mengunggah langsung ke kelas Glacier atau menggunakan S3 Lifecycle policies.
-
-S3 Lifecycle policies adalah kebijakan yang bisa Anda buat untuk memindahkan data secara otomatis antar storage class (kelas penyimpanan).
-
-Misalnya, Anda perlu menyimpan objek dalam S3 Standard selama 90 hari. Lalu, Anda ingin memindahkannya ke S3-IA selama 30 hari ke depan. Kemudian setelah total 120 hari, Anda ingin memindahkannya ke S3 Glacier.
-
-Nah, kebutuhan semacam itu dapat Anda capai dengan S3 Lifecycle policies yang juga merupakan contoh lain dari layanan AWS terkelola.
-
-S3 Glacier Deep Archive
-Opsi ini merupakan kelas penyimpanan objek yang memiliki biaya terendah dan ideal untuk pengarsipan.
-
-Saat Anda ingin memilih antara menggunakan Amazon S3 Glacier atau Amazon S3 Glacier Deep Archive, coba pertimbangkan seberapa cepat Anda perlu mengakses objek yang diarsipkan.
-
-Di S3 Glacier waktu pengaksesan suatu objek berlangsung beberapa menit hingga jam saja, sementara dengan S3 Glacier Deep Archive Anda memerlukan waktu 12 hingga 48 jam.
-Oke, sampai tahap ini, Anda sudah belajar tentang Amazon EBS dan juga Amazon S3. Mungkin sekarang Anda akan mengerutkan dahi, “Kapan kita harus menggunakan Amazon EBS dan Amazon S3?”
-
-Baiklah, mari kita bandingkan dua layanan tersebut secara lebih mendalam.
+Ingin menghemat biaya penyimpanan.</br>
+Data dapat diproduksi ulang dengan mudah jika terjadi kegagalan di Availability Zone.</br></br>
+S3 Intelligent-Tiering</br>
+Pada kelas penyimpanan S3 Intelligent-Tiering, Amazon S3 memantau pola akses objek. Jika Anda tidak pernah mengakses objek selama 30 hari berturut-turut, Amazon S3 akan memindahkannya secara otomatis dari S3 Standard ke S3 Standard-IA. Kemudian, jika Anda mengakses kembali objek di S3 Standard-IA, Amazon S3 akan memindahkannya secara otomatis ke S3 Standard.</br></br>
+S3 Glacier</br>
+Opsi kelas penyimpanan ini ideal untuk data audit. Katakanlah Anda perlu menyimpan data selama beberapa tahun untuk tujuan audit. Sehingga, tidak memerlukan proses akses yang langsung pada saat itu juga. Maka dari itu, Anda dapat menggunakan Amazon S3 Glacier untuk mengarsipkan data tersebut. Perlu diingat bahwa untuk mengakses objek yang disimpan di S3 Glacier, Anda memerlukan waktu beberapa menit hingga beberapa jam. Lalu bagaimana cara menggunakan Glacier? Mudah saja, Anda hanya perlu memindahkan data ke sana atau dengan membuat vault (brankas) lalu mengisinya dengan arsip. Jika Anda memiliki compliance requirement (persyaratan kepatuhan) tentang penyimpanan data untuk periode waktu tertentu, Anda dapat menerapkan S3 Glacier vault lock policy untuk mengunci vault Anda. Kontrol yang dapat Anda tentukan pada vault lock policy adalah write once/read many (WORM) alias cukup menulis data sekali lalu membacanya berkali-kali. Selain itu, Anda juga dapat mengunci kebijakan dari pengeditan di masa mendatang sehingga setelah terkunci, kebijakan tersebut tidak dapat lagi diubah. Anda juga memiliki tiga opsi untuk pengambilan data yang berkisar dari hitungan menit hingga jam. Bahkan, Anda memiliki pilihan untuk mengunggah langsung ke kelas Glacier atau menggunakan S3 Lifecycle policies.</br></br>
+S3 Lifecycle policies adalah kebijakan yang bisa Anda buat untuk memindahkan data secara otomatis antar storage class (kelas penyimpanan). Misalnya, Anda perlu menyimpan objek dalam S3 Standard selama 90 hari. Lalu, Anda ingin memindahkannya ke S3-IA selama 30 hari ke depan. Kemudian setelah total 120 hari, Anda ingin memindahkannya ke S3 Glacier. Nah, kebutuhan semacam itu dapat Anda capai dengan S3 Lifecycle policies yang juga merupakan contoh lain dari layanan AWS terkelola.</br></br>
+S3 Glacier Deep Archive</br>Opsi ini merupakan kelas penyimpanan objek yang memiliki biaya terendah dan ideal untuk pengarsipan.Saat Anda ingin memilih antara menggunakan Amazon S3 Glacier atau Amazon S3 Glacier Deep Archive, coba pertimbangkan seberapa cepat Anda perlu mengakses objek yang diarsipkan.
+</br></br>Di S3 Glacier waktu pengaksesan suatu objek berlangsung beberapa menit hingga jam saja, sementara dengan S3 Glacier Deep Archive Anda memerlukan waktu 12 hingga 48 jam. Oke, sampai tahap ini, Anda sudah belajar tentang Amazon EBS dan juga Amazon S3. Mungkin sekarang Anda akan mengerutkan dahi, “Kapan kita harus menggunakan Amazon EBS dan Amazon S3?” Baiklah, mari kita bandingkan dua layanan tersebut secara lebih mendalam.</p>
 <table> <tr><td>Amazon EBS	Amazon S3</td>
             <td>Amazon S3</td></tr>
 <tr><td> Block-level storage (penyimpanan tingkat blok), dapat berukuran hingga 16 terabyte, dan tetap tersedia walau Amazon EC2 instance dihentikan.</td>
@@ -1075,103 +788,47 @@ Setiap objek di S3 memiliki URL yang dapat Anda kontrol hak aksesnya.</td></tr>
 <td>Memperlakukan file apa pun sebagai objek yang lengkap dan terpisah sehingga ia cocok digunakan sebagai dokumen, gambar, dan video yang diunggah dan sebagai objek keseluruhan.</br>
 Termasuk layanan serverless (tanpa server) sehingga tidak memerlukan Amazon EC2 instance. Tak perlu khawatir akan strategi backup (pencadangan) karena ia merupakan layanan backup di AWS.</br>
 Penghematan biaya yang substansial melebihi EBS walau dengan beban penyimpanan yang sama.</td></tr></table>
-
-Kesimpulannya, jika Anda memiliki objek atau file yang lengkap dan hanya membutuhkan sesekali perubahan, maka pilihlah Amazon S3. Namun, jika Anda membutuhkan proses read (baca) data yang kompleks, maka tentu saja Anda perlu memilih Amazon EBS.
-
-Jadi, memilih penyimpanan yang tepat itu tergantung pada kebutuhan beban kerja Anda. Setiap layanan sebenarnya merupakan solusi yang tepat untuk kebutuhan tertentu. Pahamilah apa yang Anda butuhkan, maka Anda akan tahu layanan mana yang ideal.
-
-Amazon Elastic File System (Amazon EFS)
-Di modul ini, kita akan membahas tentang layanan file storage alias penyimpanan file, yang berarti beberapa client--pengguna, aplikasi, server, dsb--dapat mengakses data yang disimpan di folder file secara bersamaan.
-
-Dalam pendekatan ini, file server menggunakan block storage (penyimpanan blok) dengan local file system (sistem file lokal) untuk mengatur file. Nah, client dapat mengakses data di dalamnya melalui file path (jalur file).
-
-Dibandingkan dengan block storage dan object storage, file storage ini sangat ideal untuk kasus penggunaan di mana beberapa layanan dan sumber daya perlu mengakses data yang sama pada waktu yang sama.
-
-Layanan AWS yang termasuk ke dalamnya adalah Amazon Elastic File System, atau juga disebut dengan EFS. Amazon EFS adalah sistem file terkelola yang bisa diskalakan dan dapat digunakan oleh layanan AWS Cloud dan sumber daya di data center on-premise.
-
-Sudah sangat umum bagi perusahaan untuk berbagi sistem file di seluruh aplikasi mereka. Mari kita ambil contoh suatu kasus. Misalnya Anda memiliki beberapa server yang menjalankan analitik pada sejumlah besar data yang disimpan dalam sistem file bersama di data center on-premise.
-
-Karena berjalan di on-premise, tentu saja Anda harus memastikan bahwa kapasitas penyimpanan di sana dapat menyesuaikan dengan jumlah data yang Anda simpan. Anda juga harus memastikan data tersebut telah dicadangkan dan disimpan secara redundan (di beberapa tempat). Satu lagi, Anda pun harus mengelola semua servernya. Repot ya?
-
-Untungnya, AWS hadir memberikan solusi agar Anda tak perlu lagi khawatir untuk mengurus semuanya itu. AWS akan mengelola semua pekerjaan terkait scaling (penyesuaian kapasitas) dan replikasinya untuk Anda.
-
-Dengan EFS, Anda dapat memiliki beberapa instance yang mengakses data secara bersamaan. Ia akan melakukan scaling up dan scaling down--keduanya telah kita bahas di modul tentang penyesuaian kapasitas--sesuai kebutuhan secara otomatis. Sangat keren, bukan?
-
-Oke, mungkin Anda akan berpikir, “Loh, Amazon EBS juga bisa menyimpan file dan dapat diakses dari EC2 instance. Jadi, apa perbedaan sebenarnya?”
-
-Jawabannya sangat sederhana. Amazon EBS volume dilampirkan ke EC2 instance dan merupakan Availability Zone-level resource atau sumber daya tingkat Availability Zone. Itu artinya, EBS akan menyimpan data hanya di satu Availability Zone (AZ). Terlebih lagi, jika Anda ingin memasang EC2 ke EBS, maka Anda harus berada di AZ yang sama.
-
-Dengan Amazon EBS, Anda dapat menyimpan file, menjalankan database, atau menyimpan aplikasi di dalamnya. Ia adalah hard drive (cakram keras). Namun, jika Anda membuat EBS volume sebesar 2 terabyte lalu mengisinya hingga penuh, ia tidak akan serta-merta melakukan proses scaling dengan sendirinya. Itulah EBS.
-
-Lalu bagaimana dengan EFS? Amazon EFS memungkinkan beberapa instance untuk melakukan proses read (membaca) dan write (menulis) data darinya pada saat bersamaan.
-
-Tetapi, ia bukan sekadar hard drive kosong yang dapat Anda gunakan untuk menyimpan data. Amazon EFS adalah sistem file untuk Linux dan merupakan Regional resource (sumber daya regional). Itu berarti data akan disimpan di beberapa AZ. Dengan demikian, setiap EC2 instance yang berada di Region yang sama dapat menyimpan data ke sistem file Amazon EFS.
-
-Amazon Relational Database Service (Amazon RDS)
-Sampai sini, kita sudah banyak belajar tentang berbagai sistem penyimpanan di AWS yang dapat membantu Anda untuk menyelesaikan persoalan terkait kartu digital untuk pelanggan setia di kedai kopi, sebagaimana yang telah kita paparkan di awal modul.
-
-Tetapi, ketahuilah! Anda juga perlu menjaga relasi antara berbagai tipe data. Tunggu, apa maksudnya?
-
-Begini. Misalnya, seorang pelanggan di kedai kopi telah memesan minuman yang sama beberapa kali. Nah, melihat hal ini, mungkin Anda sebagai pemilik kedai kopi ingin menawarkan diskon promosi untuk pembelian berikutnya.
-
-Tentu, Anda membutuhkan suatu cara untuk melacak relasi/hubungan semacam ini, bukan?
-
-Solusi terbaik untuk masalah tersebut adalah dengan menggunakan relational database management system (RDBMS) alias sistem manajemen database/basis data relasional. Artinya, data yang kita simpan dapat memiliki relasi dengan bagian data lainnya.
-
-Dalam dunia database, Anda akan sering mendengar kata query atau kueri. Itu adalah sekumpulan instruksi khusus untuk mengekstraksi data.
-
-Nah, database relasional menggunakan structured query language (SQL) alias bahasa kueri terstruktur untuk menyimpan dan membuat kueri data. Pendekatan semacam ini memungkinkan data disimpan dengan cara yang mudah dimengerti, konsisten, dan dapat diskalakan.
-
-Inilah solusi dari persoalan di awal tadi. Dengan database relasional, sekarang Anda dapat menulis kueri SQL untuk mengidentifikasi minuman apa yang sering dibeli oleh masing-masing pelanggan.
-
-Contoh sederhana dari database relasional adalah sistem manajemen inventaris di skenario kedai kopi kita. Setiap record (kumpulan data) di database mencakup data untuk satu item, seperti nama produk, ukuran, harga, dsb.
-
-Berikut adalah contoh sederhana dari tabel database relasional:
+<p align="justify">Kesimpulannya, jika Anda memiliki objek atau file yang lengkap dan hanya membutuhkan sesekali perubahan, maka pilihlah Amazon S3. Namun, jika Anda membutuhkan proses read (baca) data yang kompleks, maka tentu saja Anda perlu memilih Amazon EBS. Jadi, memilih penyimpanan yang tepat itu tergantung pada kebutuhan beban kerja Anda. Setiap layanan sebenarnya merupakan solusi yang tepat untuk kebutuhan tertentu. Pahamilah apa yang Anda butuhkan, maka Anda akan tahu layanan mana yang ideal.</br></br>
+Amazon Elastic File System (Amazon EFS)</br>
+Di modul ini, kita akan membahas tentang layanan file storage alias penyimpanan file, yang berarti beberapa client--pengguna, aplikasi, server, dsb--dapat mengakses data yang disimpan di folder file secara bersamaan. Dalam pendekatan ini, file server menggunakan block storage (penyimpanan blok) dengan local file system (sistem file lokal) untuk mengatur file. Nah, client dapat mengakses data di dalamnya melalui file path (jalur file). Dibandingkan dengan block storage dan object storage, file storage ini sangat ideal untuk kasus penggunaan di mana beberapa layanan dan sumber daya perlu mengakses data yang sama pada waktu yang sama. Layanan AWS yang termasuk ke dalamnya adalah Amazon Elastic File System, atau juga disebut dengan EFS. Amazon EFS adalah sistem file terkelola yang bisa diskalakan dan dapat digunakan oleh layanan AWS Cloud dan sumber daya di data center on-premise. Sudah sangat umum bagi perusahaan untuk berbagi sistem file di seluruh aplikasi mereka. Mari kita ambil contoh suatu kasus. Misalnya Anda memiliki beberapa server yang menjalankan analitik pada sejumlah besar data yang disimpan dalam sistem file bersama di data center on-premise. Karena berjalan di on-premise, tentu saja Anda harus memastikan bahwa kapasitas penyimpanan di sana dapat menyesuaikan dengan jumlah data yang Anda simpan. Anda juga harus memastikan data tersebut telah dicadangkan dan disimpan secara redundan (di beberapa tempat). Satu lagi, Anda pun harus mengelola semua servernya. Repot ya? Untungnya, AWS hadir memberikan solusi agar Anda tak perlu lagi khawatir untuk mengurus semuanya itu. AWS akan mengelola semua pekerjaan terkait scaling (penyesuaian kapasitas) dan replikasinya untuk Anda.Dengan EFS, Anda dapat memiliki beberapa instance yang mengakses data secara bersamaan. Ia akan melakukan scaling up dan scaling down--keduanya telah kita bahas di modul tentang penyesuaian kapasitas--sesuai kebutuhan secara otomatis. Sangat keren, bukan?</br></br>
+Oke, mungkin Anda akan berpikir, “Loh, Amazon EBS juga bisa menyimpan file dan dapat diakses dari EC2 instance. Jadi, apa perbedaan sebenarnya?”</br></br>
+Jawabannya sangat sederhana. Amazon EBS volume dilampirkan ke EC2 instance dan merupakan Availability Zone-level resource atau sumber daya tingkat Availability Zone. Itu artinya, EBS akan menyimpan data hanya di satu Availability Zone (AZ). Terlebih lagi, jika Anda ingin memasang EC2 ke EBS, maka Anda harus berada di AZ yang sama.</br></br>
+Dengan Amazon EBS, Anda dapat menyimpan file, menjalankan database, atau menyimpan aplikasi di dalamnya. Ia adalah hard drive (cakram keras). Namun, jika Anda membuat EBS volume sebesar 2 terabyte lalu mengisinya hingga penuh, ia tidak akan serta-merta melakukan proses scaling dengan sendirinya. Itulah EBS. Lalu bagaimana dengan EFS? Amazon EFS memungkinkan beberapa instance untuk melakukan proses read (membaca) dan write (menulis) data darinya pada saat bersamaan. Tetapi, ia bukan sekadar hard drive kosong yang dapat Anda gunakan untuk menyimpan data. Amazon EFS adalah sistem file untuk Linux dan merupakan Regional resource (sumber daya regional). Itu berarti data akan disimpan di beberapa AZ. Dengan demikian, setiap EC2 instance yang berada di Region yang sama dapat menyimpan data ke sistem file Amazon EFS.</br></br>
+Amazon Relational Database Service (Amazon RDS)</br>
+Sampai sini, kita sudah banyak belajar tentang berbagai sistem penyimpanan di AWS yang dapat membantu Anda untuk menyelesaikan persoalan terkait kartu digital untuk pelanggan setia di kedai kopi, sebagaimana yang telah kita paparkan di awal modul.</br>
+Tetapi, ketahuilah! Anda juga perlu menjaga relasi antara berbagai tipe data. Tunggu, apa maksudnya?</br>
+Begini. Misalnya, seorang pelanggan di kedai kopi telah memesan minuman yang sama beberapa kali. Nah, melihat hal ini, mungkin Anda sebagai pemilik kedai kopi ingin menawarkan diskon promosi untuk pembelian berikutnya.</br>
+Tentu, Anda membutuhkan suatu cara untuk melacak relasi/hubungan semacam ini, bukan?</br>
+Solusi terbaik untuk masalah tersebut adalah dengan menggunakan relational database management system (RDBMS) alias sistem manajemen database/basis data relasional. Artinya, data yang kita simpan dapat memiliki relasi dengan bagian data lainnya. Dalam dunia database, Anda akan sering mendengar kata query atau kueri. Itu adalah sekumpulan instruksi khusus untuk mengekstraksi data. Nah, database relasional menggunakan structured query language (SQL) alias bahasa kueri terstruktur untuk menyimpan dan membuat kueri data. Pendekatan semacam ini memungkinkan data disimpan dengan cara yang mudah dimengerti, konsisten, dan dapat diskalakan. Inilah solusi dari persoalan di awal tadi. Dengan database relasional, sekarang Anda dapat menulis kueri SQL untuk mengidentifikasi minuman apa yang sering dibeli oleh masing-masing pelanggan. Contoh sederhana dari database relasional adalah sistem manajemen inventaris di skenario kedai kopi kita. Setiap record (kumpulan data) di database mencakup data untuk satu item, seperti nama produk, ukuran, harga, dsb. Berikut adalah contoh sederhana dari tabel database relasional:</p>
 
 <table><tr><td>ID</td>	Product <td>name	</td><td>Size</td><td>	Price</td></tr>
 <tr><td>1</td><td>Kopi gula aren Besar</td><td>Rp25.000</td><td>2</td><td>Kopi susu</td><td>Sedang</td><td>Rp15.000</td></tr></table>
-
-Sekarang pertanyaannya adalah, layanan AWS apa yang mendukung database relasional?
-
-Sambutlah, Amazon Relational Database Service (Amazon RDS). Ia adalah layanan yang memungkinkan Anda untuk menjalankan database relasional di AWS Cloud.
-
-Amazon RDS adalah layanan yang terkelola dan mendukung 6 (enam) mesin database, di antaranya:
-
-Amazon Aurora
-PostgreSQL
-MySQL
-MariaDB
-Oracle Database
-Microsoft SQL Server
-Ketahuilah! Jika Anda memiliki data center on-premise yang menjalankan salah satu mesin database di atas, Anda bisa memindahkannya ke cloud dengan mudah. Bagaimana caranya?
-
-AWS memungkinkan Anda untuk melakukan Lift-and-Shift, yaitu proses memigrasikan beban kerja dari on-premise ke AWS dengan sedikit atau bahkan tanpa modifikasi.
-
-Contohnya, Anda bisa memindahkan database on-premise lalu menjalankannya di Amazon EC2. Dengan begitu, Anda mempunyai kendali atas variabel yang sama dengan keadaan di on-premise, seperti OS, memori, CPU, kapasitas penyimpanan, dsb. Ini merupakan entri yang cepat untuk menuju cloud, bukan?
-
-Salah satu cara yang dapat Anda lakukan untuk mewujudkan proses migrasi ini adalah dengan menggunakan layanan Database Migration Service, yang nanti akan kita bahas.
-
-Sekarang, mari kita kembali ke pembahasan mengenai Amazon RDS. Layanan Amazon RDS hadir dengan berbagai fitur, termasuk:
-
-Automated patching (memperbaiki masalah dengan memperbarui program).
-Backup (pencadangan).
-Redundancy (memiliki lebih dari satu instance untuk berjaga-jaga jika instance utama gagal beroperasi).
-Failover (instance lain akan mengambil alih saat instance utama mengalami kegagalan).
-Disaster recovery (memulihkan pascabencana).
-Encryption at rest (enkripsi data saat disimpan).
-Encryption in-transit (enkripsi data saat sedang dikirim dan diterima).
-Semua hal di atas adalah proses yang biasanya harus Anda kelola sendiri jika menggunakan data center on-premise. Tentu ini menjadikannya pilihan menarik karena Anda tak pusing dengan pemeliharaan dan pengelolaan database. Karena faktanya, semua proses tersebut sangat sulit dan memakan waktu yang lama.
-
-Pertanyaan selanjutnya muncul, “Adakah cara yang bahkan bisa lebih mudah lagi untuk menjalankan beban kerja database di cloud?”
-
-Nah, mari kita sedikit membahas tentang layanan Amazon Aurora. Ia adalah opsi database relasional kelas enterprise/perusahaan yang terkelola oleh AWS. Layanan ini memiliki banyak fitur, seperti:
-
-Bisa bekerja secara kompatibel dengan MySQL dan PostgreSQL. Bahkan, dapat 5 kali lebih cepat dari database MySQL standar dan bisa 3 kali lebih cepat dari database PostgreSQL standar.
-Memberikan performa yang setara dengan database komersial dengan perbandingan biaya 1/10.
-Mampu memastikan replikasi data di seluruh fasilitas.
-Menerapkan hingga 15 read replica (replika baca).
-Mencadangkan secara kontinu ke Amazon S3.
-Menerapkan point-in-time recovery (Pemulihan data dari periode tertentu).
+<p align="justify">
+Sekarang pertanyaannya adalah, layanan AWS apa yang mendukung database relasional?Sambutlah, Amazon Relational Database Service (Amazon RDS). Ia adalah layanan yang memungkinkan Anda untuk menjalankan database relasional di AWS Cloud.Amazon RDS adalah layanan yang terkelola dan mendukung 6 (enam) mesin database, di antaranya:</p>
+<ul align="justify">
+<li>Amazon Aurora</li>
+<li>PostgreSQL</li>
+<li>MySQL</li>
+<li>MariaDB</li>
+<li>Oracle Database</li>
+<li>Microsoft SQL Server</li></ul>
+<p align="justify">Ketahuilah! Jika Anda memiliki data center on-premise yang menjalankan salah satu mesin database di atas, Anda bisa memindahkannya ke cloud dengan mudah. Bagaimana caranya? AWS memungkinkan Anda untuk melakukan Lift-and-Shift, yaitu proses memigrasikan beban kerja dari on-premise ke AWS dengan sedikit atau bahkan tanpa modifikasi. Contohnya, Anda bisa memindahkan database on-premise lalu menjalankannya di Amazon EC2. Dengan begitu, Anda mempunyai kendali atas variabel yang sama dengan keadaan di on-premise, seperti OS, memori, CPU, kapasitas penyimpanan, dsb. Ini merupakan entri yang cepat untuk menuju cloud, bukan? Salah satu cara yang dapat Anda lakukan untuk mewujudkan proses migrasi ini adalah dengan menggunakan layanan Database Migration Service, yang nanti akan kita bahas. Sekarang, mari kita kembali ke pembahasan mengenai Amazon RDS. Layanan Amazon RDS hadir dengan berbagai fitur, termasuk:
+</p><ul align="justify"><li>
+Automated patching (memperbaiki masalah dengan memperbarui program).</li>
+<li>Backup (pencadangan).</li>
+<li>Redundancy (memiliki lebih dari satu instance untuk berjaga-jaga jika instance utama gagal beroperasi).</li>
+<li>Failover (instance lain akan mengambil alih saat instance utama mengalami kegagalan).</li>
+<li>Disaster recovery (memulihkan pascabencana).</li>
+<li>Encryption at rest (enkripsi data saat disimpan).</li>
+<li>Encryption in-transit (enkripsi data saat sedang dikirim dan diterima).</li></ul><p align="justify">
+Semua hal di atas adalah proses yang biasanya harus Anda kelola sendiri jika menggunakan data center on-premise. Tentu ini menjadikannya pilihan menarik karena Anda tak pusing dengan pemeliharaan dan pengelolaan database. Karena faktanya, semua proses tersebut sangat sulit dan memakan waktu yang lama. Pertanyaan selanjutnya muncul, “Adakah cara yang bahkan bisa lebih mudah lagi untuk menjalankan beban kerja database di cloud?” Nah, mari kita sedikit membahas tentang layanan Amazon Aurora. Ia adalah opsi database relasional kelas enterprise/perusahaan yang terkelola oleh AWS. Layanan ini memiliki banyak fitur, seperti:</p>
+<ul align="justify">
+<li>Bisa bekerja secara kompatibel dengan MySQL dan PostgreSQL. Bahkan, dapat 5 kali lebih cepat dari database MySQL standar dan bisa 3 kali lebih cepat dari database PostgreSQL standar.</li>
+<li>Memberikan performa yang setara dengan database komersial dengan perbandingan biaya 1/10.</li>
+<li>Mampu memastikan replikasi data di seluruh fasilitas.</li>
+<li>Menerapkan hingga 15 read replica (replika baca).</li>
+<li>Mencadangkan secara kontinu ke Amazon S3.</li>
+<li>Menerapkan point-in-time recovery (Pemulihan data dari periode tertentu).</li></ul>
 -->
 <p align="justify"> 
   </p>
@@ -1234,51 +891,7 @@ Dengan AWS Management Console, Anda dapat</p>
    Answer : B. layanan pengirim konten secara global
 ```
 
-<p align="justify"> <b>Subnet</b></br>
-Subnet adalah sebuah bagian dari VPC di mana Anda dapat mengelompokkan sumber daya berdasarkan keamanan atau kebutuhan operasional. Subnet bisa menjadi publik maupun privat.
-  </p>
-  <p align="center">
-  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310161003af114067c8831a0075be04294cfdff4d.png"></p>
-  <p align="justify"> Subnet publik biasanya berisi sumber daya yang perlu diakses oleh publik, seperti website toko online. Sedangkan subnet privat memuat sumber daya yang seharusnya hanya dapat diakses melalui jaringan privat, seperti database yang berisi informasi pribadi pelanggan dan riwayat pesanan. Di VPC subnet dapat berkomunikasi satu sama lain. Misalnya, Anda dapat memiliki aplikasi pada Amazon EC2 instance di subnet publik yang berkomunikasi dengan database di subnet pribadi. </br></br>
-  <b>Network Access Control List (Network ACL)</b>
-  </p>
-  <p align="center">
-  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/2021031016121382a99d472144d037b88006e92a27d1c2.png"></p>
-<p align="justify"> Sebelumnya, kita telah belajar seputar Internet Gateway (IGW) yang dapat mengizinkan traffic masuk atau keluar dari VPC. Tetapi, layanan ini hanya meliputi satu bagian saja dari keamanan jaringan--yang harus Anda fokuskan sebagai bagian dari strategi IT.</br></br>
-Ketahuilah, AWS memiliki berbagai layanan yang dapat mencakup setiap lapisan keamanan:</p>
-<ul align="justify"><li>Network hardening (Penguatan jaringan).</li>
-<li>Keamanan aplikasi.</li>
-<li>Identitas pengguna.</li>
-<li>Autentikasi dan otorisasi.</li>
-<li>Pencegahan distributed denial-of-service (DDoS).</li>
-<li>Integritas data.</li>
-<li>Enkripsi.</li>
-<li>dan masih banyak lainnya.</li></ul>
- <p align="justify"> Satu-satunya alasan teknis untuk menggunakan subnet di VPC adalah untuk mengontrol akses ke gateway. Subnet publik memiliki akses ke Internet Gateway, sementara Subnet privat tidak. Tapi walaupun begitu, tahukah Anda? Subnet juga bisa mengontrol perizinan traffic, loh.</br></br>
-Bagaimana caranya? Simak paparan berikut.</br></br>
-Ketika pelanggan meminta data dari aplikasi yang berjalan di AWS Cloud, maka permintaan ini dikirim sebagai paket. Paket adalah sebuah unit data yang dikirim melalui internet atau jaringan.</p>
-<p align="center">
-  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202103101612444d839af795a92a8aef280b8f628d6a4e.png"></p>
- <p align="justify"> Paket masuk ke VPC melalui Internet Gateway. Sebelum paket dapat masuk atau keluar dari subnet, ia akan diperiksa terkait perizinannya. Pemeriksaan ini dilakukan untuk melihat apakah paket memiliki izin untuk masuk ke subnet berdasarkan siapa pengirimnya dan bagaimana ia mencoba berkomunikasi dengan sumber daya yang berada di subnet.</br>
-Komponen VPC yang memeriksa izin paket untuk subnet adalah network access control list alias network ACL. Network ACL adalah firewall virtual yang mengontrol traffic masuk dan keluar di tingkat subnet. Tentu ini berbeda dengan Internet Gateway yang cakupannya di tingkat VPC. Jika paket memiliki potensi yang dapat membahayakan sumber daya di dalam subnet--seperti upaya untuk menguasai sistem melalui permintaan administratif--maka ia akan diblokir sebelum dapat menyentuh target.</br>
-Jika masih sukar memahaminya, Anda bisa menganggap network ACL sebagai petugas pengawas paspor. Misalnya begini. Mari kita keluar dari kedai kopi dan bayangkan Anda sedang berada di bandara. Di sana ada banyak turis yang mencoba masuk ke negara lain. Anda dapat menganggap para turis itu sebagai paket dan petugas pengawas paspor sebagai network ACL. Petugas pengawas paspor memeriksa kredensial setiap turis yang masuk ke suatu negara. Jika nama turis tertera di dalam daftar yang disetujui, maka ia diizinkan untuk masuk. Sebaliknya, jika namanya tak terdaftar atau bahkan secara eksplisit tercatat di dalam daftar turis yang diblokir, maka tentu ia dilarang masuk. Selain memeriksa traffic yang masuk, network ACL pun akan mengecek setiap traffic yang keluar dari subnet. Ini serupa pula dengan petugas pengawas paspor. Hanya karena Anda diizinkan masuk, bukan berarti petugas akan membiarkan Anda keluar dengan leluasa. Setiap akun AWS menyertakan network ACL secara default (bawaan). Saat mengonfigurasi VPC, Anda dapat menggunakan default network ACL (mengizinkan semua traffic masuk dan keluar) atau custom network ACL (menolak semua traffic masuk dan keluar hingga Anda secara eksplisit mengizinkannya). Selain itu, network ACL memiliki aturan penolakan secara eksplisit. Aturan ini berguna untuk memastikan jika sebuah paket tidak cocok dengan salah satu aturan lain di daftar, paket tersebut akan ditolak. Mungkin terdengar seperti keamanan yang hebat ya? Tapi nyatanya, network ACL tidak bisa menjawab semua masalah terkait kontrol jaringan. Sebab, ia hanya dapat mengevaluasi paket jika melintasi batas subnet--baik masuk atau keluar namun tidak tahu-menahu apakah paket tersebut dapat mencapai EC2 instance tertentu atau tidak.</br></br>
-<b>Security Group</b>
-Boleh jadi Anda memiliki beberapa EC2 instance di subnet yang sama. Namun pada praktiknya, mungkin tiap-tiapnya akan memiliki aturan yang berbeda tentang</p>
-<ul><li>siapa yang dapat mengiriminya pesan; atau</li>
-<li>port mana yang diizinkan untuk menerima pesan.</li></ul>
- <p align="justify">Jadi, Anda juga memerlukan keamanan jaringan pada tingkat instance. Nah, untuk menjawabnya, AWS memperkenalkan security group.
-Security group adalah firewall virtual yang mengontrol traffic masuk dan keluar untuk Amazon EC2 instance. Terlihat berbeda ya dengan network ACL yang cakupannya di tingkat subnet.</p>
-  <p align="center">
-  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310161531e35fa09c172d32de5182337c5e1ed0c6.png"></p>
-<p align="justify">Dengan security group default, semua port dan alamat IP yang mengirimkan paket akan diblokir. Tentu ini sangat aman, tapi mungkin membuat instance tidak berguna. Maka dari itu, tentu Anda bisa mengonfigurasinya dengan menambah aturan sendiri yang mengizinkan atau menolak traffic sesuai kebutuhan. Misalnya, dalam kasus website, Anda bisa mengatur security group untuk menerima traffic berbasis web (HTTPS) dan tidak untuk jenis lalu lintas lain (sistem operasi atau permintaan administrasi). Jika sebelumnya kita mengibaratkan network ACL sebagai petugas pengawas paspor, nah, anggaplah security group itu seperti penjaga pintu di gedung apartemen Anda. Dalam hal ini, gedung tersebut adalah EC2 instance.</br>
-Penjaga pintu akan memeriksa setiap orang yang ingin memasuki gedung untuk memastikan apakah mereka memiliki izin atau tidak. Namun, bagi setiap orang yang akan keluar dari gedung tersebut tak akan diperiksa olehnya. Serupa dengan itu, security group mengizinkan traffic tertentu untuk masuk dan--secara default--membolehkan semua lalu lintas keluar. Mungkin dahi Anda akan mulai berkerut, “Tunggu sebentar. Kita baru saja belajar dua mesin berbeda namun melakukan pekerjaan yang sama, yaitu membiarkan paket dari alamat yang kita izinkan untuk masuk dan menolak paket dari alamat yang tidak kita izinkan. Lalu, apa bedanya?”</br>
-Oke, Oke. Tenang! Mari kita tilik perbedaannya.</br></br>
-Perbedaan utama antara security group dan network ACL adalah:</p>
-<ul align="justify"><li>
-Security group bersifat stateful, yang berarti ia memiliki semacam memori untuk mengingat siapa yang diizinkan masuk atau keluar.</li>
-<li>Network ACL bersifat stateless, artinya ia tidak mengingat apa pun. Layanan ini akan memeriksa setiap paket yang melintasi perbatasannya terlepas dari keadaan apa pun.</li></ul>
-<p align="justify"> Oke, sekarang kita akan mengilustrasikan suatu perjalanan bolak-balik sebuah paket saat berpindah dari satu instance ke instance lain di subnet yang berbeda. Pahami metafora ini dengan baik ya.
-  </p>
+
 <!---
 <p align="justify"> 
   </p>
