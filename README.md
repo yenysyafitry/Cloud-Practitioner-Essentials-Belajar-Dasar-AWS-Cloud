@@ -1087,13 +1087,13 @@ Saat Anda membuat organisasi, AWS Organizations secara otomatis membuat root (wa
 Lalu, apa saja fitur-fitur yang ditawarkan oleh AWS Organizations? Oke, mari kita uraikan.</p>
 <ol align="justify"><li><b>Manajemen terpusat</b></br>
 AWS Organizations dapat menjadi alat manajemen terpusat dari semua akun AWS Anda. Misal jika Anda memiliki beberapa akun (A, B, C, D, E), maka Anda dapat menggabungkannya menjadi sebuah organisasi sehingga memungkinkan akun terkelola secara terpusat.</li>
-<li>Consolidated billing (Tagihan terkonsolidasi)</b></br>
+<li><b>Consolidated billing (Tagihan terkonsolidasi)</b></br>
 Anda dapat menggunakan akun utama dari organisasi untuk menggabungkan dan mengatur pembayaran biaya penggunaan semua akun anggota. Bahkan, keuntungan lain dari consolidated billing adalah diskon massal. Kita akan mempelajari secara detail tentang consolidated billing ini di modul yang akan datang.</li>
-<li>Pengelompokan hierarki akun</br>
+<li><b>Pengelompokan hierarki akun</br>
 Anda dapat mengimplementasikan fitur ini untuk memenuhi kebutuhan keamanan, compliance, atau anggaran. Kelompokkan akun ke dalam organizational unit (OU) untuk mempermudah pengelolaan akun-akun yang memiliki tujuan serupa atau kepentingan persyaratan keamanan.</br>
 Saat Anda menerapkan policy (kebijakan) ke OU, semua akun otomatis mewarisi permission yang ada di policy tersebut. Fitur ini juga memudahkan Anda untuk mengisolasi beban kerja atau aplikasi yang memiliki persyaratan keamanan tertentu.</br>
 Misalnya, jika Anda memiliki akun yang hanya dikhususkan untuk mengakses layanan AWS tertentu, maka Anda dapat memasukkannya ke dalam suatu OU. Kemudian lampirkan policy yang mengatur akses ke layanan AWS tersebut.</li>
-<li>Kontrol atas layanan AWS dan tindakan API</br>
+<li><b>Kontrol atas layanan AWS dan tindakan API</br>
 Dengan AWS Organizations, Anda bisa mengontrol layanan AWS dan layanan API yang dapat diakses oleh setiap akun administrator dari akun utama organisasi.</br>
 Anda juga dapat menggunakan service control policies (SCP) untuk menentukan permission alias izin maksimum untuk akun anggota di organisasi. Maksudnya, Anda bisa membatasi layanan AWS, sumber daya, dan layanan API individual yang mana dapat diakses oleh user dan role di setiap akun anggota.</li></ol></br>
 <b>Studi Kasus: AWS Organizations</b></br>
