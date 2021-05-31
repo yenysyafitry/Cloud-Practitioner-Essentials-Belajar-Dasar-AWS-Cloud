@@ -891,6 +891,38 @@ Oke, mari kita bandingkan dua layanan tersebut secara lebih detail.
 |Mampu membangun sistem analisis data yang kompleks.|Memungkinkan Anda membangun database yang kuat dan sangat cepat tanpa perlu fungsionalitas yang rumit.|
 |Ideal untuk analisis sistem manajemen supply chain (rantai pasokan).|Cocok untuk penggunaan data yang fleksibel dan sederhana seperti daftar kontak karyawan yang berisikan nama, nomor telepon, email, ID karyawan, dsb.|
   
+Amazon Redshift
+Sedari tadi kita telah banyak membahas tentang jenis alur kerja dengan kebutuhan proses data yang cepat, andal, dan terkini. Yup! Database bisa menjadi solusinya karena ia dapat menangani 1.000 transaksi per detik, sangat tersedia, dan berdaya tahan.
+
+Tapi terkadang, mungkin ada kebutuhan bisnis yang melebihi dari apa yang pernah kita alami. Maka dari itu, kita membutuhkan layanan yang dapat menganalisis data.
+
+Tentu Anda dapat menggunakan satu layanan database untuk semua kebutuhan. Namun, database modern yang dirancang untuk penggunaan kueri berkinerja tinggi dan real time, bukanlah yang paling ideal. Simak penjelasan berikut.
+
+Database relasional akan sangat ideal untuk jenis pekerjaan yang membutuhkan fungsionalitas read/write (membaca/menulis) data karena ia dapat menanganinya secara real time.
+
+Namun, masalah akan muncul saat Anda menggunakannya untuk jenis pekerjaan yang lain. Misalnya, jika Anda memakai database relasional untuk kebutuhan analisis historis, maka operasi pengumpulan data akan terus memprosesnya dan tak akan pernah berhenti. Dengan telemetri modern, volume data bisa membanjiri database. Bahkan, database relasional tradisional yang terkuat sekalipun tak bisa menanganinya.
+
+Selain itu, data yang bervariasi juga akan menjadi masalah. Misalkan Anda ingin menjalankan proyek business intelligence (inteligensi bisnis) untuk data dari penyimpanan yang berbeda, seperti inventaris, keuangan, dan sistem penjualan ritel.
+
+Mungkin, solusinya adalah dengan menggunakan satu kueri untuk beberapa database sekaligus. Tetapi faktanya, database tradisional tidak bisa menanganinya dengan mudah. Nah, ketika data menjadi semakin kompleks untuk ditangani oleh database relasional tradisional, maka data warehouse (gudang data) adalah solusinya. Data warehouse dirancang secara spesifik untuk jenis big data semacam ini, yaitu analitik historis, bukan analisis operasional.
+
+Mari kita perjelas. Analitik historis itu seperti pertanyaan, “Tunjukkan angka penjualan satu jam terakhir di semua toko.” Intinya, data sudah siap pada saat diproses. Data tidak akan berubah lagi karena data ini adalah data historis yang sudah terjadi sebelumnya.
+
+Bandingkan pertanyaan itu dengan, "Berapa kantong kopi yang masih ada di inventaris kita sekarang?" Yang mana data tersebut bisa berubah bahkan pada saat kita bertanya. Selama pertanyaan Anda melihat ke belakang alias lampau, maka data warehouse adalah solusi yang tepat untuk lini business intelligence tersebut.
+
+Ada banyak solusi data warehouse yang beredar di pasaran. Namun, dengan itu semua, Anda mungkin tetap harus melakukan banyak undifferentiated heavy lifting (proses kerja yang tidak menambah nilai bagi perusahaan) guna menjaga data warehouse agar tetap dikonfigurasi, senantiasa tangguh, dan scaling secara berkelanjutan.
+
+Tetapi, bukankah lebih baik jika Anda fokus pada data daripada perawatan dan pengelolaan mesin yang tak terhindarkan?
+
+Anda mungkin perlu berkenalan dengan layanan yang satu ini, yaitu Amazon Redshift. Amazon Redshift adalah layanan data warehousing yang dapat Anda gunakan untuk analitik big data. Layanan ini menawarkan kemampuan untuk mengumpulkan data dari banyak sumber dan membantu Anda memahami hubungan dan tren di seluruh data. Selain itu, ia juga dapat diskalakan secara masif.
+
+Adalah hal yang wajar untuk Redshift nodes (kumpulan sumber daya komputasi) tersedia dalam berbagai ukuran petabyte. Kolaborasikan Redshift nodes dengan Amazon Redshift Spectrum sehingga Anda pun dapat langsung menjalankan satu kueri SQL untuk exabyte data tidak terstruktur yang berjalan di data lake (penyimpanan untuk data terstruktur dan tidak terstruktur pada skala apa pun).
+
+Selebihnya lagi, Amazon Redshift ini bukan hanya sekadar mampu menangani data set (kumpulan data) yang sangat besar, melainkan juga dapat mencapai kinerja hingga 10 kali lebih tinggi--dengan menggunakan berbagai inovasi--daripada database tradisional dalam hal beban kerja business intelligence.
+
+Kita tidak akan memaparkan terperinci tentang cara kerja Amazon Redshift ya. Intinya, pahami bahwa saat Anda perlu solusi business intelligence big data, ia hadir memudahkan Anda untuk memulainya hanya dengan satu panggilan API. Dengan begitu, akan lebih sedikit waktu buat menunggu hasil dan lebih banyak waktu untuk mendapatkan jawaban.
+
+
 ```plantuml 
  Kategori: Komputasi di Cloud
 1.Proses manakah yang merupakan contoh dari Elastic Load Balancing?
