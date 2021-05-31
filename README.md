@@ -433,9 +433,8 @@ Masih bingung? Mari kita perjelas. Setiap layanan dapat Anda gunakan sesuai deng
 <li>Jika Anda ingin menjalankan fungsi yang berjalan singkat, aplikasi berbasis kejadian, dan Anda tak ingin mengelola infrastrukturnya sama sekali, gunakanlah layanan AWS Lambda.</li>
 <li>Jika Anda ingin menjalankan beban kerja berbasis Docker container di AWS, langkah yang perlu Anda lalui adalah:</li>
 <ul align="justify"><li>Anda harus memilih layanan orkestrasinya terlebih dahulu. Anda bisa menggunakan Amazon ECS atau Amazon EKS.</li>
-<li>Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.</li></ul>
-<p align="justify">
-<b>Ikhtisar</b></br>
+<li>Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.</li></ul></br>
+<p align="justify"><b>Ikhtisar</b></br>
 Tibalah kita di penghujung modul. Mari kita uraikan apa yang telah kita pelajari di modul ini:</p>
 <ul align="justify"><li>Hal pertama yang kita pelajari di modul ini berkenaan dengan komputasi cloud dan apa saja yang ditawarkan AWS.</br>
 AWS mendefinisikan komputasi cloud sebagai penyajian sesuai permintaan (on-demand) sumber daya IT melalui internet dengan harga sesuai pemakaian (pay-as-you-go).</br>
