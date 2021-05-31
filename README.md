@@ -922,6 +922,46 @@ Selebihnya lagi, Amazon Redshift ini bukan hanya sekadar mampu menangani data se
 
 Kita tidak akan memaparkan terperinci tentang cara kerja Amazon Redshift ya. Intinya, pahami bahwa saat Anda perlu solusi business intelligence big data, ia hadir memudahkan Anda untuk memulainya hanya dengan satu panggilan API. Dengan begitu, akan lebih sedikit waktu buat menunggu hasil dan lebih banyak waktu untuk mendapatkan jawaban.
 
+AWS Database Migration Service
+Wah, tak terasa ya kita telah banyak membahas berbagai opsi database di AWS. Nah, sekarang mungkin Anda akan mengerutkan dahi, “Bagaimana kalau kita sudah punya database di on-premise atau mungkin di platform lain? Apa itu berarti kita harus memulai dari awal?”
+
+Oh, tak perlu khawatir akan itu! AWS punya cara yang ajaib.
+
+Mari berkenalan dengan AWS Database Migration Service (AWS DMS). Ia dapat memigrasikan database yang Anda miliki--baik relasional, nonrelasional (NoSQL), atau tipe penyimpanan data lain--ke AWS dengan mudah dan aman.
+
+Pada dasarnya, proses migrasi itu membutuhkan sumber dan target database. Nah, dengan AWS DMS:
+
+<ul align="justify"><li>Database sumber tetap beroperasi penuh selama proses migrasi.</li>
+<li>Downtime (waktu henti) diminimalkan untuk aplikasi yang bergantung pada database tersebut.</li>
+<li>Database sumber dan target tidak harus bertipe sama.</li></ul>
+
+Oke. Meski tak harus bertipe sama, mari mulai pembahasan kita dari proses migrasi database yang bertipe sama (homogen) terlebih dahulu, atau dikenal sebagai homogenous database migration. Proses semacam ini dapat memigrasikan database dari:
+
+<ul align="justify"><li>MySQL ke Amazon RDS for MySQL.</li>
+<li>Microsoft SQL Server ke Amazon RDS for SQL Server.</li>
+<li>Bahkan, Oracle ke Amazon RDS for Oracle.</li></ul>
+Karena sumber database dan target memiliki struktur skema, tipe data, dan kode database yang sama, hasilnya proses migrasi akan berlangsung mudah.
+
+Nah, contoh dari sumber database ini dapat berupa database yang berjalan di on-premise, Amazon EC2 instance, ataupun Amazon RDS. Sementara untuk database target, ia bisa saja database yang berada di Amazon EC2 maupun Amazon RDS.
+
+Cara kerja migrasi homogen ini pun cukup sederhana. Anda hanya perlu membuat tugas migrasi, mengoneksikannya ke database sumber dan target, lalu mulai prosesnya dengan mengeklik tombol. Sisanya, akan ditangani oleh AWS DMS. Keren, bukan?
+
+<p align="center">
+  <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202103101658234f16d5bc75f660aae530b32a1107ed1f.png"></p>
+
+Sekarang, mari kita beralih ke jenis kedua, yakni migrasi database heterogen alias heterogeneous database migration. Berbeda dengan jenis pertama, migrasi heterogen ini terjadi saat database sumber dan target memiliki tipe yang berbeda. Ia juga merupakan proses dua langkah.
+
+Maksudnya, karena struktur skema, tipe data, dan kode database asal berbeda dengan database target, maka kita perlu mengubahnya terlebih dahulu menggunakan AWS Schema Conversion Tool. Setelah itu, barulah kita gunakan AWS DMS untuk memigrasikannya.
+
+Nah, selain dari yang dijelaskan di atas, AWS DMS juga dapat digunakan untuk:
+
+<ul align="justify"><li>Migrasi ke database pengembangan dan pengujian</br>
+Contoh penggunaannya adalah ketika Anda ingin melakukan pengujian aplikasi pada database produksi tanpa memengaruhi pengguna. Nah, dengan AWS DMS, Anda dapat memigrasikan salinan dari database produksi tersebut ke lingkungan pengembangan (development) atau pengujian (testing).</li>
+<li>Konsolidasi database</br>
+Dengan AWS Database Migration Service, Anda dapat menggabungkan beberapa database menjadi satu database pusat.</li>
+<li>Replikasi database yang kontinu</br>
+AWS DMS memungkinkan Anda untuk melakukan replikasi data yang berkelanjutan. Ini berguna untuk disaster recovery (pemulihan bencana) atau pemisahan geografis.</li></ul>
+
 
 ```plantuml 
  Kategori: Komputasi di Cloud
