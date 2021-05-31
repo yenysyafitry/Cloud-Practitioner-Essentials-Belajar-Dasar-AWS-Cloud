@@ -685,7 +685,7 @@ Satu langkah lagi untuk kembali ke rumah. Tapi, security group. sang penjaga pin
   <p align="justify">Huh! Mungkin tampak sedikit melelahkan ya hanya untuk mendapatkan paket dari satu instance ke instance lainnya dan kembali lagi. Jangan khawatirkan semua proses panjangnya. Faktanya, operasi pertukaran tersebut terjadi secara instan sebagai bagian dari cara kerja AWS Networking. Manfaatkanlah network ACL dan security group ini guna mencapai keamanan jaringan yang komprehensif. Mengapa? Karena keamanan yang mendalam merupakan hal yang sangat penting untuk sebuah arsitektur modern.</br></br>
 <b>Jaringan Global</b></br>
 Sebelumnya kita telah banyak belajar mengenai bagaimana Anda berinteraksi dengan infrastruktur AWS. Sekarang pertanyaannya adalah bagaimana pelanggan Anda berinteraksi dengan infrastruktur AWS tersebut?</br>
-Tak perlu tergesa-gesa! Di modul ini akan dijelaskan tentangnya. Kita mulai dari DNS terlebih dahulu. Apa itu? Yuk kita lihat di materi berikutnya!</br>
+Tak perlu tergesa-gesa! Di modul ini akan dijelaskan tentangnya. Kita mulai dari DNS terlebih dahulu. Apa itu? Yuk kita lihat di materi berikutnya!</br></br>
 <b>Domain Name System (DNS)</b></br>
 Untuk mengawali, yuk kita buat suatu cerita. Misalnya, Anda memiliki website yang berjalan di AWS Cloud. Silakan jawab, bagaimana pelanggan Anda dapat mengaksesnya? Mudah saja. tentu kita semua sudah tahu. Caranya adalah dengan memasukkan nama website Anda di browser, tekan Enter, dan boom! Website pun termuat.</br></br>
 Proses tersebut tentu saja tidak sekonyong-konyong terjadi begitu saja. Ada peran domain name system (DNS) di sana. Di AWS tersedia layanan DNS yang dapat Anda gunakan, yakni Amazon Route 53--akan dijelaskan nanti. Tapi, tunggu! Sebelum melangkah lebih jauh, apa sih yang dimaksud dengan DNS? Begini, anggaplah DNS itu sebagai buku telepon bagi internet. DNS dapat menerjemahkan sebuah nama domain ke dalam alamat IP (Internet Protocol) yang dapat dibaca komputer.</p>
@@ -829,7 +829,7 @@ Semua hal di atas adalah proses yang biasanya harus Anda kelola sendiri jika men
 <li>Menerapkan hingga 15 read replica (replika baca).</li>
 <li>Mencadangkan secara kontinu ke Amazon S3.</li>
 <li>Menerapkan point-in-time recovery (Pemulihan data dari periode tertentu).</li></ul>
--->
+
 <p align="justify"> 
   </p>
   
