@@ -539,4 +539,26 @@ d. layanan database dokumen yang mendukung beban kerja mongoDB
 
 b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks
 Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.
+
+1.
+Perhatikan pernyataan berikut:
+
+Meningkatkan kecepatan dan ketangkasan.
+Mendapatkan manfaat dari skala ekonomi yang lebih kecil.
+Mengubah pengeluaran variabel menjadi pengeluaran di muka.
+Mempertahankan kapasitas infrastruktur.
+Menghentikan biaya pengelolaan dan pemeliharaan data center.
+Dari pernyataan di atas, mana sajakah yang termasuk ke dalam manfaat komputasi cloud?
+A. 1 dan 3
+B. 1 dan 5
+C. 2 dan 4
+D. 3 dan 5
+B. 1 dan 5
+2.
+Pada AWS Well-Architected Framework, manakah pilar yang menyertakan kemampuan untuk menjalankan beban kerja secara efektif dan mendapatkan wawasan ke dalam operasinya?
+a. reliability
+b. operational excellence 
+c. performance efficiency
+d. cost optimization
+b. operational excellence 
 -->
