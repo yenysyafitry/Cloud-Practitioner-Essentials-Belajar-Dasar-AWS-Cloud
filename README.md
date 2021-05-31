@@ -586,6 +586,35 @@ Masuk ke konsol, arahkan dan klik.</li>
 <p align="justify">Simpan konfigurasi lingkungan tersebut sehingga nantinya akan memudahkan Anda saat menerapkannya kembali.</br></br>
 <b>AWS CloudFormation</b></br>
 Layanan lain yang dapat Anda gunakan untuk membantu membuat penerapan otomatis dan berulang adalah AWS CloudFormation. AWS CloudFormation adalah layanan infrastructure as code (infrastruktur sebagai kode) yang memungkinkan Anda untuk menentukan berbagai sumber daya AWS dengan cara deklaratif menggunakan dokumen berbasis teks JSON atau YAML yang disebut sebagai CloudFormation template. Format deklaratif memudahkan Anda untuk memberikan spesifikasi apa yang ingin dibangun tanpa harus mendeskripsikan detail bagaimana caranya karena mesin CloudFormation yang akan mengurusnya. Anda hanya perlu menulis baris kode untuk membangun lingkungan ketimbang menggunakan AWS Management Console. AWS CloudFormation tak hanya terbatas pada solusi berbasis EC2, melainkan mendukung banyak sumber daya AWS, seperti penyimpanan, database, analitik, machine learning, dan banyak lagi. Oke, setelah Anda menentukan sumber daya dalam CloudFormation template, AWS CloudFormation akan menguraikannya dan mulai menyediakan semua sumber daya tersebut secara paralel. AWS CloudFormation mengelola semua panggilan API. Anda dapat menjalankan CloudFormation template yang sama di beberapa akun atau Region. Dengan begitu, layanan ini akan membuat lingkungan yang identik di dalamnya. Tak akan ada lagi human error karena semua proses berjalan secara otomatis dengan sepenuhnya.</br></br>
+<b>KUIS Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
+ 
+```plantuml 
+1. Pernyataan mana yang BENAR untuk infrastruktur global AWS?
+   A. Satu region terdiri dari satu availability zone
+   B. Satu region terdiri dari dua atau lebih Availability Zone
+   C. Availability Zone terdiri dari satu region
+   D. Availability Zone terdiri dari dua region atau lebih
+
+   Answer : B. Satu region terdiri dari dua atau lebih Availability Zone
+   
+2.Lokasi mana yang digunakan Amazon CloudFront untuk menyimpan salinan konten ke dalam cache agar pengiriman dapat lebih cepat kepada pelanggan di seluruh dunia?
+   A. Edge locations
+   B. origin
+   C. region
+   D. Availability Zone
+ 
+   Answer : A. Edge locations
+   
+3.Pernyataan mana yang paling tepat menggambarkan Amazon CloudFront?
+   A. layanan yang memungkinkan anda untuk mengirim dan menerima pesan antara komponen perangkat lunak melalui antrean
+   B. layanan pengirim konten secara global
+   C. layanan yang memungkinkan anda untuk menjalankan infrastruktur dengan pendekatan hYbrid cloud
+   D. mesin komputasi serverless untuk container 
+   
+   Answer : B. layanan pengirim konten secara global
+```
+
+<p align="justify">
 <b>Pengenalan ke Jaringan</b></br>
 Pikirkan kembali skenario kedai kopi atau lingkungan AWS kita. Proses pemesanan pada kedai kopi adalah pelanggan menyampaikan ordernya kepada kasir yang lantas meneruskannya ke barista. Proses ini seharusnya sudah berjalan lancar tanpa kendala ya. Meskipun demikian, bagaimana jika ada beberapa pelanggan tak sabar yang coba mengabaikan kasir dan ingin memberikan pesanannya langsung ke barista? Para pelanggan penerobos antrean ini tentu akan merusak alur kedai kopi.</p>
 <p align="center">
@@ -861,35 +890,7 @@ Dengan AWS Management Console, Anda dapat</p>
 <li>melihat tagihan AWS</li>
 <li>melakukan pemantauan</li>
 <li>bekerja dengan sumber daya nonteknis lainnya.</li></ul>
-<p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br><b>KUIS Knowledge Check : Infrastruktur Global dan Keandalan</b></p>
- 
- 
-```plantuml 
-1. Pernyataan mana yang BENAR untuk infrastruktur global AWS?
-   A. Satu region terdiri dari satu availability zone
-   B. Satu region terdiri dari dua atau lebih Availability Zone
-   C. Availability Zone terdiri dari satu region
-   D. Availability Zone terdiri dari dua region atau lebih
-
-   Answer : B. Satu region terdiri dari dua atau lebih Availability Zone
-   
-2.Lokasi mana yang digunakan Amazon CloudFront untuk menyimpan salinan konten ke dalam cache agar pengiriman dapat lebih cepat kepada pelanggan di seluruh dunia?
-   A. Edge locations
-   B. origin
-   C. region
-   D. Availability Zone
- 
-   Answer : A. Edge locations
-   
-3.Pernyataan mana yang paling tepat menggambarkan Amazon CloudFront?
-   A. layanan yang memungkinkan anda untuk mengirim dan menerima pesan antara komponen perangkat lunak melalui antrean
-   B. layanan pengirim konten secara global
-   C. layanan yang memungkinkan anda untuk menjalankan infrastruktur dengan pendekatan hYbrid cloud
-   D. mesin komputasi serverless untuk container 
-   
-   Answer : B. layanan pengirim konten secara global
-```
-
+<p align="justify">AWS Console versi aplikasi seluler juga tersedia dan dapat Anda gunakan untuk melakukan tugas seperti memantau sumber daya, melihat alarm, dan mengakses informasi penagihan.AWS Management Console adalah tempat pertama terbaik yang perlu Anda tuju ketika ingin mempelajari tentang AWS.</br></br>
 ```plantuml 
 1.  Layanan apa yang dapat mengelola DNS records untuk nama domain?
     A. Amazon CloudFront
