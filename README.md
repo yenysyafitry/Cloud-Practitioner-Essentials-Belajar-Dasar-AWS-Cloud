@@ -389,11 +389,12 @@ AWS Lambda dirancang untuk menjalankan kode di bawah 15 menit sehingga layanan i
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202103101558039c0a86159a918f024ca2ed53136af24d.png"></p>
 <p align="justify">
 Mungkin sempat terbayangkan oleh Anda, bagaimana AWS Lambda ini bekerja. Mari kita uraikan yuk.</p>
-<ol align="justify">
-<li>Unggah kode Anda ke AWS Lambda.</li>
-<li>Konfigurasikan kode Anda agar terpicu (trigger) dari sumber kejadian, seperti layanan AWS, aplikasi seluler, atau HTTP endpoint (titik akhir HTTP).
+
+<ol align="justify"><li>Unggah kode Anda ke AWS Lambda.</li>
+<li>Konfigurasikan kode Anda agar terpicu (trigger) dari sumber kejadian, seperti layanan AWS, aplikasi seluler, atau HTTP endpoint (titik akhir HTTP).</li>
 <li>Kode berjalan hanya ketika mendapat trigger.</li>
 <li>Cukup bayar sesuai waktu komputasi yang Anda gunakan. Misalnya, Anda mempunyai kode yang dapat mengubah ukuran gambar. Nah, Anda hanya akan membayar waktu komputasi yang digunakan untuk menjalankan fungsi pengubahan ukuran gambar saat ada yang mengunggah sebuah gambar baru.</li></ol>
+
 <p align="justify">Jadi begitulah cara kerja AWS Lambda. Mari kita lanjutkan pembahasannya ke materi container.</br></br>
 <b>Container</b></br>
 Jika Anda belum cukup siap untuk menggunakan serverless atau memerlukan akses ke infrastrukturnya namun tetap menginginkan efisiensi dan portabilitas, Anda bisa mencoba layanan container (kontainer) seperti Amazon Elastic Container Service (Amazon ECS) dan Amazon Elastic Kubernetes Service (Amazon EKS). Kita akan menjabarkan ini nanti ya.</br></br>
