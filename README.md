@@ -646,6 +646,8 @@ c. performance efficiency
 d. cost optimization
 b. operational excellence 
 
+--->
+
 Kategori: Ujian Akhir
 1.
 Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
