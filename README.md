@@ -440,9 +440,8 @@ Masih bingung? Mari kita perjelas. Setiap layanan dapat Anda gunakan sesuai deng
 
 <p align="justify" type='1'><b>Ikhtisar</b></br>
 Tibalah kita di penghujung modul. Mari kita uraikan apa yang telah kita pelajari di modul ini:</p>
-
 <ol align="justify" type='1'><li>Hal pertama yang kita pelajari di modul ini berkenaan dengan komputasi cloud dan apa saja yang ditawarkan AWS.
-AWS mendefinisikan komputasi cloud sebagai penyajian sesuai permintaan (on-demand) sumber daya IT melalui internet dengan harga sesuai pemakaian (pay-as-you-go).</br></br>
+AWS mendefinisikan komputasi cloud sebagai penyajian sesuai permintaan (on-demand) sumber daya IT melalui internet dengan harga sesuai pemakaian (pay-as-you-go).</br>
 Ini berarti Anda dapat membuat permintaan untuk sumber daya IT seperti komputasi, jaringan, penyimpanan, analitik, atau jenis sumber daya lainnya. Alih-alih membayar sumber daya tersebut di muka, Anda cukup membayarnya pada setiap akhir bulan.</li>
 <li>AWS menawarkan banyak layanan dan kategori yang dapat Anda gunakan. Sejauh ini kita telah membahas beberapa layanan, salah satunya adalah tentang Amazon EC2. Dengan EC2, Anda dapat membuat dan menghapus server virtual secara dinamis yang disebut dengan EC2 instance.</li>
 <li>Saat Anda meluncurkan EC2 instance, Anda dapat memilih instance family(keluarga instance) yang menentukan perangkat keras tempat instance tersebut berjalan. Sehingga, Anda dapat memiliki instance yang dibuat untuk tujuan tertentu. Kategorinya adalah:</li>
