@@ -824,6 +824,12 @@ d. amazon sagemaker
  d. amazon qldb
  
  
+ pernyataan mana yang paling tepat untuk menggambarkan aws marketplace
+ a. katalog digital yang mencangkup ribuan perangkat lunak dari berbagai vendor
+ b. layanan online yang memeriksa lingkungan aws anda dan memberikan panduan secara real time sesuai dengan praktik terbaik aws
+ c. sumber daya yang dapat menjawab pertanyaan tentang praktik terbaik dan membantu memecahkan masalah
+ d. sumber daya yang memberikan panduan, tinjauan arsitektur, dan komunikasi berkelanjutan terhadap lingkungan aws anda
+ 
 ```
 
 
