@@ -763,10 +763,10 @@ d. 4 dan 5
 15.
 Pernyataan mana yang paling tepat menggambarkan Availability Zone?
 a. lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
-a. lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
 b. lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedalam cache agar pengiriman lebih cepat kepada pengguna di seluruh dunia
 c. bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
 d. server tempat amazon cloudfront mendapatkan file anda
+jawaban A
 
 16. Layanan mana yang memungkinkan anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning
 a. amazon augmentanted al
