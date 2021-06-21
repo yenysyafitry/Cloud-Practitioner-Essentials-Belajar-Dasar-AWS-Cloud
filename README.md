@@ -785,6 +785,20 @@ d. amazon sagemaker
  b. rehosting
  c. replatforming
  d. repurchasing
+ 
+ 19. Manakah dari layanan berikut yang dapat membuat estimasi biaya untuk
+ a. aws pricing calculator
+ b. aws cost explorer
+ c. aws cost and usage report
+ d. aws budgets
+ 
+ 20. anda ingin menyimpan data dalam volume yang di attach ke amazon ec2 instance layanan
+ a. aws lambda
+ b. amazon elasticache
+ c.amazon s3
+ d. amazon ebs
+ 
+ 
 ```
 
 
