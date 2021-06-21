@@ -407,6 +407,12 @@ Container bekerja di atas EC2 instance dan berjalan secara terpisah satu sama la
 Saat menggunakan Docker container di AWS, Anda memerlukan proses untuk memulai, menyetop, memulai ulang, dan memantau container yang berjalan tidak hanya di 1 EC2 instance, melainkan beberapa yang disebut dengan cluster (klaster).</br></br>
 Proses 
 
+
+
+
+
+
+
 <!---
 <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231425447e744dc8556f8d1f81ce86009a055bcb.jpeg"></p>
