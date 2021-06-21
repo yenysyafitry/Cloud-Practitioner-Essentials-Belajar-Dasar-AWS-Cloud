@@ -412,10 +412,31 @@ Keduanya merupakan layanan container orchestration alias orkestrasi kontainer. C
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/20210310160357746e42a6aadc64fcd3b9c26f504d93e6.png"></p>
 <p align="justify">
 Container bekerja di atas EC2 instance dan berjalan secara terpisah satu sama lain. Cara kerja container serupa dengan mesin virtual, namun dalam kasus ini, host-nya (server) adalah EC2 instance.</br></br>
-Saat menggunakan Docker container di AWS, Anda memerlukan proses untuk memulai, menyetop, memulai ulang, dan memantau container yang berjalan tidak hanya di 1 EC2 instance, melainkan beberapa yang disebut dengan cluster (klaster).</br></br>
-Proses 
+Saat menggunakan Docker container di AWS, Anda memerlukan proses untuk memulai, menyetop, memulai ulang, dan memantau container yang berjalan tidak hanya di 1 EC2 instance, melainkan beberapa yang disebut dengan cluster (klaster). Proses menggarap tugas-tugas inilah yang disebut dengan container orchestration dan tentu akan sangat sulit jika melakukannya sendiri. Layanan orkestrasi dibuat untuk membantu mengelola container Anda.</br></br>
+<b>Studi Kasus: Container</b></br>
+Misal developer aplikasi di suatu perusahaan memiliki infrastruktur komputer yang berbeda dengan staf operasi IT. Developer tersebut ingin memastikan bahwa lingkungan aplikasi tetap konsisten terlepas dari deployment-nya (penerapannya) sehingga dia pun menggunakan pendekatan container.</br></br>
+Container membantu developer tersebut mengurangi waktu yang dihabiskan untuk debugging (proses mengidentifikasi dan memperbaiki eror) aplikasi dan mendiagnosis perbedaan dalam lingkungan komputasi. Saat menjalankan containerized application (aplikasi dalam container), penting untuk mempertimbangkan skalabilitas. Ini tergantung kepada setiap kasus penggunaan, Anda bisa saja: </p>
+<ul align="justify"><li>Menggunakan satu host dengan banyak container.</li>
+<li>Mengelola puluhan host dengan ratusan container.</li>
+<li>Mengurus mungkin ratusan host dengan ribuan container.</li></ul>
 
-
+<p align="justify">Dalam skala besar, bayangkan berapa lama waktu yang Anda butuhkan untuk memantau penggunaan memori, keamanan, logging (tindakan menyimpan log), dsb. Untuk itulah hadir layanan container orchestration (orkestrasi container) yang membantu Anda men-deploy (menerapkan), mengelola, dan men-scaling aplikasi dalam container. Selanjutnya, kita akan mempelajari tentang dua layanan yang menyediakan container orchestration: Amazon Elastic Container Service dan Amazon Elastic Kubernetes Service</br></br>
+<b>Amazon Elastic Container Service (Amazon ECS)</b></br>
+Amazon Elastic Container Service (Amazon ECS) adalah sistem manajemen container berkinerja tinggi yang dapat memungkinkan Anda untuk menjalankan dan melakukan scaling terhadap containerized application (aplikasi dalam container) di AWS. Amazon ECS mendukung Docker container. AWS mendukung penggunaan open-source Docker Community Edition and subscription-based Docker Enterprise Edition. Dan juga, dengan Amazon ECS, Anda dapat menggunakan panggilan API untuk meluncurkan dan menghentikan aplikasi yang mendukung Docker. API atau Application Programming Interface adalah perantara perangkat lunak yang memungkinkan dua aplikasi untuk berinteraksi satu sama lain. Kita tak akan membahas detailnya di sini. Jadi, mari lanjut ke materi berikutnya!</br></br>
+<b>Amazon Elastic Kubernetes Service (Amazon EKS)</b></br>
+Amazon Elastic Kubernetes Service (Amazon EKS) adalah layanan terkelola sepenuhnya yang dapat Anda gunakan untuk menjalankan Kubernetes di AWS.</br></br>
+<b>Kubernetes</b> adalah perangkat lunak open-source (sumber terbuka) yang memungkinkan Anda untuk men-deploy (menerapkan) dan mengelola containerized application (aplikasi dalam container) dalam skala besar.</br></br>
+AWS secara aktif bekerja sama dengan komunitas Kubernetes--yang mengelola Kubernetes. Saat fitur dan fungsionalitas baru dirilis untuk aplikasi Kubernetes, Anda dapat dengan mudah menerapkan pembaruan tersebut ke aplikasi Anda yang dikelola oleh Amazon EKS.</br></br>
+<b>AWS Fargate</b></br>
+Baik Amazon ECS dan Amazon EKS, keduanya berjalan di atas EC2. Tetapi jika Anda tak ingin sibuk mengurusi EC2, Anda dapat menggunakan platform komputasi lainnya yang disebut dengan AWS Fargate.</br></br>
+AWS Fargate adalah platform komputasi serverless untuk Amazon ECS dan Amazon EKS. Saat menggunakan layanan ini, Anda tak perlu menyediakan atau mengelola server karena AWS Fargate yang mengelolanya untuk Anda.</br></br>
+Dengan begitu, Anda dapat lebih fokus pada inovasi dan pengembangan aplikasi. Bahkan Anda membayar hanya untuk sumber daya yang diperlukan dalam menjalankan container.</br></br>
+Masih bingung? Mari kita perjelas. Setiap layanan dapat Anda gunakan sesuai dengan kebutuhan.</p>
+<ul align="justify"><li>Jika Anda ingin menjalankan aplikasi dan menginginkan akses penuh ke sistem operasinya seperti Linux atau Windows, Anda bisa menggunakan Amazon EC2.</li>
+<li>Jika Anda ingin menjalankan fungsi yang berjalan singkat, aplikasi berbasis kejadian, dan Anda tak ingin mengelola infrastrukturnya sama sekali, gunakanlah layanan AWS Lambda.</li>
+<li>Jika Anda ingin menjalankan beban kerja berbasis Docker container di AWS, langkah yang perlu Anda lalui adalah:</li></ul>
+<ol align="justify"><li>Anda harus memilih layanan orkestrasinya terlebih dahulu. Anda bisa menggunakan Amazon ECS atau Amazon EKS.</li>
+<li>Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola </li><li>sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.</li></ol>
 
 
 
