@@ -815,6 +815,15 @@ d. amazon sagemaker
  b. layanan yang memungkinkan anda untuk menyiapkan, mengelola, dan melakukan memory atau cache yang terdistribusi di cloud
  c. layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
  d. layanan yang menyediakan data untuk memantau aplikasi, mengoptimalkan penggunaan sumber daya, dan merespon perubahan perfoma di seluruh sistem
+ 
+ 
+ layanan apa yang digunakan untuk mengotomasikan tindakan pada layanan dan aplikasi aws melalui skrip?
+ a. amazon refshift
+ b. aws command line interface
+ c. aws snowball
+ d. amazon qldb
+ 
+ 
 ```
 
 
