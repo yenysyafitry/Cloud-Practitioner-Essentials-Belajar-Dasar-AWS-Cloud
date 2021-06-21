@@ -648,6 +648,7 @@ b. operational excellence
 
 --->
 
+```plantuml 
 Kategori: Ujian Akhir
 1.
 Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
@@ -784,7 +785,7 @@ d. amazon sagemaker
  b. rehosting
  c. replatforming
  d. repurchasing
-
+```
 
 
 -->
