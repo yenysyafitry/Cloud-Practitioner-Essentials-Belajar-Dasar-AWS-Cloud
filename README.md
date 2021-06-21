@@ -398,7 +398,7 @@ AWS Lambda dirancang untuk menjalankan kode di bawah 15 menit sehingga layanan i
 <p align="justify">
 Mungkin sempat terbayangkan oleh Anda, bagaimana AWS Lambda ini bekerja. Mari kita uraikan yuk.</p>
 
-<ol align="justify"><li>Unggah kode Anda ke AWS Lambda.</li>
+<ol align="justify" type='a'><li>Unggah kode Anda ke AWS Lambda.</li>
 <li>Konfigurasikan kode Anda agar terpicu (trigger) dari sumber kejadian, seperti layanan AWS, aplikasi seluler, atau HTTP endpoint (titik akhir HTTP).</li>
 <li>Kode berjalan hanya ketika mendapat trigger.</li>
 <li>Cukup bayar sesuai waktu komputasi yang Anda gunakan. Misalnya, Anda mempunyai kode yang dapat mengubah ukuran gambar. Nah, Anda hanya akan membayar waktu komputasi yang digunakan untuk menjalankan fungsi pengubahan ukuran gambar saat ada yang mengunggah sebuah gambar baru.</li></ol>
