@@ -801,8 +801,20 @@ d. amazon sagemaker
  b. amazon elasticache
  c.amazon s3
  d. amazon ebs
+ Jawaban D
+ 
+ 21. pada aws cloud adaption framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder anda ?
+ a. operations
+ b. governance
+ c. business
+ d. people
  
  
+ pernyataan mana yang paling tepat untuk menggambarkan elastic load balacing ?
+ a. layanan yang dapat memantau aplikasi anda dan secara otomatis menambah atau mengurangi kapasitas dari resoutce group sebagai respon terhdap permintaan
+ b. layanan yang memungkinkan anda untuk menyiapkan, mengelola, dan melakukan memory atau cache yang terdistribusi di cloud
+ c. layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
+ d. layanan yang menyediakan data untuk memantau aplikasi, mengoptimalkan penggunaan sumber daya, dan merespon perubahan perfoma di seluruh sistem
 ```
 
 
