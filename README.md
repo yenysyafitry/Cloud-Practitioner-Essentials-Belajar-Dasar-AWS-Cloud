@@ -467,7 +467,28 @@ Keduanya merupakan layanan container orchestration (orkestrasi kontainer). Anda 
 <li>Namun jika tidak ingin repot-repot mengelolanya, Anda bisa menggunakan AWS Fargate. Layanan ini memungkinkan Anda untuk menjalankan container di atas platform serverless compute (komputasi tanpa server).
 Terakhir, ada AWS Lambda. Layanan ini memungkinkan Anda untuk mengunggah kode dan mengonfigurasinya untuk berjalan berdasarkan triggers (pemicu). Anda akan dikenakan biaya hanya pada saat kode berjalan. Tak perlu container atau mesin virtual. Hanya kode dan konfigurasi.</li></ol>
 
-
+<p align="justify"><b>Pengenalan ke Infrastruktur Global dan Keandalan</b></br>
+Selamat datang! Untuk memulai modul ini, mari kita sedikit berbincang tentang high availability (ketersediaan tinggi). Ceritanya begini. Katakanlah pelanggan Anda ingin menikmati secangkir latte hangat di kedai kopi kita. Namun sayangnya, hari ini tak berjalan seperti biasa. Ada parade perayaan keberhasilan migrasi cloud yang menghalangi jalan menuju ke sana dan akan berbaris tepat di depan kedai kopi tersebut.</br></br>
+Sebenarnya ini bagus karena siapa yang tak suka melihat balon dan bermandi hujan permen? Akan tetapi, hal ini juga dapat berdampak buruk terhadap bisnis kita karena saat parade berlangsung, pelanggan yang tadinya ingin datang ke kedai kopi akan dialihkan jalannya sehingga tidak bisa mampir. Akibatnya, pelanggan akan kecewa dan penjualan pun menurun.</br></br>
+Untungnya, kita telah berpikir jauh ke depan untuk menyiasati gangguan semacam ini. Tahukah Anda? Sebenarnya kedai kopi kita tidak hanya berada di satu tempat saja loh, melainkan terdapat juga di beberapa lokasi lain di seluruh kota.</br></br>
+Dengan demikian, Anda tak perlu khawatir lagi jika ada parade di sejumlah ruas jalan. Bahkan tak hanya untuk parade, halangan lain seperti banjir, bencana, atau apa pun yang bisa mencegah pelanggan ke kedai kopi, telah kita atasi.</br></br>
+Sekarang kedai kopi kita dapat selalu tersedia bagi pelanggan. Mereka tetap bisa mendapatkan secangkir latte dengan mengunjungi kedai kopi kita lainnya yang berada tidak terlalu jauh. Semuanya akan baik-baik saja, bukan? Kita tetap bisa menjalankan bisnis dan pelanggan tetap bisa mendapatkan kopi.</br></br>
+Nah, AWS pun telah melakukan hal yang serupa dengan itu, yaitu dengan menyiapkan infrastruktur global AWS.</br></br>
+Tahukah Anda hikmah cerita di atas? Janganlah kita menempatkan semua sumber daya hanya di satu data center saja. Karena jika terjadi hal yang tidak diinginkan pada data center tersebut--seperti pemadaman listrik atau bencana alam--semua aplikasi akan down (mati) sekaligus. Bahkan, memiliki dua data center pun tetap tidak cukup baik loh.</br></br>
+Solusinya adalah Anda membutuhkan high availability (ketersediaan tinggi) dan fault tolerance (toleransi terhadap kesalahan). High availability adalah kemampuan untuk memastikan bahwa sistem selalu bekerja dan dapat diakses dengan waktu henti yang minimal tanpa memerlukan intervensi manusia. Sedangkan fault tolerance berarti sistem masih mampu beroperasi meskipun beberapa komponen mengalami kegagalan.</br></br>
+Faktanya, AWS beroperasi di lokasi yang berbeda-beda di seluruh dunia yang disebut Region. Tapi sabar ya. Kita baru akan membicarakan hal ini secara mendalam di modul mendatang. Jadi, mari kita lanjutkan!</br></br>
+Infrastruktur Global AWS</br></br>
+Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</br></br>
+<ol align="justify" type='a'><li>Aplikasi yang harus berjalan.</li>
+<li>Konten yang perlu disimpan.</li>
+<li>Data yang perlu dianalisis.</li></ol>
+Intinya, kita memiliki sesuatu yang harus berjalan dan beroperasi di suatu tempat. Sebelum adanya teknologi Cloud, perusahaan harus menjalankan aplikasi mereka di on-premise karena mereka tak punya pilihan lain. Namun setelah AWS hadir, mereka dapat menjalankannya di data center lain tanpa harus memilikinya. </br></br>
+Tetapi pembahasan kita di modul ini akan jauh lebih dari itu. Kita harus memahami masalah yang fundamental terkait data center.</br></br>
+Kejadian tak terduga seperti terputusnya koneksi ke data center dapat terjadi kapan pun. Ada banyak faktor yang dapat memengaruhi problem seperti ini, salah satunya adalah bencana.</br></br>
+Jika Anda menjalankan on-premise, apa yang akan Anda lakukan saat bencana melanda data center tersebut? Mungkin solusinya adalah membangun data center kedua. Tapi ini bukan solusi yang terbaik.</br></br>
+Harga gedung atau bangunan untuk membangun data center akan terlalu mahal bahkan bisa jadi menghentikan bisnis Anda. Belum lagi biaya untuk perangkat keras, karyawan, listrik, pemanas dan pendingin, serta keamanan.</br></br>
+Oleh sebab itu, sebagian besar perusahaan pada akhirnya hanya menyimpan data cadangan mereka di suatu tempat dan berharap bencana tidak akan pernah datang. Kita semua tahu, harapan bukanlah rencana bisnis yang baik.</br></br>
+Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya adalah dengan membangun data center dalam kelompok besar yang disebut dengan AWS Regions (Wilayah/Region AWS).</p>
 
 
 <!---
