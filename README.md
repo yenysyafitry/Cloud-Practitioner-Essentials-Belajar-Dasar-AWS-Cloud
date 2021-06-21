@@ -478,11 +478,11 @@ Tahukah Anda hikmah cerita di atas? Janganlah kita menempatkan semua sumber daya
 Solusinya adalah Anda membutuhkan high availability (ketersediaan tinggi) dan fault tolerance (toleransi terhadap kesalahan). High availability adalah kemampuan untuk memastikan bahwa sistem selalu bekerja dan dapat diakses dengan waktu henti yang minimal tanpa memerlukan intervensi manusia. Sedangkan fault tolerance berarti sistem masih mampu beroperasi meskipun beberapa komponen mengalami kegagalan.</br></br>
 Faktanya, AWS beroperasi di lokasi yang berbeda-beda di seluruh dunia yang disebut Region. Tapi sabar ya. Kita baru akan membicarakan hal ini secara mendalam di modul mendatang. Jadi, mari kita lanjutkan!</br></br>
 Infrastruktur Global AWS</br></br>
-Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</br>
+Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</p>
 <ol align="justify" type='a'><li>Aplikasi yang harus berjalan.</li>
 <li>Konten yang perlu disimpan.</li>
-<li>Data yang perlu dianalisis.</li></ol></br>
-Intinya, kita memiliki sesuatu yang harus berjalan dan beroperasi di suatu tempat. Sebelum adanya teknologi Cloud, perusahaan harus menjalankan aplikasi mereka di on-premise karena mereka tak punya pilihan lain. Namun setelah AWS hadir, mereka dapat menjalankannya di data center lain tanpa harus memilikinya. </br></br>
+<li>Data yang perlu dianalisis.</li></ol>
+<p align="justify">Intinya, kita memiliki sesuatu yang harus berjalan dan beroperasi di suatu tempat. Sebelum adanya teknologi Cloud, perusahaan harus menjalankan aplikasi mereka di on-premise karena mereka tak punya pilihan lain. Namun setelah AWS hadir, mereka dapat menjalankannya di data center lain tanpa harus memilikinya. </br></br>
 Tetapi pembahasan kita di modul ini akan jauh lebih dari itu. Kita harus memahami masalah yang fundamental terkait data center.</br></br>
 Kejadian tak terduga seperti terputusnya koneksi ke data center dapat terjadi kapan pun. Ada banyak faktor yang dapat memengaruhi problem seperti ini, salah satunya adalah bencana.</br></br>
 Jika Anda menjalankan on-premise, apa yang akan Anda lakukan saat bencana melanda data center tersebut? Mungkin solusinya adalah membangun data center kedua. Tapi ini bukan solusi yang terbaik.</br></br>
