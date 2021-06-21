@@ -481,7 +481,7 @@ Infrastruktur Global AWS</br></br>
 Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</br>
 <ol align="justify" type='a'><li>Aplikasi yang harus berjalan.</li>
 <li>Konten yang perlu disimpan.</li>
-<li>Data yang perlu dianalisis.</li></ol>
+<li>Data yang perlu dianalisis.</li></ol></br>
 Intinya, kita memiliki sesuatu yang harus berjalan dan beroperasi di suatu tempat. Sebelum adanya teknologi Cloud, perusahaan harus menjalankan aplikasi mereka di on-premise karena mereka tak punya pilihan lain. Namun setelah AWS hadir, mereka dapat menjalankannya di data center lain tanpa harus memilikinya. </br></br>
 Tetapi pembahasan kita di modul ini akan jauh lebih dari itu. Kita harus memahami masalah yang fundamental terkait data center.</br></br>
 Kejadian tak terduga seperti terputusnya koneksi ke data center dapat terjadi kapan pun. Ada banyak faktor yang dapat memengaruhi problem seperti ini, salah satunya adalah bencana.</br></br>
