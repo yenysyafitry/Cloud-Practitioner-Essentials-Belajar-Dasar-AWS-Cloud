@@ -707,6 +707,7 @@ a. amazon RDS
 b. amazon dynamoDB
 c. amazon aurora
 d. amazon documentdb
+Jawaban B
 
 8.
 Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
