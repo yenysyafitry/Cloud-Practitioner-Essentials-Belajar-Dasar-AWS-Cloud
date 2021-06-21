@@ -765,7 +765,23 @@ b. lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedala
 c. bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
 d. server tempat amazon cloudfront mendapatkan file anda
 
+16. Layanan mana yang memungkinkan anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning
+a. amazon augmentanted al
+b. amazon lex
+c. amazon textract
+d. amazon aurora
 
+17. layanan apa yang digunakan untuk menjalankan containerized application di AWS ?
+a. amazon redshift
+b. amazon aurora
+c. amazon EKS
+d. amazon sagemaker
+
+18. Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi 
+ a. refactoring
+ b. rehosting
+ c. replatforming
+ d. repurchasing
 
 
 
