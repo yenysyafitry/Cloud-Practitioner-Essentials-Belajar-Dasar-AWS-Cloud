@@ -663,6 +663,7 @@ A. Subnet
 B. Amazon EBS Bolume
 C. Instance Store
 D. Amazon S3 Bucket
+jawaban c
 
 3.
 Layanan mana yang memungkinkan Anda untuk menggabungkan dan mengelola beberapa akun AWS dari satu lokasi terpusat?
