@@ -561,4 +561,128 @@ b. operational excellence
 c. performance efficiency
 d. cost optimization
 b. operational excellence 
+
+Kategori: Ujian Akhir
+1.
+Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
+a. S3 One Zone-IA
+b. S3 Glacier
+c. S3 Intelligent- Tiering
+d. S3 Standar-IA
+
+2.
+Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
+A. Subnet
+B. Amazon EBS Bolume
+C. Instance Store
+D. Amazon S3 Bucket
+
+3.
+Layanan mana yang memungkinkan Anda untuk menggabungkan dan mengelola beberapa akun AWS dari satu lokasi terpusat?
+A. AWS Artifact
+B. AWS Organizations
+C. AWS Key Management Service (AWS KMS)
+D. AWS Identity and Access Management (IAM)
+
+4.
+Perhatikan beberapa pernyataan berikut:
+Memantau aplikasi Anda dan merespons perubahan performa di seluruh sistem.
+Menghubungkan permintaan pengguna ke infrastruktur di AWS dan di luar AWS.
+Mengelola DNS records untuk nama domain.
+Mengakses laporan keamanan dan compliance AWS serta online agreements tertentu.
+Mengotomatiskan penerapan beban kerja ke lingkungan AWS Anda.
+Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
+A. 1 dan 2
+b. 2 dan 3
+c. 2 dan 4
+d. 3 dan 5
+
+5.
+Layanan mana yang dapat meninjau detail aktivitas pengguna dan panggilan API dalam lingkungan AWS Anda?
+a. aws trusted advisor
+b. amazon cloudwatch
+amazon inspector
+d. aws cloud trail
+
+6.
+Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
+a. internet gateway
+b. amazon cloud front
+c. virtual private gateway
+d. aws direct connect
+
+7.
+Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
+a. amazon RDS
+b. amazon dynamoDB
+c. amazon aurora
+d. amazon documentdb
+
+8.
+Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
+a. amazon elasticache
+b. amazon sqs
+c. aws snowball
+d. amazon route 53
+
+9.
+Layanan apa yang digunakan untuk mentransfer hingga 80 PB data ke AWS?
+a. aws snowmobile
+b. amazon neptune
+c. aws deepracer
+d. amazon cloudfront
+
+10.
+Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
+a. aws budgets
+b. aws pricing calculator
+c. aws free tier
+d. aws cost explorer
+
+11.
+Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
+a. performance
+b. security
+c. cost optimization
+d. fault tolerance
+
+12.
+Opsi komputasi mana yang dapat mengurangi biaya jika Anda berkomitmen pada jumlah penggunaan komputasi yang konsisten untuk jangka waktu 1 atau 3 tahun?
+a. spot instances
+b. savings plans
+c. reserved instances
+d. dedicated hosts
+
+13.
+Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
+a. layanan yang menyediakan intelligent smart detection untuk infastruktur dan sumber daya aws
+b. layanan yang membantu melindungi aplikasi anda dari serangan distributed denial of service(DDoS)
+c. layanan yang bisa memeriksa kerentanan keamanan dan penyimpanan aplikasi dari praktik terbaik keamanan
+d. layanan yang dapat memantau permintaan jaringan masuk ke aplikasi web anda
+
+14.
+Perhatikan uraian berikut:
+Enterprise
+Developer
+Business
+Basic
+AWS Free Tier
+AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted Advisor?
+A. 1dan 3
+b. 2 dan 3
+c. 2 dan 5
+d. 4 dan 5
+
+15.
+Pernyataan mana yang paling tepat menggambarkan Availability Zone?
+a. lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
+a. lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
+b. lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedalam cache agar pengiriman lebih cepat kepada pengguna di seluruh dunia
+c. bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
+d. server tempat amazon cloudfront mendapatkan file anda
+
+
+
+
+
 -->
