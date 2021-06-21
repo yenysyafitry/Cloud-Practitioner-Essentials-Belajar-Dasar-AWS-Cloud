@@ -697,6 +697,7 @@ a. internet gateway
 b. amazon cloud front
 c. virtual private gateway
 d. aws direct connect
+Jawaban d
 
 7.
 Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
