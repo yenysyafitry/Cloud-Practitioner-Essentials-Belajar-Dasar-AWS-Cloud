@@ -438,6 +438,35 @@ Masih bingung? Mari kita perjelas. Setiap layanan dapat Anda gunakan sesuai deng
 <ol align="justify" type='a'><li>Anda harus memilih layanan orkestrasinya terlebih dahulu. Anda bisa menggunakan Amazon ECS atau Amazon EKS.</li>
 <li>Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola </li><li>sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.</li></ol>
 
+<p align="justify" type='1'><b>Ikhtisar</b></br>
+Tibalah kita di penghujung modul. Mari kita uraikan apa yang telah kita pelajari di modul ini:</p>
+
+<ol align="justify" type='1'><li>Hal pertama yang kita pelajari di modul ini berkenaan dengan komputasi cloud dan apa saja yang ditawarkan AWS.
+AWS mendefinisikan komputasi cloud sebagai penyajian sesuai permintaan (on-demand) sumber daya IT melalui internet dengan harga sesuai pemakaian (pay-as-you-go).</br></br>
+Ini berarti Anda dapat membuat permintaan untuk sumber daya IT seperti komputasi, jaringan, penyimpanan, analitik, atau jenis sumber daya lainnya. Alih-alih membayar sumber daya tersebut di muka, Anda cukup membayarnya pada setiap akhir bulan.</li>
+<li>AWS menawarkan banyak layanan dan kategori yang dapat Anda gunakan. Sejauh ini kita telah membahas beberapa layanan, salah satunya adalah tentang Amazon EC2. Dengan EC2, Anda dapat membuat dan menghapus server virtual secara dinamis yang disebut dengan EC2 instance.</li>
+<li>Saat Anda meluncurkan EC2 instance, Anda dapat memilih instance family(keluarga instance) yang menentukan perangkat keras tempat instance tersebut berjalan. Sehingga, Anda dapat memiliki instance yang dibuat untuk tujuan tertentu. Kategorinya adalah:</li>
+<ol align="justify" type='a'><li>General purpose (tujuan umum)</li>
+<li>Compute optimized (teroptimasi untuk komputasi)</li>
+<li>Memory optimized (teroptimasi untuk memori)</li>
+<li>Accelerated computing (terakselerasi untuk komputasi)</li>
+<li>Storage optimized (teroptimasi untuk penyimpanan).</li></ol>
+<li>Selanjutnya, Anda dapat melakukan scaling EC2 instance baik secara vertikal--dengan mengubah ukuran instance--atau secara horizontal--dengan meluncurkan instance baru. Anda dapat mengatur horizontal scaling secara otomatis menggunakan Amazon EC2 Auto Scaling.</li>
+<li>Setelah Anda melakukan scaling EC2 instance secara horizontal, Anda memerlukan sesuatu untuk mendistribusikan traffic yang masuk. Layanan yang dapat Anda gunakan adalah Elastic Load Balancer.</li>
+<li>Kemudian, EC2 instance memiliki model harga yang berbeda, di antaranya:</li>
+<ol align="justify" type='a'><li> On-Demand adalah yang paling fleksibel dan tidak memiliki kontrak.</li>
+<li>Spot Instances memungkinkan Anda untuk menggunakan kapasitas yang tak terpakai dengan tarif diskon.</li>
+<li>Reserved Instances dapat memberikan diskon ketika Anda berkomitmen pada tingkat penggunaan tertentu.</li>
+<li>Savings Plans juga akan memberikan Anda diskon saat berkomitmen pada tingkat penggunaan tertentu dan dapat diterapkan untuk EC2 instance, AWS Lambda dan AWS Fargate.</li></ol>
+<li>Lalu, kita juga telah membahas layanan perpesanan. Ada dua layanan yang kita pelajari:</li>
+<ol align="justify" type='a'><li>Amazon Simple Queue Service (Amazon SQS)<br>
+SQS memungkinkan Anda untuk melakukan decouple system components (memisahkan komponen sistem). Pesan tetap berada dalam antrean sampai diproses atau dihapus.
+<li>Amazon Simple Notification Service (Amazon SNS)<br>
+SNS digunakan untuk mengirim pesan seperti email, pesan teks, push notification, atau bahkan permintaan HTTP. Setelah di-publish (diterbitkan), pesan akan terkirim ke semua subscribers (pelanggan).</li></ol>
+<li>Berikutnya, kita telah mengetahui bahwa AWS memiliki jenis layanan komputasi di luar server virtual seperti EC2. Ada layanan container (kontainer) seperti Amazon Elastic Container Service (Amazon ECS) dan Amazon Elastic Kubernetes Service (Amazon EKS).
+Keduanya merupakan layanan container orchestration (orkestrasi kontainer). Anda dapat menggunakan layanan tersebut dengan EC2 instance.</li>
+<li>Namun jika tidak ingin repot-repot mengelolanya, Anda bisa menggunakan AWS Fargate. Layanan ini memungkinkan Anda untuk menjalankan container di atas platform serverless compute (komputasi tanpa server).
+Terakhir, ada AWS Lambda. Layanan ini memungkinkan Anda untuk mengunggah kode dan mengonfigurasinya untuk berjalan berdasarkan triggers (pemicu). Anda akan dikenakan biaya hanya pada saat kode berjalan. Tak perlu container atau mesin virtual. Hanya kode dan konfigurasi.</li></ol>
 
 
 
