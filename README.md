@@ -692,7 +692,7 @@ a. aws trusted advisor
 b. amazon cloudwatch
 amazon inspector
 d. aws cloud trail
-
+Jawaban D
 6.
 Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
 a. internet gateway
