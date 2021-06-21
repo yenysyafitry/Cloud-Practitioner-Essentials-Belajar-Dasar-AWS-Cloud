@@ -478,7 +478,7 @@ Tahukah Anda hikmah cerita di atas? Janganlah kita menempatkan semua sumber daya
 Solusinya adalah Anda membutuhkan high availability (ketersediaan tinggi) dan fault tolerance (toleransi terhadap kesalahan). High availability adalah kemampuan untuk memastikan bahwa sistem selalu bekerja dan dapat diakses dengan waktu henti yang minimal tanpa memerlukan intervensi manusia. Sedangkan fault tolerance berarti sistem masih mampu beroperasi meskipun beberapa komponen mengalami kegagalan.</br></br>
 Faktanya, AWS beroperasi di lokasi yang berbeda-beda di seluruh dunia yang disebut Region. Tapi sabar ya. Kita baru akan membicarakan hal ini secara mendalam di modul mendatang. Jadi, mari kita lanjutkan!</br></br>
 Infrastruktur Global AWS</br></br>
-Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</br></br>
+Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</br>
 <ol align="justify" type='a'><li>Aplikasi yang harus berjalan.</li>
 <li>Konten yang perlu disimpan.</li>
 <li>Data yang perlu dianalisis.</li></ol>
