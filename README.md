@@ -763,6 +763,7 @@ A. 1dan 3
 b. 2 dan 3
 c. 2 dan 5
 d. 4 dan 5
+Jawaban antara A dan B, kunci benar no 3 Business
 
 15.
 Pernyataan mana yang paling tepat menggambarkan Availability Zone?
