@@ -527,18 +527,18 @@ Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboar
 <li> 3 dan 5</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-c</details></td></tr></table>
+c</details></td></tr>
 
-<p>
-  3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
+<tr> <td>  3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
   <li>Amazon CloudWatch</li>
   <li> Amazon GuardDuty</li>
   <li> AWS Trusted Advisor</li>
   <li> AWS CloudTrail</li></ol>
-a,d c
-benar 2
-</p>
+<details>
+<summary markdown="span">Answer :</summary>
+b</details></td></tr></table>
+</td></tr></table>
 
 ## Kategori: Harga dan Dukungan
 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
