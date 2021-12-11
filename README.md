@@ -512,7 +512,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
   <li>a dan c</li>
   <li>a dan d</li>
   <li>b dan e</li>
-  <li>c dan d</li></ol><ol>
+  <li>c dan d</li></ol></ol>
 <details><summary markdown="span">Answer :</summary> d</details>
 
 <h4>2. Perhatikan beberapa kategori berikut:</h4>
