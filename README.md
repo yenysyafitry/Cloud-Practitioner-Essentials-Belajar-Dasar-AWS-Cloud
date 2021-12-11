@@ -479,6 +479,7 @@ Solusinya adalah Anda membutuhkan high availability (ketersediaan tinggi) dan fa
 Faktanya, AWS beroperasi di lokasi yang berbeda-beda di seluruh dunia yang disebut Region. Tapi sabar ya. Kita baru akan membicarakan hal ini secara mendalam di modul mendatang. Jadi, mari kita lanjutkan!</br></br>
 Infrastruktur Global AWS</br></br>
 Untuk memahami infrastruktur global AWS, yuk kita mulai dengan menguraikan kebutuhan dasar untuk memulai bisnis di masa sekarang ini. Apa saja? Tentu kita membutuhkan:</p>
+
 <ol align="justify" type='a'><li>Aplikasi yang harus berjalan.</li>
 <li>Konten yang perlu disimpan.</li>
 <li>Data yang perlu dianalisis.</li></ol>
@@ -497,7 +498,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231425447e744dc8556f8d1f81ce86009a055bcb.jpeg"></p>
 
 
-<ul align="justify"><li>
+
 
 Kategori: Pemantauan dan Analitik
 1.
