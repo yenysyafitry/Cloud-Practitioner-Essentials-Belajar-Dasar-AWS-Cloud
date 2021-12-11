@@ -501,9 +501,9 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 
 ## Kategori: Pemantauan dan Analitik
+
 1. Perhatikan pernyataan berikut:
-<ol type="1" align="justify">
-  <li>Memantau penggunaan dan kinerja sumber daya.</li>
+    <ol type="1" align="justify"><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
   <li>Mengakses metrik dari satu dashboard.</li>
@@ -515,6 +515,7 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
 <li> 3 dan 4</li></ol>
 a, c, b
 </br></br>
+
 2. Perhatikan beberapa kategori berikut:
 <ol type="a" align="justify">
   <li>Reliability</li>
@@ -528,6 +529,7 @@ b. b dan c
 c. b dan e
 d. c dan e
 a,d b
+
 </br></br>
   3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
