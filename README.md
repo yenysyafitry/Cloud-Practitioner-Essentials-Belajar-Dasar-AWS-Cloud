@@ -831,7 +831,21 @@ d. amazon sagemaker
  c. sumber daya yang dapat menjawab pertanyaan tentang praktik terbaik dan membantu memecahkan masalah
  d. sumber daya yang memberikan panduan, tinjauan arsitektur, dan komunikasi berkelanjutan terhadap lingkungan aws anda
  
+Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi dirancang dan dikembangkan menggunakan fitur cloud-native?
+replatforming
+* repurchasing
+rehosting
+
+Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance
+
+
+Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder Anda
+
+Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu
+
+Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplikasi AWS melalui skrip?
+
 ```
 
 
--->
+
