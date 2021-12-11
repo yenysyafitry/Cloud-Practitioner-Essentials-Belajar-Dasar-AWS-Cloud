@@ -594,17 +594,14 @@ c. 2 dan 5</details>
 <li> layanan database dokumen yang mendukung beban kerja mongoDB</li>
 <details>
 <summary markdown="span">Answer :</summary>
-b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</BR>Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
+b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks </br> Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
 5. Perhatikan pernyataan berikut:<ol type="1" align="justify"><li>Meningkatkan kecepatan dan ketangkasan.</li>
 <li>Mendapatkan manfaat dari skala ekonomi yang lebih kecil.</li>
 <li>Mengubah pengeluaran variabel menjadi pengeluaran di muka.</li>
 <li>Mempertahankan kapasitas infrastruktur.</li>
 <li>Menghentikan biaya pengelolaan dan pemeliharaan data center.</li></ol>
 Dari pernyataan di atas, mana sajakah yang termasuk ke dalam manfaat komputasi cloud?
- <ol type="A" align="justify"> <li> 1 dan 3</li>
-  <li> 1 dan 5</li>
-  <li> 2 dan 4</li>
-  <li> 3 dan 5</li></ol>
+<ol type="A" align="justify"> <li> 1 dan 3</li><li> 1 dan 5</li><li> 2 dan 4</li><li> 3 dan 5</li></ol>
   <details><summary markdown="span">Answer :</summary>
 B. 1 dan 5</details> 
 
