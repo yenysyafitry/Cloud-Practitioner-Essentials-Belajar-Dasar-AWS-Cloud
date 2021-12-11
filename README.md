@@ -507,12 +507,12 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
   <li>Mengakses metrik dari satu dashboard.</li>
   <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>
       
-Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
+ <ol>Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
 <ol type='A'>
   <li>a dan c</li>
   <li>a dan d</li>
   <li>b dan e</li>
-  <li>c dan d</li></ol>
+  <li>c dan d</li></ol><ol>
 <details><summary markdown="span">Answer :</summary> d</details>
 
 <h4>2. Perhatikan beberapa kategori berikut:</h4>
