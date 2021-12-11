@@ -538,18 +538,20 @@ c</details></td></tr>
 <details>
 <summary markdown="span">Answer :</summary>
 b</details></td></tr></table>
-</td></tr></table>
+
 
 ## Kategori: Harga dan Dukungan
-1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
+<table><tr> <td> 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
 <ol type="a" align="justify">
   <li>billing dashboard di aws management console</li>
   <li>aws free tier</li>
   <li>asw cost explorer</li>
   <li>aws budget</li></ol>
+<details>
+<summary markdown="span">Answer :</summary>
+b. aws free tier</details></td></tr></table>
 
-b. aws free tier</br></br>
-
+</td></tr></table>
 2. Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM). AWS Support Plans manakah yang harus Anda pilih?
 <ol type="a" align="justify">
   <li>developer</li>
