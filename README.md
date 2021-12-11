@@ -495,13 +495,8 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231425447e744dc8556f8d1f81ce86009a055bcb.jpeg"></p>
 
-
-
-
-
-
 <p align="justify"><b>Kategori: Pemantauan dan Analitik</b></br>
- <ol type='1'>1. Perhatikan pernyataan berikut:
+ 1. <ol type='1'>Perhatikan pernyataan berikut:
   <li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
