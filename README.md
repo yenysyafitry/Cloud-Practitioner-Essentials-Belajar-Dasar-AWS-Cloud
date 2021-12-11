@@ -604,9 +604,8 @@ Dari pernyataan di atas, mana sajakah yang termasuk ke dalam manfaat komputasi c
 <ol type="A" align="justify"> <li> 1 dan 3</li><li> 1 dan 5</li><li> 2 dan 4</li><li> 3 dan 5</li></ol>
   <details><summary markdown="span">Answer :</summary>
 B. 1 dan 5</details> 
-
 6. Pada AWS Well-Architected Framework, manakah pilar yang menyertakan kemampuan untuk menjalankan beban kerja secara efektif dan mendapatkan wawasan ke dalam operasinya?
-<li>reliability</li>
+<ol type="1" align="justify"><li>reliability</li>
 <li>operational excellence </li>
 <li>performance efficiency</li>
 <li>cost optimization</li></ol>
