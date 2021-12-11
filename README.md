@@ -498,11 +498,11 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 <p align="justify"><b>Kategori: Pemantauan dan Analitik</b></p></br>
 
 
-1. Perhatikan pernyataan berikut: <ol type='1' align="justify"><li>Memantau penggunaan dan kinerja sumber daya.</li>
+1.Perhatikan pernyataan berikut: <ol type='1' align="justify"><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
   <li>Mengakses metrik dari satu dashboard.</li>
-  <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li>  </ol>    
+  <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>    
 Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
 <ol type='A'>
   <li>1 dan 3</li>
