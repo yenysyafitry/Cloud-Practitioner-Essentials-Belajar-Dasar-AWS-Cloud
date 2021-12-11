@@ -527,9 +527,9 @@ Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboar
 <li> 3 dan 5</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-c</details></td> </tr></table>
+c</details></td> </tr>
 
-<p align="justify">
+<tr> <td>
   3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
   <li>Amazon CloudWatch</li>
@@ -538,7 +538,7 @@ c</details></td> </tr></table>
   <li> AWS CloudTrail</li></ol>
 a,d c
 benar 2
-</br></br>
+</td></tr> 
 ## Kategori: Harga dan Dukungan
 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
 <ol type="a" align="justify">
@@ -849,7 +849,7 @@ Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data ce
 <li>internet gateway</li>
 <li>aws direct connect</li>
 <li>virtual private gateway</li><ol>
-
+  </table>
 
 
 
