@@ -509,24 +509,24 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
       
  <ol>Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
 <ol type='A'>
-  <li>a dan c</li>
-  <li>a dan d</li>
-  <li>b dan e</li>
-  <li>c dan d</li></ol></ol>
+  <li>1 dan 3</li>
+  <li>1 dan 4</li>
+  <li>2 dan 5</li>
+  <li>3 dan 4</li></ol></ol>
 <details><summary markdown="span">Answer :</summary> d</details>
 
-<h4>2. Perhatikan beberapa kategori berikut:</h4>
-<ol type="A">
+<p>2. Perhatikan beberapa kategori berikut:</p>
+ <ol type='1'>
   <li>Reliability</li>
   <li>Performance</li>
   <li>Scalability</li>
   <li>Elasticity</li>
   <li>Fault tolerance</li></ol>
 Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboard?
-<ol type="a" align="justify"><li> a dan b</li>
-<li> b dan c</li>
-<li> b dan e</li>
-<li> c dan e</li></ol>
+<ol type="a" align="justify"><li> 1 dan 2</li>
+<li> 2 dan 3</li>
+<li> 2 dan 5</li>
+<li> 3 dan 5</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
 c</details>
