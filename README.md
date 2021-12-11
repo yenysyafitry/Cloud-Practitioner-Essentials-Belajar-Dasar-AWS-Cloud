@@ -598,15 +598,12 @@ c. 2 dan 5</details>
 <li> layanan database dokumen yang mendukung beban kerja mongoDB</li>
 <details>
 <summary markdown="span">Answer :</summary>
-b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</BR>
-Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
-5.Perhatikan pernyataan berikut:
-<ol type="1" align="justify">
-  <li>Meningkatkan kecepatan dan ketangkasan.</li>
-  <li>Mendapatkan manfaat dari skala ekonomi yang lebih kecil.</li>
-  <li>Mengubah pengeluaran variabel menjadi pengeluaran di muka.</li>
-  <li>Mempertahankan kapasitas infrastruktur.</li>
-  <li>Menghentikan biaya pengelolaan dan pemeliharaan data center.</li></ol>
+b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</BR>Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
+5. Perhatikan pernyataan berikut:<ol type="1" align="justify"><li>Meningkatkan kecepatan dan ketangkasan.</li>
+<li>Mendapatkan manfaat dari skala ekonomi yang lebih kecil.</li>
+<li>Mengubah pengeluaran variabel menjadi pengeluaran di muka.</li>
+<li>Mempertahankan kapasitas infrastruktur.</li>
+<li>Menghentikan biaya pengelolaan dan pemeliharaan data center.</li></ol>
 Dari pernyataan di atas, mana sajakah yang termasuk ke dalam manfaat komputasi cloud?
  <ol type="A" align="justify"> <li> 1 dan 3</li>
   <li> 1 dan 5</li>
@@ -615,13 +612,14 @@ Dari pernyataan di atas, mana sajakah yang termasuk ke dalam manfaat komputasi c
   <details><summary markdown="span">Answer :</summary>
 B. 1 dan 5</details> 
 
-2.
-Pada AWS Well-Architected Framework, manakah pilar yang menyertakan kemampuan untuk menjalankan beban kerja secara efektif dan mendapatkan wawasan ke dalam operasinya?
-a. reliability
-b. operational excellence 
-c. performance efficiency
-d. cost optimization
-b. operational excellence 
+6. Pada AWS Well-Architected Framework, manakah pilar yang menyertakan kemampuan untuk menjalankan beban kerja secara efektif dan mendapatkan wawasan ke dalam operasinya?
+<li>reliability</li>
+<li>operational excellence </li>
+<li>performance efficiency</li>
+<li>cost optimization</li></ol>
+ <details><summary markdown="span">Answer :</summary>
+b. operational excellence </details>
+
 
 
 
