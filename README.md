@@ -500,7 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<table style='color:red'><tr> <td>1. Perhatikan pernyataan berikut:
+<p>1. Perhatikan pernyataan berikut:
   <ol type='1'><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
@@ -512,8 +512,8 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
   <li>1 dan 4</li>
   <li>2 dan 5</li>
   <li>3 dan 4</li></ol>
-<details><summary markdown="span">Answer :</summary> d</details></td> </tr>
-<tr> <td>2. Perhatikan beberapa kategori berikut:
+<details><summary markdown="span">Answer :</summary> d</details>
+2. Perhatikan beberapa kategori berikut:
  <ol type='1'>
   <li>Reliability</li>
   <li>Performance</li>
@@ -527,9 +527,9 @@ Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboar
 <li> 3 dan 5</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-c</details></td></tr>
+c</details></p>
 
-<tr> <td>  3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
+ 3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
   <li>Amazon CloudWatch</li>
   <li> Amazon GuardDuty</li>
@@ -537,7 +537,7 @@ c</details></td></tr>
   <li> AWS CloudTrail</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-b</details></td></tr></table>
+b</details>
 
 
 ## Kategori: Harga dan Dukungan
