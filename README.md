@@ -495,25 +495,25 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ### AWS Well-Architected Framework
 <p align="justify">AWS Well-Architected Framework dirancang untuk membantu Anda memahami bagaimana cara merancang dan mengoperasikan sistem yang andal, aman, efisien, dan hemat biaya di AWS Cloud. AWS Well-Architected Framework terdiri dari 5 pilar guna memastikan pendekatan yang konsisten untuk meninjau dan merancang arsitektur.</br>
-Mari kita uraikan 5 pilar tersebut:
+Mari kita uraikan 5 pilar tersebut:</br></br>
 1. Operational Excellence (Keunggulan Operasional)</br>
 Pilar ini berfokus untuk menjalankan dan memantau sistem guna memberikan nilai bisnis serta terus meningkatkan proses dan prosedur. Pilar Operational Excellence mencakup bagaimana organisasi Anda mendukung tujuan bisnis, kemampuan untuk menjalankan beban kerja secara efektif, mendapatkan wawasan tentang operasi, dan juga terus meningkatkan proses dan prosedur pendukung untuk memberikan nilai bisnis.</br>
-Misalnya, melakukan operation as code (operasi sebagai kode), membuat anotasi dokumentasi, mengantisipasi kegagalan, dan sering memperbaiki prosedur operasi.</br>
+Misalnya, melakukan operation as code (operasi sebagai kode), membuat anotasi dokumentasi, mengantisipasi kegagalan, dan sering memperbaiki prosedur operasi.</br></br>
 2. Security (Keamanan)</br>
 Seperti yang telah kita pelajari sebelumnya, keamanan adalah prioritas nomor 1 di AWS. Pilar ini akan melindungi informasi, sistem, dan aset Anda sekaligus memberikan nilai bisnis melalui risk assessment (penilaian risiko) dan strategi mitigasi.</br>
 Saat mempertimbangkan keamanan arsitektur, implementasikan praktik terbaik berikut:</br>
 a. Terapkan keamanan di semua lapisan arsitektur Anda.</br>
 b. Lakukan automasi terhadap praktik terbaik keamanan.</br>
-c. Lindungi data in-transit dan at rest (sudah kita pelajari di Modul Keamanan).</br>
+c. Lindungi data in-transit dan at rest (sudah kita pelajari di Modul Keamanan).</br></br>
 3. Reliability (Keandalan)</br>
 Pilar ini mencakup kemampuan sistem untuk memastikan beban kerja melakukan fungsi yang diinginkan dengan benar dan konsisten sesuai harapan.</br>
 Beberapa contohnya adalah seperti berikut:</br>
 1. Pemulihan otomatis dari kegagalan infrastruktur atau layanan.</br>
 2. Horizontal scaling--telah dibahas pada Modul Komputasi di Cloud--untuk meningkatkan ketersediaan beban kerja.</br>
-3. Pengujian prosedur pemulihan.</br>
+3. Pengujian prosedur pemulihan.</br></br>
 4. Performance Efficiency (Efisiensi Kinerja)</br>
 Pilar ini berfokus pada penggunaan sumber daya IT dan komputasi secara efisien untuk memenuhi kebutuhan.</br>
-Misalnya, menggunakan arsitektur serverless (tanpa server), melakukan eksperimen lebih sering, dan merancang sistem agar dapat mendunia dalam hitungan menit.</br>
+Misalnya, menggunakan arsitektur serverless (tanpa server), melakukan eksperimen lebih sering, dan merancang sistem agar dapat mendunia dalam hitungan menit.</br></br>
 5. Cost Optimization (Pengoptimalan Biaya)</br>
 Pilar ini berfokus untuk mengontrol ke mana uang dibelanjakan guna menghindari biaya yang tak perlu.</br>
 Misalnya, menerapkan manajemen keuangan cloud, menganalisis pengeluaran, dan menggunakan managed service (layanan terkelola) untuk mengurangi biaya kepemilikan.  </br>
