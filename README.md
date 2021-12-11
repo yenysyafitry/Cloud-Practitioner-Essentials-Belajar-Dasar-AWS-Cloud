@@ -507,8 +507,8 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
   <li>1 dan 4</li>
   <li>2 dan 5</li>
   <li>3 dan 4</li></ol>
-<details><summary markdown="span">Answer :</summary> d</details></br>
-2. Perhatikan beberapa kategori berikut:</br>
+<details><summary markdown="span">Answer :</summary> d</details>
+2. Perhatikan beberapa kategori berikut:</br></br>
  <ol type='1'>
   <li>Reliability</li>
   <li>Performance</li>
