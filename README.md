@@ -500,7 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<h3> 1. Perhatikan pernyataan berikut: </h3>
+<h5> 1. Perhatikan pernyataan berikut: </h5>
   <ol type='A'>
   <li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
