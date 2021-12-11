@@ -500,14 +500,13 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
- 
-  <ol type='A'>1. Perhatikan pernyataan berikut:
-  <li>Memantau penggunaan dan kinerja sumber daya.</li>
+ 1. Perhatikan pernyataan berikut:
+  <ol type='A'><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
   <li>Mengakses metrik dari satu dashboard.</li>
   <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>
-Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
+      Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
 <ol type='A'>
   <li>a dan c</li>
   <li>a dan d</li>
