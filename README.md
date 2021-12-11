@@ -836,12 +836,11 @@ Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplik
 
  ```
 Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center anda dan virtual private cloud (VPC)?
-<ol type="a" align="justify">
-<li>amazon coudfront</li>
-<li>internet gateway</li>
-<li>aws direct connect</li>
-<li>virtual private gateway</li><ol>
-jawaban : aws direct connect
+- [ ] amazon coudfront</li>
+- [ ] internet gateway</li>
+- [x] aws direct connect</li>
+- [ ] virtual private gateway
+
 
 
 
