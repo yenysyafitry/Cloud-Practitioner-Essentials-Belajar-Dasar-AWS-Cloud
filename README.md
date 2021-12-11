@@ -502,8 +502,8 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<p>1. Perhatikan pernyataan berikut: 
-    <ol type="1" align="justify"><li>Memantau penggunaan dan kinerja sumber daya.</li>
+<p align="justify">1. Perhatikan pernyataan berikut: 
+  <ol type="1" align="justify"><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
   <li>Mengakses metrik dari satu dashboard.</li>
@@ -518,7 +518,7 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
 d</details></p>
 </br></br>
 
-2. Perhatikan beberapa kategori berikut:
+<p align="justify">2. Perhatikan beberapa kategori berikut:
 <ol type="a" align="justify">
   <li>Reliability</li>
   <li>Performance</li>
@@ -526,12 +526,13 @@ d</details></p>
   <li>Elasticity</li>
   <li>Fault tolerance</li></ol>
 Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboard?
-a. a dan b
-b. b dan c
-c. b dan e
-d. c dan e
-a,d b
-
+<ol type="a" align="justify"><li> a dan b</li>
+<li> b dan c</li>
+<li> b dan e</li>
+<li> c dan e</li></ol>
+<details>
+<summary markdown="span">Answer :</summary>
+c</details></p>
 </br></br>
   3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
