@@ -500,8 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<p>1. Perhatikan pernyataan berikut:
-  <ol type='1'><li>Memantau penggunaan dan kinerja sumber daya.</li>
+<p>1. Perhatikan pernyataan berikut:<ol type='1'><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
   <li>Mengakses metrik dari satu dashboard.</li>
@@ -527,7 +526,7 @@ Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboar
 <li> 3 dan 5</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-c</details></p>
+c</details>
 
  3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
@@ -537,7 +536,7 @@ c</details></p>
   <li> AWS CloudTrail</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-b</details>
+b</details></p>
 
 
 ## Kategori: Harga dan Dukungan
