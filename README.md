@@ -514,7 +514,7 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
 <li> 2 dan 5</li>
 <li> 3 dan 4</li></ol>
 a, c, b
-
+</br></br>
 2. Perhatikan beberapa kategori berikut:
 <ol type="a" align="justify">
   <li>Reliability</li>
@@ -528,7 +528,7 @@ b. b dan c
 c. b dan e
 d. c dan e
 a,d b
-
+</br></br>
   3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
   <li>Amazon CloudWatch</li>
@@ -537,68 +537,65 @@ a,d b
   <li> AWS CloudTrail</li></ol>
 a,d c
 benar 2
+</br></br>
+## Kategori: Harga dan Dukungan
+1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
+<ol type="a" align="justify">
+  <li>billing dashboard di aws management console</li>
+  <li>aws free tier</li>
+  <li>asw cost explorer</li>
+  <li>aws budget</li></ol>
 
-Kategori: Harga dan Dukungan
-1.
-Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
-a. billing dashboard di aws management console
-b. aws free tier
-c. asw cost explorer
-d. aws budget
+b. aws free tier</br></br>
 
-b. aws free tier
-2.Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM).
-AWS Support Plans manakah yang harus Anda pilih?
-a.developer
-b.business
-c.basic
-d.enterprise
+2. Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM). AWS Support Plans manakah yang harus Anda pilih?
+<ol type="a" align="justify">
+  <li>developer</li>
+  <li>business</li>
+  <li>basic</li>
+  <li>enterprise</li></ol>
+d.enterprise</br></br>
 
-d.enterprise
+3. Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
+<ol type="a" align="justify">
+  <li>AWS Support</li>
+  <li>AWS Marketplace</li>
+  <li>Billing dasboard di AWS</li>
+  <li>AWS Free tier</li></ol>
+b. AWS Marketplace</br></br>
 
-3.
-Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
-a. AWS Support
-b. AWS Marketplace
-c. Billing dasboard di AWS
-d. AWS Free tier
+4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
+<ol type="a" align="justify">
+  <li> meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan</li>
+  <li> memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu</li>
+  <li> menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</li>
+  <li> membuat estimasi biaya terhadap kasus penggunaan anda di AWS</li></ol>
+c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</br></br>
 
-b. AWS Marketplace
+5. Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
+<ol type="a" align="justify">
+  <li>AWS Pricing Calculator</li>
+  <li>AWS Cost Explorer </li>
+  <li> AWS Free Tier</li>
+  <li> AWS Budgets</li></ol>
 
-4.
-Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
-a. meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan
-b. memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu
-c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount
-d, membuat estimasi biaya terhadap kasus penggunaan anda di AWS
+B. AWS Cost Explorer </br></br>
 
-c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount
+## Knowledge Check : Migrasi dan Inovasi
+1. Berapa kapasitas penyimpanan dari AWS Snowmobile?
+<ol type="a" align="justify">
+<li> 40 PB</li>
+<li> 60 PB</li>
+<li> 80 PB</li>
+<li> 100 PB</li></ol>
+ d. 100 PB</br></br>
+2. Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
+<ol type="a" align="justify"><li> Operations</li>
+<li> Governance</li>
+<li> security</li>
+<li> business</li></ol>
 
-5.
-Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
-A. AWS Pricing Calculator
-B. AWS Cost Explorer 
-C. AWS Free Tier
-D. AWS Budgets
-
-B. AWS Cost Explorer 
-
-Knowledge Check : Migrasi dan Inovasi
-1.
-Berapa kapasitas penyimpanan dari AWS Snowmobile?
-a. 40 PB
-b. 60 PB
-c. 80 PB
-d. 100 PB
- d. 100 PB
-2.
-Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
-A. Operations
-B. Governance
-c. security
-d. business
-
-d. business
+d. business</br></br>
 .
 Perhatikan uraian berikut:
 
