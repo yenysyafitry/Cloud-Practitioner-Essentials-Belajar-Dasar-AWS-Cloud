@@ -582,35 +582,36 @@ c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discou
 B. AWS Cost Explorer </br></br>
 
 ## Knowledge Check : Migrasi dan Inovasi
+
 1. Berapa kapasitas penyimpanan dari AWS Snowmobile?
-<ol type="a" align="justify">
-<li> 40 PB</li>
-<li> 60 PB</li>
-<li> 80 PB</li>
-<li> 100 PB</li></ol>
- d. 100 PB</br></br>
+  <ol type="a" align="justify">
+  <li> 40 PB</li>
+  <li> 60 PB</li>
+  <li> 80 PB</li>
+  <li> 100 PB</li></ol>
+  d. 100 PB</br></br>
+  
 2. Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
 <ol type="a" align="justify"><li> Operations</li>
 <li> Governance</li>
 <li> security</li>
 <li> business</li></ol>
-
 d. business</br></br>
 .
-Perhatikan uraian berikut:
-
-Revisiting
-Retaining
-Remembering
-Redeveloping
-Rehosting
+3. Perhatikan uraian berikut:
+<ol type="1" align="justify"><li> Operations</li>
+<li>Revisiting</li>
+<li>Retaining</li>
+<li>Remembering</li>
+<li>Redeveloping</li>
+<li>Rehosting</li></ol>
 Strategi apa saja yang termasuk ke dalam 6 strategi untuk memigrasikan aplikasi?
-a. 1 dan 3
-b. 2 dan 4
-c. 2 dan 5
-d. 3 dan 4
+<ol type="1" align="justify"><li> Operations</li><li> 1 dan 3</li>
+<li> 2 dan 4</li>
+<li> 2 dan 5</li>
+<li> 3 dan 4</li></ol>
 
-c. 2 dan 5
+c. 2 dan 5</br></br>
 
 4.
 Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
