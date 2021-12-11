@@ -530,7 +530,6 @@ c</details>
 <summary markdown="span">Answer :</summary>
 b</details>
 
-
 <p align="justify"><b>Kategori: Harga dan Dukungan</b></p>
 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
 <ol type="a" align="justify"><li>billing dashboard di aws management console</li><li>aws free tier</li><li>asw cost explorer</li><li>aws budget</li></ol>
@@ -572,16 +571,15 @@ B. AWS Cost Explorer</details>
   <ol type="a" align="justify"><li> 40 PB</li><li> 60 PB</li><li> 80 PB</li><li> 100 PB</li></ol>
   <details>
 <summary markdown="span">Answer :</summary>
-d. 100 PB</details>
-
-  
+d. 100 PB</details>  
 2. Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
 <ol type="a" align="justify"><li> Operations</li>
 <li> Governance</li>
 <li> security</li>
 <li> business</li></ol>
-d. business</br></br>
-.
+<details>
+<summary markdown="span">Answer :</summary>
+d. business</details>  
 3. Perhatikan uraian berikut:
 <ol type="1" align="justify"><li> Operations</li>
 <li>Revisiting</li>
@@ -594,11 +592,10 @@ Strategi apa saja yang termasuk ke dalam 6 strategi untuk memigrasikan aplikasi?
 <li> 2 dan 4</li>
 <li> 2 dan 5</li>
 <li> 3 dan 4</li></ol>
-
-c. 2 dan 5</br></br>
-
-4.
-Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
+<details>
+<summary markdown="span">Answer :</summary>
+c. 2 dan 5</details> 
+4.Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
 a. layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan
 b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks
 c. layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai
