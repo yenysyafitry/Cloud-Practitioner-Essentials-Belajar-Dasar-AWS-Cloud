@@ -500,7 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 
 
-Kategori: Pemantauan dan Analitik
+## Kategori: Pemantauan dan Analitik
 1. Perhatikan pernyataan berikut:
 <ol type="1" align="justify">
   <li>Memantau penggunaan dan kinerja sumber daya.</li>
@@ -515,26 +515,26 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
 <li> 3 dan 4</li></ol>
 a, c, b
 
-2.
-Perhatikan beberapa kategori berikut:
-
-Reliability
-Performance
-Scalability
-Elasticity
-Fault tolerance
+2. Perhatikan beberapa kategori berikut:
+<ol type="a" align="justify">
+  <li>Reliability</li>
+  <li>Performance</li>
+  <li>Scalability</li>
+  <li>Elasticity</li>
+  <li>Fault tolerance</li></ol>
 Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboard?
-a. 1 dan 2
-b. 2 dan 3
-c. 2 dan 5
-d. 3 dan 5
+a. a dan b
+b. b dan c
+c. b dan e
+d. c dan e
 a,d b
 
-  3.Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
-a. Amazon CloudWatch
-b. Amazon GuardDuty
-c. AWS Trusted Advisor
-d. AWS CloudTrail
+  3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
+  <ol type="a" align="justify">
+  <li>Amazon CloudWatch</li>
+  <li> Amazon GuardDuty</li>
+  <li> AWS Trusted Advisor</li>
+  <li> AWS CloudTrail</li></ol>
 a,d c
 benar 2
 
