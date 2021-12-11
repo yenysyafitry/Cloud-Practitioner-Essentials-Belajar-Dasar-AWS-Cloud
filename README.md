@@ -531,41 +531,34 @@ c</details>
 b</details>
 
 
-## Kategori: Harga dan Dukungan
-<table><tr> <td> 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
-<ol type="a" align="justify">
-  <li>billing dashboard di aws management console</li>
-  <li>aws free tier</li>
-  <li>asw cost explorer</li>
-  <li>aws budget</li></ol>
+<p align="justify"><b>Kategori: Harga dan Dukungan</b></p>
+1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
+<ol type="a" align="justify"><li>billing dashboard di aws management console</li><li>aws free tier</li><li>asw cost explorer</li><li>aws budget</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-b. aws free tier</details></td></tr></table>
+b. aws free tier</details>
 
-</td></tr></table>
 2. Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM). AWS Support Plans manakah yang harus Anda pilih?
-<ol type="a" align="justify">
-  <li>developer</li>
-  <li>business</li>
-  <li>basic</li>
-  <li>enterprise</li></ol>
-d.enterprise</br></br>
+<ol type="a" align="justify"><li>developer</li><li>business</li><li>basic</li><li>enterprise</li></ol>
+<details>
+<summary markdown="span">Answer :</summary>
+d.enterprise</details>
 
 3. Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
-<ol type="a" align="justify">
-  <li>AWS Support</li>
-  <li>AWS Marketplace</li>
-  <li>Billing dasboard di AWS</li>
-  <li>AWS Free tier</li></ol>
-b. AWS Marketplace</br></br>
+<ol type="a" align="justify"><li>AWS Support</li><li>AWS Marketplace</li><li>Billing dasboard di AWS</li><li>AWS Free tier</li></ol>
+<details>
+<summary markdown="span">Answer :</summary>
+b. AWS Marketplace</details>
 
 4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
 <ol type="a" align="justify">
-  <li> meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan</li>
+ <li> meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan</li>
   <li> memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu</li>
   <li> menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</li>
   <li> membuat estimasi biaya terhadap kasus penggunaan anda di AWS</li></ol>
-c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</br></br>
+<details>
+<summary markdown="span">Answer :</summary>
+c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</details>
 
 5. Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
 <ol type="a" align="justify">
@@ -573,8 +566,9 @@ c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discou
   <li>AWS Cost Explorer </li>
   <li> AWS Free Tier</li>
   <li> AWS Budgets</li></ol>
-
-B. AWS Cost Explorer </br></br>
+<details>
+<summary markdown="span">Answer :</summary>
+B. AWS Cost Explorer</details>
 
 ## Knowledge Check : Migrasi dan Inovasi
 
