@@ -845,6 +845,12 @@ Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelol
 
 Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplikasi AWS melalui skrip?
 
+Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center anda dan virtual private cloud (VPC)?
+<ol>
+<li>amazon coudfront</li>
+<li>internet gateway</li>
+<li>aws direct connect</li>
+<li>virtual private gateway</li><ol>
 ```
 
 
