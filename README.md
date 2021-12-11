@@ -595,7 +595,9 @@ c. 2 dan 5</details>
 <details>
 <summary markdown="span">Answer :</summary>
 b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks </br> Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
-5. Perhatikan pernyataan berikut:<ol type="1" align="justify"><li>Meningkatkan kecepatan dan ketangkasan.</li>
+
+5. Perhatikan pernyataan berikut:
+<ol type="1" align="justify"><li>Meningkatkan kecepatan dan ketangkasan.</li>
 <li>Mendapatkan manfaat dari skala ekonomi yang lebih kecil.</li>
 <li>Mengubah pengeluaran variabel menjadi pengeluaran di muka.</li>
 <li>Mempertahankan kapasitas infrastruktur.</li>
