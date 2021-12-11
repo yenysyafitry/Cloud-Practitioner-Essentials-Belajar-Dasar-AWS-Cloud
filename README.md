@@ -646,8 +646,7 @@ c. performance efficiency
 d. cost optimization
 b. operational excellence 
 
---->
-<!--
+
 
 Kategori: Ujian Akhir
 1.
@@ -658,8 +657,7 @@ c. S3 Intelligent- Tiering
 d. S3 Standar-IA
 Jawaban C
 
-2.
-Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
+2. Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
 A. Subnet
 B. Amazon EBS Bolume
 C. Instance Store
