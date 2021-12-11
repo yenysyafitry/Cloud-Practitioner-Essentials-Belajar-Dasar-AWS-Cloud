@@ -503,19 +503,19 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 ## Kategori: Pemantauan dan Analitik
 
 <p align="justify">1. Perhatikan pernyataan berikut: 
-  <ol type="1" align="justify"><li>Memantau penggunaan dan kinerja sumber daya.</li>
+  <ol type="a" align="justify">
+  <li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
   <li>Mengakses metrik dari satu dashboard.</li>
   <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>
 Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
-<ol type="a" align="justify"><li> 1 dan 3</li>
-<li> 1 dan 4</li>
-<li> 2 dan 5</li>
-<li> 3 dan 4</li></ol>
+<ol type="a" align="justify"><li> a dan c</li>
+<li> a dan d</li>
+<li> b dan e</li>
+<li> c dan d</li></ol>
 <details>
-<summary markdown="span">Answer :</summary>
-d</details></p>
+<summary markdown="span">Answer :</summary> d</details></p>
 </br></br>
 
 <p align="justify">2. Perhatikan beberapa kategori berikut:
