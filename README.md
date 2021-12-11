@@ -500,7 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<p align="justify">1. Perhatikan pernyataan berikut: 
+<h3> 1. Perhatikan pernyataan berikut: </h3>
   <ol type='A'>
   <li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
@@ -513,7 +513,7 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
   <li>a dan d</li>
   <li>b dan e</li>
   <li>c dan d</li></ol>
-<details><summary markdown="span">Answer :</summary> d</details></p>
+<details><summary markdown="span">Answer :</summary> d</details>
 
 <p align="justify">2. Perhatikan beberapa kategori berikut:
 <ol type="A">
