@@ -491,7 +491,7 @@ Oleh sebab itu, sebagian besar perusahaan pada akhirnya hanya menyimpan data cad
 Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya adalah dengan membangun data center dalam kelompok besar yang disebut dengan AWS Regions (Wilayah/Region AWS).</p>
 
 
-<!---
+
 <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231425447e744dc8556f8d1f81ce86009a055bcb.jpeg"></p>
 
@@ -528,8 +528,8 @@ b. 2 dan 3
 c. 2 dan 5
 d. 3 dan 5
 a,d b
-3.
-Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
+
+  3.Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
 a. Amazon CloudWatch
 b. Amazon GuardDuty
 c. AWS Trusted Advisor
