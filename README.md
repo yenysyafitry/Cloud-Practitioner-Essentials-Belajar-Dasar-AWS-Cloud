@@ -572,7 +572,7 @@ B. AWS Cost Explorer</details>
 <summary markdown="span">Answer :</summary>
 d. business</details>  
 3. Perhatikan uraian berikut:
-<ol type="1" align="justify"><li> Operations</li>
+<ol type="a" align="justify"><li> Operations</li>
 <li>Revisiting</li>
 <li>Retaining</li>
 <li>Remembering</li>
@@ -587,7 +587,7 @@ Strategi apa saja yang termasuk ke dalam 6 strategi untuk memigrasikan aplikasi?
 <summary markdown="span">Answer :</summary>
 c. 2 dan 5</details> 
 4. Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
-<ol type="1" align="justify"><li>layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan</li>
+<ol type="a" align="justify"><li>layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan</li>
 <li>layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</li>
 <li>layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai</li>
 <li>layanan database dokumen yang mendukung beban kerja mongoDB</li></ol>
