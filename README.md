@@ -537,19 +537,16 @@ b</details>
 <details>
 <summary markdown="span">Answer :</summary>
 b. aws free tier</details>
-
 2. Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM). AWS Support Plans manakah yang harus Anda pilih?
 <ol type="a" align="justify"><li>developer</li><li>business</li><li>basic</li><li>enterprise</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
 d.enterprise</details>
-
 3. Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
 <ol type="a" align="justify"><li>AWS Support</li><li>AWS Marketplace</li><li>Billing dasboard di AWS</li><li>AWS Free tier</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
 b. AWS Marketplace</details>
-
 4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
 <ol type="a" align="justify">
  <li> meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan</li>
@@ -559,7 +556,6 @@ b. AWS Marketplace</details>
 <details>
 <summary markdown="span">Answer :</summary>
 c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</details>
-
 5. Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
 <ol type="a" align="justify">
   <li>AWS Pricing Calculator</li>
@@ -570,15 +566,14 @@ c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discou
 <summary markdown="span">Answer :</summary>
 B. AWS Cost Explorer</details>
 
-## Knowledge Check : Migrasi dan Inovasi
+<p align="justify"><b> Knowledge Check : Migrasi dan Inovasi</b></p>
 
 1. Berapa kapasitas penyimpanan dari AWS Snowmobile?
-  <ol type="a" align="justify">
-  <li> 40 PB</li>
-  <li> 60 PB</li>
-  <li> 80 PB</li>
-  <li> 100 PB</li></ol>
-  d. 100 PB</br></br>
+  <ol type="a" align="justify"><li> 40 PB</li><li> 60 PB</li><li> 80 PB</li><li> 100 PB</li></ol>
+  <details>
+<summary markdown="span">Answer :</summary>
+d. 100 PB</details>
+
   
 2. Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
 <ol type="a" align="justify"><li> Operations</li>
