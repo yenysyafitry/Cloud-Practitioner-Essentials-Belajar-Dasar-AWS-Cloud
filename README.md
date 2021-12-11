@@ -436,7 +436,7 @@ Masih bingung? Mari kita perjelas. Setiap layanan dapat Anda gunakan sesuai deng
 <li>Jika Anda ingin menjalankan fungsi yang berjalan singkat, aplikasi berbasis kejadian, dan Anda tak ingin mengelola infrastrukturnya sama sekali, gunakanlah layanan AWS Lambda.</li>
 <li>Jika Anda ingin menjalankan beban kerja berbasis Docker container di AWS, langkah yang perlu Anda lalui adalah:</li></ol>
 <ol align="justify" type='a'><li>Anda harus memilih layanan orkestrasinya terlebih dahulu. Anda bisa menggunakan Amazon ECS atau Amazon EKS.</li>
-<li>Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola </li><li>sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.</li></ol>
+<li>Setelah memilih alat orkestrasinya, kemudian Anda perlu menentukan platformnya. Anda dapat menjalankan container pada EC2 instance yang Anda kelola </li><li>sendiri atau dalam lingkungan serverless seperti AWS Fargate yang dikelola oleh AWS.</li></ol></ol>
 
 <p align="justify" type='1'><b>Ikhtisar</b></br>
 Tibalah kita di penghujung modul. Mari kita uraikan apa yang telah kita pelajari di modul ini:</p>
