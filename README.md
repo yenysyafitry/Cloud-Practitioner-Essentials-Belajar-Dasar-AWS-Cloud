@@ -518,7 +518,7 @@ Misalnya, menggunakan arsitektur serverless (tanpa server), melakukan eksperimen
 Pilar ini berfokus untuk mengontrol ke mana uang dibelanjakan guna menghindari biaya yang tak perlu.</br>
 Misalnya, menerapkan manajemen keuangan cloud, menganalisis pengeluaran, dan menggunakan managed service (layanan terkelola) untuk mengurangi biaya kepemilikan.  </br>
   
---->
+<---
 <p align="justify"><b>Kategori: Pemantauan dan Analitik</b></p>
 1. Perhatikan pernyataan berikut: 
 <ol type='1'><li>Memantau penggunaan dan kinerja sumber daya.</li><li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li><li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li><li>Mengakses metrik dari satu dashboard.</li><li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>    
