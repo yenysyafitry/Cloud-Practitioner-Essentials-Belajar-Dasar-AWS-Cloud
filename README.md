@@ -500,7 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<table background-color="white"><tr> <td>1. Perhatikan pernyataan berikut:
+<table bgcolor="#ffffff "><tr> <td>1. Perhatikan pernyataan berikut:
   <ol type='1'><li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
   <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
