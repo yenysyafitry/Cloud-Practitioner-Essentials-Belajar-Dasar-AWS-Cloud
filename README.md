@@ -555,8 +555,7 @@ b. AWS Marketplace</details>
 <details>
 <summary markdown="span">Answer :</summary>
 c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</details>
-5. Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
-<ol type="a" align="justify"><li>AWS Pricing Calculator</li><li>AWS Cost Explorer </li><li> AWS Free Tier</li><li> AWS Budgets</li></ol>
+5. Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu? <ol type="a" align="justify"><li>AWS Pricing Calculator</li><li>AWS Cost Explorer </li><li> AWS Free Tier</li><li> AWS Budgets</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
 B. AWS Cost Explorer</details>
