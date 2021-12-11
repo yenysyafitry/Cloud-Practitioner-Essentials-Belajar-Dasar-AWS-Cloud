@@ -842,6 +842,35 @@ Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplik
 - [x] aws direct connect</li>
 - [ ] virtual private gateway
 
+##### Layanan mana yang digunakan untuk melakukan deploy dan scaling aplikasi dengan cepat di AWS ?
+- [ ] AWS Snowball
+- [ ] Amazon CloudFront
+- [ ] AWS Outposts
+- [ ] AWS Elastic Beanstalk
+
+##### Layanan apa yang digunakan untuk menjalankan contrainerized application di AWS
+- [ ] Amazon Aurora
+- [ ] Amazon EKS
+- [ ] Amazon SageMaker
+- [ ] Amazon Redshift
+
+##### Anda ingin menyimpan data dalam volume yang di attach ke amazon EC2 Instance. layanan mana yang harus anda gunakan ?
+- [ ] AWS Lambda
+- [ ] Amazon S3
+- [ ] Amazon ElastiCache
+- [ ] Amazon EBS
+
+##### Pada AWS Trusted Advisor kategori manakah yang mencangkup pemeriksaan terhadap service limits dan penggunaan instance yang berlebihan
+- [ ] performance
+- [ ] security
+- [ ] cost optimization
+- [ ] fault tolerance
+
+##### Pernyataan mana yang benar terkait AWS Lambda
+- [ ] sebelum menggunakan AWS Lambda anda harus membayar di muka untuk perkiraan waktu komputasi
+- [ ] anda hanya membayar untuk waktu komputasi saat kode berjalan
+- [ ] untuk menggunakan AWS Lambda anda harus mengonfigurasi server terlebih dahulu
+- [ ] langkah pertama dalam menggunakan AWS Lambda adalah menyediakan server
 
 
 
