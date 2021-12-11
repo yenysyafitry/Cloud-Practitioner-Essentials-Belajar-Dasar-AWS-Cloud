@@ -566,12 +566,8 @@ c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discou
 B. AWS Cost Explorer</details>
 
 <p align="justify"><b> Knowledge Check : Migrasi dan Inovasi</b></p>
-
-1. Berapa kapasitas penyimpanan dari AWS Snowmobile?
-  <ol type="a" align="justify"><li> 40 PB</li><li> 60 PB</li><li> 80 PB</li><li> 100 PB</li></ol>
-  <details>
-<summary markdown="span">Answer :</summary>
-d. 100 PB</details>  
+1. Berapa kapasitas penyimpanan dari AWS Snowmobile?<ol type="a" align="justify"><li> 40 PB</li><li> 60 PB</li><li> 80 PB</li><li> 100 PB</li></ol>
+  <details><summary markdown="span">Answer :</summary> d. 100 PB</details>  
 2. Pada AWS Cloud Adoption Framework, perspektif mana yang dapat membantu Anda menyusun pemilihan dan implementasi dari permission?
 <ol type="a" align="justify"><li> Operations</li>
 <li> Governance</li>
@@ -595,14 +591,16 @@ Strategi apa saja yang termasuk ke dalam 6 strategi untuk memigrasikan aplikasi?
 <details>
 <summary markdown="span">Answer :</summary>
 c. 2 dan 5</details> 
-4.Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
-a. layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan
+4. Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
+<ol type="1" align="justify"><li> layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan</li>
+<li> layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</li>
+<li> layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai</li>
+<li> layanan database dokumen yang mendukung beban kerja mongoDB</li>
+<details>
+<summary markdown="span">Answer :</summary>
 b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks
-c. layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai
-d. layanan database dokumen yang mendukung beban kerja mongoDB
+Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
 
-b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks
-Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.
 
 1.
 Perhatikan pernyataan berikut:
