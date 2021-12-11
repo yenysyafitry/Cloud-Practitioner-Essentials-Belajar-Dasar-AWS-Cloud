@@ -501,19 +501,18 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 
 Kategori: Pemantauan dan Analitik
-1.
-Perhatikan pernyataan berikut:
-
-Memantau penggunaan dan kinerja sumber daya.
-Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.
-Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.
-Mengakses metrik dari satu dashboard.
-Mendeteksi secara otomatis aktivitas akun yang mencurigakan.
+1. Perhatikan pernyataan berikut:
+<ol>
+  <li>Memantau penggunaan dan kinerja sumber daya.</li>
+  <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
+  <li>Membandingkan infrastruktur Anda dengan praktik terbaik AWS dalam 5 kategori.</li>
+  <li>Mengakses metrik dari satu dashboard.</li>
+  <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>
 Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
-a. 1 dan 3
-b. 1 dan 4
-c. 2 dan 5
-d. 3 dan 4
+<ol><li> 1 dan 3</li>
+<li> 1 dan 4</li>
+<li> 2 dan 5</li>
+<li> 3 dan 4</li></ol>
 a, c, b
 
 2.
