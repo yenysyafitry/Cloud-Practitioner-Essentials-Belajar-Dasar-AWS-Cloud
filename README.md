@@ -590,7 +590,7 @@ c. 2 dan 5</details>
 <ol type="1" align="justify"><li>layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan</li>
 <li>layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</li>
 <li>layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai</li>
-<li>layanan database dokumen yang mendukung beban kerja mongoDB</li>
+<li>layanan database dokumen yang mendukung beban kerja mongoDB</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
 b.layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks </br> Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
@@ -614,7 +614,7 @@ b. operational excellence </details>
 
 
 
-
+```plantuml
 Kategori: Ujian Akhir
 1.
 Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
@@ -816,7 +816,7 @@ Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data ce
 <li>internet gateway</li>
 <li>aws direct connect</li>
 <li>virtual private gateway</li><ol>
-  </table>
+ ```
 
 
 
