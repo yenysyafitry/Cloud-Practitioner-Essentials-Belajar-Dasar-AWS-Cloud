@@ -492,8 +492,6 @@ Harga gedung atau bangunan untuk membangun data center akan terlalu mahal bahkan
 Oleh sebab itu, sebagian besar perusahaan pada akhirnya hanya menyimpan data cadangan mereka di suatu tempat dan berharap bencana tidak akan pernah datang. Kita semua tahu, harapan bukanlah rencana bisnis yang baik.</br></br>
 Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya adalah dengan membangun data center dalam kelompok besar yang disebut dengan AWS Regions (Wilayah/Region AWS).</p>
 
-
-
 <p align="center">
   <img src="https://github.com/yenysyafitry/Cloud-Practitioner-Essentials-Belajar-Dasar-AWS-Cloud/blob/main/202102231425447e744dc8556f8d1f81ce86009a055bcb.jpeg"></p>
 
@@ -510,16 +508,15 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
   <li>Mengakses metrik dari satu dashboard.</li>
   <li>Mendeteksi secara otomatis aktivitas akun yang mencurigakan.</li></ol>
 Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan Amazon CloudWatch?
-<ol type="a">
+<ol type="A">
   <li>a dan c</li>
   <li>a dan d</li>
   <li>b dan e</li>
   <li>c dan d</li></ol>
 <details><summary markdown="span">Answer :</summary> d</details></p>
-</br></br>
 
 <p align="justify">2. Perhatikan beberapa kategori berikut:
-<ol type="a">
+<ol type="A">
   <li>Reliability</li>
   <li>Performance</li>
   <li>Scalability</li>
@@ -533,8 +530,8 @@ Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboar
 <details>
 <summary markdown="span">Answer :</summary>
 c</details></p>
-</br></br>
 
+<p align="justify">
   3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
   <ol type="a" align="justify">
   <li>Amazon CloudWatch</li>
