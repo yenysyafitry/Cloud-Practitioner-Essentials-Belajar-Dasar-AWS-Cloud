@@ -851,7 +851,7 @@ Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data ce
 <li>internet gateway</li>
 <li>aws direct connect</li>
 <li>virtual private gateway</li><ol>
-```
+
 
 
 
