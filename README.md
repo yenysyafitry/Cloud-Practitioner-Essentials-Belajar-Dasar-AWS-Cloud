@@ -500,7 +500,7 @@ Tapi, tenang! AWS dapat membantu Anda mengatasi persoalan tersebut. Solusinya ad
 
 ## Kategori: Pemantauan dan Analitik
 
-<h5> 1. Perhatikan pernyataan berikut: </h5>
+<h4>1. Perhatikan pernyataan berikut: </h4>
   <ol type='A'>
   <li>Memantau penggunaan dan kinerja sumber daya.</li>
   <li>Mendapatkan panduan real time untuk meningkatkan lingkungan AWS.</li>
@@ -515,7 +515,7 @@ Dari pernyataan di atas, tindakan apa yang dapat Anda lakukan saat menggunakan A
   <li>c dan d</li></ol>
 <details><summary markdown="span">Answer :</summary> d</details>
 
-<p align="justify">2. Perhatikan beberapa kategori berikut:
+<h4>2. Perhatikan beberapa kategori berikut:</h4>
 <ol type="A">
   <li>Reliability</li>
   <li>Performance</li>
@@ -529,7 +529,7 @@ Dari uraian di atas, kategori mana saja yang ada di AWS Trusted Advisor dashboar
 <li> c dan e</li></ol>
 <details>
 <summary markdown="span">Answer :</summary>
-c</details></p>
+c</details>
 
 <p align="justify">
   3. Manakah layanan yang memungkinkan Anda untuk meninjau keamanan dari Amazon S3 bucket dengan memeriksa izin akses yang terbuka?
