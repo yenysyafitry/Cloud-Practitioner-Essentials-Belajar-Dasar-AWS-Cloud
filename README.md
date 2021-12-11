@@ -587,14 +587,13 @@ Strategi apa saja yang termasuk ke dalam 6 strategi untuk memigrasikan aplikasi?
 <summary markdown="span">Answer :</summary>
 c. 2 dan 5</details> 
 4. Manakah pernyataan yang paling tepat untuk menggambarkan Amazon Lex?
-<ol type="1" align="justify"><li> layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan</li>
-<li> layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</li>
-<li> layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai</li>
-<li> layanan database dokumen yang mendukung beban kerja mongoDB</li>
+<ol type="1" align="justify"><li>layanan yang memungkinkan anda untuk mengidentifikasi aktivitas online yang berpotensi penipuan</li>
+<li>layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks</li>
+<li>layanan machine learning yang secara otomatis mengekstrak teks dan data dari dokumen yang di pindai</li>
+<li>layanan database dokumen yang mendukung beban kerja mongoDB</li>
 <details>
 <summary markdown="span">Answer :</summary>
-b. layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks </br> Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
-
+b.layanan yang memungkinkan anda untuk membangun antarmuka percakapan menggunakan suara dan teks </br> Amazon Lex : Layanan ini adalah solusi AI siap pakai yang dapat membantu Anda dalam membangun chatbot interaktif.</details> 
 5. Perhatikan pernyataan berikut:
 <ol type="1" align="justify"><li>Meningkatkan kecepatan dan ketangkasan.</li>
 <li>Mendapatkan manfaat dari skala ekonomi yang lebih kecil.</li>
