@@ -570,19 +570,13 @@ d.enterprise</details>
 <details>
 <summary markdown="span">Answer :</summary>
 b. AWS Marketplace</details>
+
 4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
-<ol type="a" align="justify">
- <li> meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan</li>
-  <li> memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu</li>
-  <li> menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</li>
-  <li> membuat estimasi biaya terhadap kasus penggunaan anda di AWS</li></ol>
-<details>
-<summary markdown="span">Answer :</summary>
-c. menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount</details>
-5. Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu? <ol type="a" align="justify"><li>AWS Pricing Calculator</li><li>AWS Cost Explorer </li><li> AWS Free Tier</li><li> AWS Budgets</li></ol>
-<details>
-<summary markdown="span">Answer :</summary>
-B. AWS Cost Explorer</details>
+- [ ] meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan
+- [ ] memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu<
+- [x] menggabungkan penggunaan di seluruh akun untuk menerima volume pricing discount
+- [ ] membuat estimasi biaya terhadap kasus penggunaan anda di AWS
+
 
 <p align="justify"><b> Knowledge Check : Migrasi dan Inovasi</b></p>
 1. Berapa kapasitas penyimpanan dari AWS Snowmobile?<ol type="a" align="justify"><li> 40 PB</li><li> 60 PB</li><li> 80 PB</li><li> 100 PB</li></ol>
@@ -714,10 +708,10 @@ d. amazon cloudfront
 
 10.
 Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
-a. aws budgets
-b. aws pricing calculator
-c. aws free tier
-d. aws cost explorer
+- [ ] aws budgets
+- [ ] aws pricing calculator
+- [ ] aws free tier
+- [x] aws cost explorer
 
 11.
 Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
@@ -830,7 +824,7 @@ Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan 
 
 Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder Anda
 
-Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu
+
 
 Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplikasi AWS melalui skrip?
 
