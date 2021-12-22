@@ -707,11 +707,7 @@ Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 - [x] aws cost explorer
 
 
-#### Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
-- [ ] performance
-- [ ] security
-- [ ] cost optimization
-- [ ] fault tolerance
+
 
 
 #### Opsi komputasi mana yang dapat mengurangi biaya jika Anda berkomitmen pada jumlah penggunaan komputasi yang konsisten untuk jangka waktu 1 atau 3 tahun?
@@ -838,10 +834,8 @@ Perspektif Operasi Kerangka Kerja Adopsi AWS Cloud juga mencakup prinsip-prinsip
 - [ ] Amazon SageMaker
 - [ ] Amazon Redshift
 
-
-
 ##### Pada AWS Trusted Advisor kategori manakah yang mencangkup pemeriksaan terhadap service limits dan penggunaan instance yang berlebihan
-- [ ] performance
+- [x] performance
 - [ ] security
 - [ ] cost optimization
 - [ ] fault tolerance
