@@ -810,7 +810,8 @@ Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplika
 - [ ] rehosting
 
 
-Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance
+Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance?
+- [x] Grup keamanan / A security group
 
 #### Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
 - [ ] internet gateway
