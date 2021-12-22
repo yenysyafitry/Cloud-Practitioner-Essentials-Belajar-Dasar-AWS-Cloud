@@ -571,6 +571,7 @@ d.enterprise</details>
 <summary markdown="span">Answer :</summary>
 b. AWS Marketplace</details>
 
+
 4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
 - [ ] meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan
 - [ ] memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu<
