@@ -722,7 +722,7 @@ Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 
 
 #### Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
-- [ ] layanan yang menyediakan intelligent smart detection untuk infastruktur dan sumber daya aws
+- [x] layanan yang menyediakan intelligent smart detection untuk infastruktur dan sumber daya aws
 - [ ] layanan yang membantu melindungi aplikasi anda dari serangan distributed denial of service(DDoS)
 - [ ] layanan yang bisa memeriksa kerentanan keamanan dan penyimpanan aplikasi dari praktik terbaik keamanan
 - [ ] layanan yang dapat memantau permintaan jaringan masuk ke aplikasi web anda
