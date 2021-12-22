@@ -822,8 +822,8 @@ Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan 
 - [ ] virtual private gateway
 - [x] aws direct connect
 
-Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder Anda
-
+Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder Anda?<br>
+Perspektif Operasi Kerangka Kerja Adopsi AWS Cloud juga mencakup prinsip-prinsip untuk beroperasi di cloud dengan menggunakan praktik terbaik yang tangkas
 
 
 ##### Layanan mana yang digunakan untuk melakukan deploy dan scaling aplikasi dengan cepat di AWS ?
