@@ -778,7 +778,7 @@ AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted A
 
 
 #### pada aws cloud adaption framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder anda ?
-- [ ] operations
+- [x] operations
 - [ ] governance
 - [ ] business
 - [ ] people
