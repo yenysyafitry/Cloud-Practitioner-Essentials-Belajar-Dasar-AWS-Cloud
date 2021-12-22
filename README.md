@@ -780,13 +780,13 @@ Jawaban antara A dan B, kunci benar no 3 Business
 - [ ] aws cost and usage report
 - [ ] aws budgets
  
-#### anda ingin menyimpan data dalam volume yang di attach ke amazon ec2 instance layanan
+#### anda ingin menyimpan data dalam volume yang di attach ke amazon ec2 instance layanan mana yang harus anda gunakan ?
 - [ ] aws lambda
 - [ ] amazon elasticache
 - [ ] amazon s3
 - [x] amazon ebs
 
- 
+
 #### pada aws cloud adaption framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder anda ?
 - [ ] operations
 - [ ] governance
@@ -850,11 +850,7 @@ Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplik
 - [ ] Amazon SageMaker
 - [ ] Amazon Redshift
 
-##### Anda ingin menyimpan data dalam volume yang di attach ke amazon EC2 Instance. layanan mana yang harus anda gunakan ?
-- [ ] AWS Lambda
-- [ ] Amazon S3
-- [ ] Amazon ElastiCache
-- [ ] Amazon EBS
+
 
 ##### Pada AWS Trusted Advisor kategori manakah yang mencangkup pemeriksaan terhadap service limits dan penggunaan instance yang berlebihan
 - [ ] performance
