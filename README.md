@@ -554,23 +554,26 @@ c</details>
 <summary markdown="span">Answer :</summary>
 b</details>
 
-<p align="justify"><b>Kategori: Harga dan Dukungan</b></p>
+### Kategori: Harga dan Dukungan
 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
-<ol type="a" align="justify"><li>billing dashboard di aws management console</li><li>aws free tier</li><li>asw cost explorer</li><li>aws budget</li></ol>
-<details>
-<summary markdown="span">Answer :</summary>
-b. aws free tier</details>
+- [ ] billing dashboard di aws management console
+- [x] aws free tier
+- [ ] asw cost explorer
+- [ ] aws budget
+
 2. Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM). AWS Support Plans manakah yang harus Anda pilih?
-<ol type="a" align="justify"><li>developer</li><li>business</li><li>basic</li><li>enterprise</li></ol>
-<details>
-<summary markdown="span">Answer :</summary>
-d.enterprise</details>
+- [ ] developer
+- [ ] business
+- [ ] basic
+- [x] enterprise
+
 
 3. Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
 - [ ] AWS Support
 - [x] AWS Marketplace
 - [ ] Billing dasboard di AWS
 - [ ] AWS Free tier
+
 
 4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
 - [ ] meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan
