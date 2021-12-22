@@ -848,6 +848,7 @@ Perspektif Operasi Kerangka Kerja Adopsi AWS Cloud juga mencakup prinsip-prinsip
 - [ ] untuk menggunakan AWS Lambda anda harus mengonfigurasi server terlebih dahulu
 - [ ] langkah pertama dalam menggunakan AWS Lambda adalah menyediakan server
 
-
+#### Pernyataan mana yang paling menggambarkan Elastic Load Balancing?
+- [x] Layanan yang mendistribusikan lalu lintas masuk ke beberapa target, seperti instans Amazon EC2
 
 
