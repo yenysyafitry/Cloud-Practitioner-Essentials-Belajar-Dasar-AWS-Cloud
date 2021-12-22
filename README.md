@@ -852,12 +852,12 @@ Perspektif Operasi Kerangka Kerja Adopsi AWS Cloud juga mencakup prinsip-prinsip
 - [x] Layanan yang mendistribusikan lalu lintas masuk ke beberapa target, seperti instans Amazon EC2
 
 #### Perhatikan beberapa pernyataan berikut:
-<ol><li>Melatih pegawai perusahaan tentang cara menggunakan layanan AWS.</li>
+<ol type="a"><li>Melatih pegawai perusahaan tentang cara menggunakan layanan AWS.</li>
   <li>Membuat IAM users dan IAM roles.</li>
   <li>Mengonfigurasi security groups pada Amazon EC2 instance.</li>
   <li>Memelihara infrastruktur virtualisasi.</li>
-  <li>Mengonfigurasi perangkat infrastruktur AWS.</li></ol>
-Dari uraian di atas, pernyataan manakah yang merupakan tanggung jawab AWS?
+  <li>Mengonfigurasi perangkat infrastruktur AWS.</li></ol> </br>
+Dari uraian di atas, pernyataan manakah yang merupakan tanggung jawab AWS?</br>
 - [ ] 1 dan 3
 - [ ] 2 dan 4
 - [ ] 3 dan 5
