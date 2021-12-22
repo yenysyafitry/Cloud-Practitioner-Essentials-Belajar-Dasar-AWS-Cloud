@@ -669,7 +669,7 @@ Mengakses laporan keamanan dan compliance AWS serta online agreements tertentu.<
 Mengotomatiskan penerapan beban kerja ke lingkungan AWS Anda.</br>
 Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 - [ ] 1 dan 2
-- [ ] 2 dan 3
+- [x] 2 dan 3
 - [ ] 2 dan 4
 - [ ] 3 dan 5
 
@@ -694,7 +694,7 @@ Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 - [ ] amazon route 53
 
 #### Layanan apa yang digunakan untuk mentransfer hingga 80 PB data ke AWS?
-- [ ] aws snowmobile
+- [x] aws snowmobile
 - [ ] amazon neptune
 - [ ] aws deepracer
 - [ ] amazon cloudfront
