@@ -657,10 +657,10 @@ jawaban c
 
 3.
 Layanan mana yang memungkinkan Anda untuk menggabungkan dan mengelola beberapa akun AWS dari satu lokasi terpusat?
-A. AWS Artifact
-B. AWS Organizations
-C. AWS Key Management Service (AWS KMS)
-D. AWS Identity and Access Management (IAM)
+- [ ] AWS Artifact
+- [x] AWS Organizations
+- [ ] AWS Key Management Service (AWS KMS)
+- [ ] AWS Identity and Access Management (IAM)
 
 4.
 Perhatikan beberapa pernyataan berikut:
