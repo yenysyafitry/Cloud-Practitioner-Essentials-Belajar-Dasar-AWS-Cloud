@@ -771,11 +771,11 @@ Jawaban antara A dan B, kunci benar no 3 Business
 #### Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi 
 - [ ] refactoring
 - [ ] rehosting
-- [ ] replatforming
-- [ ]. repurchasing
+- [x] replatforming
+- [ ] repurchasing
  
 #### Manakah dari layanan berikut yang dapat membuat estimasi biaya untuk
-- [ ] aws pricing calculator
+- [x] aws pricing calculator
 - [ ] aws cost explorer
 - [ ] aws cost and usage report
 - [ ] aws budgets
@@ -815,9 +815,9 @@ Jawaban antara A dan B, kunci benar no 3 Business
 - [ ] sumber daya yang memberikan panduan, tinjauan arsitektur, dan komunikasi berkelanjutan terhadap lingkungan aws anda
  
 Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi dirancang dan dikembangkan menggunakan fitur cloud-native?
-replatforming
-* repurchasing
-rehosting
+- [ ] replatforming
+- [ ] repurchasing
+- [ ] rehosting
 
 Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance
 
