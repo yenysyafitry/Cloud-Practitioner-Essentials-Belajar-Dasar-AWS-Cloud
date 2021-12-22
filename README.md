@@ -555,12 +555,13 @@ c</details>
 b</details>
 
 ### Kategori: Harga dan Dukungan
+<br>
 1. Manakah layanan yang memungkinkan Anda untuk menerima peringatan ketika penggunaan layanan melebihi batas yang telah ditentukan?
 - [ ] billing dashboard di aws management console
 - [x] aws free tier
 - [ ] asw cost explorer
 - [ ] aws budget
-
+<br>
 2. Perusahaan Anda ingin menerima dukungan dari AWS Technical Account Manager (TAM). AWS Support Plans manakah yang harus Anda pilih?
 - [ ] developer
 - [ ] business
