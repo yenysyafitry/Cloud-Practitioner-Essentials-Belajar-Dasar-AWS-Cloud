@@ -843,7 +843,7 @@ Perspektif Operasi Kerangka Kerja Adopsi AWS Cloud juga mencakup prinsip-prinsip
 
 ##### Pernyataan mana yang benar terkait AWS Lambda
 - [ ] sebelum menggunakan AWS Lambda anda harus membayar di muka untuk perkiraan waktu komputasi
-- [ ] anda hanya membayar untuk waktu komputasi saat kode berjalan
+- [x] anda hanya membayar untuk waktu komputasi saat kode berjalan
 - [ ] untuk menggunakan AWS Lambda anda harus mengonfigurasi server terlebih dahulu
 - [ ] langkah pertama dalam menggunakan AWS Lambda adalah menyediakan server
 
