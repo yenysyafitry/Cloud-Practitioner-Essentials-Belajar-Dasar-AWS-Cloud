@@ -735,11 +735,11 @@ Business </br>
 Basic </br>
 AWS Free Tier </br>
 AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted Advisor?
-- [ ] 1dan 3
+- [x] 1dan 3
 - [ ] 2 dan 3
 - [ ] 2 dan 5
 - [ ] 4 dan 5
-Jawaban antara A dan B, kunci benar no 3 Business
+
 
 
 #### Pernyataan mana yang paling tepat menggambarkan Availability Zone?
