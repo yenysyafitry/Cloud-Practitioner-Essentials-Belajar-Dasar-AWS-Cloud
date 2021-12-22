@@ -797,13 +797,13 @@ Jawaban antara A dan B, kunci benar no 3 Business
  #### pernyataan mana yang paling tepat untuk menggambarkan elastic load balacing ?
 - [ ] layanan yang dapat memantau aplikasi anda dan secara otomatis menambah atau mengurangi kapasitas dari resoutce group sebagai respon terhdap permintaan
 - [ ] layanan yang memungkinkan anda untuk menyiapkan, mengelola, dan melakukan memory atau cache yang terdistribusi di cloud
-- [ ] layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
+- [x] layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
 - [ ] layanan yang menyediakan data untuk memantau aplikasi, mengoptimalkan penggunaan sumber daya, dan merespon perubahan perfoma di seluruh sistem
  
  
  #### layanan apa yang digunakan untuk mengotomasikan tindakan pada layanan dan aplikasi aws melalui skrip?
 - [ ] amazon refshift
-- [ ] aws command line interface
+- [x] aws command line interface
 - [ ] aws snowball
 - [ ] amazon qldb
  
@@ -817,7 +817,9 @@ Jawaban antara A dan B, kunci benar no 3 Business
 Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi dirancang dan dikembangkan menggunakan fitur cloud-native?
 - [ ] replatforming
 - [ ] repurchasing
-- [x] rehosting
+- [x] Refactoring
+- [ ] rehosting
+
 
 Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance
 
