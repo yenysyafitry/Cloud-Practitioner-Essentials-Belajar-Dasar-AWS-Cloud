@@ -873,5 +873,5 @@ Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplik
 - [ ] langkah pertama dalam menggunakan AWS Lambda adalah menyediakan server
 
 
---->
+
 
