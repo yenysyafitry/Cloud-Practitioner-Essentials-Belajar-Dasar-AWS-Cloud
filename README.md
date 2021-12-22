@@ -740,9 +740,9 @@ AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted A
 
 
 #### Pernyataan mana yang paling tepat menggambarkan Availability Zone?
-- [x] lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
+- [ ] lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
 - [ ] lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedalam cache agar pengiriman lebih cepat kepada pengguna di seluruh dunia
-- [ ] bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
+- [x] bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
 - [ ] server tempat amazon cloudfront mendapatkan file anda
 
 
