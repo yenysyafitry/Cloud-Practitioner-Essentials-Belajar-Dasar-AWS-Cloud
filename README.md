@@ -638,31 +638,29 @@ b. operational excellence </details>
 
 
 
-```plantuml
+
 Kategori: Ujian Akhir
-1.
+
 Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
-a. S3 One Zone-IA
-b. S3 Glacier
-c. S3 Intelligent- Tiering
-d. S3 Standar-IA
-Jawaban C
+- [ ] S3 One Zone-IA
+- [ ] S3 Glacier
+- [x] S3 Intelligent- Tiering
+- [ ] S3 Standar-IA
 
-2. Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
-A. Subnet
-B. Amazon EBS Bolume
-C. Instance Store
-D. Amazon S3 Bucket
-jawaban c
 
-3.
+Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
+- [ ] Subnet
+- [ ] Amazon EBS Bolume
+- [x] Instance Store
+- [ ] Amazon S3 Bucket
+
+
 Layanan mana yang memungkinkan Anda untuk menggabungkan dan mengelola beberapa akun AWS dari satu lokasi terpusat?
 - [ ] AWS Artifact
 - [x] AWS Organizations
 - [ ] AWS Key Management Service (AWS KMS)
 - [ ] AWS Identity and Access Management (IAM)
 
-4.
 Perhatikan beberapa pernyataan berikut:
 Memantau aplikasi Anda dan merespons perubahan performa di seluruh sistem.
 Menghubungkan permintaan pengguna ke infrastruktur di AWS dan di luar AWS.
@@ -670,77 +668,73 @@ Mengelola DNS records untuk nama domain.
 Mengakses laporan keamanan dan compliance AWS serta online agreements tertentu.
 Mengotomatiskan penerapan beban kerja ke lingkungan AWS Anda.
 Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
-A. 1 dan 2
-b. 2 dan 3
-c. 2 dan 4
-d. 3 dan 5
+- [ ] 1 dan 2
+- [ ] 2 dan 3
+- [ ] 2 dan 4
+- [ ] 3 dan 5
 
-5.
 Layanan mana yang dapat meninjau detail aktivitas pengguna dan panggilan API dalam lingkungan AWS Anda?
-a. aws trusted advisor
-b. amazon cloudwatch
-amazon inspector
-d. aws cloud trail
-Jawaban D
-6.
+- [ ] aws trusted advisor
+- [ ] amazon cloudwatch
+- [ ] amazon inspector
+- [x] aws cloud trail
+
+
 Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
-a. internet gateway
-b. amazon cloud front
-c. virtual private gateway
-d. aws direct connect
-Jawaban d
+- [ ] internet gateway
+- [ ] amazon cloud front
+- [ ] virtual private gateway
+- [x] aws direct connect
 
-7.
+
 Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
-a. amazon RDS
-b. amazon dynamoDB
-c. amazon aurora
-d. amazon documentdb
-Jawaban B
+- [ ] amazon RDS
+- [x] amazon dynamoDB
+- [ ] amazon aurora
+- [ ] amazon documentdb
 
-8.
+
 Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
-a. amazon elasticache
-b. amazon sqs
-c. aws snowball
-d. amazon route 53
+- [ ] amazon elasticache
+- [ ] amazon sqs
+- [ ] aws snowball
+- [ ] amazon route 53
 
-9.
 Layanan apa yang digunakan untuk mentransfer hingga 80 PB data ke AWS?
-a. aws snowmobile
-b. amazon neptune
-c. aws deepracer
-d. amazon cloudfront
+- [ ] aws snowmobile
+- [ ] amazon neptune
+- [ ] aws deepracer
+- [ ] amazon cloudfront
 
-10.
+
 Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
 - [ ] aws budgets
 - [ ] aws pricing calculator
 - [ ] aws free tier
 - [x] aws cost explorer
 
-11.
+
 Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
-a. performance
-b. security
-c. cost optimization
-d. fault tolerance
+- [ ] performance
+- [ ] security
+- [ ] cost optimization
+- [ ] fault tolerance
 
-12.
+
 Opsi komputasi mana yang dapat mengurangi biaya jika Anda berkomitmen pada jumlah penggunaan komputasi yang konsisten untuk jangka waktu 1 atau 3 tahun?
-a. spot instances
-b. savings plans
-c. reserved instances
-d. dedicated hosts
+- [ ] spot instances
+- [ ] savings plans
+- [ ] reserved instances
+- [ ] dedicated hosts
 
-13.
+
 Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
-a. layanan yang menyediakan intelligent smart detection untuk infastruktur dan sumber daya aws
-b. layanan yang membantu melindungi aplikasi anda dari serangan distributed denial of service(DDoS)
-c. layanan yang bisa memeriksa kerentanan keamanan dan penyimpanan aplikasi dari praktik terbaik keamanan
-d. layanan yang dapat memantau permintaan jaringan masuk ke aplikasi web anda
+- [ ] layanan yang menyediakan intelligent smart detection untuk infastruktur dan sumber daya aws
+- [ ] layanan yang membantu melindungi aplikasi anda dari serangan distributed denial of service(DDoS)
+- [ ] layanan yang bisa memeriksa kerentanan keamanan dan penyimpanan aplikasi dari praktik terbaik keamanan
+- [ ] layanan yang dapat memantau permintaan jaringan masuk ke aplikasi web anda
 
-14.
+
 Perhatikan uraian berikut:
 Enterprise
 Developer
@@ -748,77 +742,77 @@ Business
 Basic
 AWS Free Tier
 AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted Advisor?
-A. 1dan 3
-b. 2 dan 3
-c. 2 dan 5
-d. 4 dan 5
+- [ ] 1dan 3
+- [ ] 2 dan 3
+- [ ] 2 dan 5
+- [ ] 4 dan 5
 Jawaban antara A dan B, kunci benar no 3 Business
 
 15.
 Pernyataan mana yang paling tepat menggambarkan Availability Zone?
-a. lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
-b. lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedalam cache agar pengiriman lebih cepat kepada pengguna di seluruh dunia
-c. bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
-d. server tempat amazon cloudfront mendapatkan file anda
-jawaban A
+- [x] lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
+- [ ] lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedalam cache agar pengiriman lebih cepat kepada pengguna di seluruh dunia
+- [ ] bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
+- [ ] server tempat amazon cloudfront mendapatkan file anda
+
 
 16. Layanan mana yang memungkinkan anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning
-a. amazon augmentanted al
-b. amazon lex
-c. amazon textract
-d. amazon aurora
+- [ ] amazon augmentanted al
+- [ ] amazon lex
+- [ ] amazon textract
+- [ ] amazon aurora
 
 17. layanan apa yang digunakan untuk menjalankan containerized application di AWS ?
-a. amazon redshift
-b. amazon aurora
-c. amazon EKS
-d. amazon sagemaker
+- [ ] amazon redshift
+- [ ] amazon aurora
+- [ ] amazon EKS
+- [ ] amazon sagemaker
 
 18. Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi 
- a. refactoring
- b. rehosting
- c. replatforming
- d. repurchasing
+- [ ] refactoring
+- [ ] rehosting
+- [ ] replatforming
+- [ ]. repurchasing
  
  19. Manakah dari layanan berikut yang dapat membuat estimasi biaya untuk
- a. aws pricing calculator
- b. aws cost explorer
- c. aws cost and usage report
- d. aws budgets
+- [ ] aws pricing calculator
+- [ ] aws cost explorer
+- [ ] aws cost and usage report
+- [ ] aws budgets
  
  20. anda ingin menyimpan data dalam volume yang di attach ke amazon ec2 instance layanan
- a. aws lambda
- b. amazon elasticache
- c.amazon s3
- d. amazon ebs
- Jawaban D
+- [ ] aws lambda
+- [ ] amazon elasticache
+- [ ] amazon s3
+- [x] amazon ebs
+
  
  21. pada aws cloud adaption framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder anda ?
- a. operations
- b. governance
- c. business
- d. people
+- [ ] operations
+- [ ] governance
+- [ ] business
+- [ ] people
  
  
  pernyataan mana yang paling tepat untuk menggambarkan elastic load balacing ?
- a. layanan yang dapat memantau aplikasi anda dan secara otomatis menambah atau mengurangi kapasitas dari resoutce group sebagai respon terhdap permintaan
- b. layanan yang memungkinkan anda untuk menyiapkan, mengelola, dan melakukan memory atau cache yang terdistribusi di cloud
- c. layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
- d. layanan yang menyediakan data untuk memantau aplikasi, mengoptimalkan penggunaan sumber daya, dan merespon perubahan perfoma di seluruh sistem
+- [ ] layanan yang dapat memantau aplikasi anda dan secara otomatis menambah atau mengurangi kapasitas dari resoutce group sebagai respon terhdap permintaan
+- [ ] layanan yang memungkinkan anda untuk menyiapkan, mengelola, dan melakukan memory atau cache yang terdistribusi di cloud
+- [ ] layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
+- [ ] layanan yang menyediakan data untuk memantau aplikasi, mengoptimalkan penggunaan sumber daya, dan merespon perubahan perfoma di seluruh sistem
  
  
  layanan apa yang digunakan untuk mengotomasikan tindakan pada layanan dan aplikasi aws melalui skrip?
- a. amazon refshift
- b. aws command line interface
- c. aws snowball
- d. amazon qldb
+- [ ] amazon refshift
+- [ ] aws command line interface
+- [ ] aws snowball
+- [ ] amazon qldb
  
  
  pernyataan mana yang paling tepat untuk menggambarkan aws marketplace
- a. katalog digital yang mencangkup ribuan perangkat lunak dari berbagai vendor
- b. layanan online yang memeriksa lingkungan aws anda dan memberikan panduan secara real time sesuai dengan praktik terbaik aws
- c. sumber daya yang dapat menjawab pertanyaan tentang praktik terbaik dan membantu memecahkan masalah
- d. sumber daya yang memberikan panduan, tinjauan arsitektur, dan komunikasi berkelanjutan terhadap lingkungan aws anda
+- [ ] katalog digital yang mencangkup ribuan perangkat lunak dari berbagai vendor
+- [ ] layanan online yang memeriksa lingkungan aws anda dan memberikan panduan secara real time sesuai dengan praktik terbaik aws
+- [ ] sumber daya yang dapat menjawab pertanyaan tentang praktik terbaik dan membantu memecahkan masalah
+- [ ] sumber daya yang memberikan panduan, tinjauan arsitektur, dan komunikasi berkelanjutan terhadap lingkungan aws anda
  
 Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi dirancang dan dikembangkan menggunakan fitur cloud-native?
 replatforming
