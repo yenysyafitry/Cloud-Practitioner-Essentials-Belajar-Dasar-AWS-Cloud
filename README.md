@@ -689,7 +689,7 @@ Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 
 #### Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
 - [ ] amazon elasticache
-- [ ] amazon sqs
+- [x] Amazon Simple Queue Service (Amazon SQS)
 - [ ] aws snowball
 - [ ] amazon route 53
 
@@ -715,6 +715,7 @@ Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 - [ ] savings plans
 - [ ] reserved instances
 - [ ] dedicated hosts
+- [x] Paket Hemat Amazon EC2 
 
 
 #### Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
