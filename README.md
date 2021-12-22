@@ -750,7 +750,7 @@ AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted A
 
 
 #### Layanan mana yang memungkinkan anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning
-- [ ] amazon augmentanted al
+- [x] amazon augmentanted al
 - [ ] amazon lex
 - [ ] amazon textract
 - [ ] amazon aurora
