@@ -680,13 +680,6 @@ Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 - [x] aws cloud trail
 
 
-#### Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
-- [ ] internet gateway
-- [ ] amazon cloud front
-- [ ] virtual private gateway
-- [x] aws direct connect
-
-
 #### Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
 - [ ] amazon RDS
 - [x] amazon dynamoDB
@@ -823,20 +816,15 @@ Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplika
 
 Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance
 
+#### Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
+- [ ] internet gateway
+- [ ] amazon cloud front
+- [ ] virtual private gateway
+- [x] aws direct connect
 
 Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder Anda
 
 
-
-Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplikasi AWS melalui skrip?
-
-
- 
-##### Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center anda dan virtual private cloud (VPC)?
-- [ ] amazon coudfront</li>
-- [ ] internet gateway</li>
-- [x] aws direct connect</li>
-- [ ] virtual private gateway
 
 ##### Layanan mana yang digunakan untuk melakukan deploy dan scaling aplikasi dengan cepat di AWS ?
 - [ ] AWS Snowball
@@ -846,7 +834,7 @@ Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplik
 
 ##### Layanan apa yang digunakan untuk menjalankan contrainerized application di AWS
 - [ ] Amazon Aurora
-- [ ] Amazon EKS
+- [x] Amazon EKS
 - [ ] Amazon SageMaker
 - [ ] Amazon Redshift
 
