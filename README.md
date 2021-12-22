@@ -817,7 +817,7 @@ Jawaban antara A dan B, kunci benar no 3 Business
 Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi dirancang dan dikembangkan menggunakan fitur cloud-native?
 - [ ] replatforming
 - [ ] repurchasing
-- [ ] rehosting
+- [x] rehosting
 
 Komponen virtual private cloud (VPC) mana yang mengontrol lalu lintas masuk dan keluar untuk Amazon EC2 instance
 
