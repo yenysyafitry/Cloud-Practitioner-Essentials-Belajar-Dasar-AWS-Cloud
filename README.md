@@ -566,12 +566,10 @@ b. aws free tier</details>
 <summary markdown="span">Answer :</summary>
 d.enterprise</details>
 3. Layanan atau sumber daya manakah yang digunakan untuk menemukan perangkat lunak pihak ketiga yang berjalan di AWS?
-<ol type="a" align="justify"><li>AWS Support</li><li>AWS Marketplace</li><li>Billing dasboard di AWS</li><li>AWS Free tier</li></ol>
-<details>
-<summary markdown="span">Answer :</summary>
-b. AWS Marketplace</details>
-
-
+- [ ] AWS Support
+- [x] AWS Marketplace
+- [ ] Billing dasboard di AWS
+- [ ] AWS Free tier
 4. Tindakan apa yang dapat Anda lakukan dengan consolidated billing?
 - [ ] meninjau perkiraan biaya penggunaan AWS anda pada akhir bulan
 - [ ] memvisualisasikan dan mengelola pengeluaran anda dari waktu ke waktu<
