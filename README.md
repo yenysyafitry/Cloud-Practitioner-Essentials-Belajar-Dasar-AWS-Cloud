@@ -828,7 +828,7 @@ Perspektif Operasi Kerangka Kerja Adopsi AWS Cloud juga mencakup prinsip-prinsip
 - [ ] AWS Snowball
 - [ ] Amazon CloudFront
 - [ ] AWS Outposts
-- [ ] AWS Elastic Beanstalk
+- [x] AWS Elastic Beanstalk
 
 ##### Layanan apa yang digunakan untuk menjalankan contrainerized application di AWS
 - [ ] Amazon Aurora
