@@ -641,106 +641,106 @@ b. operational excellence </details>
 
 Kategori: Ujian Akhir
 
-Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
+#### Anda ingin Amazon S3 memantau pola akses dari objek Anda. Kelas penyimpanan mana yang harus Anda gunakan?
 - [ ] S3 One Zone-IA
 - [ ] S3 Glacier
 - [x] S3 Intelligent- Tiering
 - [ ] S3 Standar-IA
 
 
-Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
+#### Anda menjalankan Amazon EC2 instance dan ingin menyimpan data di dalam suatu tempat penyimpanan. Data Anda bersifat sementara dan tidak akan disimpan dalam jangka panjang. Sumber daya mana yang harus Anda gunakan?
 - [ ] Subnet
 - [ ] Amazon EBS Bolume
 - [x] Instance Store
 - [ ] Amazon S3 Bucket
 
 
-Layanan mana yang memungkinkan Anda untuk menggabungkan dan mengelola beberapa akun AWS dari satu lokasi terpusat?
+#### Layanan mana yang memungkinkan Anda untuk menggabungkan dan mengelola beberapa akun AWS dari satu lokasi terpusat?
 - [ ] AWS Artifact
 - [x] AWS Organizations
 - [ ] AWS Key Management Service (AWS KMS)
 - [ ] AWS Identity and Access Management (IAM)
 
-Perhatikan beberapa pernyataan berikut:
-Memantau aplikasi Anda dan merespons perubahan performa di seluruh sistem.
-Menghubungkan permintaan pengguna ke infrastruktur di AWS dan di luar AWS.
-Mengelola DNS records untuk nama domain.
-Mengakses laporan keamanan dan compliance AWS serta online agreements tertentu.
-Mengotomatiskan penerapan beban kerja ke lingkungan AWS Anda.
+#### Perhatikan beberapa pernyataan berikut:
+Memantau aplikasi Anda dan merespons perubahan performa di seluruh sistem. </br>
+Menghubungkan permintaan pengguna ke infrastruktur di AWS dan di luar AWS.</br>
+Mengelola DNS records untuk nama domain.</br>
+Mengakses laporan keamanan dan compliance AWS serta online agreements tertentu.</br>
+Mengotomatiskan penerapan beban kerja ke lingkungan AWS Anda.</br>
 Mana saja tindakan yang dapat Anda lakukan di Amazon Route 53?
 - [ ] 1 dan 2
 - [ ] 2 dan 3
 - [ ] 2 dan 4
 - [ ] 3 dan 5
 
-Layanan mana yang dapat meninjau detail aktivitas pengguna dan panggilan API dalam lingkungan AWS Anda?
+#### Layanan mana yang dapat meninjau detail aktivitas pengguna dan panggilan API dalam lingkungan AWS Anda?
 - [ ] aws trusted advisor
 - [ ] amazon cloudwatch
 - [ ] amazon inspector
 - [x] aws cloud trail
 
 
-Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
+#### Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center Anda dan virtual private cloud (VPC)?
 - [ ] internet gateway
 - [ ] amazon cloud front
 - [ ] virtual private gateway
 - [x] aws direct connect
 
 
-Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
+#### Anda ingin menyimpan data dalam database key-value. Layanan mana yang harus Anda gunakan?
 - [ ] amazon RDS
 - [x] amazon dynamoDB
 - [ ] amazon aurora
 - [ ] amazon documentdb
 
 
-Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
+#### Anda ingin mengirim dan menerima pesan antara komponen aplikasi terdistribusi. Layanan mana yang harus Anda gunakan?
 - [ ] amazon elasticache
 - [ ] amazon sqs
 - [ ] aws snowball
 - [ ] amazon route 53
 
-Layanan apa yang digunakan untuk mentransfer hingga 80 PB data ke AWS?
+#### Layanan apa yang digunakan untuk mentransfer hingga 80 PB data ke AWS?
 - [ ] aws snowmobile
 - [ ] amazon neptune
 - [ ] aws deepracer
 - [ ] amazon cloudfront
 
 
-Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
+#### Manakah layanan yang digunakan untuk memvisualisasikan, memahami, serta mengelola biaya dan penggunaan AWS Anda dari waktu ke waktu?
 - [ ] aws budgets
 - [ ] aws pricing calculator
 - [ ] aws free tier
 - [x] aws cost explorer
 
 
-Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
+#### Pada AWS Trusted Advisor, kategori manakah yang mencakup pemeriksaan terhadap service limits dan penggunaan instance yang berlebih?
 - [ ] performance
 - [ ] security
 - [ ] cost optimization
 - [ ] fault tolerance
 
 
-Opsi komputasi mana yang dapat mengurangi biaya jika Anda berkomitmen pada jumlah penggunaan komputasi yang konsisten untuk jangka waktu 1 atau 3 tahun?
+#### Opsi komputasi mana yang dapat mengurangi biaya jika Anda berkomitmen pada jumlah penggunaan komputasi yang konsisten untuk jangka waktu 1 atau 3 tahun?
 - [ ] spot instances
 - [ ] savings plans
 - [ ] reserved instances
 - [ ] dedicated hosts
 
 
-Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
+#### Pernyataan mana yang paling tepat untuk menggambarkan Amazon GuardDuty?
 - [ ] layanan yang menyediakan intelligent smart detection untuk infastruktur dan sumber daya aws
 - [ ] layanan yang membantu melindungi aplikasi anda dari serangan distributed denial of service(DDoS)
 - [ ] layanan yang bisa memeriksa kerentanan keamanan dan penyimpanan aplikasi dari praktik terbaik keamanan
 - [ ] layanan yang dapat memantau permintaan jaringan masuk ke aplikasi web anda
 
 
-Perhatikan uraian berikut:
-Enterprise
-Developer
-Business
-Basic
-AWS Free Tier
+#### Perhatikan uraian berikut:
+Enterprise </br>
+Developer </br>
+Business </br>
+Basic </br>
+AWS Free Tier </br>
 AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted Advisor?
 - [ ] 1dan 3
 - [ ] 2 dan 3
@@ -748,67 +748,67 @@ AWS Support Plans mana yang menyertakan akses ke semua pemeriksaan AWS Trusted A
 - [ ] 4 dan 5
 Jawaban antara A dan B, kunci benar no 3 Business
 
-15.
-Pernyataan mana yang paling tepat menggambarkan Availability Zone?
+
+#### Pernyataan mana yang paling tepat menggambarkan Availability Zone?
 - [x] lokasi geografis terpisah dengan beberapa lokasi yang terisolasi satu sama lain
 - [ ] lokasi yang digunakan amazon cloudfront untuk menyimpan salinan konten kedalam cache agar pengiriman lebih cepat kepada pengguna di seluruh dunia
 - [ ] bagian dari insfrastuktur global aws yang terisolasi sepenuhnya
 - [ ] server tempat amazon cloudfront mendapatkan file anda
 
 
-16. Layanan mana yang memungkinkan anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning
+#### Layanan mana yang memungkinkan anda membuat alur kerja untuk peninjauan manusia terhadap prediksi machine learning
 - [ ] amazon augmentanted al
 - [ ] amazon lex
 - [ ] amazon textract
 - [ ] amazon aurora
 
-17. layanan apa yang digunakan untuk menjalankan containerized application di AWS ?
+#### layanan apa yang digunakan untuk menjalankan containerized application di AWS ?
 - [ ] amazon redshift
 - [ ] amazon aurora
 - [ ] amazon EKS
 - [ ] amazon sagemaker
 
-18. Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi 
+#### Strategi migrasi manakah yang melibatkan perubahan tentang bagaimana cara aplikasi 
 - [ ] refactoring
 - [ ] rehosting
 - [ ] replatforming
 - [ ]. repurchasing
  
- 19. Manakah dari layanan berikut yang dapat membuat estimasi biaya untuk
+#### Manakah dari layanan berikut yang dapat membuat estimasi biaya untuk
 - [ ] aws pricing calculator
 - [ ] aws cost explorer
 - [ ] aws cost and usage report
 - [ ] aws budgets
  
- 20. anda ingin menyimpan data dalam volume yang di attach ke amazon ec2 instance layanan
+#### anda ingin menyimpan data dalam volume yang di attach ke amazon ec2 instance layanan
 - [ ] aws lambda
 - [ ] amazon elasticache
 - [ ] amazon s3
 - [x] amazon ebs
 
  
- 21. pada aws cloud adaption framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder anda ?
+#### pada aws cloud adaption framework, perspektif manakah yang berfokus terhadap pemulihan beban kerja IT untuk memenuhi kebutuhan business stakeholder anda ?
 - [ ] operations
 - [ ] governance
 - [ ] business
 - [ ] people
  
  
- pernyataan mana yang paling tepat untuk menggambarkan elastic load balacing ?
+ #### pernyataan mana yang paling tepat untuk menggambarkan elastic load balacing ?
 - [ ] layanan yang dapat memantau aplikasi anda dan secara otomatis menambah atau mengurangi kapasitas dari resoutce group sebagai respon terhdap permintaan
 - [ ] layanan yang memungkinkan anda untuk menyiapkan, mengelola, dan melakukan memory atau cache yang terdistribusi di cloud
 - [ ] layanan yang mendistribusikan lalu lintas masuk ke beberapa target seperti amazon ec2 instance
 - [ ] layanan yang menyediakan data untuk memantau aplikasi, mengoptimalkan penggunaan sumber daya, dan merespon perubahan perfoma di seluruh sistem
  
  
- layanan apa yang digunakan untuk mengotomasikan tindakan pada layanan dan aplikasi aws melalui skrip?
+ #### layanan apa yang digunakan untuk mengotomasikan tindakan pada layanan dan aplikasi aws melalui skrip?
 - [ ] amazon refshift
 - [ ] aws command line interface
 - [ ] aws snowball
 - [ ] amazon qldb
  
  
- pernyataan mana yang paling tepat untuk menggambarkan aws marketplace
+ #### pernyataan mana yang paling tepat untuk menggambarkan aws marketplace
 - [ ] katalog digital yang mencangkup ribuan perangkat lunak dari berbagai vendor
 - [ ] layanan online yang memeriksa lingkungan aws anda dan memberikan panduan secara real time sesuai dengan praktik terbaik aws
 - [ ] sumber daya yang dapat menjawab pertanyaan tentang praktik terbaik dan membantu memecahkan masalah
@@ -828,7 +828,7 @@ Pada AWS Cloud Adoption Framework, perspektif manakah yang berfokus terhadap pem
 
 Layanan apa yang digunakan untuk mengotomatiskan tindakan pada layanan dan aplikasi AWS melalui skrip?
 
-```
+
  
 ##### Komponen atau layanan mana yang dapat membuat koneksi terdedikasi antara data center anda dan virtual private cloud (VPC)?
 - [ ] amazon coudfront</li>
